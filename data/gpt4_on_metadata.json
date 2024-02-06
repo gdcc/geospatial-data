@@ -1,0 +1,3968 @@
+{
+  "metadata_3465866.json": {
+    "description": "Estimates presented in the Figures and Tables of Forget, G. and Ferreira, D. (2019) Global ocean heat transport dominated by heat export from the tropical Pacific. Nature Geoscience. ISSN 1752-0894 (In Press)",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Global ocean heat transport",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Forget, G. and Ferreira, D.",
+        "Nature Geoscience"
+      ]
+    }
+  },
+  "metadata_4079670.json": {
+    "description": "SAGE-IGP (Survey Constraints on FRP-based AGricultural Fire Emissions in the Indo-Gangetic Plain) is a gridded inventory at daily, 0.25\u00b0 x 0.25\u00b0 resolution over north India for post-monsoon agricultural fires from 2003-2018. The inventory contains estimates of dry matter (DM) burned, which can be converted to emissions of various chemical species, such as CO2, CO, organic carbon (OC), and black carbon (BC), for the states of Punjab, Haryana, Uttar Pradesh, and Bihar. We develop a method that adjusts MODIS Fire Radiative Power (FRP) for: (1) additional small fires detected by the Visible Infrared Imaging Radiometer Suite (VIIRS) at 375-m spatial resolution and (2) cloud/haze gaps in satellite observations using satellite observations; and (3) partial-field burns and (4) the diurnal cycle of fire activity using household survey responses. The associated code for the SAGE-IGP inventory is available from the SAGE-IGP GitHub repository",
+    "response": {
+      "temporal_coverage": {
+        "start": "2003-01-01",
+        "end": "2018-12-31"
+      },
+      "spatial_coverage": {
+        "locations": [
+          "Punjab",
+          "Haryana",
+          "Uttar Pradesh",
+          "Bihar"
+        ]
+      },
+      "time_frequency": 1.0,
+      "variable_names": [
+        {
+          "name": "Dry Matter Burned",
+          "unit": null
+        },
+        {
+          "name": "CO2 Emissions",
+          "unit": null
+        },
+        {
+          "name": "CO Emissions",
+          "unit": null
+        },
+        {
+          "name": "Organic Carbon",
+          "unit": null
+        },
+        {
+          "name": "Black Carbon",
+          "unit": null
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": 0.25,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "Satellite Observations, Household Survey Responses",
+      "software": [
+        "SAGE-IGP"
+      ],
+      "data_sources": [
+        "Survey Constraints on FRP-based AGricultural Fire Emissions in the Indo-Gangetic Plain"
+      ]
+    }
+  },
+  "metadata_2845786.json": {
+    "description": "See README",
+    "response": {
+      "variable_names": [
+        {
+          "name": null,
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_4101125.json": {
+    "description": "Data files containing optical measurements of long horizontal lightning megaflashes used in publication LA-UR-20-25866.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Optical Measurements of Megaflashes",
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": [
+        "LA-UR-20-25866"
+      ]
+    }
+  },
+  "metadata_4098599.json": {
+    "description": "Dataset to reproduce the figures in \"An EnOI-based Data Assimilation System with DART for a High-Resolution Version of the CESM2 Ocean Component\" in JAMES.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "An EnOI-based Data Assimilation System with DART for a High-Resolution Version of the CESM2 Ocean Component",
+          "unit": null
+        }
+      ],
+      "software": [
+        "DART",
+        "CESM2 Ocean Component"
+      ],
+      "data_sources": [
+        "JAMES"
+      ]
+    }
+  },
+  "metadata_6344576.json": {
+    "description": "Files containing daily temperature and precipitation data from 30-year climate runs in CESM for replication of the work contained in this paper. Data are provided for the 1850 pre-industrial, overconstrained optimization, and S3L1 global optimization model runs. Datasets are organized in time-merged .nc files for reference height temperature (TREFHT), large-scale precipitation (PRECL), and convective precipitation (PRECC).",
+    "response": {
+      "temporal_coverage": {
+        "start": "1850",
+        "end": null
+      },
+      "spatial_coverage": null,
+      "time_frequency": 1.0,
+      "variable_names": [
+        {
+          "name": "TREFHT",
+          "unit": null
+        },
+        {
+          "name": "PRECL",
+          "unit": null
+        },
+        {
+          "name": "PRECC",
+          "unit": null
+        }
+      ],
+      "convention": "CF",
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": "climate runs in CESM",
+      "software": [
+        "CESM"
+      ],
+      "data_sources": []
+    }
+  },
+  "metadata_3744335.json": {
+    "description": "The atmosphere, ocean and vegetation data of EC-Earth v3.3.1 simulations CTRL, S20, S50, and atmosphere data of CTRLsst, S20sst. The atmosphere data (atmos_, netcdf file) shows the climatology of the main variables. The ocean data include monthly variables of SST and sea-ice concentration (SST & SICE, netcdf file). The vegetation data (LPJ-GUESS_, txt file) contains monthly vegetation PFTs, LAIs and vegetation cover (fraction).",
+    "response": {
+      "variable_names": [
+        {
+          "name": "atmosphere data",
+          "unit": null
+        },
+        {
+          "name": "ocean data",
+          "unit": null
+        },
+        {
+          "name": "vegetation data",
+          "unit": null
+        },
+        {
+          "name": "monthly variables of SST",
+          "unit": null
+        },
+        {
+          "name": "sea-ice concentration",
+          "unit": null
+        },
+        {
+          "name": "vegetation PFTs",
+          "unit": "Monthly"
+        },
+        {
+          "name": "LAIs",
+          "unit": "Monthly"
+        },
+        {
+          "name": "vegetation cover (fraction)",
+          "unit": "Monthly"
+        }
+      ],
+      "convention": "netcdf",
+      "software": [
+        "EC-Earth v3.3.1",
+        "netcdf",
+        "LPJ-GUESS_"
+      ]
+    }
+  },
+  "metadata_6290109.json": {
+    "description": "Model data and code for the publication: Feinberg et al. (2022): Evaluating atmospheric mercury (Hg) uptake by vegetation in a chemistry-transport model, Environmental Science: Processes & Impacts, https://doi.org/10.1039/D2EM00032F The simulations are (GC_data/): BASE - run0005 OBRIST - run0016 OBRIST_R - run0017 AMAZON_L - run0018 AMAZON_U - run0019 NEWCHEM - run0102 NEWCHEM_D - run0105 savannization of Amazon rainforest w/ South American anthropogenic emissions on - run0020 savannization of Amazon rainforest w/ South American anthropogenic emissions off - run0022 no savannization (normal conditions like run0019) w/ South American anthropogenic emissions off - run0023 The scripts for the Figures are: Figure 1 - map_obs_litter_through_drydep.py Calculation of offline drydep velocities: drydep_GEOSChem_landtype_h_v3.py Figure 2 - compare_drydepvel_offline_obs_v5.py Figure 3 - temp_compare_seasonal_f0_red.py Figure 4 - compare_S_America_Hg0_other.py Figure 5 - left side - drydep_plot_Amazon_v2.py, right side - totaldep_compare_sav.py Figure 6 - budget.pptx SI Figure 8 - Trying different resistances for O3/Hg - compare_O3_Hg_dep.py Observational datasets are located in obs_data/ Miscellaneous intermediate datasets for plotting scripts are located in misc_data/",
+    "response": {
+      "temporal_coverage": null,
+      "spatial_coverage": null,
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Atmospheric Mercury (Hg) Uptake",
+          "unit": null
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": "Model Simulation",
+      "software": [
+        "simulation software"
+      ],
+      "data_sources": [
+        "Feinberg et al. (2022): Evaluating atmospheric mercury (Hg) uptake by vegetation in a chemistry-transport model, Environmental Science: Processes & Impacts, https://doi.org/10.1039/D2EM00032F"
+      ]
+    }
+  },
+  "metadata_6530114.json": {
+    "description": "Various precipitation data sets including gauge-based, satellite-based, reanalysis, and model products. Data sets were gathered from their source providers and rescaled into a common grid with a spatial resolution of 0.25 degrees and monthly time steps.",
+    "response": {
+      "temporal_coverage": {
+        "start": null,
+        "end": null
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": 30.0,
+      "variable_names": [
+        {
+          "name": "Precipitation",
+          "unit": "Degrees"
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": 0.25,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "Various methods including gauge-based, satellite-based, reanalysis, and model products",
+      "software": [],
+      "data_sources": [
+        "Various source providers"
+      ]
+    }
+  },
+  "metadata_7063045.json": {
+    "description": "Contents include materials prepared for the 2023 Earth Energy Imbalance Assessment Workshop : 1. temperature averages from ECCOv4r5 for the 0-300m, 0-1000m, and 0-2000m layers on a regular half degree grid (T_from_0_to_300m.nc etc) 2. same as 1 but including regions where sea floor depth is less than layer bottom depth (T_from_0_to_300m_or_less.nc, etc) 3. sea floor depth in ECCOv4r5 4. net heat flux across sea surface, or top of seaice/snow (SIatmQnt.nc) 5. net heat flux across free surface, or bottom of seaice (oceQnet.nc)",
+    "response": {
+      "temporal_coverage": {
+        "start": null,
+        "end": null
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "temperature averages",
+          "unit": "Celsius"
+        },
+        {
+          "name": "sea floor depth",
+          "unit": "meters"
+        },
+        {
+          "name": "net heat flux across sea surface",
+          "unit": "watts per square metre"
+        },
+        {
+          "name": "net heat flux across free surface",
+          "unit": "watts per square metre"
+        }
+      ],
+      "convention": "CF",
+      "spatial_resolution": 0.5,
+      "coordinate_system": "ECCOv4r5",
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "ECCOv4r5 model simulation",
+      "software": [
+        "ECCOv4r5"
+      ],
+      "data_sources": [
+        "2023 Earth Energy Imbalance Assessment Workshop"
+      ]
+    }
+  },
+  "metadata_2842848.json": {
+    "description": "The 2004-2006 monthly OCCA atlas consists of mapped observations and derived quantities. Together they form a full representation of the ocean state and its seasonal cycle. The mapped observations are primarily altimeter data, satellite SST, and Argo profiles. GCM interpolation is used to synthesize these datasets, and the resulting atlas is a fairly close fit to each one of them. For observed quantities especially, the atlas is a practical means to evaluate free-running GCM simulations and to put field experiments into a broader context. The atlas-derived quantities include the middepth dynamic topography, as well as ocean fluxes of heat and salt\u2013freshwater.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2004",
+        "end": "2006"
+      },
+      "spatial_coverage": null,
+      "time_frequency": 12.0,
+      "variable_names": [
+        {
+          "name": "altimeter data",
+          "unit": null
+        },
+        {
+          "name": "satellite SST",
+          "unit": null
+        },
+        {
+          "name": "Argo profiles",
+          "unit": null
+        },
+        {
+          "name": "middepth dynamic topography",
+          "unit": null
+        },
+        {
+          "name": "ocean fluxes of heat",
+          "unit": null
+        },
+        {
+          "name": "salt\u2013freshwater",
+          "unit": null
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": "sensor readings, satellite",
+      "software": [],
+      "data_sources": [
+        "OCCA atlas"
+      ]
+    }
+  },
+  "metadata_4638255.json": {
+    "description": "The simulation input and output files required to reproduce the figures in the paper, \u201cReversing Sahelian droughts\u201d can be found in these directories. The subcomponents of each figure and the scripts to generate them are located in the folder corresponding to each Figure number. The CESM simulation output files required to reproduce the figures are located in the directories named \u201cInput_[Figure]\u201d Final descriptive simulation \u201cshort names\u201d map to the shortnames in scripts and input files as follows: Slab ocean (SOM) simulations: ref_preind = 1xco2 ref_warm_world = 2xco2 io_cooled_strongly = t4Ind io_cooled = t3Ind SST prescribed simulations: historical = cntrl historical branch 1, historical branch 2 = historical-branch1, historical-branch2 drought_reverse = t4anom1, t4anom2, t4anom3 If you have any questions, please contact kricke@ucsd.edu for further information.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "ref_preind",
+          "unit": "1xco2"
+        },
+        {
+          "name": "ref_warm_world",
+          "unit": "2xco2"
+        },
+        {
+          "name": "io_cooled_strongly",
+          "unit": "t4Ind"
+        },
+        {
+          "name": "io_cooled",
+          "unit": "t3Ind"
+        },
+        {
+          "name": "historical",
+          "unit": "cntrl"
+        },
+        {
+          "name": "historical branch 1",
+          "unit": "historical-branch1"
+        },
+        {
+          "name": "historical branch 2",
+          "unit": "historical-branch2"
+        },
+        {
+          "name": "drought_reverse",
+          "unit": "t4anom1, t4anom2, t4anom3"
+        }
+      ],
+      "software": [
+        "CESM"
+      ],
+      "data_sources": [
+        "kricke@ucsd.edu"
+      ]
+    }
+  },
+  "metadata_6573059.json": {
+    "description": "Data and code to reproduce the conversion of coastal station air temperature into near-coast sea-surface temperatures, as documented in Chan et al. (JClim, 2022). In addition to intermediate and final output of our analysis, we also provide the version of the raw land and ocean temperatures we use, which may be different from what is currently available from the data providers due to random numbers used in data generating algorithms, to guarantee the reproducibility of our results. After downloading the package, please refer to \"Code/Readme.txt\" to get started.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "coastal station air temperature",
+          "unit": null
+        },
+        {
+          "name": "near-coast sea-surface temperature",
+          "unit": null
+        },
+        {
+          "name": "raw land temperature",
+          "unit": null
+        },
+        {
+          "name": "ocean temperature",
+          "unit": null
+        }
+      ],
+      "software": [
+        "unknown"
+      ],
+      "data_sources": [
+        "unknown"
+      ]
+    }
+  },
+  "metadata_6183199.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2012, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2012-01-01",
+        "end": "2012-12-31"
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "granule name",
+          "unit": null
+        },
+        {
+          "name": "latitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "ind_i",
+          "unit": null
+        },
+        {
+          "name": "ind_j",
+          "unit": null
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": null,
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_6902367.json": {
+    "description": "This dataset was generated in support of a project to investigate health impacts of smoke in South America. Users of this dataset should cite: Bonilla et al. (2023), Health impacts of smoke exposure in South America: Increased risk for populations in the Amazonian Indigenous territories, Environmental Research: Health.",
+    "response": {
+      "spatial_coverage": {
+        "locations": [
+          "South America",
+          "Amazonian Indigenous territories"
+        ]
+      },
+      "variable_names": [
+        {
+          "name": "health impacts of smoke exposure",
+          "unit": null
+        },
+        {
+          "name": "risk for populations",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Bonilla et al. (2023)",
+        "Environmental Research: Health"
+      ]
+    }
+  },
+  "metadata_3806483.json": {
+    "description": "Data for the paper \"Quantifying methane emissions from the largest oil-producing basin in the United States from space\"",
+    "response": {
+      "variable_names": [
+        {
+          "name": "methane emissions",
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": [
+        "Quantifying methane emissions from the largest oil-producing basin in the United States from space"
+      ]
+    }
+  },
+  "metadata_3830437.json": {
+    "description": "Simulations: 100%, 0%, 100L+100E, 0L+0E, 100L+0E, 0L+100E, 100L+100E_AGCM, 0L+0E_AGCM. Ref: Gao Y, Liu Z, Lu Z, 2020, Dynamic Effect of Last Glacial Maximum Ice Sheet Topography on East Asian Summer Monsoon, Journal of Climate. For any question, please contact: yugao@pku.edu.cn",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Simulations",
+          "unit": null
+        },
+        {
+          "name": "Ref",
+          "unit": null
+        },
+        {
+          "name": "For any question, please contact",
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": [
+        "Gao Y, Liu Z, Lu Z, 2020, Dynamic Effect of Last Glacial Maximum Ice Sheet Topography on East Asian Summer Monsoon, Journal of Climate"
+      ]
+    }
+  },
+  "metadata_6379423.json": {
+    "description": "This includes the material used in the tutorial lecture in the 2022 Princeton AOS workshop.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "material",
+          "unit": null
+        },
+        {
+          "name": "tutorial lecture",
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": [
+        "2022 Princeton AOS workshop"
+      ]
+    }
+  },
+  "metadata_4062524.json": {
+    "description": "Data and supporting data associated with the paper \"Improved simulation of 19th and 20th-century North Atlantic hurricane frequency after correcting historical sea surface temperatures.\"",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Hurricane frequency",
+          "unit": null
+        },
+        {
+          "name": "Sea surface temperatures",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Improved simulation of 19th and 20th-century North Atlantic hurricane frequency after correcting historical sea surface temperatures"
+      ]
+    }
+  },
+  "metadata_2904219.json": {
+    "description": "The dataset and codes used in our paper \"Influence of large-scale climate patterns on summertime U.S. ozone: A seasonal predictive model for air quality management\".",
+    "response": {
+      "variable_names": [
+        {
+          "name": "large-scale climate patterns",
+          "unit": null
+        },
+        {
+          "name": "summertime U.S. ozone",
+          "unit": null
+        }
+      ],
+      "software": [
+        "codes used in our paper"
+      ],
+      "data_sources": [
+        "Influence of large-scale climate patterns on summertime U.S. ozone: A seasonal predictive model for air quality management"
+      ]
+    }
+  },
+  "metadata_6081603.json": {
+    "description": "A simulation of instant quadrupling of preindustrial CO2 concentration was performed with the CESM Version 2 (CESM2) global climate model, in which each plant functional type in the vegetated land unit was assigned with an independent soil column, differing from the shared soil column configuration in the default CESM2 model. The key variables from land surface model are provided on both grid and subgrid scales with monthly resolution in netCDF4 format, which are freely downloadable from Harvard Dataverse (https://doi.org/10.7910/DVN/LQXAT3). The model setup, simulation and output are described in the attached document. An application of this dataset in seen in \"Biophysical Impact of Land-Use and Land-Cover Change on Subgrid Temperature in CMIP6 Models\" (doi:10.1175/JHM-D-22-0073.1).",
+    "response": {
+      "temporal_coverage": null,
+      "spatial_coverage": null,
+      "time_frequency": null,
+      "variable_names": [],
+      "convention": "CF",
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": "simulation",
+      "software": [
+        "CESM Version 2",
+        "CESM2",
+        "netCDF4"
+      ],
+      "data_sources": [
+        "Harvard Dataverse"
+      ]
+    }
+  },
+  "metadata_5028698.json": {
+    "description": "Replication Data for: The Chicxulub Impact Produced a Powerful Global Tsunami -",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Chicxulub Impact",
+          "unit": null
+        },
+        {
+          "name": "Global Tsunami",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Replication Data"
+      ]
+    }
+  },
+  "metadata_4067194.json": {
+    "description": "Data associated with the publication: Duderstadt et al. (2020), Estimating the Impacts of Radiation Belt Electrons on Atmospheric Chemistry using FIREBIRD II and Van Allen Probes Observations, Journal of Geophysical Research. (in review)",
+    "response": {
+      "data_sources": [
+        "Duderstadt et al. (2020)"
+      ]
+    }
+  },
+  "metadata_6696450.json": {
+    "description": "The processed datasets in the article, including the surface automatic station and radar observations, and ERA5 reanalysis datasets at 0.25-degree resolution for the mesoscale convective system over the east China during 29-30 April 2021. High-resolution WRF simulation outputs analyzed in this article are included. Datasets generated for the trajectory calculation and horizontal momentum budget analysis are also included.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2021-04-29",
+        "end": "2021-04-30"
+      },
+      "spatial_coverage": {
+        "locations": [
+          "East China"
+        ]
+      },
+      "time_frequency": null,
+      "variable_names": [],
+      "convention": null,
+      "spatial_resolution": 0.25,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": "surface automatic station and radar observations, ERA5 reanalysis datasets, trajectory calculation, and horizontal momentum budget analysis",
+      "software": [
+        "WRF"
+      ],
+      "data_sources": []
+    }
+  },
+  "metadata_6411320.json": {
+    "description": "This dataset provides daily (DAY) minimum/maximum wet-bulb temperature (TWmin/TWmax) over the Mesopotamia basin for 1976-2050 simulated by MRCM. We provide bias-corrected wet-bulb temperatures at Najaf, Basra, and Karbala stations in Iraq at the 3-hourly (3HR) timescale. The files are organized and labeled by boundary condition (ML: MPI-ESM1-2-LR; HL: HadGEM3-GC31-LL; NL: NorESM2-LM) and scenario (RF: reference; 26: SSP1-2.6; 85: SSP5-8.5). OUT_HEAD file contains latitude and longitude information. Please refer to the related publication for a detailed description of the MRCM and simulations.",
+    "response": {
+      "temporal_coverage": {
+        "start": "1976",
+        "end": "2050"
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": [
+          "Najaf",
+          "Basra",
+          "Karbala"
+        ],
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": 1.0,
+      "variable_names": [
+        {
+          "name": "Wet-bulb temperature",
+          "unit": "\u00b0C"
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": 3.0,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "MRCM simulation",
+      "software": [
+        "MRCM"
+      ],
+      "data_sources": [
+        "MPI-ESM1-2-LR",
+        "HadGEM3-GC31-LL",
+        "NorESM2-LM"
+      ]
+    }
+  },
+  "metadata_4215165.json": {
+    "description": "EM27/SUN observations from the field campaigned performed by Harvard University in May of 2016. Lagrangian Footprints for all observations, calculated using the STILT model, are also included.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2016-05-01",
+        "end": "2016-05-31"
+      },
+      "variable_names": [
+        {
+          "name": "EM27/SUN observations",
+          "unit": null
+        },
+        {
+          "name": "Lagrangian Footprints",
+          "unit": null
+        }
+      ],
+      "software": [
+        "STILT model"
+      ],
+      "data_sources": [
+        "Harvard University"
+      ]
+    }
+  },
+  "metadata_6930719.json": {
+    "description": "Abstract: The La Plata basin, located in southeast South America, has the deepest convection on earth with flash floods and thick convective clouds, often accompanied by hail and lightning in austral spring. Based on previous studies, deep convection is related to the strong low-level jet directed by the Andes. Here we quantify the role of the Andes on intense convection in the La Plata basin using the Community Earth System Model (CESM), focusing on the seasonal cycle. To examine the influence of the Andes on these severe storms, we run two model experiments with and without the Andes. Consistent with high-resolution satellite data, the modeling results show that precipitation is strongest in October, and severe October precipitation does not exist without the Andes. The annual mean precipitation decreases by 35%, extreme precipitation decreases by 49% in the No Andes experiment, and the mean and extreme precipitation occurs in January. We find that vertical wind shear is strongest in October for both runs, with the highest equator-to-pole temperature gradient, creating a favorable environment for atmospheric disturbances. The Andes create the low-level jet with surface southwestward moisture transport, and when the large-scale condition is best for perturbation, severe storms occur in the La Plata basin in spring. Without the southward moisture transport, October precipitation is weak in the run without the Andes. The results imply the importance of the Andes as a barrier to the tropical easterly flow, suggesting that a low-resolution model that underestimates the elevation of the Andes cannot properly simulate the low-level jet, accompanying moisture flux, and precipitation extremes.",
+    "response": {
+      "temporal_coverage": null,
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": [
+          "La Plata basin",
+          "Andes"
+        ],
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Precipitation",
+          "unit": "%"
+        },
+        {
+          "name": "Vertical Wind Shear",
+          "unit": null
+        },
+        {
+          "name": "Equator-to-pole Temperature Gradient",
+          "unit": null
+        }
+      ],
+      "convention": "CESM",
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": "Model experiments",
+      "software": [
+        "Community Earth System Model (CESM)"
+      ],
+      "data_sources": []
+    }
+  },
+  "metadata_6183090.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2020, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2020-01-01",
+        "end": "2020-12-31"
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Granule",
+          "unit": null
+        },
+        {
+          "name": "Latitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "Longitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "ind_i",
+          "unit": "index"
+        },
+        {
+          "name": "ind_j",
+          "unit": "index"
+        }
+      ],
+      "convention": "hdf",
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": true,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "ship-track",
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_4656607.json": {
+    "description": "This dataset contains the instrument spectral response functions (ISRF) and stray light for the MethaneAIR instrument",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Instrument Spectral Response Functions (ISRF)",
+          "unit": null
+        },
+        {
+          "name": "Stray Light",
+          "unit": null
+        }
+      ],
+      "data_collection_method": "Instrument readings",
+      "software": [],
+      "data_sources": [
+        "MethaneAIR instrument"
+      ]
+    }
+  },
+  "metadata_6880733.json": {
+    "description": "This is the original dataset and processing code used for the SIF measurement experiment conducted by BU on the campus of NIST in the Summer of 2021.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2021-06-01",
+        "end": "2021-09-22"
+      },
+      "spatial_coverage": {
+        "locations": [
+          "NIST campus"
+        ]
+      },
+      "variable_names": [
+        {
+          "name": "SIF",
+          "unit": null
+        }
+      ],
+      "software": [
+        "Original Processing Code"
+      ],
+      "data_sources": [
+        "BU",
+        "NIST"
+      ]
+    }
+  },
+  "metadata_5371196.json": {
+    "description": "The GPS signals are delayed by the water vapor in the atmosphere, based on which PWV is derived. In addition, the insensitivity of L-band radio signals to cloud and droplet makes the GPS-PWV product available in all weather conditions. In this data, there are 45 GPS stations over Sumatra, led by Emma Hill, during the period of 2008-2013.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2008",
+        "end": "2013"
+      },
+      "spatial_coverage": {
+        "locations": [
+          "Sumatra"
+        ]
+      },
+      "variable_names": [
+        {
+          "name": "GPS signals",
+          "unit": null
+        },
+        {
+          "name": "PWV",
+          "unit": null
+        }
+      ],
+      "data_collection_method": "GPS",
+      "data_sources": [
+        "Emma Hill"
+      ]
+    }
+  },
+  "metadata_5862484.json": {
+    "description": "This dataset includes the dataset of paper \"Substantial Global Influence of Anthropogenic Aerosols on Tropical Cyclones over the Past 40 Years\".",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Anthropogenic Aerosols",
+          "unit": null
+        },
+        {
+          "name": "Tropical Cyclones",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Substantial Global Influence of Anthropogenic Aerosols on Tropical Cyclones over the Past 40 Years"
+      ]
+    }
+  },
+  "metadata_6183442.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2014, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2014-01-01",
+        "end": "2014-12-31"
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "Latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "Longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "ind_i",
+          "unit": "index"
+        },
+        {
+          "name": "ind_j",
+          "unit": "index"
+        }
+      ],
+      "convention": "Aqua granule hdf",
+      "spatial_resolution": null,
+      "coordinate_system": "WGS84",
+      "accuracy_issues": {
+        "known_inaccuracies": true,
+        "missing_values": null
+      },
+      "timestamp_format": "derived from granule name",
+      "data_collection_method": null,
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_6182872.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2007, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2007-01-01",
+        "end": "2007-12-31"
+      },
+      "spatial_coverage": {
+        "longitude": null,
+        "latitude": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "date and time of each ship-track pixels",
+          "unit": "derived from granule name"
+        },
+        {
+          "name": "ind_i",
+          "unit": "index"
+        },
+        {
+          "name": "ind_j",
+          "unit": "index"
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": false,
+        "missing_values": true
+      },
+      "timestamp_format": null,
+      "data_collection_method": "Derived from granule name",
+      "software": [
+        "Aqua granule hdf"
+      ],
+      "data_sources": []
+    }
+  },
+  "metadata_4164687.json": {
+    "description": "Data for \"Effects of Climate Model Mean-State Bias on Blocking Underestimation\"",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Effects of Climate Model Mean-State Bias on Blocking Underestimation",
+          "unit": null
+        }
+      ]
+    }
+  },
+  "metadata_2728543.json": {
+    "description": "Reynolds Mountain East, Water Year 2008 dataset. NetCDF. Has ISNOBAL input fields.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "ISNOBAL input fields",
+          "unit": null
+        }
+      ],
+      "convention": "NetCDF",
+      "data_sources": [
+        "Reynolds Mountain East"
+      ]
+    }
+  },
+  "metadata_6020998.json": {
+    "description": "This dataset consists of matched CloudSat radar and CALIPSO lidar cloud detection in pressure layers, GOES-16 ABI reflectance, and GFS relative humidity data for a time period from October 2018 through June 2019.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2018-10",
+        "end": "2019-06"
+      },
+      "variable_names": [
+        {
+          "name": "CloudSat radar detection",
+          "unit": null
+        },
+        {
+          "name": "CALIPSO lidar cloud detection",
+          "unit": null
+        },
+        {
+          "name": "GOES-16 ABI reflectance",
+          "unit": null
+        },
+        {
+          "name": "GFS relative humidity",
+          "unit": null
+        }
+      ],
+      "data_collection_method": "sensor readings",
+      "software": [],
+      "data_sources": [
+        "CloudSat",
+        "CALIPSO",
+        "GOES-16 ABI",
+        "GFS"
+      ]
+    }
+  },
+  "metadata_4750746.json": {
+    "description": "This dataset contains the model output from DNS described in the manuscript of \"Hygroscopic seeding effects of giant aerosol particles simulated by the Lagrangian particle-based direct numerical simulation\". There are ten cloud seeding scenarios in total, including one unseeded and nine seeded cases. The seeded cases are referred as rAnB where A stands for seeding particle radius in micron and B stands for seeding particle number concentration in per cubic cm. See manuscript for more detail.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Seeding Scenarios",
+          "unit": "Scenario"
+        },
+        {
+          "name": "Unseeded Cases",
+          "unit": "Case"
+        },
+        {
+          "name": "Seeded Cases",
+          "unit": "Case"
+        },
+        {
+          "name": "Seeding Particle Radius",
+          "unit": "Micron"
+        },
+        {
+          "name": "Seeding Particle Number Concentration",
+          "unit": "Per Cubic cm"
+        }
+      ],
+      "software": [
+        "DNS"
+      ],
+      "data_sources": [
+        "Manuscript of \"Hygroscopic seeding effects of giant aerosol particles simulated by the Lagrangian particle-based direct numerical simulation\""
+      ]
+    }
+  },
+  "metadata_3351362.json": {
+    "description": "The dataset contains output from an ensemble of CESM1(WACCM) simulations of the 1783-1784 Laki eruption in Iceland. There are ~3000 files, totaling ~17GB of data. The data include all output analyzed in the two manuscripts listed below: temperature, zonal and meridional wind, sea level pressure, precipitation, cloud fraction, aerosol effective radius, SO4 concentration, SO2 concentration, radiation, aerosol optical depth, sea surface temperature, cloud droplet/ice number concentration, soil moisture, average water/ice number concentration, EP flux and its divergence, meridional residual circulation streamfunction",
+    "response": {
+      "temporal_coverage": {
+        "start": "1783",
+        "end": "1784"
+      },
+      "spatial_coverage": {
+        "start_location": "Laki, Iceland",
+        "end_location": "Laki, Iceland"
+      },
+      "variable_names": [
+        {
+          "name": "temperature",
+          "unit": null
+        },
+        {
+          "name": "zonal wind",
+          "unit": null
+        },
+        {
+          "name": "meridional wind",
+          "unit": null
+        },
+        {
+          "name": "sea level pressure",
+          "unit": null
+        },
+        {
+          "name": "precipitation",
+          "unit": null
+        },
+        {
+          "name": "cloud fraction",
+          "unit": null
+        },
+        {
+          "name": "aerosol effective radius",
+          "unit": null
+        },
+        {
+          "name": "SO4 concentration",
+          "unit": null
+        },
+        {
+          "name": "SO2 concentration",
+          "unit": null
+        },
+        {
+          "name": "radiation",
+          "unit": null
+        },
+        {
+          "name": "aerosol optical depth",
+          "unit": null
+        },
+        {
+          "name": "sea surface temperature",
+          "unit": null
+        },
+        {
+          "name": "cloud droplet/ice number concentration",
+          "unit": null
+        },
+        {
+          "name": "soil moisture",
+          "unit": null
+        },
+        {
+          "name": "average water/ice number concentration",
+          "unit": null
+        },
+        {
+          "name": "EP flux and its divergence",
+          "unit": null
+        },
+        {
+          "name": "meridional residual circulation streamfunction",
+          "unit": null
+        }
+      ],
+      "software": [
+        "CESM1(WACCM)"
+      ],
+      "data_sources": [
+        "Laki eruption simulations"
+      ]
+    }
+  },
+  "metadata_3833251.json": {
+    "description": "The dataset contains the likelihood and prior for ten Markov chain Monte Carlo chains used for the orographic precipitation analysis in Morales et al. 2020. This data can be used to produce the posterior probability. Output from each CM1 model iteration is provided as well, described in the notes section below. The control CM1 simulation is also included, as well as a text file with other model output.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "likelihood",
+          "unit": null
+        },
+        {
+          "name": "prior",
+          "unit": null
+        },
+        {
+          "name": "posterior probability",
+          "unit": null
+        }
+      ],
+      "software": [
+        "CM1 model"
+      ],
+      "data_sources": [
+        "Morales et al. 2020"
+      ]
+    }
+  },
+  "metadata_5208811.json": {
+    "description": "This is a global dataset on subgrid land surface climate variables produced by the Community Earth System Model. The simulation was conducted at a 0.9\u00b0 \u00d7 1.25\u00b0 resolution under the Representative Concentration Pathway (RCP) 8.5 scenario from 2015 to 2100. Data are archived for eight subgrid tiles (urban, rural, tree, grass, shrub, bare soil, crop, and lake) and include variables on the physical state, surface energy fluxes, runoff, and atmospheric forcing conditions. Archival intervals are monthly, daily, and hourly. Meta data on land surface parameters are also available.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2015",
+        "end": "2100"
+      },
+      "spatial_coverage": null,
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "physical state",
+          "unit": null
+        },
+        {
+          "name": "surface energy fluxes",
+          "unit": null
+        },
+        {
+          "name": "runoff",
+          "unit": null
+        },
+        {
+          "name": "atmospheric forcing conditions",
+          "unit": null
+        }
+      ],
+      "convention": "CF",
+      "spatial_resolution": 1.25,
+      "coordinate_system": "EPSG:4326",
+      "accuracy_issues": null,
+      "timestamp_format": "ISO 8601",
+      "data_collection_method": "Community Earth System Model",
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_6022747.json": {
+    "description": "Dataset that corresponds with the publication \"Investigating the behavior of mid-Archean tides and potential implications for biogeochemical cycling\" (Crawford et al. 2022)",
+    "response": {
+      "data_sources": [
+        "Crawford et al. 2022"
+      ]
+    }
+  },
+  "metadata_6188531.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2018, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2018-01-01",
+        "end": "2018-12-31"
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "ind_i",
+          "unit": null
+        },
+        {
+          "name": "in_j",
+          "unit": null
+        }
+      ],
+      "convention": "hdf",
+      "spatial_resolution": null,
+      "coordinate_system": "WGS84",
+      "accuracy_issues": {
+        "known_inaccuracies": true,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "ship-track",
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_3594202.json": {
+    "description": "For more details, please contact dangruijun@mail.iap.ac.cn or hongliao@nuist.edu.cn.",
+    "response": {
+      "variable_names": []
+    }
+  },
+  "metadata_4499667.json": {
+    "description": "East Asia Regional Reanalysis dataset is developed for the period of 2010-19 by Dr. Eun-Gyeong Yang and Dr. Hyun Mee Kim in Yonsei University in South Korea. Reanalysis dataset is produced every 6 hr (i.e., 00, 06, 12, 18 UTC) for 10-yr-period (2010-19). The netCDF file contains 6 hr accumulated total precipitation variable of 6 hr reforecast on single level. The 6 hr accumulated total precipitation is obtained from 6 hr reforecast field which is integrated for 6 hr from reanalysis field every 6 hr (i.e., 00, 06, 12 18 UTC).",
+    "response": {
+      "temporal_coverage": {
+        "start": "2010",
+        "end": "2019"
+      },
+      "time_frequency": 6.0,
+      "variable_names": [
+        {
+          "name": "6 hr accumulated total precipitation",
+          "unit": "unknown"
+        }
+      ],
+      "convention": "netCDF",
+      "software": [
+        "unknown"
+      ],
+      "data_sources": [
+        "Dr. Eun-Gyeong Yang",
+        "Dr. Hyun Mee Kim",
+        "Yonsei University, South Korea"
+      ]
+    }
+  },
+  "metadata_6462424.json": {
+    "description": "Replication Data for \"Geographically-resolved social cost of anthropogenic emissions accounting for both direct and climate-mediated effects.\" Aerosol perturbation simulation output for relevant variables, baseline distributions of crops, population, income. Code to calculate impacts & produce figures/tables.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Aerosol perturbation",
+          "unit": null
+        },
+        {
+          "name": "Baseline distribution of crops",
+          "unit": null
+        },
+        {
+          "name": "Baseline distribution of population",
+          "unit": null
+        },
+        {
+          "name": "Baseline distribution of income",
+          "unit": null
+        }
+      ],
+      "software": [
+        "Code to calculate impacts & produce figures/tables"
+      ]
+    }
+  },
+  "metadata_3138707.json": {
+    "description": "This is a preliminary database of loading-induced stress changes on the Earth from 2000 to 2017 in a global scale and at various depths. Five loading forces that would generate stress changes on the Earth are considered: hydrological loading, atmospheric pressure, ocean water (including tides and non-tidal variation), solid Earth tides and postglacial rebound (PGR). The loading forces are quantified using the terrestrial water storage (TWS) inferred from GRACE solutions, the ECMWF surface atmospheric pressure model, the TPXO 7.2 ocean tide solutions, CMEMS sea level anomaly model, tidal forces computed by the SPOTL package, and the ICE-5G glacial history model, respectively. The loading masses are assumed to distribute within a thin layer (relative to the Earth\u2019s radius) on the Earth\u2019s surface, and are used to calculate the Earth\u2019s stress responses through a spherical spectral method. Based on the different time scales of the loading forces, an incompressible viscoelastic Earth model is adopted for PGR and a compressible elastic one is adopted for the other forces. The stress database could motivate more comprehensive studies to seek clearer physical insights on triggering mechanisms of various tectonic events, such as earthquake, non-volcano tremor, slow slip event and volcano. The physical framework we have established in the stress calculation could be a useful tool for updating and improving the stress estimates in the future and could facilitate more comprehensive studies of elastic/viscoelastic parameters and physical states of the Earth\u2019s interior at various time scales and length scales. Please refer to Lu et al. (2018, JGR) for the detailed methods and parameters used to calculate the loading-induced stress. Currently, the stress results are output on 1x1 degree grids, and at depths of 0 km, 19 km, 50 km, and 100 km.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2000",
+        "end": "2017"
+      },
+      "spatial_coverage": null,
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "hydrological loading",
+          "unit": null
+        },
+        {
+          "name": "atmospheric pressure",
+          "unit": null
+        },
+        {
+          "name": "ocean water",
+          "unit": null
+        },
+        {
+          "name": "solid Earth tides",
+          "unit": null
+        },
+        {
+          "name": "postglacial rebound",
+          "unit": null
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": 100.0,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": "model analysis",
+      "software": [
+        "GRACE",
+        "ECMWF",
+        "TPXO 7.2",
+        "CMEMS",
+        "SPOTL",
+        "ICE-5G"
+      ],
+      "data_sources": [
+        "Lu et al. (2018, JGR)"
+      ]
+    }
+  },
+  "metadata_6291381.json": {
+    "description": "Replication Data for JGR:Atmospheres",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Replication Data",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "JGR:Atmospheres"
+      ]
+    }
+  },
+  "metadata_3475231.json": {
+    "description": "This is the Global Fuel Exploitation Inventory (GFEI) which provides a 0.1 x 0.1 degree grid of methane emissions of fugitive emissions related to oil, gas, and coal activities (IPCC Sector 1B1 and 1B2). Subsector emissions are provided from exploration to distribution of the resource. The inventory emissions are based on individual country reports submitted in accordance with the United Nations Framework Convention on Climate Change (UNFCCC). For those countries that do not report we estimate emissions following IPCC methods. Emissions are allocated to infrastructure locations including mines, wells, pipelines, compressor stations, storage facilities, processing plants, and refineries. This version of the inventory (GFEI v2) inventory is for 2019 and presents an update of GFEI v1 which was for 2016. Emission grids are also available for 2010-2018.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2010",
+        "end": "2019"
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": [
+          "mines",
+          "wells",
+          "pipelines",
+          "compressor stations",
+          "storage facilities",
+          "processing plants",
+          "refineries"
+        ],
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "methane emissions",
+          "unit": "fugitive emissions"
+        }
+      ],
+      "convention": "IPCC",
+      "spatial_resolution": 0.1,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": false,
+        "missing_values": false
+      },
+      "timestamp_format": null,
+      "data_collection_method": "country reports submitted in accordance with the UNFCCC and estimates following IPCC methods",
+      "software": [],
+      "data_sources": [
+        "Global Fuel Exploitation Inventory (GFEI)",
+        "United Nations Framework Convention on Climate Change (UNFCCC)"
+      ]
+    }
+  },
+  "metadata_4300690.json": {
+    "description": "Data from 3-D chemistry-climate-aerosol models CESM2, MAECHAM5-HAM, SOCOL-AERv2",
+    "response": {
+      "variable_names": [
+        {
+          "name": "chemistry-climate-aerosol",
+          "unit": null
+        }
+      ],
+      "software": [
+        "CESM2",
+        "MAECHAM5-HAM",
+        "SOCOL-AERv2"
+      ]
+    }
+  },
+  "metadata_6415671.json": {
+    "description": "Input and Output data used in the paper: \"\"Increase of simultaneous soybean failures due to climate change\"\" Upon use of part of this dataset, please cite authors and paper related: Goulart, H. M. D. (2022). Replication Data for: \u201dIncrease of simultaneous soybean failures due to climate change\u201d. Harvard Dataverse. Retrieved from https://doi.org/10.7910/DVN/Q8D85C doi: 10.7910/DVN/Q8D85C",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Input",
+          "unit": null
+        },
+        {
+          "name": "Output",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Harvard Dataverse"
+      ]
+    }
+  },
+  "metadata_6554232.json": {
+    "description": "Files for WRF-Fire model setup as well as output and scripts used for analysis related to WRF-Fire.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "WRF-Fire model setup",
+          "unit": null
+        },
+        {
+          "name": "output",
+          "unit": null
+        },
+        {
+          "name": "scripts used for analysis",
+          "unit": null
+        }
+      ],
+      "software": [
+        "WRF-Fire"
+      ]
+    }
+  },
+  "metadata_4849191.json": {
+    "description": "Supporting data for Zeyuan Hu, Fay\u00e7al Lamraoui, Zhiming Kuang (2021), JAS: \"Influence of Upper-Troposphere Stratification and Cloud-Radiation Interaction on Convective Overshoots in the Tropical Tropopause Layer\"",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Upper-Troposphere Stratification",
+          "unit": null
+        },
+        {
+          "name": "Cloud-Radiation Interaction",
+          "unit": null
+        },
+        {
+          "name": "Convective Overshoots in the Tropical Tropopause Layer",
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": [
+        "Zeyuan Hu",
+        "Fay\u00e7al Lamraoui",
+        "Zhiming Kuang"
+      ]
+    }
+  },
+  "metadata_5194336.json": {
+    "description": "Surface carbon biomass of each of the 50 plankton types arranged as follows: 1: pico-phytoplankton, ESD 0.6um (analog of Prochlorococcus) 2: pico-phytoplankton, ESD 0.9um 3: pico-phytoplankton, ESD 1.4um 4: pico-phytoplankton, ESD 2.0um 5: coccolithophores, ESD 3.0um 6: coccolithophores, ESD 4.5um 7: coccolithophores, ESD 6.6um 8: coccolithophores, ESD 9.8um 9: coccolithophores, ESD 14um 10: diazotroph, ESD 3.0um 11: diazotroph, ESD 4.5um 12: diazotroph, ESD 6.6um 13: diazotroph, ESD 9.8um 14: diazotroph, ESD 14um (p> 15: diatom, ESD 3.0um 16: diatom, ESD 4.5um 17: diatom, ESD 6.6um 18: diatom, ESD 9.8um 19: diatom, ESD 14um 20: diatom, ESD 22um 21: diatom, ESD 32um 22: diatom, ESD 47um 23: diatom, ESD 70um 24: mixotroph, ESD 6.6um 25: mixotroph, ESD 9.8um 26: mixotroph, ESD 14um 27: mixotroph, ESD 22um 28: mixotroph, ESD 32um 29: mixotroph, ESD 47um 30: mixotroph, ESD 70um 31: mixotroph, ESD 104um 32: zoo, ESD 4.5um 33 zoo, ESD 6.6um 34: zoo, ESD 9.8um 35: zoo, ESD 14um 36: zoo, ESD 22um 37: zoo, ESD 32um 38: zoo, ESD 47um 39: zoo, ESD 70um 40: zoo, ESD 104um 41: zoo, ESD 154um 42: zoo, ESD 228um 43: zoo, ESD 338um 44: zoo, ESD 502um 45: zoo, ESD 744um 46: zoo, ESD 1103um 47: zoo, ESD 1636um 48: het bacteria 0.3um 49: het bacteria 0.6um 50: het bacteria 0.9um",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Surface carbon biomass of pico-phytoplankton",
+          "unit": "ESD (um)"
+        },
+        {
+          "name": "Surface carbon biomass of coccolithophores",
+          "unit": "ESD (um)"
+        },
+        {
+          "name": "Surface carbon biomass of diazotroph",
+          "unit": "ESD (um)"
+        },
+        {
+          "name": "Surface carbon biomass of diatom",
+          "unit": "ESD (um)"
+        },
+        {
+          "name": "Surface carbon biomass of mixotroph",
+          "unit": "ESD (um)"
+        },
+        {
+          "name": "Surface carbon biomass of zoo",
+          "unit": "ESD (um)"
+        },
+        {
+          "name": "Surface carbon biomass of het bacteria",
+          "unit": "ESD (um)"
+        }
+      ],
+      "data_sources": [
+        "Unspecified"
+      ]
+    }
+  },
+  "metadata_4513225.json": {
+    "description": "Data and code to replicate parts of \"Scalable deep learning to identify brick kilns and aid regulatory capacity\". We used DigitalGlobe (now Maxar Technologies) imagery, which is proprietary. However, we are able to share a \"de-geo-identified\" version of the imagery used in our machine learning pipeline. This data is stripped of its geospatial metadata, which means certain steps of our pipeline, such as translating the pixel locations of kilns detected within an image to a latitude and longitude will not be reproducible with this data. We also provide the final output of the machine learning pipeline (the GPS coordinates of all model predicted kilns), so the remainder of the analysis is replicable. The Government of Bangladesh data on brick kilns is proprietary and can be requested directly from the Department of Environment. All other geospatial data used to assess the scale and scope of brick manufacturing (population distributions, forests, schools, health facilities, protected areas, PM2.5, wind, precipitation, temperature, and administrative boundaries) are publicly available and we provide details on how to obtain them.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "GPS coordinates of all model predicted kilns",
+          "unit": null
+        },
+        {
+          "name": "Population distributions",
+          "unit": null
+        },
+        {
+          "name": "Forests data",
+          "unit": null
+        },
+        {
+          "name": "Schools data",
+          "unit": null
+        },
+        {
+          "name": "Health facilities data",
+          "unit": null
+        },
+        {
+          "name": "Protected areas data",
+          "unit": null
+        },
+        {
+          "name": "PM2.5",
+          "unit": null
+        },
+        {
+          "name": "Wind data",
+          "unit": null
+        },
+        {
+          "name": "Precipitation data",
+          "unit": null
+        },
+        {
+          "name": "Temperature data",
+          "unit": null
+        },
+        {
+          "name": "Administrative boundaries data",
+          "unit": null
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": true,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "Proprietary imagery and ML",
+      "software": [
+        "Machine Learning Pipeline"
+      ],
+      "data_sources": [
+        "DigitalGlobe (now Maxar Technologies)",
+        "Department of Environment of the Government of Bangladesh"
+      ]
+    }
+  },
+  "metadata_5370580.json": {
+    "description": "Replication data for \"Regional mixed layer depth as a climate diagnostic and emergent constraint.\" Abstract: The global ocean modulates Earth\u2019s warming in response to forcing. Most research has nevertheless ignored using ocean processes as a means to improve warming projections in general circulation models (GCMs). We show that regional mixed layer depth (MLD) strongly constrains climate sensitivity through its relation to ocean heat uptake. We correlate the parameters of two-layer energy balance models (EBMs) to average pre-forcing MLD in the north, tropical and south ocean for a 25-member CMIP6 ensemble. Using observations from the Argo float network, we then constrain the 66% range of equilibrium climate sensitivity (ECS) for the ensemble from 4.51 (3.13--5.71)\u00b0C, to 4.66 (3.88--5.43)\u00b0C -- a 40% reduction in the span of the uncertainty range -- and demonstrate significant correlations between MLD and other EBM parameters. This result indicates new explanations of ensemble spread, a new use for Argo measurements, and path to improving GCMs.",
+    "response": {
+      "temporal_coverage": null,
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": [
+          "north ocean",
+          "tropical ocean",
+          "south ocean"
+        ],
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Regional mixed layer depth",
+          "unit": null
+        },
+        {
+          "name": "Equilibrium climate sensitivity",
+          "unit": "\u00b0C"
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": "observations from the Argo float network",
+      "software": [
+        "CMIP6 ensemble"
+      ],
+      "data_sources": [
+        "Argo float network"
+      ]
+    }
+  },
+  "metadata_5254702.json": {
+    "description": "This dataset pertains to the outputs of NESM sensitivity experiments as described in paper \"Multidecadal changes in zonal displacement of tropical Pacific MJO variability modulated by North Atlantic SST\".",
+    "response": {
+      "variable_names": [
+        {
+          "name": "NESM sensitivity experiment outputs",
+          "unit": null
+        },
+        {
+          "name": "Multidecadal changes in zonal displacement of tropical Pacific MJO variability",
+          "unit": null
+        },
+        {
+          "name": "North Atlantic SST",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Multidecadal changes in zonal displacement of tropical Pacific MJO variability modulated by North Atlantic SST paper"
+      ]
+    }
+  },
+  "metadata_6186955.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2017, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2017-01-01",
+        "end": "2017-12-31"
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "ind_i",
+          "unit": null
+        },
+        {
+          "name": "ind_j",
+          "unit": null
+        }
+      ],
+      "convention": "HDF",
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": true
+      },
+      "timestamp_format": null,
+      "data_collection_method": "derived from granule name",
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_6183184.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2011, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2011-01-01",
+        "end": "2011-12-31"
+      },
+      "spatial_coverage": {
+        "longitude": null,
+        "latitude": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "date and time",
+          "unit": null
+        },
+        {
+          "name": "ind_i",
+          "unit": "index"
+        },
+        {
+          "name": "ind_j",
+          "unit": "index"
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": true,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "satellite",
+      "software": [
+        "Aqua granule hdf"
+      ],
+      "data_sources": []
+    }
+  },
+  "metadata_3417267.json": {
+    "description": "This complements our article \u201cSea-level fingerprints emergent from GRACE mission data\u201d submitted to Earth System Science Data (https://doi.org/10.5194/essd-2019-3). Based on CSR, GFZ, and JPL Stokes coefficients, we derive spherical harmonic coefficients and spatial maps for relative sea level, geoid height change, and vertical bedrock motion. We provide monthly solutions with and without Earth\u2019s rotational feedback included, both in the center-of-mass (CM) and center-of-figure (CF) reference frames.",
+    "response": {
+      "time_frequency": 1.0,
+      "variable_names": [
+        {
+          "name": "relative sea level",
+          "unit": null
+        },
+        {
+          "name": "geoid height change",
+          "unit": null
+        },
+        {
+          "name": "vertical bedrock motion",
+          "unit": null
+        }
+      ],
+      "convention": "CF",
+      "coordinate_system": "center-of-mass (CM) and center-of-figure (CF) reference frames",
+      "data_collection_method": "GRACE mission data",
+      "software": [
+        "CSR",
+        "GFZ",
+        "JPL"
+      ],
+      "data_sources": [
+        "Earth System Science Data"
+      ]
+    }
+  },
+  "metadata_5746874.json": {
+    "description": "Data files containing global lightning climatologies derived from NASA Lightning Imaging Sensor (LIS) and Optical Transient Detector (OTD) data calculated from Flash Extent Density (FED).",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Global Lightning Climatologies",
+          "unit": null
+        },
+        {
+          "name": "Flash Extent Density",
+          "unit": null
+        }
+      ],
+      "data_collection_method": "NASA Lightning Imaging Sensor (LIS) and Optical Transient Detector (OTD)",
+      "data_sources": [
+        "NASA"
+      ]
+    }
+  },
+  "metadata_6183147.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2010, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2010-01-01",
+        "end": "2010-12-31"
+      },
+      "spatial_coverage": {
+        "longitude": null,
+        "latitude": null
+      },
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "Latitudes and longitudes",
+          "unit": "Degrees"
+        },
+        {
+          "name": "ind_i and in_j",
+          "unit": "Indices"
+        }
+      ],
+      "convention": "HDF",
+      "coordinate_system": "WGS84",
+      "data_collection_method": "Satellite",
+      "software": [
+        "Aqua"
+      ],
+      "data_sources": [
+        "Unknown"
+      ]
+    }
+  },
+  "metadata_6183126.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2009, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2009-01-01",
+        "end": "2009-12-31"
+      },
+      "spatial_coverage": {
+        "longitude": null,
+        "latitude": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "date and time",
+          "unit": null
+        },
+        {
+          "name": "ind_i",
+          "unit": null
+        },
+        {
+          "name": "in_j",
+          "unit": null
+        }
+      ],
+      "convention": "HDF",
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "Satellite",
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_6987170.json": {
+    "description": "For use at the JuliaEO2023, Global Workshop on Earth Observation with Julia, workshop. - Regional subsets of sea level & topography data for the region of the Azores. - Docker image for attendees & others to reproduce workshop notebook results. Workshop website is https://aircentre.github.io/JuliaEO/",
+    "response": {
+      "spatial_coverage": {
+        "locations": [
+          "Azores"
+        ]
+      },
+      "variable_names": [
+        {
+          "name": "sea level",
+          "unit": null
+        },
+        {
+          "name": "topography",
+          "unit": null
+        }
+      ],
+      "software": [
+        "Docker"
+      ],
+      "data_sources": [
+        "https://aircentre.github.io/JuliaEO/"
+      ]
+    }
+  },
+  "metadata_6418449.json": {
+    "description": "Model output and model code changes used for analysis in \"Modelling the effects of wildfire smoke on stratospheric chlorine chemistry and ozone\" submitted to ...:",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Model output",
+          "unit": null
+        },
+        {
+          "name": "Model code changes",
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_3364353.json": {
+    "description": "This dataset contains replication data for: Jussi Leinonen, Alexandre Guillaume and Tianle Yuan (2019), Reconstruction of Cloud Vertical Structure With a Generative Adversarial Network, Geophysical Research Letters, https://doi.org/10.1029/2019GL082532. The code using this dataset can be found at: https://github.com/jleinonen/cloudsat-gan. Preprint available at https://doi.org/10.31223/osf.io/w26ja. The data is in NetCDF4 format.",
+    "response": {
+      "convention": "NetCDF4",
+      "software": [
+        "unknown"
+      ],
+      "data_sources": [
+        "Geophysical Research Letters"
+      ]
+    }
+  },
+  "metadata_6951241.json": {
+    "description": "Open Data of Water Supersaturation for Early Mars, A.Delavois et al. The repository contains 24 NetCDF files used for figures 3-8 and 2 ASCII files for figures 1 and 2.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Water Supersaturation",
+          "unit": null
+        }
+      ],
+      "convention": "NetCDF",
+      "software": [],
+      "data_sources": [
+        "A.Delavois et al."
+      ]
+    }
+  },
+  "metadata_6881112.json": {
+    "description": "Surface fields to replicate the figures of \"Variability Of The Shelf Circulation Around South Georgia, Southern Ocean\" by V. Combes, R.P. Matano, M.P. Meredith., and E.F. Young, 2023, JGR-Oceans.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Surface fields",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "V. Combes",
+        "R.P. Matano",
+        "M.P. Meredith",
+        "E.F. Young",
+        "JGR-Oceans"
+      ]
+    }
+  },
+  "metadata_6987648.json": {
+    "description": "This dataset contains model output of TSI as a netCDF file, as well as supporting datasets and Matlab code for the Bayesian TSI (BTSI) reconstruction of solar irradiance during the ACRIM Gap. Code and repository are also available at https://github.com/tamdur/ACRIM-Gap.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "TSI",
+          "unit": null
+        }
+      ],
+      "convention": "netCDF",
+      "software": [
+        "Matlab"
+      ],
+      "data_sources": [
+        "https://github.com/tamdur/ACRIM-Gap"
+      ]
+    }
+  },
+  "metadata_6334921.json": {
+    "description": "This dataset is prepared for the ACP paper: Reduced surface fine dust under droughts over the southeastern United States during summertime: observations and CMIP6 model simulations Please consider citing the dataset if you find it helpful.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "surface fine dust",
+          "unit": null
+        },
+        {
+          "name": "droughts",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "ACP paper"
+      ]
+    }
+  },
+  "metadata_5425494.json": {
+    "description": "Data and code for \"Spatial and temporal expansion of global wildland fire activity in response to climate change\" by Martin Senande-Rivera, Damian Insua-Costa and Gonzalo Miguez-Macho Data formats: netcdf and csv Codes: Python v3.8",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Spatial and temporal expansion of global wildland fire activity",
+          "unit": null
+        }
+      ],
+      "convention": "netcdf",
+      "software": [
+        "Python v3.8"
+      ],
+      "data_sources": [
+        "Martin Senande-Rivera",
+        "Damian Insua-Costa",
+        "Gonzalo Miguez-Macho"
+      ]
+    }
+  },
+  "metadata_7093996.json": {
+    "description": "This repository contains the dataset for the GRL submission 2023GL104350, titled \"The Effect of Different Implementations of the Weak Temperature Gradient Approximation in Cloud Resolving Models\". All data in this repository are to be downloaded and extracted into a folder called \"data\" for analysis by the code linked in https://github.com/natgeo-wong/2023GL104350",
+    "response": {
+      "software": [
+        "https://github.com/natgeo-wong/2023GL104350"
+      ],
+      "data_sources": [
+        "GRL submission 2023GL104350"
+      ]
+    }
+  },
+  "metadata_6185322.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2016, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2016-01-01",
+        "end": "2016-12-31"
+      },
+      "spatial_coverage": {
+        "longitude": null,
+        "latitude": null
+      },
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "date and time",
+          "unit": null
+        },
+        {
+          "name": "ind_i",
+          "unit": null
+        },
+        {
+          "name": "ind_j",
+          "unit": null
+        }
+      ],
+      "accuracy_issues": {
+        "known_inaccuracies": true,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": null,
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_6182473.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2003, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2003-01-01",
+        "end": "2003-12-31"
+      },
+      "spatial_coverage": {
+        "longitude": null,
+        "latitude": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "ind_i",
+          "unit": null
+        },
+        {
+          "name": "ind_j",
+          "unit": null
+        }
+      ],
+      "convention": "CF",
+      "spatial_resolution": null,
+      "coordinate_system": "WGS84",
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "Ship-track pixels in Aqua granule hdf file",
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_6714055.json": {
+    "description": "Model output data that are used in \"Effect of oceanic stochastic forcing on wintertime atmospheric dacadal variability over midlatitude North Pacific\"",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Model output data",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Effect of oceanic stochastic forcing on wintertime atmospheric dacadal variability over midlatitude North Pacific"
+      ]
+    }
+  },
+  "metadata_6550315.json": {
+    "description": "Provided here are the output from the several simulations used in Archibald et al. Files labelled *base* are for simulations with Q10 of all biological rates of 1.88; and files labeled \"diffQ\" were simulations with Q10 of grazing of 2.7 (all other rates had Q01 of 1.88). Files labelled with *plus1C*, *plus3C*, and *plus5C* are for simulations where all growth rates were for 1, 3, or 5degC warmer than the default simulation. Files for the default simulations do not have a \"plus\" designation. For each simulation we provide two files: 1) depth integrated primary production, and depth integrated carbon biomass for all 50 plankton types (files labelled \"*_PP_biomass_dephtint.nc\") 2) surface PO4, total P in living plankton, and total detrital matter (includes POP and DOP) (files labelled \"*_Pbudget_surf.nc\") Carbon biomass of each of the 50 plankton types arranged as follows: 1: pico-phytoplankton, ESD 0.6um (analog of Prochlorococcus) 2: pico-phytoplankton, ESD 0.9um 3: pico-phytoplankton, ESD 1.4um 4: pico-phytoplankton, ESD 2.0um 5: coccolithophores, ESD 3.0um 6: coccolithophores, ESD 4.5um 7: coccolithophores, ESD 6.6um 8: coccolithophores, ESD 9.8um 9: coccolithophores, ESD 14um 10: diazotroph, ESD 3.0um 11: diazotroph, ESD 4.5um 12: diazotroph, ESD 6.6um 13: diazotroph, ESD 9.8um 14: diazotroph, ESD 14um (p> 15: diatom, ESD 3.0um 16: diatom, ESD 4.5um 17: diatom, ESD 6.6um 18: diatom, ESD 9.8um 19: diatom, ESD 14um 20: diatom, ESD 22um 21: diatom, ESD 32um 22: diatom, ESD 47um 23: diatom, ESD 70um 24: mixotroph, ESD 6.6um 25: mixotroph, ESD 9.8um 26: mixotroph, ESD 14um 27: mixotroph, ESD 22um 28: mixotroph, ESD 32um 29: mixotroph, ESD 47um 30: mixotroph, ESD 70um 31: mixotroph, ESD 104um 32: zoo, ESD 4.5um 33 zoo, ESD 6.6um 34: zoo, ESD 9.8um 35: zoo, ESD 14um 36: zoo, ESD 22um 37: zoo, ESD 32um 38: zoo, ESD 47um 39: zoo, ESD 70um 40: zoo, ESD 104um 41: zoo, ESD 154um 42: zoo, ESD 228um 43: zoo, ESD 338um 44: zoo, ESD 502um 45: zoo, ESD 744um 46: zoo, ESD 1103um 47: zoo, ESD 1636um 48: het bacteria 0.3um 49: het bacteria 0.6um 50: het bacteria 0.9um Reference: Archibald, K., S. Dutkiewicz, C. Laufkotter, and H. Mueller. Thermal responses in global marine planktonic food webs mediated through temperature effects on metabolism. In revision for Journal Geophysical Research-Oceans .",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Depth integrated primary production",
+          "unit": null
+        },
+        {
+          "name": "Depth integrated carbon biomass",
+          "unit": null
+        },
+        {
+          "name": "surface PO4",
+          "unit": null
+        },
+        {
+          "name": "Total P in living plankton",
+          "unit": null
+        },
+        {
+          "name": "Total detrital matter",
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": [
+        "Archibald, K., S. Dutkiewicz, C. Laufkotter, and H. Mueller"
+      ]
+    }
+  },
+  "metadata_4499596.json": {
+    "description": "East Asia Regional Reanalysis dataset is developed for the period of 2010-19 by Dr. Eun-Gyeong Yang and Dr. Hyun Mee Kim in Yonsei University in South Korea. Reanalysis dataset is produced every 6 hr (i.e., 00, 06, 12, 18 UTC) for 10-yr-period (2010-19). The netCDF file contains u-component of wind, v-component of wind, temperature, geopotential height, and specific humidity variables of reanalysis on pressure levels (925, 850, 700, 500, 300, 200, 100, 50 hPa).",
+    "response": {
+      "temporal_coverage": {
+        "start": "2010",
+        "end": "2019"
+      },
+      "time_frequency": 4.0,
+      "variable_names": [
+        {
+          "name": "u-component of wind",
+          "unit": null
+        },
+        {
+          "name": "v-component of wind",
+          "unit": null
+        },
+        {
+          "name": "temperature",
+          "unit": null
+        },
+        {
+          "name": "geopotential height",
+          "unit": null
+        },
+        {
+          "name": "specific humidity",
+          "unit": null
+        }
+      ],
+      "convention": "netCDF",
+      "data_collection_method": "reanalysis",
+      "software": [],
+      "data_sources": [
+        "Dr. Eun-Gyeong Yang",
+        "Dr. Hyun Mee Kim",
+        "Yonsei University"
+      ]
+    }
+  },
+  "metadata_6182577.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2004, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2004-01-01",
+        "end": "2004-12-31"
+      },
+      "spatial_coverage": {
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "date and time",
+          "unit": null
+        },
+        {
+          "name": "ind_i",
+          "unit": "index"
+        },
+        {
+          "name": "ind_j",
+          "unit": "index"
+        }
+      ],
+      "convention": "HDF",
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "ship-track pixel",
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_6096911.json": {
+    "description": "Data and code for \"Towards an atmosphere more favourable to firestorm development in Europe\" by Martin Senande-Rivera, Damian Insua-Costa and Gonzalo Miguez-Macho Data formats: netcdf and csv Codes: Python v3.8",
+    "response": {
+      "variable_names": [
+        {
+          "name": null,
+          "unit": null
+        }
+      ],
+      "convention": "netcdf",
+      "software": [
+        "Python v3.8"
+      ],
+      "data_sources": [
+        "Martin Senande-Rivera, Damian Insua-Costa and Gonzalo Miguez-Macho"
+      ]
+    }
+  },
+  "metadata_3542392.json": {
+    "description": "Data that are generated in \"Position, magnitude, and size of Warm Pool El Ni\u00f1o: Variability, seasonal predictability, and climate impacts\".",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Position",
+          "unit": null
+        },
+        {
+          "name": "Magnitude",
+          "unit": null
+        },
+        {
+          "name": "Size of Warm Pool El Ni\u00f1o",
+          "unit": null
+        },
+        {
+          "name": "Variability",
+          "unit": null
+        },
+        {
+          "name": "Seasonal predictability",
+          "unit": null
+        },
+        {
+          "name": "Climate impacts",
+          "unit": null
+        }
+      ]
+    }
+  },
+  "metadata_6154805.json": {
+    "description": "This data include codes and datasets to reproduce the results published in Murakami et al. (2022).",
+    "response": {
+      "software": [
+        "codes",
+        "datasets"
+      ],
+      "data_sources": [
+        "Murakami et al. (2022)"
+      ]
+    }
+  },
+  "metadata_5194006.json": {
+    "description": "These data sets are processed output from the SINTEX-F GCM that are needed to replicate the plots shown in the article \"Revisiting the tropical Atlantic influence on El Ni\u00f1o-Southern Oscillation.\" by Richter et al., published in the Journal of Climate (JCLI-D-21-0088); https://doi.org/10.1175/JCLI-D-21-0088.1",
+    "response": {
+      "software": [
+        "SINTEX-F GCM"
+      ],
+      "data_sources": [
+        "Journal of Climate"
+      ]
+    }
+  },
+  "metadata_3562289.json": {
+    "description": "This dataset contains 8-day imagery of chlorophyll-a size distribution (CSD) slope, which is an index of phytoplankton size structure, derived by the CSD model. The CSD slope is calculated from emote sensing reflectance at 8 MODIS bands (412, 443, 469, 488, 531, 547, 555, and 678 nm). A large CSD slope indicates a large proportion of smaller phytoplankton, whereas a small CSD slope suggests that larger phytoplankton dominate. To avoid unrealistic values of the CSD slope, we defined the upper and lower limits of the CSD slope as 3.0 and 0.0, respectively.",
+    "response": {
+      "time_frequency": 8.0,
+      "variable_names": [
+        {
+          "name": "chlorophyll-a size distribution slope",
+          "unit": null
+        }
+      ]
+    }
+  },
+  "metadata_3172721.json": {
+    "description": "Replication Data for:Transport of Central American Fire Emissions to the U.S. Gulf Coast: Climatological pathways and impacts on ozone and PM2.5 (2018-06-04)",
+    "response": {
+      "temporal_coverage": {
+        "start": "2018-06-04",
+        "end": null
+      },
+      "variable_names": [
+        {
+          "name": "Transport of Central American Fire Emissions",
+          "unit": null
+        },
+        {
+          "name": "Climatological pathways",
+          "unit": null
+        },
+        {
+          "name": "Impacts on ozone and PM2.5",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Unknown"
+      ]
+    }
+  },
+  "metadata_3822819.json": {
+    "description": "This dataset provide the DNS model output for studying aerosol-cloud interaction and impact of aerosols in cloud development and rain initiation. The relevant manuscript is under review on ACPD: https://doi.org/10.5194/acp-2019-886.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "DNS model output",
+          "unit": null
+        },
+        {
+          "name": "aerosol-cloud interaction",
+          "unit": null
+        },
+        {
+          "name": "impact of aerosols in cloud development and rain initiation",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "ACPD"
+      ]
+    }
+  },
+  "metadata_4034232.json": {
+    "description": "Replication Data for: \"Spectroscopic Insights into Ferromanganese Crust Formation and Diagenesis\" by K.M. Sutherland, S.D. Wankel, J.R. Hein, and C.M. Hansel. See README file",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Spectroscopic Insights into Ferromanganese Crust Formation and Diagenesis",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "K.M. Sutherland",
+        "S.D. Wankel",
+        "J.R. Hein",
+        "C.M. Hansel"
+      ]
+    }
+  },
+  "metadata_4640650.json": {
+    "description": "Additional data related to the paper \"Satellite-based Survey of Extreme Methane Emissions in the Permian Basin\", Irakulis-Loitxate et al. (2021). The archive provides all methane plumes detected in the Permian Basin during the survey with Gaofen5, ZY1 and PRISMA satellites in NetCDF4-CF format. Additional information about .nc files is provided in the READ_ME file.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Methane Plumes",
+          "unit": null
+        }
+      ],
+      "convention": "NetCDF4-CF",
+      "data_collection_method": "Satellite",
+      "software": [
+        "Gaofen5",
+        "ZY1",
+        "PRISMA"
+      ],
+      "data_sources": [
+        "Satellite-based Survey of Extreme Methane Emissions in the Permian Basin"
+      ]
+    }
+  },
+  "metadata_5005751.json": {
+    "description": "Data and some code to reproduce plots in \"Stratospheric adiabatic mixing rates derived from the vertical gradient of age of air\". Calculations are performed for WACCM within the file that also produces the figures, \"Reproducing_Figures_Linzetal2021_AoA.m\".",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Stratospheric adiabatic mixing rates",
+          "unit": null
+        },
+        {
+          "name": "Vertical gradient of age of air",
+          "unit": null
+        }
+      ],
+      "software": [
+        "WACCM",
+        "Reproducing_Figures_Linzetal2021_AoA.m"
+      ]
+    }
+  },
+  "metadata_2688926.json": {
+    "description": "Contains: * initial surface elevation map of Jakobshavn Isbrae in January 2008 * differences every 91 days from the initially recorded elevation map * geoid correction * error fields",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Initial surface elevation map",
+          "unit": null
+        },
+        {
+          "name": "Differences every 91 days",
+          "unit": null
+        },
+        {
+          "name": "geoid correction",
+          "unit": null
+        },
+        {
+          "name": "error fields",
+          "unit": null
+        }
+      ]
+    }
+  },
+  "metadata_3849458.json": {
+    "description": "Dataset used for the paper submission.",
+    "response": {
+      "variable_names": [
+        {
+          "name": null,
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_4301113.json": {
+    "description": "SOCOL-AER model output use in: \"A Model Intercomparison of Stratospheric Solar Geoengineering by Accumulation-Mode Sulfate Aerosols\", submission to ACP",
+    "response": {
+      "variable_names": [
+        {
+          "name": "SOCOL-AER model output",
+          "unit": null
+        }
+      ],
+      "software": [
+        "SOCOL-AER"
+      ],
+      "data_sources": [
+        "A Model Intercomparison of Stratospheric Solar Geoengineering by Accumulation-Mode Sulfate Aerosols, submission to ACP"
+      ]
+    }
+  },
+  "metadata_6182607.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2005, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2005-01-01",
+        "end": "2005-12-31"
+      },
+      "spatial_coverage": {
+        "longitude": null,
+        "latitude": null
+      },
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "Latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "Longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "ind_i",
+          "unit": "index"
+        },
+        {
+          "name": "ind_j",
+          "unit": "index"
+        }
+      ],
+      "data_collection_method": "Derived from granule name",
+      "data_sources": [
+        "Aqua granule hdf file"
+      ]
+    }
+  },
+  "metadata_5588386.json": {
+    "description": "Here, we combine the Vulcan version 3.0 FFCO2 emissions data product (Gurney et al., 2020) and a gridded inventory of CH4 emissions (Maasakkers et al., 2016). Anthropogenic emission of both fossil fuel CO2 and methane (CH4) are expressed in tC at a fine spatial resolution (0.1o x 0.1o) and temporal (monthly) resolution for 2012.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2012-01-01",
+        "end": "2012-12-31"
+      },
+      "spatial_coverage": null,
+      "time_frequency": 12.0,
+      "variable_names": [
+        {
+          "name": "Anthropogenic emission of fossil fuel CO2",
+          "unit": "tC"
+        },
+        {
+          "name": "Anthropogenic emission of methane (CH4)",
+          "unit": "tC"
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": 0.1,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": null,
+      "software": [
+        "Vulcan version 3.0",
+        "gridded inventory of CH4 emissions"
+      ],
+      "data_sources": [
+        "Gurney et al., 2020",
+        "Maasakkers et al., 2016"
+      ]
+    }
+  },
+  "metadata_6548443.json": {
+    "description": "The project data for USGS Award No. G20AP00049 \u201cEvaluating outer-rise earthquake hazards from the Puerto Rico Trench by calibrating inundation models with geologic evidence\u201d is composed of four components: deposits, DEMs, model grids, and model results. 1. The \u201cDeposits\u201d folder includes csv files for 10 types of deposits disclosed on Anegada in csv format, with their details provided by the metadata in the same folder. 2. The \u201cDEMs\u201d folder consists of four subfolders. The details of these DEMs are provided in Table S1 in the report. \u2022 NCEI_1arcsec_MHW: original dataset at the grid resolution of 1 arc sec in ascii format derived from the National Center for Environmental Information (NCEI) for U.S. Virgin Islands \u2022 BVI topo/bathy: British Virgin Islands bathymetry and topography obtained from the BVI Department of Disaster Management \u2022 Lidar_survey: The USGS Lidar-derived seamless (Bare Earth and submerged) point cloud for coastal topography \u2013 Anegada, British Virgin Islands, 2014, doi.org/10.5066/F7GM85F3 (https://data.usgs.gov/datacatalog/data/USGS:093b07ed-88ac-4bbe-9aec-cc98de4170c1). A metadata file for this dataset is provided in the same folder. \u2022 PR_Trench_150m: Bathymetric Terrain Model of the Puerto Rico Trench and Northeastern Caribbean Region Compiled by the U.S. Geological Survey From Multibeam Bathymetric Data Collected Between 2002 and 2013 (PRBATHOFR150, Esri Binary Grid, UTM19, WGS 84). Available at https://data.usgs.gov/datacatalog/data/USGS:85398e9e-5e1e-4c5d-b835-5c4cf11e21bc 3. The \u201cModel_grids\u201d folder includes model grids for Tsunami (subfolder \u201cTsunami\u201d) and Hurricane (subfolder \u201cHurricane\u201d) modeling developed through the present study. All grid files are formatted in netcdf format. The subfolder \u201cTsunami\u201d has the model grids for Anegada, San Juan, and St Thomas Folder \u201cAnegada\u201d: \u2022 Propagation grid: atlantic_2min_GEBCO.nc. This grid is specifically used for computing the transatlantic tsunami propagation due to the 1755 Lisbon M9.0 scenario. o West_Boundaing_Coordinates: -79.0 o East_Bounding_Coordinates: 19.0 o North_Bounding_Coordinates: 71.0 o South_Bounding_Coordinates: -19.0 o Grid spatial resolution: 2 arc min o Data source: GEneral Bathymetric Chart of the Oceans (GEBCO) https://www.gebco.net/ \u2022 Propagation grid: PR_30sec.nc. This grid is specifically used for computing the transatlantic tsunami propagation from the earthquake scenarios in the Puerto Rico Trench. o West_Boundaing_Coordinates: -69.0 o East_Bounding_Coordinates: -60.0 o North_Bounding_Coordinates: 21.0 o South_Bounding_Coordinates: 16.5 o Grid spatial resolution: 30 arc sec \u2022 MOST A grid: anegada_6sec.nc. This grid is used in the A level of MOST o West_Boundaing_Coordinates: -65.15 o East_Bounding_Coordinates: -64.2 o North_Bounding_Coordinates: 18.9 o South_Bounding_Coordinates: 18.2 o Grid spatial resolution: 6 arc sec \u2022 MOST B grid: anegada_1sec.nc. This grid is used in the B level of MOST o West_Boundaing_Coordinates: -64.44 o East_Bounding_Coordinates: -64.24 o North_Bounding_Coordinates: 18.85 o South_Bounding_Coordinates: 18.65 o Grid spatial resolution: 1 arc sec \u2022 MOST C grid: anegada_10m.nc. This grid is the C grid of MOST o West_Boundaing_Coordinates: -64.43 o East_Bounding_Coordinates: -64.25 o North_Bounding_Coordinates: 18.77 o South_Bounding_Coordinates: 18.68 o Grid spatial resolution: 1/3 arc sec Folder \u201cSanJuan\u201d: \u2022 MOST A grid: rim_gridA_20sec.nc. This grid is used in the A level of MOST o West_Boundaing_Coordinates: -69.9 o East_Bounding_Coordinates: -60.50401401 o North_Bounding_Coordinates: 18.95 o South_Bounding_Coordinates: 16.0555556 o Grid spatial resolution: 20 arc sec \u2022 MOST B grid: rim_gridB_6sec.nc. This grid is used in the B level of MOST o West_Boundaing_Coordinates: -67.4 o East_Bounding_Coordinates: -65.2 o North_Bounding_Coordinates: 18.6 o South_Bounding_Coordinates: 17.8 o Grid spatial resolution: 1 arc sec \u2022 MOST C grid: anegada_10m.nc. This grid is the C grid of MOST o West_Boundaing_Coordinates: -66.188889 o East_Bounding_Coordinates: -65.975 o North_Bounding_Coordinates: 18.5 o South_Bounding_Coordinates: 18.375 o Grid spatial resolution: 1/3 arc sec Folder \u201cStThomas\u201d: \u2022 MOST A grid: East_Caribbean_21p333sec.nc. This grid is used in the A level of MOST o West_Boundaing_Coordinates: -67.565601784215005 o East_Bounding_Coordinates: -61.473750102935014 o North_Bounding_Coordinates: 19.032638864735 o South_Bounding_Coordinates: 16.620787080415 o Grid spatial resolution: 21.333 arc sec \u2022 MOST B grid: USVI_North2p667sec.nc. This grid is used in the B level of MOST o West_Boundaing_Coordinates: -65.144490740894980 o East_Bounding_Coordinates: -64.517083351055021 o North_Bounding_Coordinates: 18.537453693415 o South_Bounding_Coordinates: 18.194490740055 o Grid spatial resolution: 2.667 arc sec \u2022 MOST C grid: anegada_10m.nc. This grid is the C grid of MOST o West_Boundaing_Coordinates: -65.068518520800012 o East_Bounding_Coordinates: -64.810185194700011 o North_Bounding_Coordinates: 18.38740740132 o South_Bounding_Coordinates: 18.28824073743 o Grid spatial resolution: 1/3 arc sec The subfolder \u201cHurricane\u201d has the model grids for NEOWAVE_Surge, SWAN, and BOSZ, which are different models used to compute regional and local wave conditions and inundation impact. Folder \u201cNEOWAVE_Surge\u201d: Level-1 grid: depth_grid_1.dat. This file is a matrix of water depth data o West_Boundaing_Coordinates: -68.0 o East_Bounding_Coordinates: -54 o North_Bounding_Coordinates: 21.0 o South_Bounding_Coordinates: 15.0 o Grid spatial resolution: 1 arc min Folder \u201cSWAN\u201d: \u2022 Level-1 grid: depth_grid_1.dat. This file is a matrix of water depth data o West_Boundaing_Coordinates: -68.0 o East_Bounding_Coordinates: -54 o North_Bounding_Coordinates: 21.0 o South_Bounding_Coordinates: 15.0 o Grid spatial resolution: 1 arc min \u2022 Level-2 grid: depth_grid_2.dat. This file is a matrix of water depth data o West_Boundaing_Coordinates: -64.6 o East_Bounding_Coordinates: -64.2 o North_Bounding_Coordinates: 21.0 o South_Bounding_Coordinates: 20.75 o Grid spatial resolution: 6 arc sec Folder \u201cBOSZ\u201d: \u2022 Deepbay_10m.mat. This is a grid file specifically required by BOSZ model, based on Cartesian grid and saved in Matlab .mat format. This file is used for all hypothetical hurricane track scenarios. o Grid spatial resolution: 10 m \u2022 Deepbay_5m.mat. This is a grid file specifically required by BOSZ model, based on Cartesian grid and saved in Matlab .mat format. This file is used for 2017 Irma hurricane model validation. o Grid spatial resolution: 5 m 4. The \u201cModel_results\u201d folder includes the computational model results for Tsunami (subfolder \u201ctsunami_modeling\u201d) and Hurricane (subfolder \u201churricane_modeling\u201d) modeling developed through the present study. All grid files are formatted in netcdf format. \u2022 The subfolder \u201ctsunami_modeling\u201d includes model results in netcdf format with all variables and attributes explained in each netcdf file. The first two parts of the file name correspond to the source scenarios given in Table 2 of the report. \u2022 The subfolder \u201churricane modeling\u201d includes the modeled hurricane track data and the inundation results for 2017 Irma (subfolder \u201cIrma\u201d) and the hypothetical hurricane scenarios. Folder \u201cIrma\u201d: \u2022 Irma_track.inp: track information of the Hurricane Irma o The waypoint time stamp (YYMMDDHHMM) o Latitude: Latidude of the hurricane center. A positive latitude indicates north, and a negative latitude indicates south. o Longitude: Longitude of the hurricane center. A positive longitude indicates west, and a negative latitude indicates east. o Wind speed: The maximum sustained wind speed in knots o Air pressure: The pressure at the hurricane center in hPa o Radius of sustained wind speed in (km) o The shape parameter in the modified Rankine wind model. \u2022 Subfolder \u201cgauge_data\u201d: text data files of tidal observations at Croix, Culebra, San Juan, and St. John during the 2017 Irma hurricane \u2022 Subfolder \u201cbuoy_data\u201d: text data files of wave conditions recorded on buoys 41040, 41043, 41044, 42060, and 9765115. \u2022 Subfolder \u201cBOSZ_model_results\u201d: inundation modeling data for 2017 Hurricane Irma computed from BOSZ o BOTC.bosz: matrix of bathymetry/topography data o X.mat: matrix of longitude data o Y.mat: matrix with latitude data o Hstmp.mat: max significant wave height at every computational grid o MaxRtmp.mat: matrix of maximum free surface elevation during model run o MaxUVtemp.mat: matrix for maximum flow speed from the resultant velocity o STPtemp.mat: matrix for wave setup (mean water level over the entire domain) o SWN_20170906162000.spect: the spectrum output from SWAN computation at the time of 16:20:00 09/06, 2019 when the storm surge level reaches the highest throughout the computation. Folder \u201chypotherical_hurricane_tracks\u201d: \u2022 Subfolder \u201cTrack_data\u201d: information for each hypothetical hurricane track including: o The waypoint time stamp (YYMMDDHHMM) o Latitude: Latidude of the hurricane center. A positive latitude indicates north, and a negative latitude indicates south. o Longitude: Longitude of the hurricane center. A positive longitude indicates west, and a negative latitude indicates east. o Wind speed: The maximum sustained wind speed in knots o Air pressure: The pressure at the hurricane center in hPa o Radius of sustained wind speed in (km) o The shape parameter in the modified Rankine wind model. \u2022 Subfolder: \u201cBOSZ_model_results_track4\u201d: inundation modeling data for the hypothetical hurricane track #4 computed from BOSZ o BOTC.bosz: matrix of bathymetry/topography data o X.mat: matrix of longitude data o Y.mat: matrix with latitude data o Hstmp.mat: max significant wave height at every computational grid o MaxRtmp.mat: matrix of maximum free surface elevation during model run o MaxUVtemp.mat: matrix for maximum flow speed from the resultant velocity o STPtemp.mat: matrix for wave setup (mean water level over the entire domain) o SWN_20170906162000.spect: the spectrum output from SWAN computation at the time of 16:20:00 09/06, 2019 when the storm surge level reaches the highest throughout the computation.",
+    "response": {
+      "temporal_coverage": null,
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": [
+          "Anegada",
+          "U.S. Virgin Islands",
+          "British Virgin Islands",
+          "San Juan",
+          "St Thomas",
+          "Puerto Rico Trench"
+        ],
+        "longitude": [
+          -79.0,
+          19.0,
+          -69.0,
+          -60.0,
+          -65.15,
+          -64.2,
+          -64.44,
+          -64.24,
+          -64.43,
+          -64.25,
+          -69.9,
+          -60.50401401,
+          -67.4,
+          -65.2,
+          -66.188889,
+          -65.975,
+          -67.565601784215,
+          -61.473750102935014,
+          -65.14449074089498,
+          -64.51708335105502,
+          -65.06851852080001,
+          -64.81018519470001,
+          -68.0,
+          -54.0,
+          -64.6,
+          -64.2
+        ],
+        "latitude": [
+          71.0,
+          -19.0,
+          21.0,
+          16.5,
+          18.9,
+          18.2,
+          18.85,
+          18.65,
+          18.77,
+          18.68,
+          18.95,
+          16.0555556,
+          18.6,
+          17.8,
+          18.5,
+          18.375,
+          19.032638864735,
+          16.620787080415,
+          18.537453693415,
+          18.194490740055,
+          18.38740740132,
+          18.28824073743,
+          21.0,
+          15.0,
+          21.0,
+          20.75
+        ],
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Deposits",
+          "unit": "csv files"
+        },
+        {
+          "name": "DEMs",
+          "unit": "ascii format"
+        },
+        {
+          "name": "Model grids",
+          "unit": "netcdf format"
+        },
+        {
+          "name": "Model results",
+          "unit": "netcdf format"
+        },
+        {
+          "name": "Latitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "Longitude",
+          "unit": "degrees"
+        }
+      ],
+      "convention": "WGS84",
+      "spatial_resolution": 1.0,
+      "coordinate_system": "WGS84",
+      "accuracy_issues": null,
+      "timestamp_format": "YYMMDDHHMM",
+      "data_collection_method": "Bathymetric Terrain Model",
+      "software": [
+        "Matlab"
+      ],
+      "data_sources": [
+        "USGS",
+        "National Center for Environmental Information (NCEI)",
+        "BVI Department of Disaster Management",
+        "GEneral Bathymetric Chart of the Oceans (GEBCO)"
+      ]
+    }
+  },
+  "metadata_6545436.json": {
+    "description": "This dataset is prepared for the ACP paper: Interactive biogenic emissions and drought stress effects on atmospheric composition in NASA GISS ModelE. Please consider citing the dataset if you find it helpful. (2022-09-23)",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Interactive biogenic emissions",
+          "unit": null
+        },
+        {
+          "name": "Drought stress effects",
+          "unit": null
+        },
+        {
+          "name": "Atmospheric composition",
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": [
+        "NASA GISS ModelE"
+      ]
+    }
+  },
+  "metadata_6182914.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2008, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2008-01-01",
+        "end": "2008-12-31"
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "date and time",
+          "unit": null
+        },
+        {
+          "name": "ind_i",
+          "unit": null
+        },
+        {
+          "name": "ind_j",
+          "unit": null
+        }
+      ],
+      "convention": "Aqua granule hdf",
+      "spatial_resolution": null,
+      "coordinate_system": "WGS84",
+      "accuracy_issues": {
+        "known_inaccuracies": true,
+        "missing_values": null
+      },
+      "timestamp_format": "Derived from Granule Name",
+      "data_collection_method": "Derived from Aqua granule hdf",
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_3396860.json": {
+    "description": "This data set contains the metadata for the ACP research article Vattioni et al., 2019, Exploring accumulation-mode-H2SO4 versus SO2 stratospheric sulfate geoengineering in a sectional aerosol-chemistry-climate model. Each file contains SOCOL-AER output data averaged over 10 years at 96 longitudinal grid boxes and 48 latitudinal grid boxes. Detailed description of the data can be found in the model description and experimental setup sections of the paper (https://www.atmos-chem-phys-discuss.net/acp-2018-1070/#discussion).",
+    "response": {
+      "temporal_coverage": {
+        "start": null,
+        "end": null
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": [
+          96.0
+        ],
+        "latitude": [
+          48.0
+        ],
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": 10.0,
+      "variable_names": [
+        {
+          "name": "SOCOL-AER output data",
+          "unit": null
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": null,
+      "software": [
+        "SOCOL-AER"
+      ],
+      "data_sources": [
+        "Vattioni et al., 2019"
+      ]
+    }
+  },
+  "metadata_6558727.json": {
+    "description": "TROPOMI BrO retrieval dataset (monthly mean) in 2019 in NetCDF format",
+    "response": {
+      "temporal_coverage": {
+        "start": "2019-01-01",
+        "end": "2019-12-31"
+      },
+      "variable_names": [
+        {
+          "name": "TROPOMI BrO retrieval",
+          "unit": "monthly mean"
+        }
+      ],
+      "convention": "NetCDF"
+    }
+  },
+  "metadata_3030758.json": {
+    "description": "This dataverse contains datasets required to reproduce the analysis found within \"Ozone depletion following future volcanic eruptions\" by J. Eric Klobas, David M. Wilmouth, Debra K. Weisenstein, James G. Anderson, and Ross J. Salawitch, per AGU Data Policy standards.",
+    "response": {
+      "data_sources": [
+        "J. Eric Klobas",
+        "David M. Wilmouth",
+        "Debra K. Weisenstein",
+        "James G. Anderson",
+        "Ross J. Salawitch"
+      ]
+    }
+  },
+  "metadata_3878164.json": {
+    "description": "Data files containing optical measurements of the most radiant class of lightning on Earth used in publications.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "optical measurements",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Publications"
+      ]
+    }
+  },
+  "metadata_3336231.json": {
+    "description": "Output from climate change simulation (1995-2100 only). Provided are surface Chlorophyll (mg Chl/m3), coloured dissolved organic matter (CDOM, in units of mmol P/m3), detrital matter (mmol P/m3) and biomass of phytoplankton types (mmol P/m3), and remotely sensed reflectance (1/sr) in 13 wavebnads from 400 to 700nm.",
+    "response": {
+      "temporal_coverage": {
+        "start": "1995",
+        "end": "2100"
+      },
+      "variable_names": [
+        {
+          "name": "Surface Chlorophyll",
+          "unit": "mg Chl/m3"
+        },
+        {
+          "name": "Coloured Dissolved Organic Matter (CDOM)",
+          "unit": "mmol P/m3"
+        },
+        {
+          "name": "Detrital Matter",
+          "unit": "mmol P/m3"
+        },
+        {
+          "name": "Biomass of Phytoplankton Types",
+          "unit": "mmol P/m3"
+        },
+        {
+          "name": "Remotely Sensed Reflectance",
+          "unit": "1/sr"
+        }
+      ],
+      "data_collection_method": null,
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_2862501.json": {
+    "description": "This dataset is used in the paper \"Downscaling Global Emissions and Its Implication Derived from Climate Model Experiments\"",
+    "response": {
+      "variable_names": [
+        {
+          "name": null,
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_3621191.json": {
+    "description": "Replication Data for: Clustering Surface Ozone Diurnal Cycles to Understand the Impact of Circulation Patterns in Houston, TX",
+    "response": {
+      "spatial_coverage": {
+        "locations": [
+          "Houston, TX"
+        ]
+      },
+      "variable_names": [
+        {
+          "name": "Surface Ozone Diurnal Cycles",
+          "unit": null
+        },
+        {
+          "name": "Circulation Patterns",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Replication Data"
+      ]
+    }
+  },
+  "metadata_4550425.json": {
+    "description": "This dataset provides seasonal means of 7 WRF variables for the Hawaiian Islands region including: rainfall (PR), 2m temperatures (TAS), 90th percentile daily rainfall extremes (PR90), 99th percentile daily rainfall extremes (PR99), 90th percentile daily temperature extremes (TAS90), 99th percentile daily temperature extremes (TAS99), and the vertically integrated moisture flux convergence (VIMFC) The files are organized and labeled by simulation period (present-day:1996-2005 and future: 2026-2035), season (wet or dry), and PDO phase (positive or negative). For a full description of the WRF model and simulations, please refer to related publication.",
+    "response": {
+      "temporal_coverage": {
+        "start": "1996-01-01",
+        "end": "2035-12-31"
+      },
+      "spatial_coverage": {
+        "locations": [
+          "Hawaiian Islands"
+        ]
+      },
+      "time_frequency": 0.0,
+      "variable_names": [
+        {
+          "name": "Rainfall",
+          "unit": "PR"
+        },
+        {
+          "name": "Temperatures 2m",
+          "unit": "TAS"
+        },
+        {
+          "name": "90th percentile daily rainfall extremes",
+          "unit": "PR90"
+        },
+        {
+          "name": "99th percentile daily rainfall extremes",
+          "unit": "PR99"
+        },
+        {
+          "name": "90th percentile daily temperature extremes",
+          "unit": "TAS90"
+        },
+        {
+          "name": "99th percentile daily temperature extremes",
+          "unit": "TAS99"
+        },
+        {
+          "name": "Vertically Integrated Moisture Flux Convergence",
+          "unit": "VIMFC"
+        }
+      ]
+    }
+  },
+  "metadata_3986246.json": {
+    "description": "Simulations: CTL, Remove_topography, Remove_albedo, Remove_icesheet. Variables: [in Fig.1] PRECT; [in Fig 2] itczind1, itczind2, itczind3; [in Fig.3] MPSI; [in Fig.4] SST, ICEFRAC; [in Fig.5] Vbot.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "PRECT",
+          "unit": null
+        },
+        {
+          "name": "itczind1",
+          "unit": null
+        },
+        {
+          "name": "itczind2",
+          "unit": null
+        },
+        {
+          "name": "itczind3",
+          "unit": null
+        },
+        {
+          "name": "MPSI",
+          "unit": null
+        },
+        {
+          "name": "SST",
+          "unit": null
+        },
+        {
+          "name": "ICEFRAC",
+          "unit": null
+        },
+        {
+          "name": "Vbot",
+          "unit": null
+        }
+      ]
+    }
+  },
+  "metadata_2845403.json": {
+    "description": "See README",
+    "response": {
+      "variable_names": [
+        {
+          "name": null,
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": []
+    }
+  },
+  "metadata_6361533.json": {
+    "description": "Replication Data for 'Paintings by Turner and Monet Depict Trends in 19th Century Air Pollution', consisting of paintings and photographs used in the analysis, as well as gridded historical estimates of sulfur dioxide (SO2) in London and Paris from Hoesly (2018) ('Historical (1750\u20132014) anthropogenic emissions of reactive gases and aerosols from the Community Emissions Data System (CEDS)').",
+    "response": {
+      "temporal_coverage": null,
+      "spatial_coverage": null,
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Paintings and photographs",
+          "unit": null
+        },
+        {
+          "name": "Gridded historical estimates of sulfur dioxide",
+          "unit": "SO2"
+        }
+      ],
+      "convention": "Community Emissions Data System (CEDS)",
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": null,
+      "software": [],
+      "data_sources": [
+        "Hoesly (2018)"
+      ]
+    }
+  },
+  "metadata_3492618.json": {
+    "description": "Model output for Dutkiewicz et al (BGD): nurtient_supply_rates.nc: Nutrient supplies are annual mean for the top 50m and are in units of mmol/m2/s biomass.nc Phytoplankton biomass is annual mean for top 10m and is units of mmolC/m3 Phytoplankton types arranged as follows: 1- 10: pico-phytoplankton, ESD 0.6um 11- 20: pico-phytoplankton, ESD 0.9um 21- 30: pico-phytoplankton, ESD 1.4um 31- 40: pico-phytoplankton, ESD 2.0um 41- 50: coccolithophores, ESD 3.0um 51- 60: coccolithophores, ESD 4.5um 61- 70: coccolithophores, ESD 6.6um 71- 80: coccolithophores, ESD 9.8um 81- 90: coccolithophores, ESD 14um 91- 50: diazotroph, ESD 3.0um 101-110: diazotroph, ESD 4.5um 111-120: diazotroph, ESD 6.6um 121-130: diazotroph, ESD 9.8um 131-140: diazotroph, ESD 14um 141-150: diatom, ESD 3.0um 151-160: diatom, ESD 4.5um 161-170: diatom, ESD 6.6um 171-180: diatom, ESD 9.8um 181-190: diatom, ESD 14um 191-200: diatom, ESD 22um 201-210: diatom, ESD 32um 211-220: diatom, ESD 47um 221-230: diatom, ESD 70um 231-240: diatom, ESD 104um 241-250: diatom, ESD 154um 251-260: mixotroph, ESD 6.6um 261-270: mixotroph, ESD 9.8um 271-280: mixotroph, ESD 14um 281-290: mixotroph, ESD 22um 291-300: mixotroph, ESD 32um 301-310: mixotroph, ESD 47um 311-320: mixotroph, ESD 70um 321-330: mixotroph, ESD 104um 331-340: mixotroph, ESD 154um 341-350: mixotroph, ESD 228um",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Nutrient supplies",
+          "unit": "mmol/m2/s"
+        },
+        {
+          "name": "Phytoplankton biomass",
+          "unit": "mmolC/m3"
+        },
+        {
+          "name": "Phytoplankton types",
+          "unit": "ESD um"
+        }
+      ],
+      "software": [
+        "Model output for Dutkiewicz et al (BGD): nurtient_supply_rates.nc",
+        "biomass.nc"
+      ],
+      "data_sources": [
+        "Dutkiewicz et al (BGD)"
+      ]
+    }
+  },
+  "metadata_6290255.json": {
+    "description": "These MATLAB data files contain all the observations and model output used in the article: \"Impact of vertical mixing parameterizations on internal gravity wave spectra in regional ocean models\" The regional MITgcm ( http://mitgcm.org/) simulation results and the McLane moored profiler (MP) data are stored here. The regional box configuration can be found at https://github.com/MITgcm-contrib/llc_hires/tree/master/llc_4320/regions/Box56. More descriptions of the simulation numerics are in the supplementary information of the paper. The analysis routines for the vertical wavenumber spectra for kinetic energy, shear and strain are also included here. The codes are written in MATLAB language and they work for MATLAB 2022a version. The MP data have been taken from Alford et al 2007 and Savage et al 2017 and uploaded here. The MP data can also be downloaded from https://github.com/annasavage/McLane_profiler_data",
+    "response": {
+      "variable_names": [
+        {
+          "name": "observations",
+          "unit": null
+        },
+        {
+          "name": "model output",
+          "unit": null
+        },
+        {
+          "name": "vertical wavenumber spectra for kinetic energy",
+          "unit": null
+        },
+        {
+          "name": "shear",
+          "unit": null
+        },
+        {
+          "name": "strain",
+          "unit": null
+        }
+      ],
+      "data_collection_method": "McLane moored profiler (MP) data",
+      "software": [
+        "MATLAB 2022a version",
+        "MITgcm"
+      ],
+      "data_sources": [
+        "Alford et al 2007",
+        "Savage et al 2017"
+      ]
+    }
+  },
+  "metadata_3986102.json": {
+    "description": "The processed datasets in the article, including radar, satellite, surface precipitation and NCEP GFS final analysis dataset at 1 degree for the hailstorm event over eastern China on 28 April 2015.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2015-04-28",
+        "end": "2015-04-28"
+      },
+      "spatial_coverage": {
+        "locations": [
+          "Eastern China"
+        ]
+      },
+      "variable_names": [
+        {
+          "name": "Radar Data",
+          "unit": null
+        },
+        {
+          "name": "Satellite Data",
+          "unit": null
+        },
+        {
+          "name": "Surface Precipitation",
+          "unit": null
+        },
+        {
+          "name": "NCEP GFS Final Analysis",
+          "unit": "degree"
+        }
+      ],
+      "spatial_resolution": 1.0,
+      "data_collection_method": "Radar, Satellite",
+      "data_sources": [
+        "NCEP GFS"
+      ]
+    }
+  },
+  "metadata_5255340.json": {
+    "description": "When considering seasonal return values of extreme daily precipitation, estimates of return values from the Localized Constructed Analogs statistical downscaling method (LOCA; Pierce et al., 2014; https://doi.org/10.1175/JHM-D-14-0082.1) as well as its training data set (Livneh et al., 2015; https://doi.org/10.7289/v5x34vf6; henceforth L15) yield a significant low (negative) bias in return values. As such, we provide scaling factors which can be used to correct these low biases, which can be applied across event extremity. The scaling factors can be used as follows: (1) Utilize the Generalized Extreme Value (GEV) distribution to estimate seasonal return values for a 1/16 grid cell of interest using a particular LOCA solution or the L15 data set. Here, we use three-month seasons (DJF, MAM, JJA, and SON). (2) Select the scaling factor corresponding to the grid cell and season of interest. (3) An observationally \"bias-corrected\" return value estimate is equal to the L15 or LOCA return value multiplied times the scaling factor.",
+    "response": {
+      "temporal_coverage": null,
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Seasonal return values of extreme daily precipitation",
+          "unit": null
+        },
+        {
+          "name": "Scaling factor",
+          "unit": null
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": 0.0625,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": true,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "Localized Constructed Analogs statistical downscaling method (LOCA)",
+      "software": [],
+      "data_sources": [
+        "Pierce et al., 2014",
+        "Livneh et al., 2015"
+      ]
+    }
+  },
+  "metadata_5617927.json": {
+    "description": "Additional data related to the paper \"Mapping methane point emissions with the PRISMA spaceborne imaging spectrometer\", Guanter et al. (2021), Remote Sensing of Environment. The archive provides methane plumes detected with PRISMA satellite in four different parts of the world (oil and gas extraction fields in Algeria, Turkmenistan, and the Permian Basin (USA), and coal mines in the Shanxi region in China). The files are provided in NetCDF4-CF format. Please, find additional information about .nc files in the READ_ME file.",
+    "response": {
+      "spatial_coverage": {
+        "locations": [
+          "Algeria",
+          "Turkmenistan",
+          "Permian Basin (USA)",
+          "Shanxi region (China)"
+        ]
+      },
+      "convention": "NetCDF4-CF",
+      "data_collection_method": "satellite",
+      "data_sources": [
+        "PRISMA satellite"
+      ]
+    }
+  },
+  "metadata_6711874.json": {
+    "description": "48 half hours per day",
+    "response": {
+      "time_frequency": 48.0
+    }
+  },
+  "metadata_6361724.json": {
+    "description": "An observational extreme precipitation dataset merged from HadEX2, GHCNDEX and CMA station records. Time span: 1901-2010 Indices: Rx1day (annual maximum 1-day precipitation), Rx5day (annual maximum 5-day precipitation) For analysis of long-term change, stations have been selected by record length. In particular, only stations with at least 30, 50, or 70 years of records during 1901-2010 were selected. For more details please see Zhang and Zhou (2019).",
+    "response": {
+      "temporal_coverage": {
+        "start": "1901",
+        "end": "2010"
+      },
+      "variable_names": [
+        {
+          "name": "Rx1day",
+          "unit": "annual maximum 1-day precipitation"
+        },
+        {
+          "name": "Rx5day",
+          "unit": "annual maximum 5-day precipitation"
+        }
+      ],
+      "data_collection_method": "observation",
+      "data_sources": [
+        "HadEX2",
+        "GHCNDEX",
+        "CMA station records",
+        "Zhang and Zhou (2019)"
+      ]
+    }
+  },
+  "metadata_4499659.json": {
+    "description": "East Asia Regional Reanalysis dataset is developed for the period of 2010-19 by Dr. Eun-Gyeong Yang and Dr. Hyun Mee Kim in Yonsei University in South Korea. Reanalysis dataset is produced every 6 hr (i.e., 00, 06, 12, 18 UTC) for 10-yr-period (2010-19). The netCDF file contains u-component of wind at 10 m, v-component of wind at 10 m, temperature at 2 m, specific humidity at 2 m, surface pressure, and sea level pressure variables of reanalysis on single levels near the surface.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2010",
+        "end": "2019"
+      },
+      "time_frequency": 4.0,
+      "variable_names": [
+        {
+          "name": "u-component of wind at 10 m",
+          "unit": null
+        },
+        {
+          "name": "v-component of wind at 10 m",
+          "unit": null
+        },
+        {
+          "name": "temperature at 2 m",
+          "unit": null
+        },
+        {
+          "name": "specific humidity at 2 m",
+          "unit": null
+        },
+        {
+          "name": "surface pressure",
+          "unit": null
+        },
+        {
+          "name": "sea level pressure",
+          "unit": null
+        }
+      ],
+      "convention": "netCDF",
+      "software": [],
+      "data_sources": [
+        "Yonsei University in South Korea"
+      ]
+    }
+  },
+  "metadata_3349351.json": {
+    "description": "The data are packaged together into network common data form (netCDF) files. Three separate files are available, with data provided separately for each season: (1) best estimates of the generalized extreme value (GEV) distribution coefficients as well as bootstrap standard errors, (2) 10-, 20-, 50-, and 100-year return values (with bootstrap standard errors) for 1955, 1965, 1975, 1985, 1995, 2005, and 2015, and (3) smoothed bootstrap estimates (250 total) for each GEV coefficient (these are used to calculate the bootstrap standard errors in the first two files). We also provide code that can be used to calculate return values, return periods, or any function thereof for any year in 1950-2017, as well as the corresponding bootstrap sampling distribution (which can be used to quantify uncertainty via standard errors or confidence intervals).",
+    "response": {
+      "temporal_coverage": {
+        "start": "1950",
+        "end": "2017"
+      },
+      "variable_names": [
+        {
+          "name": "Generalized extreme value (GEV) distribution coefficients",
+          "unit": null
+        },
+        {
+          "name": "Bootstrap standard errors",
+          "unit": null
+        },
+        {
+          "name": "10-year return values",
+          "unit": null
+        },
+        {
+          "name": "20-year return values",
+          "unit": null
+        },
+        {
+          "name": "50-year return values",
+          "unit": null
+        },
+        {
+          "name": "100-year return values",
+          "unit": null
+        },
+        {
+          "name": "Smoothed bootstrap estimates",
+          "unit": null
+        }
+      ],
+      "convention": "netCDF",
+      "timestamp_format": "YYYY",
+      "software": [
+        "Custom code"
+      ],
+      "data_sources": [
+        "Unknown"
+      ]
+    }
+  },
+  "metadata_7017644.json": {
+    "description": "Provided here are the output from the several simulations used in Dutkiewicz et al. (in prep). Each file is for a different experiment. EXP-0 is the default, and the remaining 9 are sensitivity experiment with some parameter choices changes relative to EXP-0. Labels are the same, and descriptions, are provided in Dutkiewicz (in prep). Each file include surface (0-10m) carbon biomass (mg C/m3) for the 50 plankton types, arranged as follows. 1: pico-phytoplankton, ESD 0.6um (analog of Prochlorococcus) 2: pico-phytoplankton, ESD 0.9um 3: pico-phytoplankton, ESD 1.4um 4: pico-phytoplankton, ESD 2.0um 5: coccolithophores, ESD 3.0um 6: coccolithophores, ESD 4.5um 7: coccolithophores, ESD 6.6um 8: coccolithophores, ESD 9.8um 9: coccolithophores, ESD 14um 10: diazotroph, ESD 3.0um 11: diazotroph, ESD 4.5um 12: diazotroph, ESD 6.6um 13: diazotroph, ESD 9.8um 14: diazotroph, ESD 14um (p> 15: diatom, ESD 3.0um 16: diatom, ESD 4.5um 17: diatom, ESD 6.6um 18: diatom, ESD 9.8um 19: diatom, ESD 14um 20: diatom, ESD 22um 21: diatom, ESD 32um 22: diatom, ESD 47um 23: diatom, ESD 70um 24: mixotroph, ESD 6.6um 25: mixotroph, ESD 9.8um 26: mixotroph, ESD 14um 27: mixotroph, ESD 22um 28: mixotroph, ESD 32um 29: mixotroph, ESD 47um 30: mixotroph, ESD 70um 31: mixotroph, ESD 104um 32: zoo, ESD 4.5um 33 zoo, ESD 6.6um 34: zoo, ESD 9.8um 35: zoo, ESD 14um 36: zoo, ESD 22um 37: zoo, ESD 32um 38: zoo, ESD 47um 39: zoo, ESD 70um 40: zoo, ESD 104um 41: zoo, ESD 154um 42: zoo, ESD 228um 43: zoo, ESD 338um 44: zoo, ESD 502um 45: zoo, ESD 744um 46: zoo, ESD 1103um 47: zoo, ESD 1636um 48: het bacteria 0.3um 49: het bacteria 0.6um 50: het bacteria 0.9um Reference: Dutkiewicz et al (in prep). Role of Biotic Interactions in Setting Phytoplankton Community Structure in the North East Pacific Transition Zone",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Surface Carbon Biomass",
+          "unit": "mg C/m3"
+        },
+        {
+          "name": "Pico-phytoplankton",
+          "unit": "ESD um"
+        },
+        {
+          "name": "Coccolithophores",
+          "unit": "ESD um"
+        },
+        {
+          "name": "Diazotroph",
+          "unit": "ESD um"
+        },
+        {
+          "name": "Diatom",
+          "unit": "ESD um"
+        },
+        {
+          "name": "Mixotroph",
+          "unit": "ESD um"
+        },
+        {
+          "name": "Zoo",
+          "unit": "ESD um"
+        },
+        {
+          "name": "Het Bacteria",
+          "unit": "um"
+        }
+      ],
+      "coordinate_system": null,
+      "data_collection_method": "Simulation",
+      "software": [
+        "Not Specified"
+      ],
+      "data_sources": [
+        "Dutkiewicz et al. (in prep)"
+      ]
+    }
+  },
+  "metadata_3032148.json": {
+    "description": "This dataset contains data for the paper Janechek et al. Comprehensive Atmospheric Modeling of Reactive Cyclic Siloxanes and Their Oxidation Products, ACP, 2017. In the paper, cyclic volatile methyl siloxanes (cVMSs) were added to the CMAQ model to simulate the gas phase species. This dataset contains the edited CMAQ model code, run scripts, cVMS emission development, and hourly concentration and deposition fluxes of a subset of the modeled species.",
+    "response": {
+      "time_frequency": 1.0,
+      "variable_names": [
+        {
+          "name": "cVMS emission",
+          "unit": null
+        },
+        {
+          "name": "hourly concentration",
+          "unit": null
+        },
+        {
+          "name": "deposition fluxes",
+          "unit": null
+        }
+      ],
+      "software": [
+        "CMAQ"
+      ],
+      "data_sources": [
+        "Janechek et al. Comprehensive Atmospheric Modeling of Reactive Cyclic Siloxanes and Their Oxidation Products, ACP, 2017"
+      ]
+    }
+  },
+  "metadata_5373736.json": {
+    "description": "Abstract: Current coupled global climate models have biases in their simulations of the tropical Pacific mean state conditions as well as the El Ni\\~no Southern Oscillation (ENSO) phenomenon. Specifically, in the Community Earth System Model (CESM version 1.2.2), the tropical Pacific mean state has overly weak sea surface temperature (SST) gradients in both the zonal and meridional directions, ENSO cycles are too frequent and too regular, and El Ni\\~no and La Ni\\~na events are too symmetrical. In our previous study with a slab ocean model, we showed that a higher elevation of the Andes can improve the tropical Pacific mean state simulation by adjusting the atmospheric circulation and increasing the east-west and north-south SST gradient. Motivated by the link between the mean tropical Pacific climate and ENSO variations shown in previous studies, we explored the influence of the Andes on the simulation of ENSO using the Community Earth System Model (CESM) version 1.2.2 under full atmosphere-ocean coupling. In addition to improving the simulated tropical Pacific mean state by increasing the strength of the surface easterly and cross-equatorial southerly wind, the Higher Andes experiment decreases the ENSO amplitude, increases the phase asymmetry, and makes the ENSO events less regular, resulting in a simulated ENSO that is more consistent with observations. The changes in the mean state and ENSO are connected by mean wind effects on the dynamic feedbacks. Our overall result is that increasing the height of the Andes improves the biases in the mean state and ENSO statistics in the tropical Pacific.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Sea Surface Temperature",
+          "unit": null
+        },
+        {
+          "name": "ENSO cycles",
+          "unit": null
+        },
+        {
+          "name": "Andes Elevation",
+          "unit": null
+        }
+      ],
+      "convention": null,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": null,
+      "software": [
+        "Community Earth System Model (CESM version 1.2.2)"
+      ],
+      "data_sources": [
+        "Community Earth System Model (CESM version 1.2.2)"
+      ]
+    }
+  },
+  "metadata_6694418.json": {
+    "description": "This repository contains an inventory of anthropogenic mercury emitted to air during the period from 2000 \u2013 2015. Estimates are provided for the year 2000 and then annually for the six years from 2010-2015. Estimates are constructed for 17 world regions and 17 source categories following methods described in Streets et al. (2019) and references therein. Region- and sector-level emissions are provided in table format (.csv), and global emissions are provided in a gridded NetCDF format for modeling applications. NetCDF emission files are gridded to 1\u00b0 x 1\u00b0 horizontal resolution, with component data for three mercury emission species (Hg0, Hg2, and HgP) and units of kg m-2 s-1. The spatial distribution of emissions within each world region is based on the WHET inventory from Zhang et al. (2016). Emissions for the years 2001-2009 are a linear interpolation of years 2000 and 2010. Gridded emissions comply with COARDS data conventions, and the complete gridding workflow is available on GitHub.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2000",
+        "end": "2015"
+      },
+      "spatial_coverage": {
+        "locations": [
+          "17 world regions"
+        ]
+      },
+      "time_frequency": 1.0,
+      "variable_names": [
+        {
+          "name": "Hg0",
+          "unit": "kg m-2 s-1"
+        },
+        {
+          "name": "Hg2",
+          "unit": "kg m-2 s-1"
+        },
+        {
+          "name": "HgP",
+          "unit": "kg m-2 s-1"
+        }
+      ],
+      "convention": "COARDS",
+      "spatial_resolution": 1.0,
+      "coordinate_system": null,
+      "accuracy_issues": null,
+      "timestamp_format": null,
+      "data_collection_method": null,
+      "software": [
+        "NetCDF",
+        "GitHub"
+      ],
+      "data_sources": [
+        "Streets et al. (2019)",
+        "Zhang et al. (2016)"
+      ]
+    }
+  },
+  "metadata_6182748.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2006, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2006-01-01",
+        "end": "2006-12-31"
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Latitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "Longitude",
+          "unit": "degrees"
+        },
+        {
+          "name": "ind_i",
+          "unit": null
+        },
+        {
+          "name": "ind_j",
+          "unit": null
+        }
+      ],
+      "convention": "CF",
+      "spatial_resolution": null,
+      "coordinate_system": "WGS84",
+      "accuracy_issues": {
+        "known_inaccuracies": null,
+        "missing_values": null
+      },
+      "timestamp_format": "YYYY-MM-DD HH:MM:SS",
+      "data_collection_method": "Satellite",
+      "software": [
+        "Aqua"
+      ],
+      "data_sources": [
+        ""
+      ]
+    }
+  },
+  "metadata_6021932.json": {
+    "description": "This includes the data to reproduce the figures shown in the manuscript. Also sample codes to compute GPIs (DGPI and ENGPI) are included.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "GPIs (DGPI and ENGPI)",
+          "unit": null
+        }
+      ],
+      "software": [
+        "sample codes"
+      ]
+    }
+  },
+  "metadata_3625951.json": {
+    "description": "Model simulations at the ADCP locations on the continental margins of the western Bay of Bengal.",
+    "response": {
+      "spatial_coverage": {
+        "locations": [
+          "western Bay of Bengal"
+        ]
+      },
+      "data_collection_method": "Model simulations",
+      "data_sources": [
+        "ADCP"
+      ]
+    }
+  },
+  "metadata_6185326.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2015, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2015-01-01",
+        "end": "2015-12-31"
+      },
+      "spatial_coverage": {
+        "longitude": null,
+        "latitude": null
+      },
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "date and time",
+          "unit": null
+        },
+        {
+          "name": "ind_i",
+          "unit": null
+        },
+        {
+          "name": "ind_j",
+          "unit": null
+        }
+      ],
+      "data_collection_method": "ship-track pixels in the Aqua granule hdf file",
+      "data_sources": []
+    }
+  },
+  "metadata_3101967.json": {
+    "description": "aircraft and tower data from the FOCAL 2013 campaign to North Slope, AK",
+    "response": {
+      "spatial_coverage": {
+        "locations": [
+          "North Slope, AK"
+        ]
+      },
+      "variable_names": [
+        {
+          "name": "aircraft data",
+          "unit": null
+        },
+        {
+          "name": "tower data",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "FOCAL 2013 campaign"
+      ]
+    }
+  },
+  "metadata_4621827.json": {
+    "description": "This folder contains the data and code for replication of all figures and tables and some analyses presented in Fan et al. 2021, \"Solar geoengineering can alleviate climate change pressures on crop yields.\" Nature Food, 2 (5). DOI: 10.1038/s43016-021-00278-w. Link to paper: http://www.nature.com/articles/s43016-021-00278-w Users of these data should cite Fan et al. (2021). Please contact Yuanchao Fan (ycfan@seas.harvard.edu or yfansunny@gmail.com) for any questions. Please see \"20210420-Readme.txt\" for description of the data structure and usage of the data and code.",
+    "response": {
+      "software": [],
+      "data_sources": [
+        "Fan et al. 2021",
+        "Nature Food"
+      ]
+    }
+  },
+  "metadata_4491248.json": {
+    "description": "This dataset pertains to the simulation outputs of paper \"East Antarctic Cooling Induced by Decadal Changes in Madden-Julian Oscillation During Austral Summer\". The AGCM experiment outputs for Figures 3B, 3C, 3E, and 3F were named by the figure numbers respectively. Coupled model outputs of CTRL and LP90 experiments used for plotting Figure 4 were named by model experiments and related variables.",
+    "response": {
+      "variable_names": [
+        {
+          "name": "AGCM experiment outputs for Figures 3B, 3C, 3E, and 3F",
+          "unit": null
+        },
+        {
+          "name": "Coupled model outputs of CTRL and LP90 experiments used for plotting Figure 4",
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": [
+        "East Antarctic Cooling Induced by Decadal Changes in Madden-Julian Oscillation During Austral Summer"
+      ]
+    }
+  },
+  "metadata_6788667.json": {
+    "description": "The datasets are created to validate OMPS formaldehyde total column products from Suomi NPP and NOAA-20 satellites by comparing ground-based FTIR observations. The datasets are used for \"Validation of OMPS Suomi NPP and OMPS NOAA-20 Formaldehyde Total Columns with NDACC FTIR Observations\" (Kwon et al., submitted to the Earth and Space Science).",
+    "response": {
+      "variable_names": [
+        {
+          "name": "OMPS formaldehyde total column",
+          "unit": null
+        },
+        {
+          "name": "Ground-based FTIR observations",
+          "unit": null
+        }
+      ],
+      "data_sources": [
+        "Suomi NPP",
+        "NOAA-20",
+        "NDACC FTIR"
+      ]
+    }
+  },
+  "metadata_6165902.json": {
+    "description": "monthly averages from 10th year of simulation (Dutkiewicz et al, BG, 2015)",
+    "response": {
+      "time_frequency": 12.0,
+      "data_sources": [
+        "Dutkiewicz et al, BG, 2015"
+      ]
+    }
+  },
+  "metadata_6188534.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2019, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2019-01-01",
+        "end": "2019-12-31"
+      },
+      "spatial_coverage": {
+        "longitude": null,
+        "latitude": null
+      },
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "ind_i",
+          "unit": null
+        },
+        {
+          "name": "in_j",
+          "unit": null
+        }
+      ],
+      "data_collection_method": "Aqua satellite",
+      "data_sources": [
+        "Aqua satellite"
+      ]
+    }
+  },
+  "metadata_6183456.json": {
+    "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2013, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+    "response": {
+      "temporal_coverage": {
+        "start": "2013-01-01",
+        "end": "2013-12-31"
+      },
+      "spatial_coverage": {
+        "coordinates": null,
+        "bounding_box": null,
+        "locations": null,
+        "longitude": null,
+        "latitude": null,
+        "start_location": null,
+        "end_location": null
+      },
+      "time_frequency": null,
+      "variable_names": [
+        {
+          "name": "Granule names",
+          "unit": null
+        },
+        {
+          "name": "latitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitudes",
+          "unit": "degrees"
+        },
+        {
+          "name": "ind_i",
+          "unit": "index"
+        },
+        {
+          "name": "ind_j",
+          "unit": "index"
+        }
+      ],
+      "convention": null,
+      "spatial_resolution": null,
+      "coordinate_system": null,
+      "accuracy_issues": {
+        "known_inaccuracies": true,
+        "missing_values": null
+      },
+      "timestamp_format": null,
+      "data_collection_method": "Satellite",
+      "software": [
+        "Aqua Granule"
+      ],
+      "data_sources": []
+    }
+  },
+  "metadata_4372504.json": {
+    "description": "Gridded monthly Sea-SurfaceTemperature estimates (R1--R5) as in Chan and Huybers (2021, Journal of Climate). Also provided are key results required to reproduce figures and tables in the paper.",
+    "response": {
+      "time_frequency": 30.0,
+      "variable_names": [
+        {
+          "name": "Sea-SurfaceTemperature estimates (R1--R5)",
+          "unit": null
+        }
+      ],
+      "spatial_resolution": null,
+      "software": [],
+      "data_sources": [
+        "Chan and Huybers (2021, Journal of Climate)"
+      ]
+    }
+  },
+  "metadata_4301211.json": {
+    "description": "SOCOL-AERv2 model data use in ACP paper: \"A Model Intercomparison of Stratospheric Solar Geoengineering by Accumulation-Mode Sulfate Aerosols, submission to ACP\"",
+    "response": {
+      "variable_names": [
+        {
+          "name": "SOCOL-AERv2 model data",
+          "unit": null
+        },
+        {
+          "name": "Stratospheric Solar Geoengineering",
+          "unit": null
+        },
+        {
+          "name": "Accumulation-Mode Sulfate Aerosols",
+          "unit": null
+        }
+      ],
+      "data_collection_method": "Model Intercomparison",
+      "data_sources": [
+        "ACP paper: A Model Intercomparison of Stratospheric Solar Geoengineering by Accumulation-Mode Sulfate Aerosols"
+      ]
+    }
+  },
+  "metadata_6415048.json": {
+    "description": "Key codes and processed data for \"Constraining extreme precipitation projections using past precipitation variability\"",
+    "response": {
+      "variable_names": [
+        {
+          "name": "Key codes",
+          "unit": null
+        },
+        {
+          "name": "Processed data",
+          "unit": null
+        }
+      ],
+      "software": [],
+      "data_sources": [
+        "Constraining extreme precipitation projections using past precipitation variability"
+      ]
+    }
+  }
+}
