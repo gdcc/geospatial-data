@@ -1,0 +1,89 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/QCDYHI\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "FIREBIRD-RBSP_MEE_precipitation",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/QCDYHI",
+                "global_id": "doi:10.7910/DVN/QCDYHI",
+                "description": "Data associated with the publication: Duderstadt et al. (2020), Estimating the Impacts of Radiation Belt Electrons on Atmospheric Chemistry using FIREBIRD II and Van Allen Probes Observations, Journal of Geophysical Research. (in review)",
+                "published_at": "2020-11-29T14:40:22Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Duderstadt, Katharine, 2020, \"FIREBIRD-RBSP_MEE_precipitation\", <a href=\"https://doi.org/10.7910/DVN/QCDYHI\" target=\"_blank\">https://doi.org/10.7910/DVN/QCDYHI</a>, Harvard Dataverse, V1, UNF:6:895hxG6DvTcbZBngKChDOA== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Duderstadt, Katharine, 2020, \"FIREBIRD-RBSP_MEE_precipitation\", https://doi.org/10.7910/DVN/QCDYHI, Harvard Dataverse, V1, UNF:6:895hxG6DvTcbZBngKChDOA== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/QCDYHI",
+                "keywords": [
+                    "ionosphere",
+                    "magnetosphere",
+                    "energetic particles"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 7,
+                "versionId": 211223,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2020-09-15T02:12:10Z",
+                "updatedAt": "2020-11-29T14:40:22Z",
+                "contacts": [
+                    {
+                        "name": "Duderstadt, Katharine",
+                        "affiliation": "University of New Hampshire"
+                    }
+                ],
+                "publications": [
+                    {}
+                ],
+                "authors": [
+                    "Duderstadt, Katharine"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Duderstadt, Katharine": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of New Hampshire": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

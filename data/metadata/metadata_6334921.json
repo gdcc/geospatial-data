@@ -1,0 +1,87 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/XCLAOT\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Observed and simulated dust data",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/XCLAOT",
+                "global_id": "doi:10.7910/DVN/XCLAOT",
+                "description": "This dataset is prepared for the ACP paper: Reduced surface fine dust under droughts over the southeastern United States during summertime: observations and CMIP6 model simulations Please consider citing the dataset if you find it helpful.",
+                "published_at": "2022-06-15T21:21:24Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Li, Wei, 2022, \"Observed and simulated dust data\", <a href=\"https://doi.org/10.7910/DVN/XCLAOT\" target=\"_blank\">https://doi.org/10.7910/DVN/XCLAOT</a>, Harvard Dataverse, V1, UNF:6:Af4GQ6H6f+mLZ6Nuo2F4FA== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Li, Wei, 2022, \"Observed and simulated dust data\", https://doi.org/10.7910/DVN/XCLAOT, Harvard Dataverse, V1, UNF:6:Af4GQ6H6f+mLZ6Nuo2F4FA== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/XCLAOT",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 27,
+                "versionId": 328686,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-06-15T20:05:38Z",
+                "updatedAt": "2022-06-15T21:21:24Z",
+                "contacts": [
+                    {
+                        "name": "Li, Wei",
+                        "affiliation": "University of Houston"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Li, W. and Wang, Y.: Reduced surface fine dust under droughts over the southeastern United States during summertime: observations and CMIP6 model simulations, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2022-18, 2022.",
+                        "url": "https://doi.org/10.5194/egusphere-2022-18"
+                    }
+                ],
+                "authors": [
+                    "Li, Wei"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Li, Wei": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of Houston": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

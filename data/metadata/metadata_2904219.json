@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/BM8N4C\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Influence of large-scale climate patterns on summertime U.S. ozone: A seasonal predictive model for air quality management",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/BM8N4C",
+                "global_id": "doi:10.7910/DVN/BM8N4C",
+                "description": "The dataset and codes used in our paper \"Influence of large-scale climate patterns on summertime U.S. ozone: A seasonal predictive model for air quality management\".",
+                "published_at": "2017-01-06T18:30:33Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Shen, Lu; Mickley, Loretta, 2016, \"Replication Data for: Influence of large-scale climate patterns on summertime U.S. ozone: A seasonal predictive model for air quality management\", <a href=\"https://doi.org/10.7910/DVN/BM8N4C\" target=\"_blank\">https://doi.org/10.7910/DVN/BM8N4C</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Shen, Lu; Mickley, Loretta, 2016, \"Replication Data for: Influence of large-scale climate patterns on summertime U.S. ozone: A seasonal predictive model for air quality management\", https://doi.org/10.7910/DVN/BM8N4C, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://dvn-cloud:10.7910/DVN/BM8N4C",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 22,
+                "versionId": 97028,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2016-10-19T20:38:51Z",
+                "updatedAt": "2017-01-06T18:30:33Z",
+                "contacts": [
+                    {
+                        "name": "Shen, Lu",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "authors": [
+                    "Shen, Lu",
+                    "Mickley, Loretta"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2016": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Mickley, Loretta": 1
+                        },
+                        {
+                            "Shen, Lu": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lon" length="72" />
+  <dimension name="lat" length="36" />
+  <dimension name="month" length="12" />
+  <dimension name="year" length="165" />
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="_ChunkSizes" type="uint" value="72" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="_ChunkSizes" type="uint" value="36" />
+  </variable>
+  <variable name="month" shape="month" type="double">
+    <attribute name="_ChunkSizes" type="uint" value="12" />
+  </variable>
+  <variable name="year" shape="year" type="double">
+    <attribute name="_ChunkSizes" type="uint" value="165" />
+  </variable>
+  <variable name="R1" shape="year month lat lon" type="double">
+    <attribute name="units" value="K relative to 1982-2014 climatology" />
+    <attribute name="long_name" value="Raw SSTs based on all measurements in ICOADS3.0." />
+    <attribute name="_ChunkSizes" type="uint" value="83 6 18 36" />
+  </variable>
+  <variable name="R2" shape="year month lat lon" type="double">
+    <attribute name="units" value="K relative to 1982-2014 climatology" />
+    <attribute name="long_name" value="Raw SSTs based on bucket measurements in ICOADS3.0." />
+    <attribute name="_ChunkSizes" type="uint" value="83 6 18 36" />
+  </variable>
+  <variable name="R3" shape="year month lat lon" type="double">
+    <attribute name="units" value="K relative to 1982-2014 climatology" />
+    <attribute name="long_name" value="Raw SSTs based on ERI and inferred U.S. measurements in ICOADS3.0." />
+    <attribute name="_ChunkSizes" type="uint" value="83 6 18 36" />
+  </variable>
+  <variable name="R4" shape="year month lat lon" type="double">
+    <attribute name="units" value="K relative to 1982-2014 climatology" />
+    <attribute name="long_name" value="Groupwise adjusted SSTs based on all measurements in ICOADS3.0." />
+    <attribute name="_ChunkSizes" type="uint" value="83 6 18 36" />
+  </variable>
+  <variable name="R5" shape="year month lat lon" type="double">
+    <attribute name="units" value="K relative to 1982-2014 climatology" />
+    <attribute name="long_name" value="Groupwise adjusted SSTs based on daytime-only measurements in ICOADS3.0." />
+    <attribute name="_ChunkSizes" type="uint" value="83 6 18 36" />
+  </variable>
+  <attribute name="_NCProperties" value="version=1|netcdflibversion=4.6.1|hdf5libversion=1.8.12" />
+</netcdf>

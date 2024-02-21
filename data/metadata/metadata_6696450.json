@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/RP9EC6\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: JGR-Atmosphere: The Evolution and Causes of Damaging Surface Winds in the 30 April 2021 Derecho-Producing Mesoscale Convective System in East China",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/RP9EC6",
+                "global_id": "doi:10.7910/DVN/RP9EC6",
+                "description": "The processed datasets in the article, including the surface automatic station and radar observations, and ERA5 reanalysis datasets at 0.25-degree resolution for the mesoscale convective system over the east China during 29-30 April 2021. High-resolution WRF simulation outputs analyzed in this article are included. Datasets generated for the trajectory calculation and horizontal momentum budget analysis are also included.",
+                "published_at": "2023-07-08T12:48:25Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Luo, Liping, 2022, \"Replication Data for: JGR-Atmosphere: The Evolution and Causes of Damaging Surface Winds in the 30 April 2021 Derecho-Producing Mesoscale Convective System in East China\", <a href=\"https://doi.org/10.7910/DVN/RP9EC6\" target=\"_blank\">https://doi.org/10.7910/DVN/RP9EC6</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Luo, Liping, 2022, \"Replication Data for: JGR-Atmosphere: The Evolution and Causes of Damaging Surface Winds in the 30 April 2021 Derecho-Producing Mesoscale Convective System in East China\", https://doi.org/10.7910/DVN/RP9EC6, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/RP9EC6",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 22,
+                "versionId": 347400,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2022-11-07T03:22:45Z",
+                "updatedAt": "2023-07-08T12:48:25Z",
+                "contacts": [
+                    {
+                        "name": "Luo, Liping",
+                        "affiliation": "Hohai University"
+                    }
+                ],
+                "authors": [
+                    "Luo, Liping"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Luo, Liping": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Nanjing University of Aeronautics and Astronautics": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/EHDFOH\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Global and regional trends in anthropogenic mercury emissions, 2000-2015",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/EHDFOH",
+                "global_id": "doi:10.7910/DVN/EHDFOH",
+                "description": "This repository contains an inventory of anthropogenic mercury emitted to air during the period from 2000 \u2013 2015. Estimates are provided for the year 2000 and then annually for the six years from 2010-2015. Estimates are constructed for 17 world regions and 17 source categories following methods described in Streets et al. (2019) and references therein. Region- and sector-level emissions are provided in table format (.csv), and global emissions are provided in a gridded NetCDF format for modeling applications. NetCDF emission files are gridded to 1\u00b0 x 1\u00b0 horizontal resolution, with component data for three mercury emission species (Hg0, Hg2, and HgP) and units of kg m-2 s-1. The spatial distribution of emissions within each world region is based on the WHET inventory from Zhang et al. (2016). Emissions for the years 2001-2009 are a linear interpolation of years 2000 and 2010. Gridded emissions comply with COARDS data conventions, and the complete gridding workflow is available on GitHub.",
+                "published_at": "2022-11-03T23:50:24Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Streets, David G.; Horowitz, Hannah M.; Lu, Zifeng; Levin, Leonard; Thackray, Colin P.; Sunderland, Elsie M., 2022, \"Global and regional trends in anthropogenic mercury emissions, 2000-2015\", <a href=\"https://doi.org/10.7910/DVN/EHDFOH\" target=\"_blank\">https://doi.org/10.7910/DVN/EHDFOH</a>, Harvard Dataverse, V1, UNF:6:5yhp4wifbnVl17g3mZNrfg== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Streets, David G.; Horowitz, Hannah M.; Lu, Zifeng; Levin, Leonard; Thackray, Colin P.; Sunderland, Elsie M., 2022, \"Global and regional trends in anthropogenic mercury emissions, 2000-2015\", https://doi.org/10.7910/DVN/EHDFOH, Harvard Dataverse, V1, UNF:6:5yhp4wifbnVl17g3mZNrfg== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/EHDFOH",
+                "keywords": [
+                    "mercury",
+                    "emissions",
+                    "source contributions",
+                    "small-scale gold mining",
+                    "Minamata Convention"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences",
+                    "Computer and Information Science"
+                ],
+                "fileCount": 6,
+                "versionId": 335272,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 1,
+                "createdAt": "2022-11-01T17:48:52Z",
+                "updatedAt": "2022-11-04T00:12:09Z",
+                "contacts": [
+                    {
+                        "name": "Geyman, Benjamin",
+                        "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Streets, D. G., Horowitz, H. M., Lu, Z., Levin, L., Thackray, C. P., &amp; Sunderland, E. M. (2019). Global and regional trends in mercury emissions and concentrations, 2010\u20132015. Atmospheric Environment, 201, 417\u2013427. https://doi.org/10.1016/j.atmosenv.2018.12.031",
+                        "url": "https://doi.org/10.1016/j.atmosenv.2018.12.031"
+                    }
+                ],
+                "authors": [
+                    "Streets, David G.",
+                    "Horowitz, Hannah M.",
+                    "Lu, Zifeng",
+                    "Levin, Leonard",
+                    "Thackray, Colin P.",
+                    "Sunderland, Elsie M."
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Computer and Information Science": 1
+                        },
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Horowitz, Hannah M.": 1
+                        },
+                        {
+                            "Levin, Leonard": 1
+                        },
+                        {
+                            "Lu, Zifeng": 1
+                        },
+                        {
+                            "Streets, David G.": 1
+                        },
+                        {
+                            "Sunderland, Elsie M.": 1
+                        },
+                        {
+                            "Thackray, Colin P.": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Department of Atmospheric Sciences, University of Washington": 1
+                        },
+                        {
+                            "Electric Power Research Institute": 1
+                        },
+                        {
+                            "Energy Systems Division, Argonne National Laboratory": 1
+                        },
+                        {
+                            "Harvard John A. Paulson School of Engineering and Applied Sciences": 1
+                        },
+                        {
+                            "Harvard John A. Paulson School of Engineering and Applied Sciences; Department of Environmental Health, Harvard T.H. Chan School of Public Health": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

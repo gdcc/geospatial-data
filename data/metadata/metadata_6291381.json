@@ -1,0 +1,73 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/7ME5QG\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for JGR:Atmospheres",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/7ME5QG",
+                "global_id": "doi:10.7910/DVN/7ME5QG",
+                "description": "Replication Data for JGR:Atmospheres",
+                "published_at": "2022-08-12T14:28:28Z",
+                "publisher": "Xiucheng Wang Dataverse",
+                "citationHtml": "Wang, Xiucheng, 2022, \"Replication Data for JGR:Atmospheres\", <a href=\"https://doi.org/10.7910/DVN/7ME5QG\" target=\"_blank\">https://doi.org/10.7910/DVN/7ME5QG</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "xcwang",
+                "name_of_dataverse": "Xiucheng Wang Dataverse",
+                "citation": "Wang, Xiucheng, 2022, \"Replication Data for JGR:Atmospheres\", https://doi.org/10.7910/DVN/7ME5QG, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/7ME5QG",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 4,
+                "versionId": 331092,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2022-05-13T13:30:04Z",
+                "updatedAt": "2022-08-12T14:28:28Z",
+                "contacts": [
+                    {
+                        "name": "Wang, Xiucheng",
+                        "affiliation": ""
+                    }
+                ],
+                "authors": [
+                    "Wang, Xiucheng"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Wang, Xiucheng": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

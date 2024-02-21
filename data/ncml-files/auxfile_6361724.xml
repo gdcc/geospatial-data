@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="stn" length="34848" />
+  <dimension name="year" length="110" />
+  <variable name="Rx1day_ann" shape="stn year" type="float">
+    <attribute name="long_name" value="complete records for 1901-2010 (data coverage&gt;=30year)" />
+    <attribute name="units" value="mm" />
+    <attribute name="month" type="int" value="0" />
+    <attribute name="_FillValue" type="float" value="-99.9" />
+  </variable>
+  <variable name="stn" shape="stn" type="int">
+    <attribute name="_FillValue" type="int" value="-2147483647" />
+  </variable>
+  <variable name="year" shape="year" type="int" />
+  <variable name="latitude" shape="stn" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="longitude" shape="stn" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="source" shape="stn" type="int">
+    <attribute name="long_name" value="source=0: from HadEX2; source=1: from CMA; source=2: from GHCNDEX" />
+    <attribute name="_FillValue" type="int" value="-2147483647" />
+  </variable>
+</netcdf>

@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/TADRNA\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "LIS / OTD Global Flash Extent Density (FED) Climatology",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/TADRNA",
+                "global_id": "doi:10.7910/DVN/TADRNA",
+                "description": "Data files containing global lightning climatologies derived from NASA Lightning Imaging Sensor (LIS) and Optical Transient Detector (OTD) data calculated from Flash Extent Density (FED).",
+                "published_at": "2022-02-26T18:33:11Z",
+                "publisher": "Peterson Public Lightning Data",
+                "citationHtml": "Peterson, Michael, 2020, \"LIS / OTD Global Flash Extent Density (FED) Climatology\", <a href=\"https://doi.org/10.7910/DVN/TADRNA\" target=\"_blank\">https://doi.org/10.7910/DVN/TADRNA</a>, Harvard Dataverse, V4",
+                "identifier_of_dataverse": "mpeterson_ltx",
+                "name_of_dataverse": "Peterson Public Lightning Data",
+                "citation": "Peterson, Michael, 2020, \"LIS / OTD Global Flash Extent Density (FED) Climatology\", https://doi.org/10.7910/DVN/TADRNA, Harvard Dataverse, V4",
+                "storageIdentifier": "s3://10.7910/DVN/TADRNA",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 41,
+                "versionId": 315871,
+                "versionState": "RELEASED",
+                "majorVersion": 4,
+                "minorVersion": 0,
+                "createdAt": "2020-09-08T14:53:26Z",
+                "updatedAt": "2022-02-26T18:33:11Z",
+                "contacts": [
+                    {
+                        "name": "Peterson, Michael",
+                        "affiliation": "Los Alamos National Laboratory"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "LA-UR-20-26320"
+                    }
+                ],
+                "authors": [
+                    "Peterson, Michael"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Peterson, Michael": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Los Alamos National Laboratory": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

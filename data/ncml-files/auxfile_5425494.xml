@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="720" />
+  <dimension name="lon" length="1440" />
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+  </variable>
+  <variable name="BurnedArea" shape="lat lon" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+  </variable>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.7.4,hdf5=1.10.6" />
+</netcdf>

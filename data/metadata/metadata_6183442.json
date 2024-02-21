@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/64CLAS\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "2014 locations of ship-track pixels",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/64CLAS",
+                "global_id": "doi:10.7910/DVN/64CLAS",
+                "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2014, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+                "published_at": "2022-04-27T19:58:53Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Song, Hua, 2022, \"2014 locations of ship-track pixels\", <a href=\"https://doi.org/10.7910/DVN/64CLAS\" target=\"_blank\">https://doi.org/10.7910/DVN/64CLAS</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Song, Hua, 2022, \"2014 locations of ship-track pixels\", https://doi.org/10.7910/DVN/64CLAS, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/64CLAS",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 12,
+                "versionId": 325247,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-04-27T16:16:51Z",
+                "updatedAt": "2022-04-27T19:58:53Z",
+                "contacts": [
+                    {
+                        "name": "Song, Hua",
+                        "affiliation": "Science Systems and Applications Inc"
+                    }
+                ],
+                "authors": [
+                    "Song, Hua"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Song, Hua": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Science Systems and Applications Inc": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

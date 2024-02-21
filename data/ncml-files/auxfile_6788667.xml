@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="ndaily" length="71" />
+  <dimension name="nmonthly" length="24" />
+  <dimension name="nmonth" length="12" />
+  <dimension name="ndata" length="815" />
+  <variable name="ftir_daily_simple_vcd_noak" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Daily FTIR simple average pairs without AK and smoothing" />
+  </variable>
+  <variable name="ftir_daily_weight_vcd_noak" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Daily FTIR weighted average pairs without AK and smoothing" />
+  </variable>
+  <variable name="ftir_daily_weight_unc_noak" shape="ndaily" type="double">
+    <attribute name="description" value="Uncertainty of daily FTIR weighted average pairs without AK and smoothing" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+  </variable>
+  <variable name="ftir_daily_weight_unc_sample_noak" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Error propagation uncertainty of daily FTIR weighted average pairs without AK and smoothing" />
+  </variable>
+  <variable name="ftir_daily_simple_vcd" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Daily FTIR simple average pairs" />
+  </variable>
+  <variable name="ftir_daily_weight_vcd" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Daily FTIR weighted average pairs" />
+  </variable>
+  <variable name="ftir_daily_weight_unc" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Uncertainty of daily FTIR weighted average pairs" />
+  </variable>
+  <variable name="ftir_daily_weight_unc_sample" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Error propagation uncertainty  of daily FTIR weighted average pairs" />
+  </variable>
+  <variable name="omps_daily_simple_vcd" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Daily OMPS simple average pairs" />
+  </variable>
+  <variable name="omps_daily_weight_vcd" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Daily OMPS weighted average pairs" />
+  </variable>
+  <variable name="omps_daily_weight_unc" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Uncertainty of daily OMPS weighted average pairs" />
+  </variable>
+  <variable name="ndata_daily_pairs" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="The number of pixels for daily pairs" />
+  </variable>
+  <variable name="ndata_daily_ftir" shape="ndaily" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="The averaged number of ftir data on each pixel for daily pairs" />
+  </variable>
+  <variable name="nymd_daily_pairs" shape="ndaily" type="int">
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="Daily yyyymmdd" />
+  </variable>
+  <variable name="ftir_monthly_simple_vcd" shape="nmonthly" type="double">
+    <attribute name="description" value="Monthly FTIR simple average pairs" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+  </variable>
+  <variable name="ftir_monthly_weight_vcd" shape="nmonthly" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Monthly FTIR weighted average pairs" />
+  </variable>
+  <variable name="ftir_monthly_weight_unc" shape="nmonthly" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Uncertainty of monthly FTIR weighted average pairs" />
+  </variable>
+  <variable name="ftir_monthly_weight_unc_sample" shape="nmonthly" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Error propagation uncertainty of monthly FTIR weighted average pairs" />
+  </variable>
+  <variable name="ftir_monthly_simple_vcd_noak" shape="nmonthly" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Monthly FTIR simple average pairs without AK and smoothing" />
+  </variable>
+  <variable name="ftir_monthly_weight_vcd_noak" shape="nmonthly" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Monthly FTIR weighted average pairs without AK and smoothing" />
+  </variable>
+  <variable name="ftir_monthly_weight_unc_noak" shape="nmonthly" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Uncertainty of monthly FTIR weighted average pairs without AK and smoothing" />
+  </variable>
+  <variable name="ftir_monthly_weight_unc_sample_noak" shape="nmonthly" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Error propagation uncertainty of monthly FTIR weighted average pairs without AK and smoothing" />
+  </variable>
+  <variable name="omps_monthly_weight_vcd" shape="nmonthly" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Monthly OMPS weighted average pairs" />
+  </variable>
+  <variable name="omps_monthly_weight_unc" shape="nmonthly" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Uncertainty of monthly OMPS weighted average pairs" />
+  </variable>
+  <variable name="ndata_monthly_pairs" shape="nmonthly" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="The number of pixels for monthly pairs" />
+  </variable>
+  <variable name="ndata_monthly_ftir" shape="nmonthly" type="double">
+    <attribute name="description" value="The averaged number of ftir data on each pixel for monthly pairs" />
+    <attribute name="unit" value="unitless" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+  </variable>
+  <variable name="nymd_monthly_pairs" shape="nmonthly" type="int">
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="Monthly yyyymm" />
+  </variable>
+  <variable name="ndays_monthly_pairs" shape="nmonthly" type="int">
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="the number of days considered for one month" />
+  </variable>
+  <variable name="ftir_seasonal_simple_vcd" shape="nmonth" type="double">
+    <attribute name="description" value="Seasonal FTIR simple average" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+  </variable>
+  <variable name="ftir_seasonal_weight_vcd" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Seasonal FTIR weighted average" />
+  </variable>
+  <variable name="ftir_seasonal_weight_unc" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Uncertainty of seasonal FTIR weighted average" />
+  </variable>
+  <variable name="ftir_seasonal_weight_unc_sample" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Error propagation uncertainty of seasonal FTIR weighted average" />
+  </variable>
+  <variable name="ftir_seasonal_simple_vcd_noak" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Seasonal FTIR simple average without AK and smoothing" />
+  </variable>
+  <variable name="ftir_seasonal_weight_vcd_noak" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Seasonal FTIR weighted average without AK and smoothing" />
+  </variable>
+  <variable name="ftir_seasonal_weight_unc_noak" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Uncertainty of seasonal FTIR weighted average without AK and smoothing" />
+  </variable>
+  <variable name="ftir_seasonal_weight_unc_sample_noak" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Error propagation uncertainty of seasonal FTIR weighted average without AK and smoothing" />
+  </variable>
+  <variable name="omps_seasonal_weight_vcd" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Seasonal OMPS weighted average" />
+  </variable>
+  <variable name="omps_seasonal_weight_unc" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="molec. cm-2" />
+    <attribute name="description" value="Uncertainty of seasonal OMPS weighted average" />
+  </variable>
+  <variable name="ndata_seasonal_pairs" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="The number of pixels for seasonal pairs" />
+  </variable>
+  <variable name="ndata_seasonal_ftir" shape="nmonth" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="The averaged number of ftir data on each pixel for seasonal pairs" />
+  </variable>
+  <variable name="ndays_seasonal_pairs" shape="nmonth" type="double">
+    <attribute name="description" value="the number of days considered for seasonal variation" />
+    <attribute name="unit" value="unitless" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+  </variable>
+  <variable name="amf" shape="ndata" type="float">
+    <attribute name="description" value="air mass factor for pixels" />
+    <attribute name="_FillValue" type="float" value="NaN" />
+    <attribute name="unit" value="unitless" />
+  </variable>
+  <variable name="cloud_fraction" shape="ndata" type="float">
+    <attribute name="_FillValue" type="float" value="NaN" />
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="cloud fraction for pixels" />
+  </variable>
+  <variable name="cloud_pressure" shape="ndata" type="float">
+    <attribute name="_FillValue" type="float" value="NaN" />
+    <attribute name="unit" value="hPa" />
+    <attribute name="description" value="cloud pressure for pixels" />
+  </variable>
+  <variable name="surface_albedo" shape="ndata" type="float">
+    <attribute name="_FillValue" type="float" value="NaN" />
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="surface albedo for pixels" />
+  </variable>
+  <variable name="nymd_pixels" shape="ndata" type="int">
+    <attribute name="unit" value="unitless" />
+    <attribute name="description" value="YYYYMMDD for pixels" />
+  </variable>
+  <attribute name="instrument_longitude" type="float" value="-98.6552" />
+  <attribute name="instrument_latitude" type="float" value="19.1187" />
+  <attribute name="ground_file" value="/scratch/sao_atmos/hkwon/MEASURES/output/omps_final/cld_corr_final/n20/MEASURES_ftir.ch2o_altzomoni_20120928t152210z_20190901t140652z.nc" />
+  <attribute name="satellite_file" value="/scratch/sao_atmos/hkwon/MEASURES/output/omps_final/cld_corr_final/n20/MEASURES_OMPS-N20.ch2o_altzomoni_20180116t190654z_20201231t195655z.nc" />
+  <attribute name="main_data_quality_flag" value="== 0" />
+  <attribute name="cloud_fraction" value="&lt; 0.4" />
+  <attribute name="solar_zenith_angle" value="&lt; 70.0" />
+  <attribute name="snow_fraction" value="== 0" />
+  <attribute name="ice_fraction" value="== 0" />
+  <attribute name="_NCProperties" value="version=2,netcdf=4.8.1,hdf5=1.12.1" />
+</netcdf>

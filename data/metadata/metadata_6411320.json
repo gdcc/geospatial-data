@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/Y8PZLN\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Near-term projections of wet-bulb temperature over Mesopotamia using MRCM",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/Y8PZLN",
+                "global_id": "doi:10.7910/DVN/Y8PZLN",
+                "description": "This dataset provides daily (DAY) minimum/maximum wet-bulb temperature (TWmin/TWmax) over the Mesopotamia basin for 1976-2050 simulated by MRCM. We provide bias-corrected wet-bulb temperatures at Najaf, Basra, and Karbala stations in Iraq at the 3-hourly (3HR) timescale. The files are organized and labeled by boundary condition (ML: MPI-ESM1-2-LR; HL: HadGEM3-GC31-LL; NL: NorESM2-LM) and scenario (RF: reference; 26: SSP1-2.6; 85: SSP5-8.5). OUT_HEAD file contains latitude and longitude information. Please refer to the related publication for a detailed description of the MRCM and simulations.",
+                "published_at": "2022-08-03T20:55:42Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Choi, Yeonwoo; Elfatih A. B. Eltahir, 2022, \"Near-term projections of wet-bulb temperature over Mesopotamia using MRCM\", <a href=\"https://doi.org/10.7910/DVN/Y8PZLN\" target=\"_blank\">https://doi.org/10.7910/DVN/Y8PZLN</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Choi, Yeonwoo; Elfatih A. B. Eltahir, 2022, \"Near-term projections of wet-bulb temperature over Mesopotamia using MRCM\", https://doi.org/10.7910/DVN/Y8PZLN, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/Y8PZLN",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 29,
+                "versionId": 330774,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-08-03T20:53:41Z",
+                "updatedAt": "2022-08-03T20:55:42Z",
+                "contacts": [
+                    {
+                        "name": "Choi, Yeonwoo",
+                        "affiliation": "MIT"
+                    }
+                ],
+                "authors": [
+                    "Choi, Yeonwoo",
+                    "Elfatih A. B. Eltahir"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Choi, Yeonwoo": 1
+                        },
+                        {
+                            "Elfatih A. B. Eltahir": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "MIT": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

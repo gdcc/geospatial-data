@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="x" length="2048" />
+  <dimension name="y" length="64" />
+  <variable name="x" shape="x" type="double">
+    <attribute name="units" value="km" />
+    <attribute name="long_name" value="x" />
+  </variable>
+  <variable name="y" shape="y" type="double">
+    <attribute name="units" value="km" />
+    <attribute name="long_name" value="y" />
+  </variable>
+  <variable name="olr" shape="y x" type="double">
+    <attribute name="units" value="W m**-2" />
+    <attribute name="long_name" value="outgoing_longwave_radiation" />
+    <attribute name="full_name" value="Outgoing Longwave Radiation" />
+  </variable>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.9.0,hdf5=1.12.1" />
+</netcdf>

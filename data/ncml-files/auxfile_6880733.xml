@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <group name="thermal">
+    <dimension name="time" length="466" isUnlimited="true" />
+    <variable name="time" shape="time" type="uint">
+      <attribute name="units" value="seconds since 1970-01-01 00:00:00.0" />
+      <attribute name="calendar" value="gregorian" />
+      <attribute name="_ChunkSizes" type="uint" value="1024" />
+    </variable>
+    <variable name="spectrometer_temperature" shape="time" type="float">
+      <attribute name="units" value="Degrees C" />
+      <attribute name="_ChunkSizes" type="uint" value="1024" />
+    </variable>
+    <variable name="board_temperature" shape="time" type="float">
+      <attribute name="units" value="Degrees C" />
+      <attribute name="_ChunkSizes" type="uint" value="1024" />
+    </variable>
+    <variable name="TEC_power" shape="time" type="float">
+      <attribute name="units" value="Percentage of Power to TEC" />
+      <attribute name="_ChunkSizes" type="uint" value="1024" />
+    </variable>
+  </group>
+  <group name="fixed">
+    <dimension name="wavelength" length="2048" isUnlimited="true" />
+    <dimension name="time" length="1006" isUnlimited="true" />
+    <dimension name="x" length="0" isUnlimited="true" />
+    <dimension name="y" length="0" isUnlimited="true" />
+    <dimension name="color" length="3" />
+    <variable name="wavelength" shape="wavelength" type="float">
+      <attribute name="units" value="nanometers" />
+      <attribute name="_ChunkSizes" type="uint" value="1024" />
+    </variable>
+    <variable name="time" shape="time" type="uint">
+      <attribute name="units" value="seconds since 1970-01-01 00:00:00.0" />
+      <attribute name="calendar" value="gregorian" />
+      <attribute name="_ChunkSizes" type="uint" value="1024" />
+    </variable>
+    <variable name="x" shape="x" type="short">
+      <attribute name="units" value="pixels right" />
+      <attribute name="_ChunkSizes" type="uint" value="2048" />
+    </variable>
+    <variable name="y" shape="y" type="short">
+      <attribute name="units" value="pixels up" />
+      <attribute name="_ChunkSizes" type="uint" value="2048" />
+    </variable>
+    <variable name="spectra" shape="time wavelength" type="uint">
+      <attribute name="units" value="DN" />
+      <attribute name="_ChunkSizes" type="uint" value="1024 1024" />
+    </variable>
+    <variable name="integration_time" shape="time" type="float">
+      <attribute name="units" value="microseconds" />
+      <attribute name="_ChunkSizes" type="uint" value="1024" />
+    </variable>
+    <variable name="pan_angle" shape="time" type="float">
+      <attribute name="units" value="Degrees CW From North" />
+      <attribute name="_ChunkSizes" type="uint" value="1024" />
+    </variable>
+    <variable name="tilt_angle" shape="time" type="float">
+      <attribute name="units" value="Degrees Up From Horizon" />
+      <attribute name="_ChunkSizes" type="uint" value="1024" />
+    </variable>
+    <variable name="image" shape="x y color time" type="ubyte">
+      <attribute name="units" value="none" />
+      <attribute name="_ChunkSizes" type="uint" value="1 1 3 1" />
+    </variable>
+  </group>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.7.3,hdf5=1.10.4" />
+</netcdf>

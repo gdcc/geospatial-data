@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="latitude" length="19" />
+  <dimension name="latitude_edges" length="20" />
+  <dimension name="level" length="51" />
+  <dimension name="level_edges" length="52" />
+  <dimension name="aerosol_bin" length="40" />
+  <dimension name="bin_edges" length="41" />
+  <dimension name="date_charlength" length="8" />
+  <dimension name="time" length="131" isUnlimited="true" />
+  <variable name="latitude" shape="latitude" type="float">
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="latitude_edges" shape="latitude_edges" type="float">
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="level" shape="level" type="float">
+    <attribute name="units" value="mb" />
+  </variable>
+  <variable name="level_edges" shape="level_edges" type="float">
+    <attribute name="units" value="mb" />
+  </variable>
+  <variable name="aerosol_bin" shape="aerosol_bin" type="float">
+    <attribute name="units" value="micron" />
+  </variable>
+  <variable name="bin_edges" shape="bin_edges" type="float">
+    <attribute name="units" value="micron" />
+  </variable>
+  <variable name="time" shape="time" type="int">
+    <attribute name="units" value="day number" />
+  </variable>
+  <variable name="day" shape="time" type="int">
+    <attribute name="units" value="julian day" />
+  </variable>
+  <variable name="trop_height" shape="time latitude" type="int">
+    <attribute name="units" value="model level" />
+  </variable>
+  <variable name="date" shape="time date_charlength" type="char">
+    <attribute name="units" value="yyyymmdd" />
+  </variable>
+  <variable name="O1D" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="O" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="O2D" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="H" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="OH" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="H2O2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="MEO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="MEOH" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH2O" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="I" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="IO" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="I2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="I2O2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HI" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HOI" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="INO" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="INO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="INO3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CL" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CLO" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HCL" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HOCL" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CLNO3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CLO3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="OCLO" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CLOO" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CL2O2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CL2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CLNO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="N" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="NO" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="NO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="NO3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="N2O5" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HO2NO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HONO" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="BR" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="BRO" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HBR" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HOBR" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="BRNO3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="BRNO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="BR2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="BRCL" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="ETHO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="ETHOH" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH3CHO" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH3CO3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH3CO3H" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="ETHO2NO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="N2O" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH4" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="C2H6" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="H2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CO" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH3CL" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CCL4" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CFCL3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CF2CL2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH3CCL3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CF2O" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH3BR" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH2BR2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CHBR3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CHCLF2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="C2CL3F3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="C2CL2F4" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="C2CLF5" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="C2H3FCL2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="C2H3F2CL" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="C2HF3CL2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CBRCLF2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CBRF3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CBR2F2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="C2BR2F4" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH3I" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CF3I" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="O3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="NOX" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CLX" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="BRX" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="FX" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="IX" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="PAN" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="NOZ" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="SHNO3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HNO3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="H2O" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="SH2O" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="ODP" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CS2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="DMS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="H2S" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="MSA" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="OCS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="SO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="SO3" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="H2SO4" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CH3CN" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="HCN" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="CO2" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="N2OPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="N2OLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH4PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH4LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2H6PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2H6LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="H2PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="H2LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="COPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="COLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH3CLPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH3CLLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CCL4PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CCL4LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CFCL3PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CFCL3LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CF2CL2PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CF2CL2LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH3CCL3PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH3CCL3LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CF2OPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CF2OLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH3BRPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH3BRLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH2BR2PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH2BR2LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CHBR3PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CHBR3LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CHCLF2PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CHCLF2LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2CL3F3PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2CL3F3LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2CL2F4PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2CL2F4LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2CLF5PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2CLF5LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2H3FCL2PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2H3FCL2LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2H3F2CLPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2H3F2CLLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2HF3CL2PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2HF3CL2LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CBRCLF2PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CBRCLF2LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CBRF3PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CBRF3LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CBR2F2PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CBR2F2LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2BR2F4PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="C2BR2F4LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH3IPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH3ILLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CF3IPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CF3ILLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="O3PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="O3LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="O3QLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="NOXPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="NOXLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="NOXQLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CLXPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CLXLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="BRXPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="BRXLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="FXPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="FXLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="IXPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="IXLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="PANPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="PANLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="NOZPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="NOZLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="NOZQLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="SHNO3PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="SHNO3LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="HNO3PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="HNO3LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="H2OPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="H2OLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="H2OQLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="SH2OPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="SH2OLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="ODPPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="ODPLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CS2PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CS2LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="DMSPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="DMSLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="H2SPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="H2SLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="MSAPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="MSALLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="OCSPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="OCSLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="SO2PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="SO2LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="SO3PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="SO3LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="H2SO4PROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="H2SO4LLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH3CNPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="CH3CNLLOS" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="HCNPROD" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio/s" />
+  </variable>
+  <variable name="O3COLUMN" shape="time latitude" type="float">
+    <attribute name="units" value="dobson units" />
+  </variable>
+  <variable name="AEROSOL" shape="time aerosol_bin level latitude" type="float">
+    <attribute name="units" value="particles/cm�" />
+  </variable>
+  <variable name="TEMPERATURE" shape="time level latitude" type="float">
+    <attribute name="units" value="Kelvin" />
+  </variable>
+  <variable name="SURFACE_AREA" shape="time level latitude" type="float">
+    <attribute name="units" value="um^2/cm^3" />
+  </variable>
+  <variable name="AEROSOL_MASS" shape="time level latitude" type="float">
+    <attribute name="units" value="gm/cm^3" />
+  </variable>
+  <variable name="AEROSOL_SULFATE" shape="time level latitude" type="float">
+    <attribute name="units" value="mixing ratio" />
+  </variable>
+  <variable name="TOTAL_PARTICLES" shape="time level latitude" type="float">
+    <attribute name="units" value="total particles/cm^3" />
+  </variable>
+  <variable name="PARTICLES_0.01um" shape="time level latitude" type="float">
+    <attribute name="units" value="particles&gt;0.01um/cm^3" />
+  </variable>
+  <variable name="PARTICLES_0.15um" shape="time level latitude" type="float">
+    <attribute name="units" value="particles&gt;0.15um/cm^3" />
+  </variable>
+  <variable name="EFFECTIVE_RADIUS" shape="time level latitude" type="float">
+    <attribute name="units" value="microns" />
+  </variable>
+  <variable name="BVP" shape="time level latitude" type="float">
+    <attribute name="units" value="equil h2so4 conc" />
+  </variable>
+  <variable name="WEIGHT_PERCENT" shape="time level latitude" type="float">
+    <attribute name="units" value="percent" />
+  </variable>
+  <variable name="DENSITY" shape="time level latitude" type="float">
+    <attribute name="units" value="grams/cm^3" />
+  </variable>
+  <variable name="AIRVD" shape="time level latitude" type="float">
+    <attribute name="units" value="molec/cm^3" />
+  </variable>
+</netcdf>

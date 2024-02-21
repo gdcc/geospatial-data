@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="MAXGRPDIS_x" length="1770" />
+  <dimension name="DURATION_x" length="1770" />
+  <dimension name="AREA_x" length="1770" />
+  <dimension name="FOUND_x" length="1770" />
+  <dimension name="FLASH_ID_x" length="1770" />
+  <dimension name="LCFA_TSTAMP_x" length="1770" />
+  <dimension name="YEAR_x" length="1770" />
+  <dimension name="MONTH_x" length="1770" />
+  <dimension name="DAY_x" length="1770" />
+  <dimension name="HOUR_x" length="1770" />
+  <dimension name="LAT_x" length="1770" />
+  <dimension name="LON_x" length="1770" />
+  <dimension name="FED_x" length="3600" />
+  <dimension name="FED_y" length="1800" />
+  <dimension name="FED_z" length="3" />
+  <dimension name="TDAYS_x" length="3600" />
+  <dimension name="TDAYS_y" length="1800" />
+  <dimension name="TDAYS_z" length="3" />
+  <variable name="MAXGRPDIS" shape="MAXGRPDIS_x" type="int" />
+  <variable name="DURATION" shape="DURATION_x" type="int" />
+  <variable name="AREA" shape="AREA_x" type="int" />
+  <variable name="FOUND" shape="FOUND_x" type="short" />
+  <variable name="FLASH_ID" shape="FLASH_ID_x" type="int" />
+  <variable name="LCFA_TSTAMP" shape="LCFA_TSTAMP_x" type="int" />
+  <variable name="YEAR" shape="YEAR_x" type="short" />
+  <variable name="MONTH" shape="MONTH_x" type="short" />
+  <variable name="DAY" shape="DAY_x" type="short" />
+  <variable name="HOUR" shape="HOUR_x" type="float" />
+  <variable name="LAT" shape="LAT_x" type="float" />
+  <variable name="LON" shape="LON_x" type="float" />
+  <variable name="FED" shape="FED_z FED_y FED_x" type="float" />
+  <variable name="TDAYS" shape="TDAYS_z TDAYS_y TDAYS_x" type="float" />
+</netcdf>

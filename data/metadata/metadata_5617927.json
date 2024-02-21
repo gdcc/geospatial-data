@@ -1,0 +1,101 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/BMNF0H\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "High-resolution PRISMA methane plumes",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/BMNF0H",
+                "global_id": "doi:10.7910/DVN/BMNF0H",
+                "description": "Additional data related to the paper \"Mapping methane point emissions with the PRISMA spaceborne imaging spectrometer\", Guanter et al. (2021), Remote Sensing of Environment. The archive provides methane plumes detected with PRISMA satellite in four different parts of the world (oil and gas extraction fields in Algeria, Turkmenistan, and the Permian Basin (USA), and coal mines in the Shanxi region in China). The files are provided in NetCDF4-CF format. Please, find additional information about .nc files in the READ_ME file.",
+                "published_at": "2021-12-10T14:21:45Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Guanter, Luis; Irakulis-Loitxate, Itziar, 2021, \"High-resolution PRISMA methane plumes\", <a href=\"https://doi.org/10.7910/DVN/BMNF0H\" target=\"_blank\">https://doi.org/10.7910/DVN/BMNF0H</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Guanter, Luis; Irakulis-Loitxate, Itziar, 2021, \"High-resolution PRISMA methane plumes\", https://doi.org/10.7910/DVN/BMNF0H, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/BMNF0H",
+                "keywords": [
+                    "Methane, plumes, PRISMA satellite"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 9,
+                "versionId": 292233,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-12-10T12:34:15Z",
+                "updatedAt": "2021-12-10T14:21:45Z",
+                "contacts": [
+                    {
+                        "name": "Guanter, Luis",
+                        "affiliation": "Research Institute of Water and Environmental Engineering (IIAMA), Universitat Polit\u00e8cnica de Val\u00e8nciaineering (IIAMA)"
+                    },
+                    {
+                        "name": "Irakulis-Loitxate, Itziar",
+                        "affiliation": "Research Institute of Water and Environmental Engineering (IIAMA), Universitat Polit\u00e8cnica de Val\u00e8ncia"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Luis Guanter, Itziar Irakulis-Loitxate, Javier Gorro\u00f1o, Elena S\u00e1nchez-Garc\u00eda, Daniel H. Cusworth, Daniel J. Varon, Sergio Cogliati, Roberto Colombo. \"Mapping methane point emissions with the PRISMA spaceborne imaging spectrometer\". Remote Sensing of Environment, Volume 265, 2021, 112671, ISSN 0034-4257, https://doi.org/10.1016/j.rse.2021.112671. (https://www.sciencedirect.com/science/article/pii/S0034425721003916)",
+                        "url": "https://doi.org/10.1016/j.rse.2021.112671"
+                    }
+                ],
+                "authors": [
+                    "Guanter, Luis",
+                    "Irakulis-Loitxate, Itziar"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Guanter, Luis": 1
+                        },
+                        {
+                            "Irakulis-Loitxate, Itziar": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Research Institute of Water and Environmental Engineering (IIAMA), Universitat Polit\u00e8cnica de Val\u00e8ncia": 1
+                        },
+                        {
+                            "Research Institute of Water and Environmental Engineering (IIAMA), Universitat Polit\u00e8cnica de Val\u00e8nciag (IIAMA)": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

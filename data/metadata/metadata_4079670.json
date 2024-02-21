@@ -1,0 +1,124 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/JUMXOL\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "SAGE-IGP agricultural fire emissions in north India",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/JUMXOL",
+                "global_id": "doi:10.7910/DVN/JUMXOL",
+                "description": "SAGE-IGP (Survey Constraints on FRP-based AGricultural Fire Emissions in the Indo-Gangetic Plain) is a gridded inventory at daily, 0.25\u00b0 x 0.25\u00b0 resolution over north India for post-monsoon agricultural fires from 2003-2018. The inventory contains estimates of dry matter (DM) burned, which can be converted to emissions of various chemical species, such as CO2, CO, organic carbon (OC), and black carbon (BC), for the states of Punjab, Haryana, Uttar Pradesh, and Bihar. We develop a method that adjusts MODIS Fire Radiative Power (FRP) for: (1) additional small fires detected by the Visible Infrared Imaging Radiometer Suite (VIIRS) at 375-m spatial resolution and (2) cloud/haze gaps in satellite observations using satellite observations; and (3) partial-field burns and (4) the diurnal cycle of fire activity using household survey responses. The associated code for the SAGE-IGP inventory is available from the SAGE-IGP GitHub repository",
+                "published_at": "2021-01-13T22:46:02Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Liu, Tianjia; Mickley, Loretta J.; Singh, Sukhwinder; Jain, Meha; DeFries, Ruth S.; Marlier, Miriam E., 2020, \"SAGE-IGP agricultural fire emissions in north India\", <a href=\"https://doi.org/10.7910/DVN/JUMXOL\" target=\"_blank\">https://doi.org/10.7910/DVN/JUMXOL</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Liu, Tianjia; Mickley, Loretta J.; Singh, Sukhwinder; Jain, Meha; DeFries, Ruth S.; Marlier, Miriam E., 2020, \"SAGE-IGP agricultural fire emissions in north India\", https://doi.org/10.7910/DVN/JUMXOL, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/JUMXOL",
+                "keywords": [
+                    "crop residue burning",
+                    "fires",
+                    "emissions",
+                    "household survey",
+                    "MODIS",
+                    "India"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 17,
+                "versionId": 187919,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2020-02-29T05:06:34Z",
+                "updatedAt": "2021-01-13T22:46:02Z",
+                "contacts": [
+                    {
+                        "name": "Liu, Tianjia",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Liu, T., Mickley, L.J., Singh, S., Jain, M., DeFries, R.S., and Marlier, M.E. (2020) Crop residue burning practices across north India inferred from household survey data: bridging gaps in satellite observations. Atmos. Environ. X, 8, 100091.",
+                        "url": "https://doi.org/10.1016/j.aeaoa.2020.100091"
+                    }
+                ],
+                "authors": [
+                    "Liu, Tianjia",
+                    "Mickley, Loretta J.",
+                    "Singh, Sukhwinder",
+                    "Jain, Meha",
+                    "DeFries, Ruth S.",
+                    "Marlier, Miriam E."
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "DeFries, Ruth S.": 1
+                        },
+                        {
+                            "Jain, Meha": 1
+                        },
+                        {
+                            "Liu, Tianjia": 1
+                        },
+                        {
+                            "Marlier, Miriam E.": 1
+                        },
+                        {
+                            "Mickley, Loretta J.": 1
+                        },
+                        {
+                            "Singh, Sukhwinder": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Columbia University": 1
+                        },
+                        {
+                            "Harvard University": 1
+                        },
+                        {
+                            "University of California, Los Angeles": 1
+                        },
+                        {
+                            "University of Michigan": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

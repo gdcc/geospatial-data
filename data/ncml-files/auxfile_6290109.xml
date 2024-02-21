@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="DRYCOEFF" length="20" />
+  <dimension name="IOLSON" length="74" />
+  <dimension name="IDRYDEP" length="11" />
+  <dimension name="IWATER" length="1" />
+  <variable name="DRYCOEFF" shape="DRYCOEFF" type="double">
+    <attribute name="long_name" value="Baldocchi dry deposition polynomial coefficients" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="IOLSON" shape="IOLSON" type="int">
+    <attribute name="long_name" value="Olson land type indices (+1)" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="IDEP" shape="IOLSON" type="int">
+    <attribute name="long_name" value="Mapping index: Olson land type ID to drydep ID" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="IWATER" shape="IWATER" type="int">
+    <attribute name="long_name" value="Indices of Olson land types that represent water" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="IZO" shape="IOLSON" type="int">
+    <attribute name="long_name" value="Default roughness heights for each Olson land type" />
+    <attribute name="units" value="1e-4 m" />
+  </variable>
+  <variable name="IDRYDEP" shape="IDRYDEP" type="int">
+    <attribute name="long_name" value="Dry deposition land types" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="IRI" shape="IDRYDEP" type="int">
+    <attribute name="long_name" value="RI resistance for each dry deposition land type" />
+    <attribute name="units" value="s m-1" />
+  </variable>
+  <variable name="IRLU" shape="IDRYDEP" type="int">
+    <attribute name="long_name" value="RLU resistance for each dry deposition land type" />
+    <attribute name="units" value="s m-1" />
+  </variable>
+  <variable name="IRAC" shape="IDRYDEP" type="int">
+    <attribute name="long_name" value="RAC resistance for each dry deposition land type" />
+    <attribute name="units" value="s m-1" />
+  </variable>
+  <variable name="IRGSS" shape="IDRYDEP" type="int">
+    <attribute name="long_name" value="RGSS resistance for each dry deposition land type" />
+    <attribute name="units" value="s m-1" />
+  </variable>
+  <variable name="IRGSO" shape="IDRYDEP" type="int">
+    <attribute name="long_name" value="RGSO resistance for each dry deposition land type" />
+    <attribute name="units" value="s m-1" />
+  </variable>
+  <variable name="IRCLS" shape="IDRYDEP" type="int">
+    <attribute name="long_name" value="RCLS resistance for each dry deposition land type" />
+    <attribute name="units" value="s m-1" />
+  </variable>
+  <variable name="IRCLO" shape="IDRYDEP" type="int">
+    <attribute name="long_name" value="RCLO resistance for each dry deposition land type" />
+    <attribute name="units" value="s m-1" />
+  </variable>
+  <variable name="IVSMAX" shape="IDRYDEP" type="int">
+    <attribute name="long_name" value="Max drydep velocity (for aerosol) for each dry deposition land type" />
+    <attribute name="units" value="1e-2 cm s-1" />
+  </variable>
+  <attribute name="title" value="Dry deposition input data corresponding to Olson 2001 land map" />
+  <attribute name="history" value="23 Mar 2012" />
+  <attribute name="conventions" value="COARDS" />
+  <attribute name="format" value="netCDF-3" />
+  <attribute name="model" value="GENERIC" />
+  <attribute name="nlayers" value="1" />
+  <attribute name="start_date" value="19850101" />
+  <attribute name="start_time" value="00:00:00.0" />
+  <attribute name="end_date" value="19850101" />
+  <attribute name="end_time" value="00:00:00.0" />
+  <attribute name="delta_lon" value="0.0" />
+  <attribute name="delta_lat" value="0.0" />
+  <attribute name="delta_time" value="000000" />
+</netcdf>

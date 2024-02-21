@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="TIME" length="576" isUnlimited="true" />
+  <dimension name="lona" length="3596" />
+  <dimension name="lata" length="1677" />
+  <dimension name="lonb" length="251" />
+  <dimension name="latb" length="251" />
+  <dimension name="lonc" length="151" />
+  <dimension name="latc" length="141" />
+  <variable name="TIME" shape="TIME" type="double">
+    <attribute name="long_name" value="time" />
+    <attribute name="units" value="seconds since 1970-01-01T00:00:00Z" />
+    <attribute name="calendar" value="gregorian" />
+  </variable>
+  <variable name="inundation" shape="TIME" type="double">
+    <attribute name="units" value="km^2" />
+    <attribute name="TimestepOfFirstInundation" type="int" value="-1" />
+    <attribute name="InundationCellsThreshold" type="int" value="10" />
+    <attribute name="MaxInundationArea" type="double" value="0.0" />
+  </variable>
+  <variable name="lona" shape="lona" type="double">
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="lata" shape="lata" type="double">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="max_amp_a" shape="lata lona" type="float">
+    <attribute name="long_name" value="Maximum Wave Amplitude" />
+    <attribute name="units" value="CENTIMETERS" />
+    <attribute name="missing_value" type="float" value="-1.0E34" />
+    <attribute name="_FillValue" type="float" value="-1.0E34" />
+  </variable>
+  <variable name="min_amp_a" shape="lata lona" type="float">
+    <attribute name="long_name" value="Minimum Wave Amplitude" />
+    <attribute name="units" value="CENTIMETERS" />
+    <attribute name="missing_value" type="float" value="1.0E34" />
+    <attribute name="_FillValue" type="float" value="1.0E34" />
+  </variable>
+  <variable name="max_speed_a" shape="lata lona" type="float">
+    <attribute name="long_name" value="Maximum Current Speed" />
+    <attribute name="units" value="CENTIMETERS/SECOND" />
+    <attribute name="missing_value" type="float" value="-1.0E34" />
+    <attribute name="_FillValue" type="float" value="-1.0E34" />
+  </variable>
+  <variable name="lonb" shape="lonb" type="double">
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="latb" shape="latb" type="double">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="max_amp_b" shape="latb lonb" type="float">
+    <attribute name="long_name" value="Maximum Wave Amplitude" />
+    <attribute name="units" value="CENTIMETERS" />
+    <attribute name="missing_value" type="float" value="-1.0E34" />
+    <attribute name="_FillValue" type="float" value="-1.0E34" />
+  </variable>
+  <variable name="min_amp_b" shape="latb lonb" type="float">
+    <attribute name="long_name" value="Minimum Wave Amplitude" />
+    <attribute name="units" value="CENTIMETERS" />
+    <attribute name="missing_value" type="float" value="1.0E34" />
+    <attribute name="_FillValue" type="float" value="1.0E34" />
+  </variable>
+  <variable name="max_speed_b" shape="latb lonb" type="float">
+    <attribute name="long_name" value="Maximum Current Speed" />
+    <attribute name="units" value="CENTIMETERS/SECOND" />
+    <attribute name="missing_value" type="float" value="-1.0E34" />
+    <attribute name="_FillValue" type="float" value="-1.0E34" />
+  </variable>
+  <variable name="lonc" shape="lonc" type="double">
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="latc" shape="latc" type="double">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="max_amp_c" shape="latc lonc" type="float">
+    <attribute name="long_name" value="Maximum Wave Amplitude" />
+    <attribute name="units" value="CENTIMETERS" />
+    <attribute name="missing_value" type="float" value="-1.0E34" />
+    <attribute name="_FillValue" type="float" value="-1.0E34" />
+  </variable>
+  <variable name="min_amp_c" shape="latc lonc" type="float">
+    <attribute name="long_name" value="Minimum Wave Amplitude" />
+    <attribute name="units" value="CENTIMETERS" />
+    <attribute name="missing_value" type="float" value="1.0E34" />
+    <attribute name="_FillValue" type="float" value="1.0E34" />
+  </variable>
+  <variable name="max_speed_c" shape="latc lonc" type="float">
+    <attribute name="long_name" value="Maximum Current Speed" />
+    <attribute name="units" value="CENTIMETERS/SECOND" />
+    <attribute name="missing_value" type="float" value="-1.0E34" />
+    <attribute name="_FillValue" type="float" value="-1.0E34" />
+  </variable>
+  <variable name="max_speed_u_c" shape="latc lonc" type="float">
+    <attribute name="long_name" value="Maximum Speed U-component" />
+    <attribute name="units" value="CENTIMETERS/SECOND" />
+    <attribute name="missing_value" type="float" value="-1.0E34" />
+    <attribute name="_FillValue" type="float" value="-1.0E34" />
+  </variable>
+  <variable name="max_speed_v_c" shape="latc lonc" type="float">
+    <attribute name="long_name" value="Maximum Speed V-component" />
+    <attribute name="units" value="CENTIMETERS/SECOND" />
+    <attribute name="missing_value" type="float" value="-1.0E34" />
+    <attribute name="_FillValue" type="float" value="-1.0E34" />
+  </variable>
+  <attribute name="Conventions" value="CF-1.6" />
+  <attribute name="title" value="MOST CPU v2.6.3  2021-05-26  15:51:03" />
+  <attribute name="history" value="most2.6.3/most3_facts_cpu MegaModel mega1_ ./ t" />
+  <attribute name="revision" value="3843M" />
+  <attribute name="revurl" value="http://clotho/svn/TModel/2DRunUp/MOST2/release/2.6.3" />
+  <attribute name="model_start_time" value="2021-05-26T15:51:03-07:00" />
+  <attribute name="model_stop_time" value="2021-05-26T23:54:56-07:00" />
+  <attribute name="Input_Signal_Threshold" type="double" value="0.001" />
+  <attribute name="Minimum_Offshore_Depth" type="double" value="1.0" />
+  <attribute name="Dry_Land_Depth" type="double" value="1.0" />
+  <attribute name="Friction_Coefficient_n2" type="double" value="9.0E-4" />
+  <attribute name="Runup_Flag" type="int" value="1" />
+  <attribute name="Maximum_Wave_Threshold" type="double" value="9000.0" />
+  <attribute name="Time_Step" type="double" value="6.0" />
+  <attribute name="Total_Steps" type="int" value="28800" />
+  <attribute name="Steps_Between_Agrid" type="int" value="1" />
+  <attribute name="Steps_Between_Bgrid" type="int" value="1" />
+  <attribute name="Steps_Between_Saves" type="int" value="50" />
+  <attribute name="Steps_Before_Saving_Output" type="int" value="1" />
+  <attribute name="Output_Grid_Interval" type="int" value="1" />
+  <attribute name="A_Grid_Filename" value="Agrid_3.most" />
+  <attribute name="B_Grid_Filename" value="Bgrid.most" />
+  <attribute name="C_Grid_Filename" value="Cgrid.most" />
+  <attribute name="inversion" value="none" />
+</netcdf>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lsmlat" length="192" />
+  <dimension name="lsmlon" length="288" />
+  <dimension name="numurbl" length="3" />
+  <dimension name="lsmpft" length="17" />
+  <dimension name="nlevsoi" length="10" />
+  <dimension name="cft" length="2" />
+  <dimension name="natpft" length="15" />
+  <dimension name="time" length="12" isUnlimited="true" />
+  <variable name="AREA" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="area" />
+    <attribute name="units" value="km^2" />
+  </variable>
+  <variable name="CANYON_HWR" shape="numurbl lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="canyon height to width ratio" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="cft" shape="cft" type="int">
+    <attribute name="long_name" value="indices of CFTs" />
+    <attribute name="units" value="index" />
+  </variable>
+  <variable name="EM_IMPROAD" shape="numurbl lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="emissivity of impervious road" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="EM_PERROAD" shape="numurbl lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="emissivity of pervious road" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="EM_ROOF" shape="numurbl lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="emissivity of roof" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="EM_WALL" shape="numurbl lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="emissivity of wall" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="FMAX" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="maximum fractional saturated area" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="gdp" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="gdp" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="HT_ROOF" shape="numurbl lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="height of roof" />
+    <attribute name="units" value="m" />
+  </variable>
+  <variable name="LAKEDEPTH" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="lake depth" />
+    <attribute name="units" value="m" />
+  </variable>
+  <variable name="LATIXY" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees north" />
+  </variable>
+  <variable name="LONGXY" shape="lsmlat lsmlon" type="double">
+    <attribute name="units" value="degrees east" />
+    <attribute name="long_name" value="longitude" />
+  </variable>
+  <variable name="MONTHLY_HEIGHT_BOT" shape="time lsmpft lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="monthly canopy height bottom" />
+    <attribute name="units" value="m" />
+    <attribute name="_ChunkSizes" type="uint" value="1 17 192 288" />
+  </variable>
+  <variable name="MONTHLY_HEIGHT_TOP" shape="time lsmpft lsmlat lsmlon" type="double">
+    <attribute name="units" value="m" />
+    <attribute name="long_name" value="monthly canopy height top" />
+    <attribute name="_ChunkSizes" type="uint" value="1 17 192 288" />
+  </variable>
+  <variable name="MONTHLY_LAI" shape="time lsmpft lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="monthly leaf area index" />
+    <attribute name="units" value="unitless" />
+    <attribute name="_ChunkSizes" type="uint" value="1 17 192 288" />
+  </variable>
+  <variable name="MONTHLY_SAI" shape="time lsmpft lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="monthly stem area index" />
+    <attribute name="units" value="unitless" />
+    <attribute name="_ChunkSizes" type="uint" value="1 17 192 288" />
+  </variable>
+  <variable name="natpft" shape="natpft" type="int">
+    <attribute name="long_name" value="indices of natural PFTs" />
+    <attribute name="units" value="index" />
+  </variable>
+  <variable name="ORGANIC" shape="nlevsoi lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="organic matter density at soil levels" />
+    <attribute name="units" value="kg/m3 (assumed carbon content 0.58 gC per gOM)" />
+  </variable>
+  <variable name="PCT_CFT" shape="cft lsmlat lsmlon" type="double">
+    <attribute name="units" value="unitless" />
+    <attribute name="long_name" value="percent crop functional type on the crop landunit (% of landunit)" />
+  </variable>
+  <variable name="PCT_CLAY" shape="nlevsoi lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent clay" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_CROP" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="total percent crop landunit" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_GLACIER" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent glacier" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_LAKE" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent lake" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_NAT_PFT" shape="natpft lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent plant functional type on the natural veg landunit (% of landunit)" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_NATVEG" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="total percent natural vegetation landunit" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_SAND" shape="nlevsoi lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent sand" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_URBAN" shape="numurbl lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent urban for each density type" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_WETLAND" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent wetland" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="peatf" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="peatland fraction" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="SLOPE" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="mean topographic slope" />
+    <attribute name="units" value="degrees" />
+  </variable>
+  <variable name="SOIL_COLOR" shape="lsmlat lsmlon" type="int">
+    <attribute name="long_name" value="soil color" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="STD_ELEV" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="standard deviation of elevation" />
+    <attribute name="units" value="m" />
+  </variable>
+  <variable name="T_BUILDING_MIN" shape="numurbl lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="minimum interior building temperature" />
+    <attribute name="units" value="K" />
+  </variable>
+  <variable name="time" shape="time" type="short">
+    <attribute name="units" value="month" />
+    <attribute name="long_name" value="Calendar month" />
+    <attribute name="_ChunkSizes" type="uint" value="12" />
+  </variable>
+  <variable name="URBAN_REGION_ID" shape="lsmlat lsmlon" type="int">
+    <attribute name="long_name" value="urban region ID" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="WTLUNIT_ROOF" shape="numurbl lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="fraction of roof" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="WTROAD_PERV" shape="numurbl lsmlat lsmlon" type="double">
+    <attribute name="units" value="unitless" />
+    <attribute name="long_name" value="fraction of pervious road" />
+  </variable>
+  <variable name="zbedrock" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="soil depth" />
+    <attribute name="units" value="m" />
+  </variable>
+  <variable name="PCT_TREE" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent tree" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_GRASS" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent grass" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_SHRUB" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent shrub" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_SOIL" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent bare soil" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="PCT_RURAL" shape="lsmlat lsmlon" type="double">
+    <attribute name="long_name" value="percent rural" />
+    <attribute name="units" value="unitless" />
+  </variable>
+  <variable name="landfrac" shape="lsmlat lsmlon" type="double">
+    <attribute name="units" value="unitless" />
+    <attribute name="long_name" value="land fraction" />
+  </variable>
+  <attribute name="Conventions" value="NCAR-CSM" />
+  <attribute name="contact" value="keer.zhang@yale.edu" />
+  <attribute name="creation_date" value="30/09/2021 18:12:59" />
+  <attribute name="gridresolution" value="0.9° × 1.25°" />
+  <attribute name="Source" value="Community Land Model: CLM5" />
+  <attribute name="no_inlandwet" value="TRUE" />
+  <attribute name="nglcec" type="int" value="10" />
+  <attribute name="Input_grid_dataset" value="map_0.25x0.25_MODIS_to_0.9x1.25_nomask_aave_da_c170321.nc" />
+  <attribute name="Input_gridtype" value="global" />
+  <attribute name="VOC_EF_raw_data_file_name" value="mksrf_vocef_0.5x0.5_simyr2000.c110531.nc" />
+  <attribute name="Inland_lake_raw_data_file_name" value="mksrf_LakePnDepth_3x3min_simyr2004_csplk_c151015.nc" />
+  <attribute name="Inland_wetland_raw_data_file_name" value="mksrf_lanwat.050425.nc" />
+  <attribute name="Glacier_raw_data_file_name" value="mksrf_glacier_3x3min_simyr2000.c120926.nc" />
+  <attribute name="Glacier_region_raw_data_file_name" value="mksrf_GlacierRegion_10x10min_nomask_c170616.nc" />
+  <attribute name="Urban_Topography_raw_data_file_name" value="mksrf_topo.10min.c080912.nc" />
+  <attribute name="Urban_raw_data_file_name" value="05deg_2020_new.nc" />
+  <attribute name="Lai_raw_data_file_name" value="mksrf_lai_78pfts_simyr2005.c170413.nc" />
+  <attribute name="agfirepkmon_raw_data_file_name" value="mksrf_abm_0.5x0.5_AVHRR_simyr2000.c130201.nc" />
+  <attribute name="gdp_raw_data_file_name" value="mksrf_gdp_0.5x0.5_AVHRR_simyr2000.c130228.nc" />
+  <attribute name="peatland_raw_data_file_name" value="mksrf_peatf_0.5x0.5_AVHRR_simyr2000.c130228.nc" />
+  <attribute name="soildepth_raw_data_file_name" value="mksf_soilthk_5x5min_ORNL-Soil_simyr1900-2015_c170630.nc" />
+  <attribute name="topography_stats_raw_data_file_name" value="mksrf_topostats_1km-merge-10min_HYDRO1K-merge-nomask_simyr2000.c130402.nc" />
+  <attribute name="map_pft_file_name" value="map_0.25x0.25_MODIS_to_0.9x1.25_nomask_aave_da_c170321.nc" />
+  <attribute name="map_lakwat_file" value="map_3x3min_MODIS-wCsp_to_0.9x1.25_nomask_aave_da_c160425.nc" />
+  <attribute name="map_wetlnd_file" value="map_0.5x0.5_lanwat_to_0.9x1.25_aave_da_110307.nc" />
+  <attribute name="map_glacier_file" value="map_3x3min_GLOBE-Gardner_to_0.9x1.25_nomask_aave_da_c120923.nc" />
+  <attribute name="map_glacier_region_file" value="map_10minx10min_topo_to_0.9x1.25_aave_da_110630.nc" />
+  <attribute name="map_soil_texture_file" value="map_5minx5min_soitex_to_0.9x1.25_aave_da_110722.nc" />
+  <attribute name="map_soil_color_file" value="map_0.25x0.25_MODIS_to_0.9x1.25_nomask_aave_da_c170321.nc" />
+  <attribute name="map_soil_organic_file" value="map_5x5min_ISRIC-WISE_to_0.9x1.25_nomask_aave_da_c120525.nc" />
+  <attribute name="map_urban_file" value="map_3x3min_LandScan2004_to_0.9x1.25_nomask_aave_da_c120522.nc" />
+  <attribute name="map_fmax_file" value="map_3x3min_USGS_to_0.9x1.25_nomask_aave_da_c120926.nc" />
+  <attribute name="map_VOC_EF_file" value="map_0.5x0.5_lanwat_to_0.9x1.25_aave_da_110307.nc" />
+  <attribute name="map_harvest_file" value="map_0.25x0.25_MODIS_to_0.9x1.25_nomask_aave_da_c170321.nc" />
+  <attribute name="map_lai_sai_file" value="map_0.25x0.25_MODIS_to_0.9x1.25_nomask_aave_da_c170321.nc" />
+  <attribute name="map_urban_topography_file" value="map_10minx10min_topo_to_0.9x1.25_aave_da_110630.nc" />
+  <attribute name="map_agfirepkmon_file" value="map_0.5x0.5_lanwat_to_0.9x1.25_aave_da_110307.nc" />
+  <attribute name="map_gdp_file" value="map_0.5x0.5_lanwat_to_0.9x1.25_aave_da_110307.nc" />
+  <attribute name="map_peatland_file" value="map_0.5x0.5_lanwat_to_0.9x1.25_aave_da_110307.nc" />
+  <attribute name="map_soildepth_file" value="map_5x5min_ORNL-Soil_to_0.9x1.25_nomask_aave_da_c170706.nc" />
+  <attribute name="map_topography_stats_file" value="map_1km-merge-10min_HYDRO1K-merge-nomask_to_0.9x1.25_nomask_aave_da_c130405.nc" />
+  <attribute name="Soil_texture_raw_data_file_name" value="mksrf_soitex.10level.c010119.nc" />
+  <attribute name="Soil_color_raw_data_file_name" value="mksrf_soilcolor_CMIP6_simyr2005.c170623.nc" />
+  <attribute name="Fmax_raw_data_file_name" value="mksrf_fmax_3x3min_USGS_c120911.nc" />
+  <attribute name="Organic_matter_raw_data_file_name" value="mksrf_organic_10level_5x5min_ISRIC-WISE-NCSCD_nlev7_c120830.nc" />
+  <attribute name="Vegetation_type_raw_data_filename" value="mksrf_landuse_SSP5RCP85_clm5_2020.c171005.nc" />
+  <attribute name="Explain_numurbl" value="0:TBD,1:HD,2:MD" />
+  <attribute name="Explain_cft" value="15:c3_crop,16:c3_irrigated" />
+  <attribute name="Explain_natpft" value="0:not_vegetated,1:needleleaf_evergreen_temperate_tree,2:needleleaf_evergreen_boreal_tree,3:needleleaf_deciduous_boreal_tree     ,4:broadleaf_evergreen_tropical_tree,5:broadleaf_evergreen_temperate_tree,6:broadleaf_deciduous_tropical_tree,7:broadleaf_deciduous_temperate_tree     ,8:broadleaf_deciduous_boreal_tree,9:broadleaf_evergreen_shrub,10;broadleaf_deciduous_temperate_shrub,11:broadleaf_deciduous_boreal_shrub     ,12:c3_arctic_grass,13:c3_non-arctic_grass,14:c4_grass" />
+  <attribute name="Explain_lsmpft" value="0:not_vegetated,1:needleleaf_evergreen_temperate_tree,2:needleleaf_evergreen_boreal_tree,3:needleleaf_deciduous_boreal_tree     ,4:broadleaf_evergreen_tropical_tree,5:broadleaf_evergreen_temperate_tree,6:broadleaf_deciduous_tropical_tree,7:broadleaf_deciduous_temperate_tree     ,8:broadleaf_deciduous_boreal_tree,9:broadleaf_evergreen_shrub,10;broadleaf_deciduous_temperate_shrub,11:broadleaf_deciduous_boreal_shrub     ,12:c3_arctic_grass,13:c3_non-arctic_grass,14:c4_grass,15:c3_crop,16:c3_irrigated" />
+  <attribute name="_NCProperties" value="version=2,netcdf=4.8.0,hdf5=1.10.6" />
+</netcdf>

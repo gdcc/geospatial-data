@@ -1,0 +1,89 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/NWQGHU\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Quantifying methane emissions from the largest oil-producing basin in the United States from space",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/NWQGHU",
+                "global_id": "doi:10.7910/DVN/NWQGHU",
+                "description": "Data for the paper \"Quantifying methane emissions from the largest oil-producing basin in the United States from space\"",
+                "published_at": "2020-04-16T13:55:06Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Zhang, Yuzhong, 2019, \"Quantifying methane emissions from the largest oil-producing basin in the United States from space\", <a href=\"https://doi.org/10.7910/DVN/NWQGHU\" target=\"_blank\">https://doi.org/10.7910/DVN/NWQGHU</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Zhang, Yuzhong, 2019, \"Quantifying methane emissions from the largest oil-producing basin in the United States from space\", https://doi.org/10.7910/DVN/NWQGHU, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/NWQGHU",
+                "keywords": [
+                    "methane"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 3,
+                "versionId": 192832,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2019-11-06T00:26:55Z",
+                "updatedAt": "2020-04-16T13:55:06Z",
+                "contacts": [
+                    {
+                        "name": "Zhang, Yuzhong",
+                        "affiliation": "Westlake University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Yuzhong Zhang, Ritesh Gautam, Sudhanshu Pandey, Mark Omara, Joannes D. Maasakkers, Pankaj Sadavarte, David Lyon, Hannah Nesser, Melissa P. Sulprizio, Daniel J. Varon, Ruixiong Zhang, Sander Houweling, Daniel Zavala-Araiza, Ramon A. Alvarez, Alba Lorente, Steven P. Hamburg, Ilse Aben, Daniel J. Jacob. Quantifying methane emissions from the largest oil-producing basin in the United States from space, Science Advances, 6, eaaz5120 (2020)."
+                    }
+                ],
+                "authors": [
+                    "Zhang, Yuzhong"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Zhang, Yuzhong": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

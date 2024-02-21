@@ -1,0 +1,117 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/G1H3AC\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "The 1783\u20131784 Laki volcanic eruption: CESM1(WACCM) simulations",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/G1H3AC",
+                "global_id": "doi:10.7910/DVN/G1H3AC",
+                "description": "The dataset contains output from an ensemble of CESM1(WACCM) simulations of the 1783-1784 Laki eruption in Iceland. There are ~3000 files, totaling ~17GB of data. The data include all output analyzed in the two manuscripts listed below: temperature, zonal and meridional wind, sea level pressure, precipitation, cloud fraction, aerosol effective radius, SO4 concentration, SO2 concentration, radiation, aerosol optical depth, sea surface temperature, cloud droplet/ice number concentration, soil moisture, average water/ice number concentration, EP flux and its divergence, meridional residual circulation streamfunction",
+                "published_at": "2020-06-06T15:49:07Z",
+                "publisher": "Brian Zambri's Dataverse",
+                "citationHtml": "Zambri, Brian; Robock, Alan; Mills, Michael; Schmidt, Anja, 2019, \"The 1783&ndash;1784 Laki volcanic eruption: CESM1(WACCM) simulations\", <a href=\"https://doi.org/10.7910/DVN/G1H3AC\" target=\"_blank\">https://doi.org/10.7910/DVN/G1H3AC</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "bzambri",
+                "name_of_dataverse": "Brian Zambri's Dataverse",
+                "citation": "Zambri, Brian; Robock, Alan; Mills, Michael; Schmidt, Anja, 2019, \"The 1783\u20131784 Laki volcanic eruption: CESM1(WACCM) simulations\", https://doi.org/10.7910/DVN/G1H3AC, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/G1H3AC",
+                "keywords": [
+                    "Laki",
+                    "volcanic eruptions",
+                    "climate modeling"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 2877,
+                "versionId": 196832,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2019-02-05T17:04:44Z",
+                "updatedAt": "2020-06-06T15:49:07Z",
+                "contacts": [
+                    {
+                        "name": "Zambri, Brian",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Zambri, B., Robock, A., Mills, M. J., &amp; Schmidt, A. (2019). Modeling the 1783\u20131784 Laki eruption in Iceland: 1. Aerosol evolution and global stratospheric circulation impacts. Journal of Geophysical Research: Atmospheres, 124.",
+                        "url": "https://doi.org/10.1029/2018JD029553"
+                    },
+                    {
+                        "citation": "Zambri, B., Robock, A., Mills, M. J., &amp; Schmidt, A. (2019). Modeling the 1783\u20131784 Laki eruption in Iceland: 2. Climate impacts. Journal of Geophysical Research: Atmospheres, 124.",
+                        "url": "https://doi.org/10.1029/2018JD029554"
+                    }
+                ],
+                "authors": [
+                    "Zambri, Brian",
+                    "Robock, Alan",
+                    "Mills, Michael",
+                    "Schmidt, Anja"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Mills, Michael": 1
+                        },
+                        {
+                            "Robock, Alan": 1
+                        },
+                        {
+                            "Schmidt, Anja": 1
+                        },
+                        {
+                            "Zambri, Brian": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        },
+                        {
+                            "National Center for Atmospheric Research": 1
+                        },
+                        {
+                            "Rutgers University": 1
+                        },
+                        {
+                            "University of Cambridge": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

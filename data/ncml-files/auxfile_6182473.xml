@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="num_stp" length="3520981" />
+  <variable name="granule" shape="num_stp" type="String" />
+  <variable name="ind_i" shape="num_stp" type="long" />
+  <variable name="ind_j" shape="num_stp" type="long" />
+  <variable name="mask" shape="num_stp" type="float" />
+  <variable name="lat" shape="num_stp" type="float" />
+  <variable name="lon" shape="num_stp" type="float" />
+  <attribute name="Filename" value="2003-01_datetimes_lats_lons_of_ST_pixels_above_400p.nc" />
+  <attribute name="ShortName" value="Locations of each shiptrack pixels" />
+  <attribute name="LongName" value="Locations of each shiptrack pixels" />
+  <attribute name="VersionID" value="1" />
+  <attribute name="Format" value="netCDF-4" />
+  <attribute name="RangeBeginningDate" value="2003-01-01" />
+  <attribute name="RangeBeginningTime" value="00:05:00.000000" />
+  <attribute name="RangeEndingDate" value="2003-01" />
+  <attribute name="RangeEndingTime" value="23:55:00.000000" />
+  <attribute name="SouthernmostLatitude" value="-60.0" />
+  <attribute name="NorthernmostLatitude" value="60.0" />
+  <attribute name="WesternmostLongitude" value="-180.0" />
+  <attribute name="EasternmostLongitude" value="180.0" />
+  <attribute name="Source" value="Aqua satellite, MODIS Collection 6.1" />
+  <attribute name="_NCProperties" value="version=2,netcdf=4.6.2,hdf5=1.10.4" />
+</netcdf>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="192" />
+  <dimension name="month" length="1428" />
+  <dimension name="lon" length="288" />
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="Long_name" value="latitude" />
+    <attribute name="unit" value="degree north" />
+    <attribute name="_ChunkSizes" type="uint" value="192" />
+  </variable>
+  <variable name="hfdsl" shape="month lon lat" type="double">
+    <attribute name="long_name" value="ground heat flux, including snow melt and lake/snow light transmission" />
+    <attribute name="unit" value="W m^-2" />
+    <attribute name="_ChunkSizes" type="uint" value="238 48 32" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="Long_name" value="longitude" />
+    <attribute name="unit" value="degree east" />
+    <attribute name="_ChunkSizes" type="uint" value="288" />
+  </variable>
+  <attribute name="_NCProperties" value="version=1|netcdflibversion=4.6.1|hdf5libversion=1.8.12" />
+</netcdf>

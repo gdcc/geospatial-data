@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="48" />
+  <dimension name="lon" length="96" />
+  <variable name="Z200_JJA" shape="lat lon" type="float">
+    <attribute name="units" value="m" />
+    <attribute name="long_name" value="Geopotential Height at 200 mbar pressure surface" />
+    <attribute name="average_op_ncl" value="dim_avg_n over dimension(s): time" />
+    <attribute name="lev_new" type="float" value="200.0" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="long_name" value="latitude" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="long_name" value="longitude" />
+  </variable>
+  <variable name="U850_JJA" shape="lat lon" type="float">
+    <attribute name="units" value="m/s" />
+    <attribute name="long_name" value="Zonal wind at 850 mbar pressure surface" />
+    <attribute name="average_op_ncl" value="dim_avg_n over dimension(s): time" />
+    <attribute name="lev_new" type="float" value="850.0" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="V850_JJA" shape="lat lon" type="float">
+    <attribute name="units" value="m/s" />
+    <attribute name="long_name" value="Meridional wind at 850 mbar pressure surface" />
+    <attribute name="average_op_ncl" value="dim_avg_n over dimension(s): time" />
+    <attribute name="lev_new" type="float" value="850.0" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="PRECT_JJA" shape="lat lon" type="float">
+    <attribute name="average_op_ncl" value="dim_avg_n over dimension(s): time" />
+    <attribute name="units" value="m/s" />
+    <attribute name="long_name" value="Total (convective and large-scale) precipitation rate" />
+    <attribute name="cell_method" value="time: mean" />
+  </variable>
+  <variable name="TREFHT_JJA" shape="lat lon" type="float">
+    <attribute name="average_op_ncl" value="dim_avg_n over dimension(s): time" />
+    <attribute name="units" value="K" />
+    <attribute name="long_name" value="Reference height temperature" />
+    <attribute name="cell_method" value="time: mean" />
+  </variable>
+  <attribute name="author" value="Yu Gao" />
+  <attribute name="title" value="Variables in 0L+0E_AGCM experiment" />
+</netcdf>

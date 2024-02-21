@@ -1,0 +1,96 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/2EHVUP\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Loading-Induced Earth's Stress Change over Time",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/2EHVUP",
+                "global_id": "doi:10.7910/DVN/2EHVUP",
+                "description": "This is a preliminary database of loading-induced stress changes on the Earth from 2000 to 2017 in a global scale and at various depths. Five loading forces that would generate stress changes on the Earth are considered: hydrological loading, atmospheric pressure, ocean water (including tides and non-tidal variation), solid Earth tides and postglacial rebound (PGR). The loading forces are quantified using the terrestrial water storage (TWS) inferred from GRACE solutions, the ECMWF surface atmospheric pressure model, the TPXO 7.2 ocean tide solutions, CMEMS sea level anomaly model, tidal forces computed by the SPOTL package, and the ICE-5G glacial history model, respectively. The loading masses are assumed to distribute within a thin layer (relative to the Earth\u2019s radius) on the Earth\u2019s surface, and are used to calculate the Earth\u2019s stress responses through a spherical spectral method. Based on the different time scales of the loading forces, an incompressible viscoelastic Earth model is adopted for PGR and a compressible elastic one is adopted for the other forces. The stress database could motivate more comprehensive studies to seek clearer physical insights on triggering mechanisms of various tectonic events, such as earthquake, non-volcano tremor, slow slip event and volcano. The physical framework we have established in the stress calculation could be a useful tool for updating and improving the stress estimates in the future and could facilitate more comprehensive studies of elastic/viscoelastic parameters and physical states of the Earth\u2019s interior at various time scales and length scales. Please refer to Lu et al. (2018, JGR) for the detailed methods and parameters used to calculate the loading-induced stress. Currently, the stress results are output on 1x1 degree grids, and at depths of 0 km, 19 km, 50 km, and 100 km.",
+                "published_at": "2018-04-02T02:45:41Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Lu, Zhou, 2018, \"Loading-Induced Earth's Stress Change over Time\", <a href=\"https://doi.org/10.7910/DVN/2EHVUP\" target=\"_blank\">https://doi.org/10.7910/DVN/2EHVUP</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Lu, Zhou, 2018, \"Loading-Induced Earth's Stress Change over Time\", https://doi.org/10.7910/DVN/2EHVUP, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/2EHVUP",
+                "keywords": [
+                    "Earth stress",
+                    "crustal deformation",
+                    "tectonic stress",
+                    "surface mass load",
+                    "environmental load",
+                    "loading-induced stress",
+                    "stress change",
+                    "stress calculation"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 396,
+                "versionId": 135076,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2018-04-01T08:31:12Z",
+                "updatedAt": "2018-04-02T02:45:41Z",
+                "contacts": [
+                    {
+                        "name": "Lu, Zhou",
+                        "affiliation": "University of Science and Technology of China"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Lu, Z., Yi, H., &amp; Wen, L. (2018). Loading-induced Earth\u2019s stress change over time. Journal of Geophysical Research: Solid Earth."
+                    }
+                ],
+                "authors": [
+                    "Lu, Zhou"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2018": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Lu, Zhou": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of Science and Technology of China": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

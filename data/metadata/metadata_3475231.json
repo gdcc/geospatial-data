@@ -1,0 +1,96 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/HH4EUM\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Global Fuel Exploitation Inventory (GFEI)",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/HH4EUM",
+                "global_id": "doi:10.7910/DVN/HH4EUM",
+                "description": "This is the Global Fuel Exploitation Inventory (GFEI) which provides a 0.1 x 0.1 degree grid of methane emissions of fugitive emissions related to oil, gas, and coal activities (IPCC Sector 1B1 and 1B2). Subsector emissions are provided from exploration to distribution of the resource. The inventory emissions are based on individual country reports submitted in accordance with the United Nations Framework Convention on Climate Change (UNFCCC). For those countries that do not report we estimate emissions following IPCC methods. Emissions are allocated to infrastructure locations including mines, wells, pipelines, compressor stations, storage facilities, processing plants, and refineries. This version of the inventory (GFEI v2) inventory is for 2019 and presents an update of GFEI v1 which was for 2016. Emission grids are also available for 2010-2018.",
+                "published_at": "2021-10-31T16:49:37Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Scarpelli, Tia R.; Jacob, Daniel J., 2019, \"Global Fuel Exploitation Inventory (GFEI)\", <a href=\"https://doi.org/10.7910/DVN/HH4EUM\" target=\"_blank\">https://doi.org/10.7910/DVN/HH4EUM</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Scarpelli, Tia R.; Jacob, Daniel J., 2019, \"Global Fuel Exploitation Inventory (GFEI)\", https://doi.org/10.7910/DVN/HH4EUM, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/HH4EUM",
+                "keywords": [
+                    "atmospheric chemistry",
+                    "methane",
+                    "oil",
+                    "gas",
+                    "coal",
+                    "emissions"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 83,
+                "versionId": 279027,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2019-07-23T14:23:34Z",
+                "updatedAt": "2021-10-31T16:49:37Z",
+                "contacts": [
+                    {
+                        "name": "Scarpelli, Tia",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "publications": [
+                    {}
+                ],
+                "authors": [
+                    "Scarpelli, Tia R.",
+                    "Jacob, Daniel J."
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Jacob, Daniel J.": 1
+                        },
+                        {
+                            "Scarpelli, Tia R.": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/68FO9B\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Data in support of Comprehensive Atmospheric Modeling of Reactive Cyclic Siloxanes and Their Oxidation Products",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/68FO9B",
+                "global_id": "doi:10.7910/DVN/68FO9B",
+                "description": "This dataset contains data for the paper Janechek et al. Comprehensive Atmospheric Modeling of Reactive Cyclic Siloxanes and Their Oxidation Products, ACP, 2017. In the paper, cyclic volatile methyl siloxanes (cVMSs) were added to the CMAQ model to simulate the gas phase species. This dataset contains the edited CMAQ model code, run scripts, cVMS emission development, and hourly concentration and deposition fluxes of a subset of the modeled species.",
+                "published_at": "2017-06-30T19:19:43Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Janechek, Nathan; Stanier, Charles; Hansen, Kaj, 2017, \"Data in support of Comprehensive Atmospheric Modeling of Reactive Cyclic Siloxanes and Their Oxidation Products\", <a href=\"https://doi.org/10.7910/DVN/68FO9B\" target=\"_blank\">https://doi.org/10.7910/DVN/68FO9B</a>, Harvard Dataverse, V1, UNF:6:EmHTP885IqeKNBStKTIHxQ== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Janechek, Nathan; Stanier, Charles; Hansen, Kaj, 2017, \"Data in support of Comprehensive Atmospheric Modeling of Reactive Cyclic Siloxanes and Their Oxidation Products\", https://doi.org/10.7910/DVN/68FO9B, Harvard Dataverse, V1, UNF:6:EmHTP885IqeKNBStKTIHxQ== [fileUNF]",
+                "storageIdentifier": "s3://dvn-cloud:10.7910/DVN/68FO9B",
+                "subjects": [
+                    "Chemistry",
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 53,
+                "versionId": 127188,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2017-06-28T19:37:14Z",
+                "updatedAt": "2017-06-30T19:19:43Z",
+                "contacts": [
+                    {
+                        "name": "Janechek, Nathan",
+                        "affiliation": ""
+                    },
+                    {
+                        "name": "Stanier, Charles",
+                        "affiliation": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Janechek, N. J., Hansen, K. M., and Stanier, C. O.: Comprehensive Atmospheric Modeling of Reactive Cyclic Siloxanes and Their Oxidation Products, Atmos. Chem. Phys. Discuss., 2017.",
+                        "url": "http://www.atmos-chem-phys-discuss.net/acp-2016-1159/"
+                    }
+                ],
+                "authors": [
+                    "Janechek, Nathan",
+                    "Stanier, Charles",
+                    "Hansen, Kaj"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2017": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Chemistry": 1
+                        },
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Hansen, Kaj": 1
+                        },
+                        {
+                            "Janechek, Nathan": 1
+                        },
+                        {
+                            "Stanier, Charles": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Aarhus University": 1
+                        },
+                        {
+                            "University of Iowa": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="6210" isUnlimited="true" />
+  <dimension name="lat" length="90" />
+  <dimension name="lon" length="144" />
+  <variable name="olr" shape="time lat lon" type="float">
+    <attribute name="interp_method" value="conserve_order2" />
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="units" value="watts/m2" />
+    <attribute name="long_name" value="outgoing longwave radiation" />
+    <attribute name="_FillValue" type="float" value="-999.0" />
+    <attribute name="missing_value" type="float" value="-999.0" />
+  </variable>
+  <variable name="time" shape="time" type="double">
+    <attribute name="standard_name" value="time" />
+    <attribute name="long_name" value="time" />
+    <attribute name="bounds" value="time_bnds" />
+    <attribute name="units" value="days since 1-01-01 00:00:00" />
+    <attribute name="calendar" value="standard" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="bounds" value="lat_bnds" />
+    <attribute name="axis" value="Y" />
+    <attribute name="units" value="degrees_N" />
+    <attribute name="long_name" value="latitude" />
+    <attribute name="standard_name" value="latitude" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="bounds" value="lon_bnds" />
+    <attribute name="axis" value="X" />
+    <attribute name="units" value="degrees_E" />
+    <attribute name="long_name" value="longitude" />
+    <attribute name="standard_name" value="longitude" />
+  </variable>
+</netcdf>

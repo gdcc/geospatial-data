@@ -1,0 +1,90 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/MJDFLN\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "HadEX2-GHCNDEX-CMA merged extreme precipitation dataset",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/MJDFLN",
+                "global_id": "doi:10.7910/DVN/MJDFLN",
+                "description": "An observational extreme precipitation dataset merged from HadEX2, GHCNDEX and CMA station records. Time span: 1901-2010 Indices: Rx1day (annual maximum 1-day precipitation), Rx5day (annual maximum 5-day precipitation) For analysis of long-term change, stations have been selected by record length. In particular, only stations with at least 30, 50, or 70 years of records during 1901-2010 were selected. For more details please see Zhang and Zhou (2019).",
+                "published_at": "2022-07-03T12:53:27Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Zhang, Wenxia, 2022, \"HadEX2-GHCNDEX-CMA merged extreme precipitation dataset\", <a href=\"https://doi.org/10.7910/DVN/MJDFLN\" target=\"_blank\">https://doi.org/10.7910/DVN/MJDFLN</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Zhang, Wenxia, 2022, \"HadEX2-GHCNDEX-CMA merged extreme precipitation dataset\", https://doi.org/10.7910/DVN/MJDFLN, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/MJDFLN",
+                "keywords": [
+                    "Extreme precipitation"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 6,
+                "versionId": 329381,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-07-03T12:50:34Z",
+                "updatedAt": "2022-07-03T12:53:27Z",
+                "contacts": [
+                    {
+                        "name": "Zhang, Wenxia",
+                        "affiliation": "Institute of Atmospheric Physics, Chinese Academy of Sciences"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Zhang, W., Zhou, T. 2019. Significant increases in extreme precipitation and the associations with global warming over the global land monsoon regions. Journal of Climate, 32(24): 8465-8488.",
+                        "url": "https://journals.ametsoc.org/view/journals/clim/32/24/jcli-d-18-0662.1.xml"
+                    }
+                ],
+                "authors": [
+                    "Zhang, Wenxia"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Zhang, Wenxia": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Institute of Atmospheric Physics, Chinese Academy of Sciences": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/HBIKKV\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Data support for \"Impact of CCN hygroscopicity and turbulence on cloud droplet growth: An in-cloud seeding case study using parcel-DNS approach\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/HBIKKV",
+                "global_id": "doi:10.7910/DVN/HBIKKV",
+                "description": "This dataset provide the DNS model output for studying aerosol-cloud interaction and impact of aerosols in cloud development and rain initiation. The relevant manuscript is under review on ACPD: https://doi.org/10.5194/acp-2019-886.",
+                "published_at": "2020-05-03T07:08:54Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Chen, Sisi; Xue, Lulin; Yau, M.K., 2019, \"Data support for &quot;Impact of CCN hygroscopicity and turbulence on cloud droplet growth: An in-cloud seeding case study using parcel-DNS approach&quot;\", <a href=\"https://doi.org/10.7910/DVN/HBIKKV\" target=\"_blank\">https://doi.org/10.7910/DVN/HBIKKV</a>, Harvard Dataverse, V3",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Chen, Sisi; Xue, Lulin; Yau, M.K., 2019, \"Data support for \"Impact of CCN hygroscopicity and turbulence on cloud droplet growth: An in-cloud seeding case study using parcel-DNS approach\"\", https://doi.org/10.7910/DVN/HBIKKV, Harvard Dataverse, V3",
+                "storageIdentifier": "s3://10.7910/DVN/HBIKKV",
+                "keywords": [
+                    "direct numerical simulation",
+                    "cloud-aerosol interaction",
+                    "cloud microphysics"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 40,
+                "versionId": 194126,
+                "versionState": "RELEASED",
+                "majorVersion": 3,
+                "minorVersion": 0,
+                "createdAt": "2019-09-02T23:08:36Z",
+                "updatedAt": "2020-05-03T07:08:54Z",
+                "contacts": [
+                    {
+                        "name": "chen, sisi",
+                        "affiliation": "NCAR"
+                    }
+                ],
+                "producers": [
+                    "Sisi Chen"
+                ],
+                "authors": [
+                    "Chen, Sisi",
+                    "Xue, Lulin",
+                    "Yau, M.K."
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Chen, Sisi": 1
+                        },
+                        {
+                            "Xue, Lulin": 1
+                        },
+                        {
+                            "Yau, M.K.": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "McGill University": 1
+                        },
+                        {
+                            "NCAR": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

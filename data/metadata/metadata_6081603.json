@@ -1,0 +1,93 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/LQXAT3\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for 4\u00d7CO2 Simulation Using Community Earth System Model with Independent Soil Column in Vegetated Land Unit",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/LQXAT3",
+                "global_id": "doi:10.7910/DVN/LQXAT3",
+                "description": "A simulation of instant quadrupling of preindustrial CO2 concentration was performed with the CESM Version 2 (CESM2) global climate model, in which each plant functional type in the vegetated land unit was assigned with an independent soil column, differing from the shared soil column configuration in the default CESM2 model. The key variables from land surface model are provided on both grid and subgrid scales with monthly resolution in netCDF4 format, which are freely downloadable from Harvard Dataverse (https://doi.org/10.7910/DVN/LQXAT3). The model setup, simulation and output are described in the attached document. An application of this dataset in seen in \"Biophysical Impact of Land-Use and Land-Cover Change on Subgrid Temperature in CMIP6 Models\" (doi:10.1175/JHM-D-22-0073.1).",
+                "published_at": "2023-03-01T19:24:43Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Tang, Tao; Lee, Xuhui, 2023, \"Replication Data for 4&times;CO2 Simulation Using Community Earth System Model with Independent Soil Column in Vegetated Land Unit\", <a href=\"https://doi.org/10.7910/DVN/LQXAT3\" target=\"_blank\">https://doi.org/10.7910/DVN/LQXAT3</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Tang, Tao; Lee, Xuhui, 2023, \"Replication Data for 4\u00d7CO2 Simulation Using Community Earth System Model with Independent Soil Column in Vegetated Land Unit\", https://doi.org/10.7910/DVN/LQXAT3, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/LQXAT3",
+                "keywords": [
+                    "CLM5",
+                    "CESM2",
+                    "independent soil column"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 104,
+                "versionId": 317388,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-03-09T22:56:47Z",
+                "updatedAt": "2023-03-01T19:24:43Z",
+                "contacts": [
+                    {
+                        "name": "Tang, Tao",
+                        "affiliation": "Yale University"
+                    }
+                ],
+                "publications": [
+                    {}
+                ],
+                "authors": [
+                    "Tang, Tao",
+                    "Lee, Xuhui"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2023": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Lee, Xuhui": 1
+                        },
+                        {
+                            "Tang, Tao": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Yale University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

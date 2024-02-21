@@ -1,0 +1,89 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/M6WCBT\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "WRF-Fire files for \"Toward a Better Understanding of Wildfire Behavior in the Wildland-Urban Interface: A Case Study of the 2021 Marshall Fire\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/M6WCBT",
+                "global_id": "doi:10.7910/DVN/M6WCBT",
+                "description": "Files for WRF-Fire model setup as well as output and scripts used for analysis related to WRF-Fire.",
+                "published_at": "2023-06-07T23:35:51Z",
+                "publisher": "Marshall Fire DOW-WRF Paper in GRL",
+                "citationHtml": "Juliano, Timothy; Frediani, Maria; Shamsaei, Kasra; Eghdami, Masih; Kosovic, Branko, 2022, \"WRF-Fire files for &quot;Toward a Better Understanding of Wildfire Behavior in the Wildland-Urban Interface: A Case Study of the 2021 Marshall Fire&quot;\", <a href=\"https://doi.org/10.7910/DVN/M6WCBT\" target=\"_blank\">https://doi.org/10.7910/DVN/M6WCBT</a>, Harvard Dataverse, V6",
+                "identifier_of_dataverse": "marshall-fire-dow-wrf-grl",
+                "name_of_dataverse": "Marshall Fire DOW-WRF Paper in GRL",
+                "citation": "Juliano, Timothy; Frediani, Maria; Shamsaei, Kasra; Eghdami, Masih; Kosovic, Branko, 2022, \"WRF-Fire files for \"Toward a Better Understanding of Wildfire Behavior in the Wildland-Urban Interface: A Case Study of the 2021 Marshall Fire\"\", https://doi.org/10.7910/DVN/M6WCBT, Harvard Dataverse, V6",
+                "storageIdentifier": "s3://10.7910/DVN/M6WCBT",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 80,
+                "versionId": 346052,
+                "versionState": "RELEASED",
+                "majorVersion": 6,
+                "minorVersion": 0,
+                "createdAt": "2022-10-03T20:36:20Z",
+                "updatedAt": "2023-06-07T23:35:51Z",
+                "contacts": [
+                    {
+                        "name": "Juliano, Timothy",
+                        "affiliation": ""
+                    }
+                ],
+                "authors": [
+                    "Juliano, Timothy",
+                    "Frediani, Maria",
+                    "Shamsaei, Kasra",
+                    "Eghdami, Masih",
+                    "Kosovic, Branko"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Eghdami, Masih": 1
+                        },
+                        {
+                            "Frediani, Maria": 1
+                        },
+                        {
+                            "Juliano, Timothy": 1
+                        },
+                        {
+                            "Kosovic, Branko": 1
+                        },
+                        {
+                            "Shamsaei, Kasra": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

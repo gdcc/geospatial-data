@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/GBRCWW\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Linz et al. 2021 Stratospheric adiabatic mixing rates derived from the vertical gradient of age of air",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/GBRCWW",
+                "global_id": "doi:10.7910/DVN/GBRCWW",
+                "description": "Data and some code to reproduce plots in \"Stratospheric adiabatic mixing rates derived from the vertical gradient of age of air\". Calculations are performed for WACCM within the file that also produces the figures, \"Reproducing_Figures_Linzetal2021_AoA.m\".",
+                "published_at": "2021-08-24T04:46:00Z",
+                "publisher": "Stratospheric Age of Air Dataverse",
+                "citationHtml": "Linz, Marianna, 2021, \"Replication Data for: Linz et al. 2021 Stratospheric adiabatic mixing rates derived from the vertical gradient of age of air\", <a href=\"https://doi.org/10.7910/DVN/GBRCWW\" target=\"_blank\">https://doi.org/10.7910/DVN/GBRCWW</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "aoalinzlab",
+                "name_of_dataverse": "Stratospheric Age of Air Dataverse",
+                "citation": "Linz, Marianna, 2021, \"Replication Data for: Linz et al. 2021 Stratospheric adiabatic mixing rates derived from the vertical gradient of age of air\", https://doi.org/10.7910/DVN/GBRCWW, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/GBRCWW",
+                "keywords": [
+                    "stratosphere",
+                    "atmospheric physics"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 38,
+                "versionId": 264877,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-08-24T04:28:33Z",
+                "updatedAt": "2021-08-24T04:46:00Z",
+                "contacts": [
+                    {
+                        "name": "Linz, Marianna",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "authors": [
+                    "Linz, Marianna"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Linz, Marianna": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

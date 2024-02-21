@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="longitude" length="360" />
+  <dimension name="latitude" length="181" />
+  <variable name="longitude" shape="longitude" type="float">
+    <attribute name="axis" value="X" />
+    <attribute name="bounds" value="lon_bnds" />
+    <attribute name="long_name" value="Longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="latitude" shape="latitude" type="float">
+    <attribute name="axis" value="Y" />
+    <attribute name="bounds" value="lat_bnds" />
+    <attribute name="long_name" value="Latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="Trr" shape="latitude longitude" type="float">
+    <attribute name="description" value="rr component of stress tensor, where r is radius" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <variable name="Ttt" shape="latitude longitude" type="float">
+    <attribute name="description" value="tt component of stress tensor, where t is colatitude" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <variable name="Tpp" shape="latitude longitude" type="float">
+    <attribute name="description" value="tp component of stress tensor, where p is longitude" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <variable name="Trt" shape="latitude longitude" type="float">
+    <attribute name="description" value="rt component of stress tensor, where r is radius, and t colatitude" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <variable name="Trp" shape="latitude longitude" type="float">
+    <attribute name="description" value="rp component of stress tensor, where r is radius, and p longitude" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <variable name="Ttp" shape="latitude longitude" type="float">
+    <attribute name="description" value="tp component of stress tensor, where t is colatitude, and p longitude" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <attribute name="creation_date" value="02-Apr-2018 07:57:57 (BJT)" />
+  <attribute name="title" value="Stress induced by ocean tide loading: K1, imaginary component" />
+  <attribute name="references" value="http://seis.ustc.edu.cn/resource/stress" />
+  <attribute name="latitude_min" type="double" value="-90.0" />
+  <attribute name="latitude_max" type="double" value="90.0" />
+  <attribute name="longitude_min" type="double" value="0.0" />
+  <attribute name="longitude_max" type="double" value="359.0" />
+</netcdf>

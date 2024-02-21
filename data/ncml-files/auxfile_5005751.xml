@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="isen" length="17" />
+  <variable name="isen" shape="isen" type="float">
+    <attribute name="units" value="K" />
+  </variable>
+  <variable name="sigmagamma" shape="isen" type="double">
+    <attribute name="units" value="unknown" />
+  </variable>
+  <variable name="M" shape="isen" type="double">
+    <attribute name="units" value="kg" />
+  </variable>
+  <variable name="gammau" shape="isen" type="double">
+    <attribute name="units" value="yr" />
+  </variable>
+  <variable name="gammad" shape="isen" type="double">
+    <attribute name="units" value="yr" />
+  </variable>
+  <variable name="dgupdth" shape="isen" type="double">
+    <attribute name="units" value="yr/K" />
+  </variable>
+  <variable name="dgdwndth" shape="isen" type="double">
+    <attribute name="units" value="yr/K" />
+  </variable>
+  <variable name="sigmau" shape="isen" type="double">
+    <attribute name="units" value="kg/K" />
+  </variable>
+  <variable name="sigmad" shape="isen" type="double">
+    <attribute name="units" value="kg/K" />
+  </variable>
+  <variable name="muupSH" shape="isen" type="double">
+    <attribute name="units" value="kg/s" />
+  </variable>
+  <variable name="muupNH" shape="isen" type="double">
+    <attribute name="units" value="kg/s" />
+  </variable>
+  <variable name="mudwnSH" shape="isen" type="double">
+    <attribute name="units" value="kg/s" />
+  </variable>
+  <variable name="mudwnNH" shape="isen" type="double">
+    <attribute name="units" value="kg/s" />
+  </variable>
+  <variable name="MSH" shape="isen" type="double">
+    <attribute name="units" value="kg" />
+  </variable>
+  <variable name="MNH" shape="isen" type="double">
+    <attribute name="units" value="kg" />
+  </variable>
+  <variable name="gammauSH" shape="isen" type="double">
+    <attribute name="units" value="yr" />
+  </variable>
+  <variable name="gammadSH" shape="isen" type="double">
+    <attribute name="units" value="yr" />
+  </variable>
+  <variable name="gammauNH" shape="isen" type="double">
+    <attribute name="units" value="yr" />
+  </variable>
+  <variable name="gammadNH" shape="isen" type="double">
+    <attribute name="units" value="yr" />
+  </variable>
+  <variable name="dgupdthSH" shape="isen" type="double">
+    <attribute name="units" value="yr/K" />
+  </variable>
+  <variable name="dgdwndthSH" shape="isen" type="double">
+    <attribute name="units" value="yr/K" />
+  </variable>
+  <variable name="dgupdthNH" shape="isen" type="double">
+    <attribute name="units" value="yr/K" />
+  </variable>
+  <variable name="dgdwndthNH" shape="isen" type="double">
+    <attribute name="units" value="yr/K" />
+  </variable>
+  <variable name="sigmauSH" shape="isen" type="double">
+    <attribute name="units" value="kg/K" />
+  </variable>
+  <variable name="sigmadSH" shape="isen" type="double">
+    <attribute name="units" value="kg/K" />
+  </variable>
+  <variable name="sigmauNH" shape="isen" type="double">
+    <attribute name="units" value="kg/K" />
+  </variable>
+  <variable name="sigmadNH" shape="isen" type="double">
+    <attribute name="units" value="kg/K" />
+  </variable>
+</netcdf>

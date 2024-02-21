@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="nyear" length="45" />
+  <dimension name="nmo" length="12" />
+  <dimension name="njdays" length="365" />
+  <variable name="dust_jday" shape="nyear njdays" type="float">
+    <attribute name="units" value="micrograms per cubic meter" />
+    <attribute name="long_name" value="daily-mean dust mass concentration" />
+    <attribute name="missing_values" value="-99.0" />
+    <attribute name="array_order" value="[julian_day,year]" />
+  </variable>
+  <variable name="dust_month" shape="nyear nmo" type="float">
+    <attribute name="units" value="micrograms per cubic meter" />
+    <attribute name="long_name" value="monthly-mean dust mass concentration" />
+    <attribute name="missing_values" value="-99.0" />
+    <attribute name="array_order" value="[month,year]" />
+  </variable>
+  <variable name="dust_month_N" shape="nyear nmo" type="short">
+    <attribute name="long_name" value="number of days contributing to monthly-mean" />
+  </variable>
+  <attribute name="description" value="Ragged Point, Barbados (13 deg. 6 min. N, 59 deg 37 min. W)" />
+  <attribute name="time_span" value="Feb 1973 through September, 2015, May-September of 2016," />
+  <attribute name="time_span2" value=" and [Jan, Feb, March, June, July, August] of 2017" />
+  <attribute name="leap_year_sampling" value="leap year days (Feb 29) are ignored" />
+  <attribute name="sampling_time" value="data sampling times exceed 10% (2.4 hours) of the day" />
+  <attribute name="sampling_days" value="Dec 31 values are set equal to Jan 1 of the next year" />
+  <attribute name="documentation" value="please cite Zuidema et al., 2019, if you use these data" />
+  <attribute name="documentation2" value="doi:10.1175/BAMS-D-18-0083.1" />
+</netcdf>

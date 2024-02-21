@@ -1,0 +1,88 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/95WF9I\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Bayesian Markov chain Monte Carlo orographic precipitation output",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/95WF9I",
+                "global_id": "doi:10.7910/DVN/95WF9I",
+                "description": "The dataset contains the likelihood and prior for ten Markov chain Monte Carlo chains used for the orographic precipitation analysis in Morales et al. 2020. This data can be used to produce the posterior probability. Output from each CM1 model iteration is provided as well, described in the notes section below. The control CM1 simulation is also included, as well as a text file with other model output.",
+                "published_at": "2020-05-13T00:04:41Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Morales, Annareli, 2020, \"Bayesian Markov chain Monte Carlo orographic precipitation output\", <a href=\"https://doi.org/10.7910/DVN/95WF9I\" target=\"_blank\">https://doi.org/10.7910/DVN/95WF9I</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Morales, Annareli, 2020, \"Bayesian Markov chain Monte Carlo orographic precipitation output\", https://doi.org/10.7910/DVN/95WF9I, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/95WF9I",
+                "keywords": [
+                    "Bayesian Inference",
+                    "orographic precipitation"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 190,
+                "versionId": 194750,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2020-05-12T04:17:32Z",
+                "updatedAt": "2020-05-13T00:04:41Z",
+                "contacts": [
+                    {
+                        "name": "Morales, Annareli",
+                        "affiliation": "NCAR"
+                    }
+                ],
+                "publications": [
+                    {}
+                ],
+                "authors": [
+                    "Morales, Annareli"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Morales, Annareli": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "NCAR": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

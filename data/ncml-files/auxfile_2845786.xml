@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="iPROF" length="10386" />
+  <dimension name="iDEPTH" length="56" />
+  <dimension name="lTXT" length="30" />
+  <variable name="prof_depth" shape="iDEPTH" type="double">
+    <attribute name="long_name" value="depth" />
+    <attribute name="units" value="me" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+  </variable>
+  <variable name="prof_descr" shape="iPROF lTXT" type="char">
+    <attribute name="long_name" value="profile description" />
+  </variable>
+  <variable name="prof_date" shape="iPROF" type="double">
+    <attribute name="long_name" value="time" />
+    <attribute name="units" value="days since 0000-1-1 0:0:0" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="standard_name" value="time" />
+  </variable>
+  <variable name="prof_lon" shape="iPROF" type="double">
+    <attribute name="long_name" value="Longitude (degree East)" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="standard_name" value="longitude" />
+  </variable>
+  <variable name="prof_lat" shape="iPROF" type="double">
+    <attribute name="long_name" value="Latitude (degree North)" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="standard_name" value="latitude" />
+  </variable>
+  <variable name="prof_T" shape="iPROF iDEPTH" type="double">
+    <attribute name="long_name" value="potential temperature (observed)" />
+    <attribute name="units" value="degree C" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="source" value="CLIMODE (http://www.climode.org/)" />
+  </variable>
+  <variable name="prof_Tweight" shape="iPROF iDEPTH" type="double">
+    <attribute name="long_name" value="pot. temp. least-square weight" />
+    <attribute name="units" value="(degree C)^-2" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="source" value="ECCO consortium (http://ecco-group.org/)" />
+  </variable>
+  <variable name="prof_S" shape="iPROF iDEPTH" type="double">
+    <attribute name="long_name" value="salinity (observed)" />
+    <attribute name="units" value="1" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="comment" value="units is psu" />
+    <attribute name="source" value="CLIMODE (http://www.climode.org/)" />
+  </variable>
+  <variable name="prof_Sweight" shape="iPROF iDEPTH" type="double">
+    <attribute name="long_name" value="salinity least-square weight" />
+    <attribute name="units" value="1" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="source" value="ECCO consortium (http://ecco-group.org/)" />
+    <attribute name="comment" value="units is psu^-2" />
+  </variable>
+  <variable name="prof_TeccoV4R2" shape="iPROF iDEPTH" type="double">
+    <attribute name="long_name" value="potential temperature (ECCO v4 release 2; 1992-2011)" />
+    <attribute name="units" value="degree C" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="source" value="ECCO consortium (http://ecco-group.org/)" />
+  </variable>
+  <variable name="prof_SeccoV4R2" shape="iPROF iDEPTH" type="double">
+    <attribute name="long_name" value="salinity (ECCO v4 release 2; 1992-2011)" />
+    <attribute name="units" value="1" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="source" value="ECCO consortium (http://ecco-group.org/)" />
+    <attribute name="comment" value="units is psu" />
+  </variable>
+  <variable name="prof_TeccoV4R2clim" shape="iPROF iDEPTH" type="double">
+    <attribute name="long_name" value="potential temperature (ECCO v4 release 2; monthly climatology)" />
+    <attribute name="units" value="degree C" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="source" value="ECCO consortium (http://ecco-group.org/)" />
+  </variable>
+  <variable name="prof_SeccoV4R2clim" shape="iPROF iDEPTH" type="double">
+    <attribute name="long_name" value="salinity (ECCO v4 release 2; monthly climatology)" />
+    <attribute name="units" value="1" />
+    <attribute name="missing_value" type="double" value="-9999.0" />
+    <attribute name="_FillValue" type="double" value="-9999.0" />
+    <attribute name="comment" value="units is psu^-2" />
+    <attribute name="source" value="ECCO consortium (http://ecco-group.org/)" />
+  </variable>
+  <attribute name="Format" value="The contents of this MITprof file were processed &#xA;using the MITprof matlab toolbox which can be obtained from &#xA;http://mitgcm.org/viewvc/MITgcm/MITgcm_contrib/gael/profilesMatlabProcessing/" />
+  <attribute name="date" value="02-Apr-2016" />
+  <attribute name="Conventions" value="CF-1.6" />
+  <attribute name="title" value="Observed and estimated profiles" />
+  <attribute name="institution" value="MIT" />
+  <attribute name="references" value="Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, &#xA; and C. Wunsch, 2015: ECCO version 4: an integrated framework for &#xA; non-linear inverse modeling and global ocean state estimation. &#xA; Geoscientific Model Development, 8, 3071-3104, doi:10.5194/gmd-8-3071-2015 &#xA;Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2015: &#xA; ECCO version 4: Second Release, 2016, http://hdl.handle.net/1721.1/102062" />
+  <attribute name="history" value="2016/03/22 -- formatting for online publication -- GF" />
+</netcdf>

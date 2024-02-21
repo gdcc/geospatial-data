@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="initial_time" length="1" />
+  <dimension name="south_north" length="431" />
+  <dimension name="west_east" length="539" />
+  <dimension name="P_top_to_bottom" length="8" />
+  <variable name="initial_time" shape="initial_time" type="int">
+    <attribute name="units" value="YYYYMMDDHH" />
+    <attribute name="long_name" value="time" />
+  </variable>
+  <variable name="lat" shape="south_north west_east" type="float">
+    <attribute name="long_name" value="Latitude" />
+    <attribute name="description" value="LATITUDE, SOUTH IS NEGATIVE" />
+    <attribute name="units" value="degree_north" />
+  </variable>
+  <variable name="lon" shape="south_north west_east" type="float">
+    <attribute name="long_name" value="Longitude" />
+    <attribute name="description" value="LONGITUDE, WEST IS NEGATIVE" />
+    <attribute name="units" value="degree_east" />
+  </variable>
+  <variable name="P_top_to_bottom" shape="P_top_to_bottom" type="int">
+    <attribute name="long_name" value="Isobaric level" />
+    <attribute name="units" value="hPa" />
+    <attribute name="_FillValue" type="int" value="-2147483647" />
+  </variable>
+  <variable name="u" shape="P_top_to_bottom south_north west_east" type="float">
+    <attribute name="long_name" value="U-component of wind" />
+    <attribute name="units" value="m/s" />
+    <attribute name="initial_time" value="2010-01-01_00:00:00" />
+    <attribute name="forecast_time" value="0" />
+    <attribute name="forecast_time_units" value="hours" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="v" shape="P_top_to_bottom south_north west_east" type="float">
+    <attribute name="long_name" value="V-component of wind" />
+    <attribute name="units" value="m/s" />
+    <attribute name="initial_time" value="2010-01-01_00:00:00" />
+    <attribute name="forecast_time" value="0" />
+    <attribute name="forecast_time_units" value="hours" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="gph" shape="P_top_to_bottom south_north west_east" type="float">
+    <attribute name="long_name" value="Geopotential height" />
+    <attribute name="units" value="m" />
+    <attribute name="initial_time" value="2010-01-01_00:00:00" />
+    <attribute name="forecast_time" value="0" />
+    <attribute name="forecast_time_units" value="hours" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="t" shape="P_top_to_bottom south_north west_east" type="float">
+    <attribute name="long_name" value="Temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="initial_time" value="2010-01-01_00:00:00" />
+    <attribute name="forecast_time" value="0" />
+    <attribute name="forecast_time_units" value="hours" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="q" shape="P_top_to_bottom south_north west_east" type="float">
+    <attribute name="long_name" value="Specific humidity" />
+    <attribute name="units" value="kg kg-1" />
+    <attribute name="initial_time" value="2010-01-01_00:00:00" />
+    <attribute name="forecast_time" value="0" />
+    <attribute name="forecast_time_units" value="hours" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <attribute name="Title" value="&#x9;&#x9;East Asia Regional Reanalysis 6 hourly &#xA;&#x9;data on pressure levels from 2010 to 2019" />
+  <attribute name="Description" value="&#x9;East Asia Regional Reanalysis dataset &#xA;&#x9;is developed for the period of 2010-19 by Dr. Eun-Gyeong &#xA;&#x9;Yang and Dr. Hyun Mee Kim in Yonsei University in South &#xA;&#x9;Korea. Reanalysis dataset is produced every 6 hr (i.e., &#xA;&#x9;00, 06, 12, 18 UTC) for 10-yr-period (2010-19). This &#xA;&#x9;netCDF file contains u-component of wind, v-component &#xA;&#x9;of wind, temperature, geopotential height, and specific &#xA;&#x9;humidity variables of reanalysis on pressure levels &#xA;&#x9;(925, 850, 700, 500, 300, 200, 100, 50 hPa). " />
+</netcdf>

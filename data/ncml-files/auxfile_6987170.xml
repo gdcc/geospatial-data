@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="columns" length="4865" />
+  <dimension name="rows" length="4091" />
+  <variable name="CHL_OC4ME" shape="rows columns" type="ubyte">
+    <attribute name="_FillValue" type="ubyte" value="-1" />
+    <attribute name="add_offset" type="float" value="-2.0" />
+    <attribute name="long_name" value="log10 scaled (OC4ME) Algal pigment concentration" />
+    <attribute name="scale_factor" type="float" value="0.015748031" />
+    <attribute name="units" value="lg(re mg.m-3)" />
+    <attribute name="_ChunkSizes" type="uint" value="1364 1622" />
+  </variable>
+  <variable name="CHL_OC4ME_err" shape="rows columns" type="ubyte">
+    <attribute name="_FillValue" type="ubyte" value="-1" />
+    <attribute name="add_offset" type="float" value="-2.0" />
+    <attribute name="long_name" value="log10 scaled Error estimate for (OC4ME) algal pigment concentration" />
+    <attribute name="scale_factor" type="float" value="0.015748031" />
+    <attribute name="units" value="lg(re mg.m-3)" />
+    <attribute name="_ChunkSizes" type="uint" value="1364 1622" />
+  </variable>
+  <attribute name="absolute_orbit_number" type="uint" value="25511" />
+  <attribute name="ac_subsampling_factor" type="ushort" value="64" />
+  <attribute name="al_subsampling_factor" type="ushort" value="1" />
+  <attribute name="comment" value=" " />
+  <attribute name="contact" value="ops@eumetsat.int" />
+  <attribute name="creation_time" value="2023-03-19T23:09:01Z" />
+  <attribute name="history" value="  2023-03-19T23:09:01Z: PUGCoreProcessor /data/ipf-s3/workdir119/661897182/JobOrder.661897182.xml" />
+  <attribute name="institution" value="MAR" />
+  <attribute name="netCDF_version" value="4.2 of Jul  5 2012 17:07:43 $" />
+  <attribute name="processing_baseline" value="OL__L2M.003.02.00" />
+  <attribute name="product_name" value="S3B_OL_2_WFR____20230319T210557_20230319T210857_20230319T230901_0179_077_214_2160_MAR_O_NR_003.SEN3" />
+  <attribute name="references" value="S3IPF PDS 004.3 - i2r3 - Product Data Format Specification - OLCI Level 2 Marine, S3IPF PDS 002 - i1r7 - Product Data Format Specification - Product Structures, S3IPF DPM 008 - i2r2 - Detailed Processing Model - OLCI Level 2" />
+  <attribute name="resolution" value="[ 270 294 ]" />
+  <attribute name="source" value="IPF-OL-2 07.02" />
+  <attribute name="start_time" value="2023-03-19T21:05:57.029503Z" />
+  <attribute name="stop_time" value="2023-03-19T21:08:56.997289Z" />
+  <attribute name="title" value="OLCI Level 2 WATER Product, OC4Me Chlorophyll concentration Data Set" />
+</netcdf>

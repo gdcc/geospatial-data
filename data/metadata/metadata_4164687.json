@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/1QDG2T\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Data for \"Effects of Climate Model Mean-State Bias on Blocking Underestimation\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/1QDG2T",
+                "global_id": "doi:10.7910/DVN/1QDG2T",
+                "description": "Data for \"Effects of Climate Model Mean-State Bias on Blocking Underestimation\"",
+                "published_at": "2020-11-04T16:15:27Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Kleiner, Edward, 2020, \"Data for &quot;Effects of Climate Model Mean-State Bias on Blocking Underestimation&quot;\", <a href=\"https://doi.org/10.7910/DVN/1QDG2T\" target=\"_blank\">https://doi.org/10.7910/DVN/1QDG2T</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Kleiner, Edward, 2020, \"Data for \"Effects of Climate Model Mean-State Bias on Blocking Underestimation\"\", https://doi.org/10.7910/DVN/1QDG2T, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/1QDG2T",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 11,
+                "versionId": 215040,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2020-11-04T16:14:49Z",
+                "updatedAt": "2020-11-04T16:15:27Z",
+                "contacts": [
+                    {
+                        "name": "Kleiner, Edward",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "authors": [
+                    "Kleiner, Edward"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Kleiner, Edward": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

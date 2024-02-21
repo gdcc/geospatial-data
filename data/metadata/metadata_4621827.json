@@ -1,0 +1,108 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/Y1UHID\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Solar geoengineering can alleviate climate change pressures on crop yields",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/Y1UHID",
+                "global_id": "doi:10.7910/DVN/Y1UHID",
+                "description": "This folder contains the data and code for replication of all figures and tables and some analyses presented in Fan et al. 2021, \"Solar geoengineering can alleviate climate change pressures on crop yields.\" Nature Food, 2 (5). DOI: 10.1038/s43016-021-00278-w. Link to paper: http://www.nature.com/articles/s43016-021-00278-w Users of these data should cite Fan et al. (2021). Please contact Yuanchao Fan (ycfan@seas.harvard.edu or yfansunny@gmail.com) for any questions. Please see \"20210420-Readme.txt\" for description of the data structure and usage of the data and code.",
+                "published_at": "2021-05-06T11:58:13Z",
+                "publisher": "NatFood Dataverse",
+                "citationHtml": "Fan, Yuanchao; Tjiputra, Jerry; Muri, Helene; Lombardozzi, Danica; Park, ChangEui; Wu, Shengjun; Keith, David, 2021, \"Replication Data for: Solar geoengineering can alleviate climate change pressures on crop yields\", <a href=\"https://doi.org/10.7910/DVN/Y1UHID\" target=\"_blank\">https://doi.org/10.7910/DVN/Y1UHID</a>, Harvard Dataverse, V1, UNF:6:+Zk32DY21BhS5y/VMIdMXg== [fileUNF]",
+                "identifier_of_dataverse": "natfood_yfan",
+                "name_of_dataverse": "NatFood Dataverse",
+                "citation": "Fan, Yuanchao; Tjiputra, Jerry; Muri, Helene; Lombardozzi, Danica; Park, ChangEui; Wu, Shengjun; Keith, David, 2021, \"Replication Data for: Solar geoengineering can alleviate climate change pressures on crop yields\", https://doi.org/10.7910/DVN/Y1UHID, Harvard Dataverse, V1, UNF:6:+Zk32DY21BhS5y/VMIdMXg== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/Y1UHID",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 142,
+                "versionId": 248188,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 2,
+                "createdAt": "2021-02-07T11:19:31Z",
+                "updatedAt": "2021-06-16T08:33:39Z",
+                "contacts": [
+                    {
+                        "name": "Yuanchao Fan",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "publications": [
+                    {}
+                ],
+                "authors": [
+                    "Fan, Yuanchao",
+                    "Tjiputra, Jerry",
+                    "Muri, Helene",
+                    "Lombardozzi, Danica",
+                    "Park, ChangEui",
+                    "Wu, Shengjun",
+                    "Keith, David"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Fan, Yuanchao": 1
+                        },
+                        {
+                            "Keith, David": 1
+                        },
+                        {
+                            "Lombardozzi, Danica": 1
+                        },
+                        {
+                            "Muri, Helene": 1
+                        },
+                        {
+                            "Park, ChangEui": 1
+                        },
+                        {
+                            "Tjiputra, Jerry": 1
+                        },
+                        {
+                            "Wu, Shengjun": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

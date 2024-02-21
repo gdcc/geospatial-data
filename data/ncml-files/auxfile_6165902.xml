@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="longitude" length="360" />
+  <dimension name="latitude" length="160" />
+  <dimension name="depth" length="8" />
+  <dimension name="month" length="12" />
+  <variable name="longitude" shape="longitude" type="double" />
+  <variable name="latitude" shape="latitude" type="double" />
+  <variable name="month" shape="month" type="double" />
+  <variable name="depth" shape="depth" type="double" />
+  <variable name="layerthickness" shape="depth" type="double" />
+  <variable name="DIN" shape="depth latitude longitude month" type="double" />
+  <variable name="PO4" shape="depth latitude longitude month" type="double" />
+  <variable name="SiO2" shape="depth latitude longitude month" type="double" />
+  <variable name="FeT" shape="depth latitude longitude month" type="double" />
+</netcdf>

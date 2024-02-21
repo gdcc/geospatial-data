@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="Time" length="1" isUnlimited="true" />
+  <dimension name="south_north_subgrid" length="2020" />
+  <dimension name="west_east_subgrid" length="2020" />
+  <variable name="FXLAT" shape="Time south_north_subgrid west_east_subgrid" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="description" value="latitude of midpoints of fire cells" />
+    <attribute name="units" value="degrees" />
+    <attribute name="stagger" value="Z" />
+    <attribute name="coordinates" value="XLONG XLAT XTIME" />
+  </variable>
+  <variable name="FXLONG" shape="Time south_north_subgrid west_east_subgrid" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="description" value="longitude of midpoints of fire cells" />
+    <attribute name="units" value="degrees" />
+    <attribute name="stagger" value="Z" />
+    <attribute name="coordinates" value="XLONG XLAT XTIME" />
+  </variable>
+  <attribute name="TITLE" value=" OUTPUT FROM WRF V4.3.3 MODEL" />
+  <attribute name="START_DATE" value="2021-12-30_17:00:00" />
+  <attribute name="SIMULATION_START_DATE" value="2021-12-30_17:00:00" />
+  <attribute name="WEST-EAST_GRID_DIMENSION" type="int" value="505" />
+  <attribute name="SOUTH-NORTH_GRID_DIMENSION" type="int" value="505" />
+  <attribute name="BOTTOM-TOP_GRID_DIMENSION" type="int" value="45" />
+  <attribute name="DX" type="float" value="111.111115" />
+  <attribute name="DY" type="float" value="111.111115" />
+  <attribute name="AERCU_OPT" type="int" value="0" />
+  <attribute name="AERCU_FCT" type="float" value="1.0" />
+  <attribute name="IDEAL_CASE" type="int" value="0" />
+  <attribute name="DIFF_6TH_SLOPEOPT" type="int" value="0" />
+  <attribute name="AUTO_LEVELS_OPT" type="int" value="2" />
+  <attribute name="DIFF_6TH_THRESH" type="float" value="0.1" />
+  <attribute name="DZBOT" type="float" value="50.0" />
+  <attribute name="DZSTRETCH_S" type="float" value="1.3" />
+  <attribute name="DZSTRETCH_U" type="float" value="1.1" />
+  <attribute name="SKEBS_ON" type="int" value="0" />
+  <attribute name="USE_Q_DIABATIC" type="int" value="0" />
+  <attribute name="GRIDTYPE" value="C" />
+  <attribute name="DIFF_OPT" type="int" value="2" />
+  <attribute name="KM_OPT" type="int" value="2" />
+  <attribute name="DAMP_OPT" type="int" value="3" />
+  <attribute name="DAMPCOEF" type="float" value="0.2" />
+  <attribute name="KHDIF" type="float" value="0.0" />
+  <attribute name="KVDIF" type="float" value="0.0" />
+  <attribute name="MP_PHYSICS" type="int" value="6" />
+  <attribute name="RA_LW_PHYSICS" type="int" value="4" />
+  <attribute name="RA_SW_PHYSICS" type="int" value="1" />
+  <attribute name="SF_SFCLAY_PHYSICS" type="int" value="1" />
+  <attribute name="SF_SURFACE_PHYSICS" type="int" value="2" />
+  <attribute name="BL_PBL_PHYSICS" type="int" value="0" />
+  <attribute name="CU_PHYSICS" type="int" value="0" />
+  <attribute name="SF_LAKE_PHYSICS" type="int" value="0" />
+  <attribute name="SURFACE_INPUT_SOURCE" type="int" value="3" />
+  <attribute name="SST_UPDATE" type="int" value="0" />
+  <attribute name="GRID_FDDA" type="int" value="0" />
+  <attribute name="GFDDA_INTERVAL_M" type="int" value="0" />
+  <attribute name="GFDDA_END_H" type="int" value="0" />
+  <attribute name="GRID_SFDDA" type="int" value="0" />
+  <attribute name="SGFDDA_INTERVAL_M" type="int" value="0" />
+  <attribute name="SGFDDA_END_H" type="int" value="0" />
+  <attribute name="HYPSOMETRIC_OPT" type="int" value="2" />
+  <attribute name="USE_THETA_M" type="int" value="1" />
+  <attribute name="GWD_OPT" type="int" value="0" />
+  <attribute name="SF_URBAN_PHYSICS" type="int" value="0" />
+  <attribute name="SF_SURFACE_MOSAIC" type="int" value="0" />
+  <attribute name="SF_OCEAN_PHYSICS" type="int" value="0" />
+  <attribute name="SHCU_PHYSICS" type="int" value="0" />
+  <attribute name="MFSHCONV" type="int" value="0" />
+  <attribute name="FEEDBACK" type="int" value="0" />
+  <attribute name="SMOOTH_OPTION" type="int" value="0" />
+  <attribute name="SWRAD_SCAT" type="float" value="1.0" />
+  <attribute name="W_DAMPING" type="int" value="1" />
+  <attribute name="DT" type="float" value="0.6666667" />
+  <attribute name="RADT" type="float" value="1.0" />
+  <attribute name="BLDT" type="float" value="0.0" />
+  <attribute name="CUDT" type="float" value="0.0" />
+  <attribute name="AER_OPT" type="int" value="0" />
+  <attribute name="SWINT_OPT" type="int" value="0" />
+  <attribute name="AER_TYPE" type="int" value="1" />
+  <attribute name="AER_AOD550_OPT" type="int" value="1" />
+  <attribute name="AER_ANGEXP_OPT" type="int" value="1" />
+  <attribute name="AER_SSA_OPT" type="int" value="1" />
+  <attribute name="AER_ASY_OPT" type="int" value="1" />
+  <attribute name="AER_AOD550_VAL" type="float" value="0.12" />
+  <attribute name="AER_ANGEXP_VAL" type="float" value="1.3" />
+  <attribute name="AER_SSA_VAL" type="float" value="0.85" />
+  <attribute name="AER_ASY_VAL" type="float" value="0.9" />
+  <attribute name="MOIST_ADV_OPT" type="int" value="1" />
+  <attribute name="SCALAR_ADV_OPT" type="int" value="1" />
+  <attribute name="TKE_ADV_OPT" type="int" value="1" />
+  <attribute name="DIFF_6TH_OPT" type="int" value="0" />
+  <attribute name="DIFF_6TH_FACTOR" type="float" value="0.12" />
+  <attribute name="OBS_NUDGE_OPT" type="int" value="0" />
+  <attribute name="BUCKET_MM" type="float" value="-1.0" />
+  <attribute name="BUCKET_J" type="float" value="-1.0" />
+  <attribute name="PREC_ACC_DT" type="float" value="0.0" />
+  <attribute name="ISFTCFLX" type="int" value="0" />
+  <attribute name="ISHALLOW" type="int" value="0" />
+  <attribute name="ISFFLX" type="int" value="1" />
+  <attribute name="ICLOUD" type="int" value="1" />
+  <attribute name="ICLOUD_CU" type="int" value="0" />
+  <attribute name="TRACER_PBLMIX" type="int" value="1" />
+  <attribute name="SCALAR_PBLMIX" type="int" value="0" />
+  <attribute name="YSU_TOPDOWN_PBLMIX" type="int" value="1" />
+  <attribute name="GRAV_SETTLING" type="int" value="0" />
+  <attribute name="CLDOVRLP" type="int" value="2" />
+  <attribute name="IDCOR" type="int" value="0" />
+  <attribute name="DFI_OPT" type="int" value="0" />
+  <attribute name="NTASKS_X" type="int" value="36" />
+  <attribute name="NTASKS_Y" type="int" value="36" />
+  <attribute name="NTASKS_TOTAL" type="int" value="1296" />
+  <attribute name="SIMULATION_INITIALIZATION_TYPE" value="REAL-DATA CASE" />
+  <attribute name="WEST-EAST_PATCH_START_UNSTAG" type="int" value="1" />
+  <attribute name="WEST-EAST_PATCH_END_UNSTAG" type="int" value="504" />
+  <attribute name="WEST-EAST_PATCH_START_STAG" type="int" value="1" />
+  <attribute name="WEST-EAST_PATCH_END_STAG" type="int" value="505" />
+  <attribute name="SOUTH-NORTH_PATCH_START_UNSTAG" type="int" value="1" />
+  <attribute name="SOUTH-NORTH_PATCH_END_UNSTAG" type="int" value="504" />
+  <attribute name="SOUTH-NORTH_PATCH_START_STAG" type="int" value="1" />
+  <attribute name="SOUTH-NORTH_PATCH_END_STAG" type="int" value="505" />
+  <attribute name="BOTTOM-TOP_PATCH_START_UNSTAG" type="int" value="1" />
+  <attribute name="BOTTOM-TOP_PATCH_END_UNSTAG" type="int" value="44" />
+  <attribute name="BOTTOM-TOP_PATCH_START_STAG" type="int" value="1" />
+  <attribute name="BOTTOM-TOP_PATCH_END_STAG" type="int" value="45" />
+  <attribute name="GRID_ID" type="int" value="2" />
+  <attribute name="PARENT_ID" type="int" value="1" />
+  <attribute name="I_PARENT_START" type="int" value="239" />
+  <attribute name="J_PARENT_START" type="int" value="224" />
+  <attribute name="PARENT_GRID_RATIO" type="int" value="9" />
+  <attribute name="CEN_LAT" type="float" value="0.0" />
+  <attribute name="CEN_LON" type="float" value="0.0" />
+  <attribute name="TRUELAT1" type="float" value="39.9534" />
+  <attribute name="TRUELAT2" type="float" value="39.9534" />
+  <attribute name="MOAD_CEN_LAT" type="float" value="0.0" />
+  <attribute name="STAND_LON" type="float" value="-105.3" />
+  <attribute name="POLE_LAT" type="float" value="90.0" />
+  <attribute name="POLE_LON" type="float" value="0.0" />
+  <attribute name="GMT" type="float" value="17.0" />
+  <attribute name="JULYR" type="int" value="2021" />
+  <attribute name="JULDAY" type="int" value="364" />
+  <attribute name="MAP_PROJ" type="int" value="1" />
+  <attribute name="MAP_PROJ_CHAR" value="Lambert Conformal" />
+  <attribute name="MMINLU" value="NLCD40" />
+  <attribute name="NUM_LAND_CAT" type="int" value="40" />
+  <attribute name="ISWATER" type="int" value="17" />
+  <attribute name="ISLAKE" type="int" value="-1" />
+  <attribute name="ISICE" type="int" value="15" />
+  <attribute name="ISURBAN" type="int" value="13" />
+  <attribute name="ISOILWATER" type="int" value="14" />
+  <attribute name="HYBRID_OPT" type="int" value="2" />
+  <attribute name="ETAC" type="float" value="0.2" />
+  <attribute name="history" value="Mon Oct  3 22:27:44 2022: ncks -v FXLAT,FXLONG wrfout_d02_2021-12-31_01:45:00 fxlat_fxlong.nc" />
+  <attribute name="NCO" value="netCDF Operators version 5.0.3 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)" />
+</netcdf>

@@ -1,0 +1,109 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/LULNUQ\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "A probabilistic gridded product for daily precipitation extremes over the United States",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/LULNUQ",
+                "global_id": "doi:10.7910/DVN/LULNUQ",
+                "description": "The data are packaged together into network common data form (netCDF) files. Three separate files are available, with data provided separately for each season: (1) best estimates of the generalized extreme value (GEV) distribution coefficients as well as bootstrap standard errors, (2) 10-, 20-, 50-, and 100-year return values (with bootstrap standard errors) for 1955, 1965, 1975, 1985, 1995, 2005, and 2015, and (3) smoothed bootstrap estimates (250 total) for each GEV coefficient (these are used to calculate the bootstrap standard errors in the first two files). We also provide code that can be used to calculate return values, return periods, or any function thereof for any year in 1950-2017, as well as the corresponding bootstrap sampling distribution (which can be used to quantify uncertainty via standard errors or confidence intervals).",
+                "published_at": "2019-01-31T02:43:55Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Risser, Mark; Paciorek, Christopher; Wehner, Michael; O'Brien, Travis; Collins, William, 2019, \"A probabilistic gridded product for daily precipitation extremes over the United States\", <a href=\"https://doi.org/10.7910/DVN/LULNUQ\" target=\"_blank\">https://doi.org/10.7910/DVN/LULNUQ</a>, Harvard Dataverse, V3",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Risser, Mark; Paciorek, Christopher; Wehner, Michael; O'Brien, Travis; Collins, William, 2019, \"A probabilistic gridded product for daily precipitation extremes over the United States\", https://doi.org/10.7910/DVN/LULNUQ, Harvard Dataverse, V3",
+                "storageIdentifier": "s3://10.7910/DVN/LULNUQ",
+                "keywords": [
+                    "Gridded extreme precipitation climatology"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 3,
+                "versionId": 149973,
+                "versionState": "RELEASED",
+                "majorVersion": 3,
+                "minorVersion": 0,
+                "createdAt": "2019-01-30T23:28:15Z",
+                "updatedAt": "2019-01-31T02:43:55Z",
+                "contacts": [
+                    {
+                        "name": "Risser, Mark",
+                        "affiliation": "Lawrence Berkeley National Laboratory"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Risser, M. D., Paciorek, C. J., Wehner, M. F., O'Brien, T. A., &amp; Collins, W. D. (2019). A probabilistic gridded product for daily precipitation extremes over the United States. Climate Dynamics (just-accepted)",
+                        "url": "https://arxiv.org/abs/1807.04177"
+                    }
+                ],
+                "authors": [
+                    "Risser, Mark",
+                    "Paciorek, Christopher",
+                    "Wehner, Michael",
+                    "O'Brien, Travis",
+                    "Collins, William"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Collins, William": 1
+                        },
+                        {
+                            "O'Brien, Travis": 1
+                        },
+                        {
+                            "Paciorek, Christopher": 1
+                        },
+                        {
+                            "Risser, Mark": 1
+                        },
+                        {
+                            "Wehner, Michael": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Lawrence Berkeley National Laboratory": 1
+                        },
+                        {
+                            "University of California, Berkeley": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

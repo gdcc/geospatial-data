@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lon" length="922" />
+  <dimension name="lat" length="388" />
+  <dimension name="season" length="4" />
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="units" value="Degrees east" />
+    <attribute name="long_name" value="lon" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="units" value="Degrees north" />
+    <attribute name="long_name" value="lat" />
+  </variable>
+  <variable name="season" shape="season" type="int">
+    <attribute name="units" value=" " />
+    <attribute name="long_name" value="1 = DJF, 2 = MAM, 3 = JJA, 4 = SON" />
+  </variable>
+  <variable name="scaling_factor" shape="season lat lon" type="float">
+    <attribute name="units" value="no units" />
+    <attribute name="_FillValue" type="float" value="NaN" />
+    <attribute name="long_name" value="Scaling factor for LOCA return values" />
+  </variable>
+</netcdf>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="10" isUnlimited="true" />
+  <dimension name="lon" length="700" />
+  <dimension name="lat" length="3" />
+  <dimension name="lev" length="55" />
+  <variable name="time" shape="time" type="double">
+    <attribute name="standard_name" value="time" />
+    <attribute name="units" value="hours since 1-1-1 00:00:00" />
+    <attribute name="calendar" value="standard" />
+    <attribute name="axis" value="T" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="axis" value="X" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="axis" value="Y" />
+  </variable>
+  <variable name="lev" shape="lev" type="double">
+    <attribute name="axis" value="Z" />
+  </variable>
+  <variable name="rn" shape="time lat lon" type="float">
+    <attribute name="long_name" value="accumulated rainfall (cm)" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="sws" shape="time lat lon" type="float">
+    <attribute name="long_name" value="accumulated frozen precip. (cm" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="zs" shape="time lat lon" type="float">
+    <attribute name="long_name" value="terrain height (m)" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="zh" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="height on model levels (m)" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="th" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="potential temp. (K)" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="thpert" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="potential temp. pert. (K)" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="prs" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="pressure (Pa)" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="prspert" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="pressure pert. (Pa)" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qv" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="water vapor mixing ratio" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qc" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qc" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qr" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qr" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qi" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qi" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qs" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qs" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qg" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qg" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="nci" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="nci" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="ncs" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="ncs" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="ncr" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="ncr" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="ncg" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="ncg" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="uinterp" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="u interp. to scalar points" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="vinterp" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="v interp. to scalar points" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="winterp" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="w interp. to scalar points" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="th1" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="accum. latent heating (K/s)" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="th2" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="accum. evap. cooling (K/s)" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qv1" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="accum. diabatic qv changes" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qv2" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="accum. evaporation" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag1" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag1" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag2" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag2" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag3" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag3" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag4" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag4" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag5" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag5" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag6" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag6" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag7" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag7" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag8" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag8" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag9" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag9" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag10" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag10" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag11" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag11" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag12" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag12" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <variable name="qdiag13" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="qdiag13" />
+    <attribute name="_FillValue" type="float" value="-1.0E8" />
+    <attribute name="missing_value" type="float" value="-1.0E8" />
+  </variable>
+  <attribute name="CDI" value="Climate Data Interface version 1.9.7.1 (http://mpimet.mpg.de/cdi)" />
+  <attribute name="Conventions" value="CF-1.6" />
+  <attribute name="history" value="Thu Sep 26 13:23:50 2019: cdo -f nc import_binary cm1out_i.ctl control4mcmc.nc" />
+  <attribute name="CDO" value="Climate Data Operators version 1.9.7.1 (http://mpimet.mpg.de/cdo)" />
+</netcdf>

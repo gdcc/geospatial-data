@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="xi_rho" length="202" />
+  <dimension name="xi_u" length="202" />
+  <dimension name="eta_rho" length="138" />
+  <dimension name="eta_v" length="138" />
+  <dimension name="time" length="1607" />
+  <variable name="h" shape="eta_rho xi_rho" type="float">
+    <attribute name="long_name" value="bathymetry at RHO-points" />
+    <attribute name="units" value="meter" />
+    <attribute name="field" value="bath, scalar" />
+    <attribute name="standard_name" value="model_sea_floor_depth_below_geoid" />
+    <attribute name="coordinates" value="lat_rho lon_rho" />
+  </variable>
+  <variable name="pm" shape="eta_rho xi_rho" type="float">
+    <attribute name="long_name" value="curvilinear coordinates metric in X" />
+    <attribute name="units" value="meter-1" />
+    <attribute name="field" value="pm, scalar" />
+    <attribute name="coordinates" value="lat_rho lon_rho" />
+    <attribute name="standard_name" value="inverse_of_cell_x_size" />
+  </variable>
+  <variable name="pn" shape="eta_rho xi_rho" type="float">
+    <attribute name="long_name" value="curvilinear coordinates metric in ET" />
+    <attribute name="units" value="meter-1" />
+    <attribute name="field" value="pn, scalar" />
+    <attribute name="coordinates" value="lat_rho lon_rho" />
+    <attribute name="standard_name" value="inverse_of_cell_y_size" />
+  </variable>
+  <variable name="lon_rho" shape="eta_rho xi_rho" type="float">
+    <attribute name="long_name" value="longitude of RHO-points" />
+    <attribute name="units" value="degree_east" />
+    <attribute name="field" value="lon_rho, scalar" />
+    <attribute name="standard_name" value="longitude" />
+  </variable>
+  <variable name="lat_rho" shape="eta_rho xi_rho" type="float">
+    <attribute name="long_name" value="latitude of RHO-points" />
+    <attribute name="units" value="degree_north" />
+    <attribute name="field" value="lat_rho, scalar" />
+    <attribute name="standard_name" value="latitude" />
+  </variable>
+  <variable name="lon_u" shape="eta_rho xi_u" type="float">
+    <attribute name="long_name" value="longitude of U-points" />
+    <attribute name="units" value="degree_east" />
+    <attribute name="field" value="lon_u, scalar" />
+    <attribute name="standard_name" value="longitude_at_u_location" />
+  </variable>
+  <variable name="lat_u" shape="eta_rho xi_u" type="float">
+    <attribute name="long_name" value="latitude of U-points" />
+    <attribute name="units" value="degree_north" />
+    <attribute name="field" value="lat_u, scalar" />
+    <attribute name="standard_name" value="latitude_at_u_location" />
+  </variable>
+  <variable name="lon_v" shape="eta_v xi_rho" type="float">
+    <attribute name="long_name" value="longitude of V-points" />
+    <attribute name="units" value="degree_east" />
+    <attribute name="field" value="lon_v, scalar" />
+    <attribute name="standard_name" value="longitude_at_v_location" />
+  </variable>
+  <variable name="lat_v" shape="eta_v xi_rho" type="float">
+    <attribute name="long_name" value="latitude of V-points" />
+    <attribute name="units" value="degree_north" />
+    <attribute name="field" value="lat_v, scalar" />
+    <attribute name="standard_name" value="latitude_at_v_location" />
+  </variable>
+  <variable name="mask_rho" shape="eta_rho xi_rho" type="float">
+    <attribute name="long_name" value="mask on RHO-points" />
+    <attribute name="option_0" value="land" />
+    <attribute name="option_1" value="water" />
+    <attribute name="standard_name" value="land_binary_mask" />
+    <attribute name="coordinates" value="lat_rho lon_rho" />
+  </variable>
+  <variable name="mask_u" shape="eta_rho xi_u" type="float">
+    <attribute name="long_name" value="mask on U-points" />
+    <attribute name="option_0" value="land" />
+    <attribute name="option_1" value="water" />
+    <attribute name="standard_name" value="land_binary_mask" />
+    <attribute name="coordinates" value="lat_u lon_u" />
+  </variable>
+  <variable name="mask_v" shape="eta_v xi_rho" type="float">
+    <attribute name="long_name" value="mask on V-points" />
+    <attribute name="option_0" value="land" />
+    <attribute name="option_1" value="water" />
+    <attribute name="standard_name" value="land_binary_mask" />
+    <attribute name="coordinates" value="lat_v lon_v" />
+  </variable>
+  <variable name="time" shape="time" type="float">
+    <attribute name="long_name" value="time since 01-Jan-1995" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="time, scalar, series" />
+    <attribute name="standard_name" value="time" />
+  </variable>
+  <variable name="Ubar" shape="time eta_rho xi_u" type="float">
+    <attribute name="long_name" value="averaged vertically integrated u-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="ubar-velocity, scalar, series" />
+    <attribute name="standard_name" value="barotropic_sea_water_x_velocity_at_u_location" />
+    <attribute name="coordinates" value="lat_u lon_u" />
+  </variable>
+  <variable name="Vbar" shape="time eta_v xi_rho" type="float">
+    <attribute name="long_name" value="averaged vertically integrated v-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="vbar-velocity, scalar, series" />
+    <attribute name="standard_name" value="barotropic_sea_water_y_velocity_at_v_location" />
+    <attribute name="coordinates" value="lat_v lon_v" />
+  </variable>
+  <variable name="Usurf" shape="time eta_rho xi_u" type="float">
+    <attribute name="long_name" value="averaged surface u-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="u-velocity, scalar, series" />
+    <attribute name="standard_name" value="sea_water_x_velocity_at_u_location" />
+    <attribute name="coordinates" value="lat_u lon_u" />
+  </variable>
+  <variable name="Vsurf" shape="time eta_v xi_rho" type="float">
+    <attribute name="long_name" value="averaged surface v-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="v-velocity, scalar, series" />
+    <attribute name="standard_name" value="sea_water_y_velocity_at_v_location" />
+    <attribute name="coordinates" value="lat_v lon_v" />
+  </variable>
+  <variable name="SST" shape="time eta_rho xi_rho" type="float">
+    <attribute name="long_name" value="averaged surface potential temperature" />
+    <attribute name="units" value="Celsius" />
+    <attribute name="field" value="temperature, scalar, series" />
+    <attribute name="standard_name" value="sea_water_potential_temperature" />
+    <attribute name="coordinates" value="lat_rho lon_rho" />
+  </variable>
+  <variable name="Tracer_surf" shape="time eta_rho xi_rho" type="float">
+    <attribute name="long_name" value="averaged surface passive tracer" />
+    <attribute name="units" value="no unit" />
+    <attribute name="field" value="passive tracer, scalar, series" />
+    <attribute name="coordinates" value="lat_rho lon_rho" />
+  </variable>
+  <variable name="zonal_windstress" shape="time" type="float">
+    <attribute name="long_name" value="averaged zonal wind stress at 53.5degS/37degW" />
+    <attribute name="units" value="N/m2" />
+  </variable>
+  <variable name="SACCF_Transport" shape="time" type="float">
+    <attribute name="long_name" value="SACCF transport" />
+    <attribute name="units" value="Sv" />
+  </variable>
+  <attribute name="history" value="File created on 2023-01-09. Contact: Vincent Combes at vcombes@imedea.uib-csic.es" />
+</netcdf>

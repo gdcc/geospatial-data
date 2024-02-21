@@ -1,0 +1,101 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/ZMVAFB\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Improved simulation of 19th and 20th-century North Atlantic hurricane frequency after correcting historical sea surface temperatures",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/ZMVAFB",
+                "global_id": "doi:10.7910/DVN/ZMVAFB",
+                "description": "Data and supporting data associated with the paper \"Improved simulation of 19th and 20th-century North Atlantic hurricane frequency after correcting historical sea surface temperatures.\"",
+                "published_at": "2021-04-14T23:17:04Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Duo, Chan; Gabriel A. Vecchi; Wenchang Yang; Peter Huybers, 2021, \"Improved simulation of 19th and 20th-century North Atlantic hurricane frequency after correcting historical sea surface temperatures\", <a href=\"https://doi.org/10.7910/DVN/ZMVAFB\" target=\"_blank\">https://doi.org/10.7910/DVN/ZMVAFB</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Duo, Chan; Gabriel A. Vecchi; Wenchang Yang; Peter Huybers, 2021, \"Improved simulation of 19th and 20th-century North Atlantic hurricane frequency after correcting historical sea surface temperatures\", https://doi.org/10.7910/DVN/ZMVAFB, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/ZMVAFB",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 25,
+                "versionId": 211028,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2020-09-10T17:31:17Z",
+                "updatedAt": "2021-04-14T23:17:04Z",
+                "contacts": [
+                    {
+                        "name": "Chan, Duo",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Correcting 19th and 20th-century sea surface temperatures improves simulations of Atlantic hurricane activity"
+                    }
+                ],
+                "authors": [
+                    "Duo, Chan",
+                    "Gabriel A. Vecchi",
+                    "Wenchang Yang",
+                    "Peter Huybers"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Duo, Chan": 1
+                        },
+                        {
+                            "Gabriel A. Vecchi": 1
+                        },
+                        {
+                            "Peter Huybers": 1
+                        },
+                        {
+                            "Wenchang Yang": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        },
+                        {
+                            "Princeton University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

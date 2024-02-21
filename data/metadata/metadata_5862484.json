@@ -1,0 +1,87 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/6QWBF1\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Substantial Global Influence of Anthropogenic Aerosols on Tropical Cyclones over the Past 40 Years",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/6QWBF1",
+                "global_id": "doi:10.7910/DVN/6QWBF1",
+                "description": "This dataset includes the dataset of paper \"Substantial Global Influence of Anthropogenic Aerosols on Tropical Cyclones over the Past 40 Years\".",
+                "published_at": "2022-02-11T20:09:45Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Murakami, Hiroyuki, 2022, \"Replication Data for: Substantial Global Influence of Anthropogenic Aerosols on Tropical Cyclones over the Past 40 Years\", <a href=\"https://doi.org/10.7910/DVN/6QWBF1\" target=\"_blank\">https://doi.org/10.7910/DVN/6QWBF1</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Murakami, Hiroyuki, 2022, \"Replication Data for: Substantial Global Influence of Anthropogenic Aerosols on Tropical Cyclones over the Past 40 Years\", https://doi.org/10.7910/DVN/6QWBF1, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/6QWBF1",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 48,
+                "versionId": 324561,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 1,
+                "createdAt": "2022-02-11T18:51:09Z",
+                "updatedAt": "2022-05-17T16:44:07Z",
+                "contacts": [
+                    {
+                        "name": "Murakami, Hiroyuki",
+                        "affiliation": "UCAR/GFDL"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Murakami, H., 2022: Substantial global influence of anthropogenic aerosols on tropical cyclones over the past 40 years. Sci. Adv., 8, eabn9493.",
+                        "url": "https://www.science.org/doi/10.1126/sciadv.abn9493"
+                    }
+                ],
+                "authors": [
+                    "Murakami, Hiroyuki"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Murakami, Hiroyuki": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "UCAR/GFDL": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

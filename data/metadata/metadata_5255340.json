@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/G4G6FB\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Scaling factors for improving resilience to extreme daily precipitation events for the Livneh 2015 data product and LOCA downscaling solutions",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/G4G6FB",
+                "global_id": "doi:10.7910/DVN/G4G6FB",
+                "description": "When considering seasonal return values of extreme daily precipitation, estimates of return values from the Localized Constructed Analogs statistical downscaling method (LOCA; Pierce et al., 2014; https://doi.org/10.1175/JHM-D-14-0082.1) as well as its training data set (Livneh et al., 2015; https://doi.org/10.7289/v5x34vf6; henceforth L15) yield a significant low (negative) bias in return values. As such, we provide scaling factors which can be used to correct these low biases, which can be applied across event extremity. The scaling factors can be used as follows: (1) Utilize the Generalized Extreme Value (GEV) distribution to estimate seasonal return values for a 1/16 grid cell of interest using a particular LOCA solution or the L15 data set. Here, we use three-month seasons (DJF, MAM, JJA, and SON). (2) Select the scaling factor corresponding to the grid cell and season of interest. (3) An observationally \"bias-corrected\" return value estimate is equal to the L15 or LOCA return value multiplied times the scaling factor.",
+                "published_at": "2022-02-14T21:52:40Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Risser, Mark, 2021, \"Scaling factors for improving resilience to extreme daily precipitation events for the Livneh 2015 data product and LOCA downscaling solutions\", <a href=\"https://doi.org/10.7910/DVN/G4G6FB\" target=\"_blank\">https://doi.org/10.7910/DVN/G4G6FB</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Risser, Mark, 2021, \"Scaling factors for improving resilience to extreme daily precipitation events for the Livneh 2015 data product and LOCA downscaling solutions\", https://doi.org/10.7910/DVN/G4G6FB, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/G4G6FB",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 1,
+                "versionId": 276797,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2021-10-18T19:47:18Z",
+                "updatedAt": "2022-02-14T21:52:40Z",
+                "contacts": [
+                    {
+                        "name": "Risser, Mark",
+                        "affiliation": "Lawrence Berkeley National Laboratory"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Manuscript under revision."
+                    }
+                ],
+                "authors": [
+                    "Risser, Mark"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Risser, Mark": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Lawrence Berkeley National Laboratory": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

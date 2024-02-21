@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="2401" />
+  <dimension name="lon" length="2401" />
+  <dimension name="time" length="48" />
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="long_name" value="latititude" />
+  </variable>
+  <variable name="phase" shape="time lat lon" type="long">
+    <attribute name="long_name" value="Cloud Phase" />
+    <attribute name="description" value="0: clear sky, 1: water cloud, 2: mixed cloud, 3: ice cloud" />
+    <attribute name="_ChunkSizes" type="uint" value="5 267 267" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="long_name" value="longitude" />
+  </variable>
+  <variable name="time" shape="time" type="long">
+    <attribute name="long_name" value="half hour" />
+  </variable>
+  <variable name="cer" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Cloud Effective Radius" />
+    <attribute name="unit" value="μm" />
+    <attribute name="_ChunkSizes" type="uint" value="6 343 343" />
+  </variable>
+  <variable name="cot" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Cloud Optical Thickness" />
+    <attribute name="unit" value="none" />
+    <attribute name="_ChunkSizes" type="uint" value="6 343 343" />
+  </variable>
+  <variable name="cth" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Cloud Top Height" />
+    <attribute name="unit" value="km" />
+    <attribute name="_ChunkSizes" type="uint" value="6 343 343" />
+  </variable>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.7.4,hdf5=1.12.0," />
+</netcdf>

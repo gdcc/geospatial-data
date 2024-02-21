@@ -1,0 +1,90 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/UNH29I\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Vattioni et al., 2019, Exploring accumulation-mode-H2SO4 versus SO2 stratospheric sulfate geoengineering in a sectional aerosol-chemistry-climate model",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/UNH29I",
+                "global_id": "doi:10.7910/DVN/UNH29I",
+                "description": "This data set contains the metadata for the ACP research article Vattioni et al., 2019, Exploring accumulation-mode-H2SO4 versus SO2 stratospheric sulfate geoengineering in a sectional aerosol-chemistry-climate model. Each file contains SOCOL-AER output data averaged over 10 years at 96 longitudinal grid boxes and 48 latitudinal grid boxes. Detailed description of the data can be found in the model description and experimental setup sections of the paper (https://www.atmos-chem-phys-discuss.net/acp-2018-1070/#discussion).",
+                "published_at": "2019-04-09T09:21:50Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Vattioni, Sandro, 2019, \"Replication Data for: Vattioni et al., 2019, Exploring accumulation-mode-H2SO4 versus SO2 stratospheric sulfate geoengineering in a sectional aerosol-chemistry-climate model\", <a href=\"https://doi.org/10.7910/DVN/UNH29I\" target=\"_blank\">https://doi.org/10.7910/DVN/UNH29I</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Vattioni, Sandro, 2019, \"Replication Data for: Vattioni et al., 2019, Exploring accumulation-mode-H2SO4 versus SO2 stratospheric sulfate geoengineering in a sectional aerosol-chemistry-climate model\", https://doi.org/10.7910/DVN/UNH29I, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/UNH29I",
+                "keywords": [
+                    "Geoengineering"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 132,
+                "versionId": 152366,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2019-04-08T07:46:36Z",
+                "updatedAt": "2019-04-09T20:05:10Z",
+                "contacts": [
+                    {
+                        "name": "Vattioni, Sandro",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Vattioni, S., Weisenstein, D., Keith, D., Feinberg, A., Peter, T. and Stenke, A.: Exploring accumulation-mode-H2SO4 versus SO2 stratospheric sulfate geoengineering in a sectional aerosol-chemistry-climate model, Atmospheric Chemistry and Physics Discussions, 1\u201330, doi:https://doi.org/10.5194/acp-2018-1070, 2018.",
+                        "url": "https://www.atmos-chem-phys-discuss.net/acp-2018-1070/#discussion"
+                    }
+                ],
+                "authors": [
+                    "Vattioni, Sandro"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Vattioni, Sandro": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

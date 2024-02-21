@@ -1,0 +1,96 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/LPXYBL\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "CloudSat/CALIPSO/GOES-16 ABI Joint Dataset",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/LPXYBL",
+                "global_id": "doi:10.7910/DVN/LPXYBL",
+                "description": "This dataset consists of matched CloudSat radar and CALIPSO lidar cloud detection in pressure layers, GOES-16 ABI reflectance, and GFS relative humidity data for a time period from October 2018 through June 2019.",
+                "published_at": "2022-02-16T20:09:59Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Haynes, John, 2022, \"CloudSat/CALIPSO/GOES-16 ABI Joint Dataset\", <a href=\"https://doi.org/10.7910/DVN/LPXYBL\" target=\"_blank\">https://doi.org/10.7910/DVN/LPXYBL</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Haynes, John, 2022, \"CloudSat/CALIPSO/GOES-16 ABI Joint Dataset\", https://doi.org/10.7910/DVN/LPXYBL, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/LPXYBL",
+                "keywords": [
+                    "CloudSat",
+                    "CALIPSO",
+                    "GOES-R",
+                    "GOES-16",
+                    "ABI"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 3,
+                "versionId": 248526,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-06-21T22:43:08Z",
+                "updatedAt": "2022-02-16T20:09:59Z",
+                "contacts": [
+                    {
+                        "name": "Haynes, John",
+                        "affiliation": "Colorado State University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Haynes, J. M., Y.-J. Noh, S. D. Miller, K. D. Haynes, I. Ebert-Uphoff, and A. Heidinger, 2021: Low cloud detection in multilayer scenes using satellite imagery with machine learning methods. J. Atmos. Ocean. Technol., https://doi.org/10.1175/JTECH-D-21-0084.1."
+                    }
+                ],
+                "dataSources": [
+                    "National Oceanic and Atmospheric Administration (NOAA), National Aeronautics and Space Administration (NASA)"
+                ],
+                "authors": [
+                    "Haynes, John"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Haynes, John": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Colorado State University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

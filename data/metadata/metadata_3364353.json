@@ -1,0 +1,94 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/BZEZC2\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Reconstruction of Cloud Vertical Structure With a Generative Adversarial Network",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/BZEZC2",
+                "global_id": "doi:10.7910/DVN/BZEZC2",
+                "description": "This dataset contains replication data for: Jussi Leinonen, Alexandre Guillaume and Tianle Yuan (2019), Reconstruction of Cloud Vertical Structure With a Generative Adversarial Network, Geophysical Research Letters, https://doi.org/10.1029/2019GL082532. The code using this dataset can be found at: https://github.com/jleinonen/cloudsat-gan. Preprint available at https://doi.org/10.31223/osf.io/w26ja. The data is in NetCDF4 format.",
+                "published_at": "2019-02-19T21:14:37Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Leinonen, Jussi, 2019, \"Replication Data for: Reconstruction of Cloud Vertical Structure With a Generative Adversarial Network\", <a href=\"https://doi.org/10.7910/DVN/BZEZC2\" target=\"_blank\">https://doi.org/10.7910/DVN/BZEZC2</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Leinonen, Jussi, 2019, \"Replication Data for: Reconstruction of Cloud Vertical Structure With a Generative Adversarial Network\", https://doi.org/10.7910/DVN/BZEZC2, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/BZEZC2",
+                "subjects": [
+                    "Earth and Environmental Sciences",
+                    "Computer and Information Science"
+                ],
+                "fileCount": 1,
+                "versionId": 158483,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 2,
+                "createdAt": "2019-02-19T20:05:39Z",
+                "updatedAt": "2019-06-04T11:19:58Z",
+                "contacts": [
+                    {
+                        "name": "Leinonen, Jussi",
+                        "affiliation": "Jet Propulsion Laboratory, California Institute of Technology"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Jussi Leinonen, Alexandre Guillaume and Tianle Yuan (2019), Reconstruction of Cloud Vertical Structure With a Generative Adversarial Network, Geophysical Research Letters, https://doi.org/10.1029/2019GL082532."
+                    }
+                ],
+                "dataSources": [
+                    "http://www.cloudsat.cira.colostate.edu/data-products/level-2b/2b-geoprof",
+                    "http://www.cloudsat.cira.colostate.edu/data-products/level-aux/mod06-1km-aux"
+                ],
+                "authors": [
+                    "Leinonen, Jussi"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Computer and Information Science": 1
+                        },
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Leinonen, Jussi": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Jet Propulsion Laboratory, California Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

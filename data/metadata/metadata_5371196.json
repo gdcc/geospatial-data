@@ -1,0 +1,91 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/XRJIGF\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Precipitable water vapor data from Sumatra GPS Array station",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/XRJIGF",
+                "global_id": "doi:10.7910/DVN/XRJIGF",
+                "description": "The GPS signals are delayed by the water vapor in the atmosphere, based on which PWV is derived. In addition, the insensitivity of L-band radio signals to cloud and droplet makes the GPS-PWV product available in all weather conditions. In this data, there are 45 GPS stations over Sumatra, led by Emma Hill, during the period of 2008-2013.",
+                "published_at": "2021-11-04T00:46:22Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Kuang, Zhiming, 2021, \"Precipitable water vapor data from Sumatra GPS Array station\", <a href=\"https://doi.org/10.7910/DVN/XRJIGF\" target=\"_blank\">https://doi.org/10.7910/DVN/XRJIGF</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Kuang, Zhiming, 2021, \"Precipitable water vapor data from Sumatra GPS Array station\", https://doi.org/10.7910/DVN/XRJIGF, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/XRJIGF",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 6,
+                "versionId": 279165,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2021-10-11T02:30:13Z",
+                "updatedAt": "2021-11-04T00:46:22Z",
+                "contacts": [
+                    {
+                        "name": "Hu, Zeyuan",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Torri, G., Adams, D. K., Wang, H., &amp; Kuang, Z. (2019). On the diurnal cycle of GPS-derived precipitable water vapor over sumatra. Journal of the Atmospheric Sciences, 76(11), 3529\u20133552.",
+                        "url": "https://doi.org/10.1175/JAS-D-19-0094"
+                    },
+                    {
+                        "citation": "Chen, S., Wong, N. Z., Ma, D., Chan, P. W., &amp; Kuang, Z. (2021). Dependence of precipitation on precipitable water vapor over the Maritime Continent and implications to the Madden-Julian Oscillation. Geophysical Research Letters, 48, e2021GL094648.",
+                        "url": "https://doi.org/10.1029/2021GL094648"
+                    }
+                ],
+                "authors": [
+                    "Kuang, Zhiming"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Kuang, Zhiming": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

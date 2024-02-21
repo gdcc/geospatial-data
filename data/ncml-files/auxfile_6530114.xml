@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="288" isUnlimited="true" />
+  <dimension name="lon" length="1440" />
+  <dimension name="bnds" length="2" />
+  <dimension name="lat" length="480" />
+  <variable name="time" shape="time" type="int">
+    <attribute name="standard_name" value="time" />
+    <attribute name="long_name" value="starting point of time period" />
+    <attribute name="units" value="seconds since 1970-01-01 00:00:00 0:00" />
+    <attribute name="calendar" value="gregorian" />
+    <attribute name="axis" value="T" />
+    <attribute name="_ChunkSizes" type="uint" value="512" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="long_name" value="longitude of center of grid box" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="axis" value="X" />
+    <attribute name="bounds" value="lon_bnds" />
+    <attribute name="_ChunkSizes" type="uint" value="1440" />
+  </variable>
+  <variable name="tp" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total monthly precipitation" />
+    <attribute name="units" value="mm" />
+    <attribute name="missing_value" type="float" value="-9999.0" />
+    <attribute name="_FillValue" type="float" value="-9999.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 480 1440" />
+  </variable>
+  <variable name="lon_bnds" shape="lon bnds" type="float">
+    <attribute name="_ChunkSizes" type="uint" value="1440 2" />
+  </variable>
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="long_name" value="latitude of center of grid box" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="axis" value="Y" />
+    <attribute name="bounds" value="lat_bnds" />
+    <attribute name="_ChunkSizes" type="uint" value="480" />
+  </variable>
+  <variable name="lat_bnds" shape="lat bnds" type="float">
+    <attribute name="_ChunkSizes" type="uint" value="480 2" />
+  </variable>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.7.3,hdf5=1.10.4" />
+</netcdf>

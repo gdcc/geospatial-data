@@ -1,0 +1,84 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/QUWNYU\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: BU Turfgrass SIF Experiment",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/QUWNYU",
+                "global_id": "doi:10.7910/DVN/QUWNYU",
+                "description": "This is the original dataset and processing code used for the SIF measurement experiment conducted by BU on the campus of NIST in the Summer of 2021.",
+                "published_at": "2023-01-06T19:39:05Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Jones, Taylor, 2023, \"Replication Data for: BU Turfgrass SIF Experiment\", <a href=\"https://doi.org/10.7910/DVN/QUWNYU\" target=\"_blank\">https://doi.org/10.7910/DVN/QUWNYU</a>, Harvard Dataverse, V1, UNF:6:JncS048XxzSuJ/Uuvr0WjQ== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Jones, Taylor, 2023, \"Replication Data for: BU Turfgrass SIF Experiment\", https://doi.org/10.7910/DVN/QUWNYU, Harvard Dataverse, V1, UNF:6:JncS048XxzSuJ/Uuvr0WjQ== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/QUWNYU",
+                "keywords": [
+                    "SIF"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 42,
+                "versionId": 339318,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2023-01-06T19:38:31Z",
+                "updatedAt": "2023-01-06T19:39:05Z",
+                "contacts": [
+                    {
+                        "name": "Jones, Taylor",
+                        "affiliation": "Boston University"
+                    }
+                ],
+                "authors": [
+                    "Jones, Taylor"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2023": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Jones, Taylor": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Boston University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

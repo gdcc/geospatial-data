@@ -1,0 +1,88 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/1EKMTZ\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "pRecipe",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/1EKMTZ",
+                "global_id": "doi:10.7910/DVN/1EKMTZ",
+                "description": "Various precipitation data sets including gauge-based, satellite-based, reanalysis, and model products. Data sets were gathered from their source providers and rescaled into a common grid with a spatial resolution of 0.25 degrees and monthly time steps.",
+                "published_at": "2022-09-19T17:57:23Z",
+                "publisher": "MiRoVaGo Dataverse",
+                "citationHtml": "Vargas Godoy, Mijael Rodrigo; Markonis, Yannis, 2022, \"pRecipe\", <a href=\"https://doi.org/10.7910/DVN/1EKMTZ\" target=\"_blank\">https://doi.org/10.7910/DVN/1EKMTZ</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "mirovago",
+                "name_of_dataverse": "MiRoVaGo Dataverse",
+                "citation": "Vargas Godoy, Mijael Rodrigo; Markonis, Yannis, 2022, \"pRecipe\", https://doi.org/10.7910/DVN/1EKMTZ, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/1EKMTZ",
+                "keywords": [
+                    "Global Precipitation"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 21,
+                "versionId": 333423,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-09-19T17:53:12Z",
+                "updatedAt": "2022-09-19T17:57:23Z",
+                "contacts": [
+                    {
+                        "name": "Vargas Godoy, Mijael Rodrigo",
+                        "affiliation": "Czech University of Life Sciences Prague"
+                    }
+                ],
+                "authors": [
+                    "Vargas Godoy, Mijael Rodrigo",
+                    "Markonis, Yannis"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Markonis, Yannis": 1
+                        },
+                        {
+                            "Vargas Godoy, Mijael Rodrigo": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Czech University of Life Sciences Prague": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

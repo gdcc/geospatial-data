@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/8P16YK\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for JGR- Atmospheres: 2020JD032606RR",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/8P16YK",
+                "global_id": "doi:10.7910/DVN/8P16YK",
+                "description": "The processed datasets in the article, including radar, satellite, surface precipitation and NCEP GFS final analysis dataset at 1 degree for the hailstorm event over eastern China on 28 April 2015.",
+                "published_at": "2020-07-21T00:13:04Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Luo, Liping, 2020, \"Replication Data for JGR- Atmospheres: 2020JD032606RR\", <a href=\"https://doi.org/10.7910/DVN/8P16YK\" target=\"_blank\">https://doi.org/10.7910/DVN/8P16YK</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Luo, Liping, 2020, \"Replication Data for JGR- Atmospheres: 2020JD032606RR\", https://doi.org/10.7910/DVN/8P16YK, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/8P16YK",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 138,
+                "versionId": 202040,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2020-07-18T04:13:24Z",
+                "updatedAt": "2020-07-21T00:13:04Z",
+                "contacts": [
+                    {
+                        "name": "Luo, Liping",
+                        "affiliation": "Hohai University"
+                    }
+                ],
+                "authors": [
+                    "Luo, Liping"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Luo, Liping": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Hohai University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

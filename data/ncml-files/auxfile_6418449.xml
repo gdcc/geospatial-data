@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="114" isUnlimited="true" />
+  <dimension name="lev" length="56" />
+  <dimension name="lat" length="96" />
+  <dimension name="lon" length="144" />
+  <dimension name="ilev" length="57" />
+  <dimension name="nbnd" length="2" />
+  <variable name="CLONO2" shape="time lev lat lon" type="float">
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="units" value="mol/mol" />
+    <attribute name="long_name" value="CLONO2 concentration" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="HCL" shape="time lev lat lon" type="float">
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="units" value="mol/mol" />
+    <attribute name="long_name" value="HCL concentration" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="O3" shape="time lev lat lon" type="float">
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="units" value="mol/mol" />
+    <attribute name="long_name" value="O3 concentration" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="P0" shape="" type="double">
+    <attribute name="long_name" value="reference pressure" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <variable name="PS" shape="time lat lon" type="float">
+    <attribute name="units" value="Pa" />
+    <attribute name="long_name" value="Surface pressure" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="T" shape="time lev lat lon" type="float">
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="units" value="K" />
+    <attribute name="long_name" value="Temperature" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="date" shape="time" type="int">
+    <attribute name="long_name" value="current date (YYYYMMDD)" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="hyai" shape="ilev" type="double">
+    <attribute name="long_name" value="hybrid A coefficient at layer interfaces" />
+  </variable>
+  <variable name="hyam" shape="lev" type="double">
+    <attribute name="long_name" value="hybrid A coefficient at layer midpoints" />
+  </variable>
+  <variable name="hybi" shape="ilev" type="double">
+    <attribute name="long_name" value="hybrid B coefficient at layer interfaces" />
+  </variable>
+  <variable name="hybm" shape="lev" type="double">
+    <attribute name="long_name" value="hybrid B coefficient at layer midpoints" />
+  </variable>
+  <variable name="ilev" shape="ilev" type="double">
+    <attribute name="long_name" value="hybrid level at interfaces (1000*(A+B))" />
+    <attribute name="units" value="level" />
+    <attribute name="positive" value="down" />
+    <attribute name="standard_name" value="atmosphere_hybrid_sigma_pressure_coordinate" />
+    <attribute name="formula_terms" value="a: hyai b: hybi p0: P0 ps: PS" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="lev" shape="lev" type="double">
+    <attribute name="long_name" value="hybrid level at midpoints (1000*(A+B))" />
+    <attribute name="units" value="level" />
+    <attribute name="positive" value="down" />
+    <attribute name="standard_name" value="atmosphere_hybrid_sigma_pressure_coordinate" />
+    <attribute name="formula_terms" value="a: hyam b: hybm p0: P0 ps: PS" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="time" shape="time" type="double">
+    <attribute name="long_name" value="time" />
+    <attribute name="units" value="days since 2019-12-29 00:00:00" />
+    <attribute name="calendar" value="gregorian" />
+    <attribute name="bounds" value="time_bnds" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="time_bnds" shape="time nbnd" type="double">
+    <attribute name="long_name" value="time interval endpoints" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <attribute name="Conventions" value="CF-1.0" />
+  <attribute name="source" value="CAM" />
+  <attribute name="case" value="pyrocb_control1" />
+  <attribute name="title" value="UNSET" />
+  <attribute name="logname" value="pengfeiy" />
+  <attribute name="host" value="r8i4n1" />
+  <attribute name="Version" value="$Name$" />
+  <attribute name="revision_Id" value="$Id$" />
+  <attribute name="initial_file" value="/glade/work/pengfeiy/initdata/pyrocb2020/SMD/pyrocb20191229-en21.nc" />
+  <attribute name="topography_file" value="/glade/p/cesmdata/cseg/inputdata/atm/cam/topo/USGS-gtopo30_1.9x2.5_remap_c050602.nc" />
+  <attribute name="history" value="Thu Jul 21 07:47:09 2022: ncrcat control_pyrocb_control1.cam.h0.2019-12-29-00000.nc control_pyrocb_control1.cam.h0.2020-01-05-00000.nc control_pyrocb_control1.cam.h0.2020-01-12-00000.nc control_pyrocb_control1.cam.h0.2020-01-19-00000.nc control_pyrocb_control1.cam.h0.2020-01-26-00000.nc control_pyrocb_control1.cam.h0.2020-02-02-00000.nc control_pyrocb_control1.cam.h0.2020-02-09-00000.nc control_pyrocb_control1.cam.h0.2020-02-16-00000.nc control_pyrocb_control1.cam.h0.2020-02-23-00000.nc control_pyrocb_sd_control1.cam.h0.2020-03-01-00000.nc control_pyrocb_sd_control1.cam.h0.2020-03-08-00000.nc control_pyrocb_sd_control1.cam.h0.2020-03-15-00000.nc control_pyrocb_sd_control1.cam.h0.2020-03-22-00000.nc control_pyrocb_sd_control1.cam.h0.2020-03-29-00000.nc control_pyrocb_sd_control1.cam.h0.2020-04-05-00000.nc control_pyrocb_sd_control1.cam.h0.2020-04-12-00000.nc control_pyrocb_sd_control1.cam.h0.2020-04-19-00000.nc control_pyrocb_sd_control1.cam.h0.2020-04-26-00000.nc control_pyrocb_sd_control1.cam.h0.2020-05-03-00000.nc control_pyrocb_sd_control1.cam.h0.2020-05-10-00000.nc control_pyrocb_sd_control1.cam.h0.2020-05-17-00000.nc control_pyrocb_sd_control1.cam.h0.2020-05-24-00000.nc control_pyrocb_sd_control1.cam.h0.2020-05-31-00000.nc control_pyrocb_sd_control1.cam.h0.2020-06-07-00000.nc control_pyrocb_sd_control1.cam.h0.2020-06-14-00000.nc control_pyrocb_sd_control1.cam.h0.2020-06-21-00000.nc control_pyrocb_sd_control1.cam.h0.2020-06-28-00000.nc control_pyrocb_sd_control1.cam.h0.2020-07-05-00000.nc control_pyrocb_sd_control1.cam.h0.2020-07-12-00000.nc control_pyrocb_sd_control1.cam.h0.2020-07-19-00000.nc control_pyrocb_sd_control1.cam.h0.2020-07-26-00000.nc control_pyrocb_sd_control1.cam.h0.2020-08-02-00000.nc control_pyrocb_sd_control1.cam.h0.2020-08-09-00000.nc control_pyrocb_sd_control1.cam.h0.2020-08-16-00000.nc control_pyrocb_sd_control1.cam.h0.2020-08-23-00000.nc control_pyrocb_sd_control1.cam.h0.2020-08-30-00000.nc control_pyrocb_sd_control1.cam.h0.2020-09-06-00000.nc control_pyrocb_sd_control1.cam.h0.2020-09-13-00000.nc control_pyrocb_sd_control1.cam.h0.2020-09-20-00000.nc control_pyrocb_sd_control1.cam.h0.2020-09-27-00000.nc control_pyrocb_sd_control1.cam.h0.2020-10-04-00000.nc control_pyrocb_sd_control1.cam.h0.2020-10-11-00000.nc control_pyrocb_sd_control1.cam.h0.2020-10-18-00000.nc control_pyrocb_sd_control1.cam.h0.2020-10-25-00000.nc control_pyrocb_sd_control1.cam.h0.2020-11-01-00000.nc control_pyrocb_sd_control1.cam.h0.2020-11-08-00000.nc control_pyrocb_sd_control1.cam.h0.2020-11-15-00000.nc control_pyrocb_sd_control1.cam.h0.2020-11-22-00000.nc control_pyrocb_sd_control1.cam.h0.2020-11-29-00000.nc control_pyrocb_sd_control1.cam.h0.2020-12-06-00000.nc control_pyrocb_sd_control1.cam.h0.2020-12-13-00000.nc control_pyrocb_sd_control1.cam.h0.2020-12-20-00000.nc control_pyrocb_sd_control1.cam.h0.2020-12-27-00000.nc control_pyrocb_sd_control1.cam.h0.2021-01-03-00000.nc control_pyrocb_sd_control1.cam.h0.2021-01-10-00000.nc control_pyrocb_sd_control1.cam.h0.2021-01-17-00000.nc control_pyrocb_sd_control1.cam.h0.2021-01-24-00000.nc control_pyrocb_sd_control1.cam.h0.2021-01-31-00000.nc control_pyrocb_sd_control1.cam.h0.2021-02-07-00000.nc control_pyrocb_sd_control1.cam.h0.2021-02-14-00000.nc control_pyrocb_sd_control1.cam.h0.2021-02-21-00000.nc control_pyrocb_sd_control1.cam.h0.2021-02-28-00000.nc control_pyrocb_sd_control1.cam.h0.2021-03-07-00000.nc control_pyrocb_sd_control1.cam.h0.2021-03-14-00000.nc control_pyrocb_sd_control1.cam.h0.2021-03-21-00000.nc control_pyrocb_sd_control1.cam.h0.2021-03-28-00000.nc control_pyrocb_sd_control1.cam.h0.2021-04-04-00000.nc control_pyrocb_sd_control1.cam.h0.2021-04-11-00000.nc control_pyrocb_sd_control1.cam.h0.2021-04-18-00000.nc control_pyrocb_sd_control1.cam.h0.2021-04-25-00000.nc control_pyrocb_sd_control1.cam.h0.2021-05-02-00000.nc control_pyrocb_sd_control1.cam.h0.2021-05-09-00000.nc control_pyrocb_sd_control1.cam.h0.2021-05-16-00000.nc control_pyrocb_sd_control1.cam.h0.2021-05-23-00000.nc control_pyrocb_sd_control1.cam.h0.2021-05-30-00000.nc control_pyrocb_sd_control1.cam.h0.2021-06-06-00000.nc control_pyrocb_sd_control1.cam.h0.2021-06-13-00000.nc control_pyrocb_sd_control1.cam.h0.2021-06-20-00000.nc control_pyrocb_sd_control1.cam.h0.2021-06-27-00000.nc control_pyrocb_sd_control1.cam.h0.2021-07-04-00000.nc control_pyrocb_sd_control1.cam.h0.2021-07-11-00000.nc control_pyrocb_sd_control1.cam.h0.2021-07-18-00000.nc control_pyrocb_sd_control1.cam.h0.2021-07-25-00000.nc control_pyrocb_sd_control1.cam.h0.2021-08-01-00000.nc control_pyrocb_sd_control1.cam.h0.2021-08-08-00000.nc control_pyrocb_sd_control1.cam.h0.2021-08-15-00000.nc control_pyrocb_sd_control1.cam.h0.2021-08-22-00000.nc control_pyrocb_sd_control1.cam.h0.2021-08-29-00000.nc control_pyrocb_sd_control1.cam.h0.2021-09-05-00000.nc control_pyrocb_sd_control1.cam.h0.2021-09-12-00000.nc control_pyrocb_sd_control1.cam.h0.2021-09-19-00000.nc control_pyrocb_sd_control1.cam.h0.2021-09-26-00000.nc control_pyrocb_sd_control1.cam.h0.2021-10-03-00000.nc control_pyrocb_sd_control1.cam.h0.2021-10-10-00000.nc control_pyrocb_sd_control1.cam.h0.2021-10-17-00000.nc control_pyrocb_sd_control1.cam.h0.2021-10-24-00000.nc control_pyrocb_sd_control1.cam.h0.2021-10-31-00000.nc control_pyrocb_sd_control1.cam.h0.2021-11-07-00000.nc control_pyrocb_sd_control1.cam.h0.2021-11-14-00000.nc control_pyrocb_sd_control1.cam.h0.2021-11-21-00000.nc control_pyrocb_sd_control1.cam.h0.2021-11-28-00000.nc control_pyrocb_sd_control1.cam.h0.2021-12-05-00000.nc control_pyrocb_sd_control1.cam.h0.2021-12-12-00000.nc control_pyrocb_sd_control1.cam.h0.2021-12-19-00000.nc control_pyrocb_sd_control1.cam.h0.2021-12-26-00000.nc control_pyrocb_sd_control1.cam.h0.2022-01-02-00000.nc control_pyrocb_sd_control1.cam.h0.2022-01-09-00000.nc control_pyrocb_sd_control1.cam.h0.2022-01-16-00000.nc control_pyrocb_sd_control1.cam.h0.2022-01-23-00000.nc control_pyrocb_sd_control1.cam.h0.2022-01-30-00000.nc control_pyrocb_sd_control1.cam.h0.2022-02-06-00000.nc control_pyrocb_sd_control1.cam.h0.2022-02-13-00000.nc control_pyrocb_sd_control1.cam.h0.2022-02-20-00000.nc control_pyrocb_sd_control1.cam.h0.2022-02-27-00000.nc combine/out_SD_control.nc&#xA;Thu Jul 21 07:46:23 2022: ncks -v O3,CLONO2,HCL,T,date pyrocb_control1.cam.h0.2019-12-29-00000.nc /glade/work/stonek/Bushfire2020/newbushfirefinal/3D/out/control_pyrocb_control1.cam.h0.2019-12-29-00000.nc" />
+  <attribute name="NCO" value="netCDF Operators version 5.0.3 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)" />
+</netcdf>

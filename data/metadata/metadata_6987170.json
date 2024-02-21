@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/OYBLGK\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Global Workshop on Earth Observation with Julia 2023",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/OYBLGK",
+                "global_id": "doi:10.7910/DVN/OYBLGK",
+                "description": "For use at the JuliaEO2023, Global Workshop on Earth Observation with Julia, workshop. - Regional subsets of sea level & topography data for the region of the Azores. - Docker image for attendees & others to reproduce workshop notebook results. Workshop website is https://aircentre.github.io/JuliaEO/",
+                "published_at": "2023-07-05T12:04:23Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Forget, Gael, 2022, \"Global Workshop on Earth Observation with Julia 2023\", <a href=\"https://doi.org/10.7910/DVN/OYBLGK\" target=\"_blank\">https://doi.org/10.7910/DVN/OYBLGK</a>, Harvard Dataverse, V10, UNF:6:2eiOj8mK+A2LzIaOhYIrAQ== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Forget, Gael, 2022, \"Global Workshop on Earth Observation with Julia 2023\", https://doi.org/10.7910/DVN/OYBLGK, Harvard Dataverse, V10, UNF:6:2eiOj8mK+A2LzIaOhYIrAQ== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/OYBLGK",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 37,
+                "versionId": 347242,
+                "versionState": "RELEASED",
+                "majorVersion": 10,
+                "minorVersion": 0,
+                "createdAt": "2022-12-26T23:03:57Z",
+                "updatedAt": "2023-07-05T12:04:23Z",
+                "contacts": [
+                    {
+                        "name": "Forget, Gael",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "authors": [
+                    "Forget, Gael"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Forget, Gael": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

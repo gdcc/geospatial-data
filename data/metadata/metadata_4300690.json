@@ -1,0 +1,84 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/WZNGBD\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "CESM replication Data for: A Model Intercomparison of Stratospheric Solar Geoengineering by  Accumulation-Mode Sulfate Aerosols, submission to ACP",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/WZNGBD",
+                "global_id": "doi:10.7910/DVN/WZNGBD",
+                "description": "Data from 3-D chemistry-climate-aerosol models CESM2, MAECHAM5-HAM, SOCOL-AERv2",
+                "published_at": "2021-01-14T23:42:59Z",
+                "publisher": "Debra Weisenstein Dataverse",
+                "citationHtml": "Weisenstein, Debra, 2021, \"CESM replication Data for: A Model Intercomparison of Stratospheric Solar Geoengineering by Accumulation-Mode Sulfate Aerosols, submission to ACP\", <a href=\"https://doi.org/10.7910/DVN/WZNGBD\" target=\"_blank\">https://doi.org/10.7910/DVN/WZNGBD</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "AM-H2SO4_Intercompare_Data",
+                "name_of_dataverse": "Debra Weisenstein Dataverse",
+                "citation": "Weisenstein, Debra, 2021, \"CESM replication Data for: A Model Intercomparison of Stratospheric Solar Geoengineering by Accumulation-Mode Sulfate Aerosols, submission to ACP\", https://doi.org/10.7910/DVN/WZNGBD, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/WZNGBD",
+                "keywords": [
+                    "geoengineering aerosols stratosphere"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 346,
+                "versionId": 228137,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-01-14T21:57:26Z",
+                "updatedAt": "2021-01-14T23:42:59Z",
+                "contacts": [
+                    {
+                        "name": "Weisenstein, Debra",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "authors": [
+                    "Weisenstein, Debra"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Weisenstein, Debra": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

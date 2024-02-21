@@ -1,0 +1,100 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/FDGPBM\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Ozone depletion following future volcanic eruptions",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/FDGPBM",
+                "global_id": "doi:10.7910/DVN/FDGPBM",
+                "description": "This dataverse contains datasets required to reproduce the analysis found within \"Ozone depletion following future volcanic eruptions\" by J. Eric Klobas, David M. Wilmouth, Debra K. Weisenstein, James G. Anderson, and Ross J. Salawitch, per AGU Data Policy standards.",
+                "published_at": "2017-06-23T14:56:05Z",
+                "publisher": "JEKlobas Dataverse",
+                "citationHtml": "Klobas, J. Eric; Wilmouth, David M.; Weisenstein, Debra K.; Anderson, James G.; Salawitch, Ross J., 2017, \"Replication Data for: Ozone depletion following future volcanic eruptions\", <a href=\"https://doi.org/10.7910/DVN/FDGPBM\" target=\"_blank\">https://doi.org/10.7910/DVN/FDGPBM</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "Klobas",
+                "name_of_dataverse": "JEKlobas Dataverse",
+                "citation": "Klobas, J. Eric; Wilmouth, David M.; Weisenstein, Debra K.; Anderson, James G.; Salawitch, Ross J., 2017, \"Replication Data for: Ozone depletion following future volcanic eruptions\", https://doi.org/10.7910/DVN/FDGPBM, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://dvn-cloud:10.7910/DVN/FDGPBM",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 249,
+                "versionId": 127123,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2017-06-23T00:21:34Z",
+                "updatedAt": "2017-06-23T14:56:05Z",
+                "contacts": [
+                    {
+                        "name": "Klobas, J. Eric",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "publications": [
+                    {}
+                ],
+                "authors": [
+                    "Klobas, J. Eric",
+                    "Wilmouth, David M.",
+                    "Weisenstein, Debra K.",
+                    "Anderson, James G.",
+                    "Salawitch, Ross J."
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2017": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Anderson, James G.": 1
+                        },
+                        {
+                            "Klobas, J. Eric": 1
+                        },
+                        {
+                            "Salawitch, Ross J.": 1
+                        },
+                        {
+                            "Weisenstein, Debra K.": 1
+                        },
+                        {
+                            "Wilmouth, David M.": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

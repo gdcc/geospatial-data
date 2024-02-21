@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/IYQCXG\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Identification of Sea Breeze Recirculation and its Effects on Ozone in Houston, TX, during DISCOVER-AQ 2013",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/IYQCXG",
+                "global_id": "doi:10.7910/DVN/IYQCXG",
+                "description": "Dataset used for the paper submission.",
+                "published_at": "2020-05-26T04:22:31Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Li, Wei, 2020, \"Identification of Sea Breeze Recirculation and its Effects on Ozone in Houston, TX, during DISCOVER-AQ 2013\", <a href=\"https://doi.org/10.7910/DVN/IYQCXG\" target=\"_blank\">https://doi.org/10.7910/DVN/IYQCXG</a>, Harvard Dataverse, V1, UNF:6:dxXdG82H275hWVJtTJDkUQ== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Li, Wei, 2020, \"Identification of Sea Breeze Recirculation and its Effects on Ozone in Houston, TX, during DISCOVER-AQ 2013\", https://doi.org/10.7910/DVN/IYQCXG, Harvard Dataverse, V1, UNF:6:dxXdG82H275hWVJtTJDkUQ== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/IYQCXG",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 25,
+                "versionId": 196084,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2020-05-26T04:16:33Z",
+                "updatedAt": "2020-09-02T02:38:48Z",
+                "contacts": [
+                    {
+                        "name": "Li, Wei",
+                        "affiliation": "University of Houston"
+                    }
+                ],
+                "authors": [
+                    "Li, Wei"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Li, Wei": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of Houston": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="plev" length="11" />
+  <dimension name="lat" length="160" />
+  <dimension name="lon" length="320" />
+  <dimension name="time" length="1" isUnlimited="true" />
+  <variable name="plev" shape="plev" type="double">
+    <attribute name="axis" value="Z" />
+    <attribute name="positive" value="down" />
+    <attribute name="standard_name" value="air_pressure" />
+    <attribute name="units" value="mb" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="axis" value="Y" />
+    <attribute name="long_name" value="latitude" />
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="axis" value="X" />
+    <attribute name="long_name" value="longitude" />
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="time" shape="time" type="double">
+    <attribute name="standard_name" value="time" />
+    <attribute name="units" value="hours since 1850-01-01 00:00:00" />
+    <attribute name="calendar" value="standard" />
+    <attribute name="axis" value="T" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="512" />
+  </variable>
+  <variable name="Q" shape="time plev lat lon" type="float">
+    <attribute name="long_name" value="Specific humidity" />
+    <attribute name="units" value="kg kg-1" />
+    <attribute name="code" type="int" value="133" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 11 160 320" />
+  </variable>
+  <variable name="RELHUM" shape="time plev lat lon" type="float">
+    <attribute name="long_name" value="Relative humidity" />
+    <attribute name="units" value="%" />
+    <attribute name="code" type="int" value="157" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 11 160 320" />
+  </variable>
+  <variable name="T" shape="time plev lat lon" type="float">
+    <attribute name="standard_name" value="air_temperature" />
+    <attribute name="long_name" value="Temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="param" value="0.0.0" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 11 160 320" />
+  </variable>
+  <variable name="U" shape="time plev lat lon" type="float">
+    <attribute name="standard_name" value="eastward_wind" />
+    <attribute name="long_name" value="U component of wind" />
+    <attribute name="units" value="m s**-1" />
+    <attribute name="param" value="2.2.0" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 11 160 320" />
+  </variable>
+  <variable name="V" shape="time plev lat lon" type="float">
+    <attribute name="standard_name" value="northward_wind" />
+    <attribute name="long_name" value="V component of wind" />
+    <attribute name="units" value="m s**-1" />
+    <attribute name="param" value="3.2.0" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 11 160 320" />
+  </variable>
+  <variable name="Z3" shape="time plev lat lon" type="float">
+    <attribute name="standard_name" value="geopotential" />
+    <attribute name="long_name" value="Geopotential" />
+    <attribute name="units" value="m" />
+    <attribute name="param" value="4.3.0" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 11 160 320" />
+  </variable>
+  <variable name="PS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface pressure" />
+    <attribute name="units" value="Pa" />
+    <attribute name="code" type="int" value="134" />
+    <attribute name="table" type="int" value="255" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="PSL" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Mean sea level pressure" />
+    <attribute name="units" value="Pa" />
+    <attribute name="code" type="int" value="151" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="U_REF" shape="time lat lon" type="float">
+    <attribute name="long_name" value="u-wind component at 10m" />
+    <attribute name="units" value="m s-1" />
+    <attribute name="code" type="int" value="165" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="V_REF" shape="time lat lon" type="float">
+    <attribute name="long_name" value="v-wind component at 10m" />
+    <attribute name="units" value="m s-1" />
+    <attribute name="code" type="int" value="166" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="TREFHT" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Air temperature at 2m" />
+    <attribute name="units" value="K" />
+    <attribute name="code" type="int" value="167" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="QFLX" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Evaporation" />
+    <attribute name="units" value="kg m-2 s-1" />
+    <attribute name="code" type="int" value="182" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="TS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Soil temperature level 1" />
+    <attribute name="units" value="K" />
+    <attribute name="code" type="int" value="139" />
+    <attribute name="table" type="int" value="255" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="CLDTOT" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total cloud cover" />
+    <attribute name="units" value="0-1" />
+    <attribute name="code" type="int" value="164" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="PRECT" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total precipitation" />
+    <attribute name="units" value="m/s" />
+    <attribute name="code" type="int" value="228" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="PRECC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Convective precipitation" />
+    <attribute name="units" value="m/s" />
+    <attribute name="code" type="int" value="143" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="PRECL" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Large-scale precipitation" />
+    <attribute name="units" value="m/s" />
+    <attribute name="code" type="int" value="142" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="TAUX" shape="time lat lon" type="float">
+    <attribute name="long_name" value="East-West surface stress" />
+    <attribute name="units" value="N m-2" />
+    <attribute name="code" type="int" value="180" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="TAUY" shape="time lat lon" type="float">
+    <attribute name="long_name" value="North-South surface stress" />
+    <attribute name="units" value="N m-2" />
+    <attribute name="code" type="int" value="181" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="SHFLX" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface sensible heat flux" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="146" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="LHFLX" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface latent heat flux" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="147" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FSDS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface solar radiation downwards" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="169" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FLDS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface thermal radiation downwards" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="175" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FSNS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface solar radiation" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="176" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FLNS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface thermal radiation" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="177" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FSNT" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Top solar radiation" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="178" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FLNT" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Top thermal radiation" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="179" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FSNTC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Top net solar radiation, clear sky" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="208" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FLNTC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Top net thermal radiation, clear sky" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="209" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FSNSC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface net solar radiation, clear sky" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="210" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FLNSC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface net thermal radiation, clear sky" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="211" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="CLDLOW" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Low cloud cover" />
+    <attribute name="units" value="0-1" />
+    <attribute name="code" type="int" value="186" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="CLDMED" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Medium cloud cover" />
+    <attribute name="units" value="0-1" />
+    <attribute name="code" type="int" value="187" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="CLDHGH" shape="time lat lon" type="float">
+    <attribute name="long_name" value="High cloud cover" />
+    <attribute name="units" value="0-1" />
+    <attribute name="code" type="int" value="188" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="TMQ" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total column water vapour" />
+    <attribute name="units" value="kg m-2" />
+    <attribute name="code" type="int" value="137" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="TGCLDLWP" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total column liquid water" />
+    <attribute name="units" value="g/m^2" />
+    <attribute name="code" type="int" value="78" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="TGCLDIWP" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total column ice water" />
+    <attribute name="units" value="g/m^2" />
+    <attribute name="code" type="int" value="79" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="ALBEDO" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Forecast albedo" />
+    <attribute name="units" value="0-1" />
+    <attribute name="code" type="int" value="243" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="WIND_MAG_SURF" shape="time lat lon" type="float">
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="code" type="int" value="165" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="units" value="m s**-1" />
+    <attribute name="long_name" value="Surface Wind Magnitude" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="TCW" shape="time lat lon" type="float">
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="code" type="int" value="137" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="units" value="kg m-2" />
+    <attribute name="long_name" value="Total column water" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="SRFRAD" shape="time lat lon" type="float">
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="code" type="int" value="176" />
+    <attribute name="long_name" value="Surface solar radiation" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="LWCF" shape="time lat lon" type="float">
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="code" type="int" value="179" />
+    <attribute name="long_name" value="Top thermal radiation" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="SWCF" shape="time lat lon" type="float">
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="code" type="int" value="178" />
+    <attribute name="long_name" value="Top solar radiation" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="OMEGA" shape="time plev lat lon" type="float">
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="long_name" value="Temperature" />
+    <attribute name="param" value="0.0.0" />
+    <attribute name="standard_name" value="air_temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="_ChunkSizes" type="uint" value="1 11 160 320" />
+  </variable>
+  <variable name="FLUT" shape="time lat lon" type="float">
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="code" type="int" value="179" />
+    <attribute name="long_name" value="Top thermal radiation" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FLUTC" shape="time lat lon" type="float">
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="code" type="int" value="209" />
+    <attribute name="long_name" value="Top net thermal radiation, clear sky" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FSNTOA" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Top solar radiation" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="178" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="FSNTOAC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Top net solar radiation, clear sky" />
+    <attribute name="units" value="W m-2" />
+    <attribute name="code" type="int" value="208" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="TCLDAREA" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total cloud cover" />
+    <attribute name="units" value="0-1" />
+    <attribute name="code" type="int" value="164" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="SHUM" shape="time plev lat lon" type="float">
+    <attribute name="long_name" value="Specific humidity" />
+    <attribute name="units" value="kg kg-1" />
+    <attribute name="code" type="int" value="133" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 11 160 320" />
+  </variable>
+  <variable name="SST" shape="time lat lon" type="float">
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="code" type="int" value="151" />
+    <attribute name="long_name" value="Mean sea level pressure" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="units" value="Pa" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="ICEFRAC" shape="time lat lon" type="float">
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="code" type="int" value="151" />
+    <attribute name="long_name" value="Mean sea level pressure" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="units" value="Pa" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="gw" shape="lat" type="float">
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="LANDFRAC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Land/sea mask" />
+    <attribute name="code" type="int" value="172" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <variable name="OCNFRAC" shape="time lat lon" type="float">
+    <attribute name="code" type="int" value="172" />
+    <attribute name="grid_type" value="gaussian" />
+    <attribute name="long_name" value="Land/sea mask" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="_ChunkSizes" type="uint" value="1 160 320" />
+  </variable>
+  <attribute name="_NCProperties" value="version=1|netcdflibversion=4.4.1.1|hdf5libversion=1.10.1" />
+  <attribute name="nco_openmp_thread_number" type="int" value="1" />
+  <attribute name="Conventions" value="CF-1.0" />
+  <attribute name="source" value="IFS" />
+  <attribute name="F3D" value="yes" />
+  <attribute name="case" value="ECEarth-ECE3_2140-2199" />
+  <attribute name="history" value="Fri Sep  6 14:04:31 2019: ncra -O ECE3_01_climo.nc ECE3_02_climo.nc ECE3_03_climo.nc ECE3_04_climo.nc ECE3_05_climo.nc ECE3_06_climo.nc ECE3_07_climo.nc ECE3_08_climo.nc ECE3_09_climo.nc ECE3_10_climo.nc ECE3_11_climo.nc ECE3_12_climo.nc -o ECE3_ANN_climo.nc" />
+  <attribute name="NCO" value="&quot;4.6.3&quot;" />
+</netcdf>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="hour" length="24" />
+  <dimension name="lat" length="51" />
+  <dimension name="lon" length="51" />
+  <variable name="hour" shape="hour" type="int">
+    <attribute name="units" value="hour" />
+    <attribute name="axis" value="LST" />
+    <attribute name="_ChunkSizes" type="uint" value="24" />
+  </variable>
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="actual_range" value="[17.0,22.0]" />
+    <attribute name="long_name" value="Latitude" />
+    <attribute name="axis" value="Y" />
+    <attribute name="_ChunkSizes" type="uint" value="51" />
+  </variable>
+  <variable name="rain_aug_avg" shape="hour lat lon" type="float">
+    <attribute name="units" value="mm/hr" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="long_name" value="hourly_rainfall_rate" />
+    <attribute name="_ChunkSizes" type="uint" value="24 51 51" />
+  </variable>
+  <variable name="rain_jul_avg" shape="hour lat lon" type="float">
+    <attribute name="units" value="mm/hr" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="long_name" value="hourly_rainfall_rate" />
+    <attribute name="_ChunkSizes" type="uint" value="24 51 51" />
+  </variable>
+  <variable name="rain_jun_avg" shape="hour lat lon" type="float">
+    <attribute name="units" value="mm/hr" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="long_name" value="hourly_rainfall_rate" />
+    <attribute name="_ChunkSizes" type="uint" value="24 51 51" />
+  </variable>
+  <variable name="rain_may_avg" shape="hour lat lon" type="float">
+    <attribute name="units" value="mm/hr" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="long_name" value="hourly_rainfall_rate" />
+    <attribute name="_ChunkSizes" type="uint" value="24 51 51" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="actual_range" value="[107.0,112.0]" />
+    <attribute name="long_name" value="Longitude" />
+    <attribute name="axis" value="X" />
+    <attribute name="_ChunkSizes" type="uint" value="51" />
+  </variable>
+</netcdf>

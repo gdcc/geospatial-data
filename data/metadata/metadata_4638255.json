@@ -1,0 +1,73 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/YRNBBG\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for \"Reversing Sahelian Droughts\" figures",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/YRNBBG",
+                "global_id": "doi:10.7910/DVN/YRNBBG",
+                "description": "The simulation input and output files required to reproduce the figures in the paper, \u201cReversing Sahelian droughts\u201d can be found in these directories. The subcomponents of each figure and the scripts to generate them are located in the folder corresponding to each Figure number. The CESM simulation output files required to reproduce the figures are located in the directories named \u201cInput_[Figure]\u201d Final descriptive simulation \u201cshort names\u201d map to the shortnames in scripts and input files as follows: Slab ocean (SOM) simulations: ref_preind = 1xco2 ref_warm_world = 2xco2 io_cooled_strongly = t4Ind io_cooled = t3Ind SST prescribed simulations: historical = cntrl historical branch 1, historical branch 2 = historical-branch1, historical-branch2 drought_reverse = t4anom1, t4anom2, t4anom3 If you have any questions, please contact kricke@ucsd.edu for further information.",
+                "published_at": "2021-06-25T18:16:17Z",
+                "publisher": "Reversing Sahelian Droughts",
+                "citationHtml": "Ricke, Katharine, 2021, \"Replication Data for &quot;Reversing Sahelian Droughts&quot; figures\", <a href=\"https://doi.org/10.7910/DVN/YRNBBG\" target=\"_blank\">https://doi.org/10.7910/DVN/YRNBBG</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "ReverseSahelDroughtCESM",
+                "name_of_dataverse": "Reversing Sahelian Droughts",
+                "citation": "Ricke, Katharine, 2021, \"Replication Data for \"Reversing Sahelian Droughts\" figures\", https://doi.org/10.7910/DVN/YRNBBG, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/YRNBBG",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 157,
+                "versionId": 241867,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-05-11T03:01:24Z",
+                "updatedAt": "2021-06-25T18:16:17Z",
+                "contacts": [
+                    {
+                        "name": "Ricke, Katharine",
+                        "affiliation": ""
+                    }
+                ],
+                "authors": [
+                    "Ricke, Katharine"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Ricke, Katharine": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

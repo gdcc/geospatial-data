@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/08OJUV\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Climate Change Simulation output files (1995-2100)",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/08OJUV",
+                "global_id": "doi:10.7910/DVN/08OJUV",
+                "description": "Output from climate change simulation (1995-2100 only). Provided are surface Chlorophyll (mg Chl/m3), coloured dissolved organic matter (CDOM, in units of mmol P/m3), detrital matter (mmol P/m3) and biomass of phytoplankton types (mmol P/m3), and remotely sensed reflectance (1/sr) in 13 wavebnads from 400 to 700nm.",
+                "published_at": "2018-12-28T21:19:12Z",
+                "publisher": "MONOD_RADTRANS_IGSM",
+                "citationHtml": "Dutkiewicz, Stephanie, 2018, \"Climate Change Simulation output files (1995-2100)\", <a href=\"https://doi.org/10.7910/DVN/08OJUV\" target=\"_blank\">https://doi.org/10.7910/DVN/08OJUV</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "MONOD_RADTRANS_IGSM",
+                "name_of_dataverse": "MONOD_RADTRANS_IGSM",
+                "citation": "Dutkiewicz, Stephanie, 2018, \"Climate Change Simulation output files (1995-2100)\", https://doi.org/10.7910/DVN/08OJUV, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/08OJUV",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 23,
+                "versionId": 164723,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 1,
+                "createdAt": "2018-12-28T21:16:05Z",
+                "updatedAt": "2020-05-18T14:34:54Z",
+                "contacts": [
+                    {
+                        "name": "Dutkiewicz, Stephanie",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Dutkiewicz, S., A.E. Hickman, O. Jahn, E. Moneir, S. Henson, and C. Beaulieu, 2019. Ocean colour signature of climate change. Nature Communications, 10, doi:10.1038/s41467-019-08457-x."
+                    }
+                ],
+                "authors": [
+                    "Dutkiewicz, Stephanie"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2018": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Dutkiewicz, Stephanie": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

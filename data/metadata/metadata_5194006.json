@@ -1,0 +1,87 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/ODNDQQ\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for JCLI-D-21-0088",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/ODNDQQ",
+                "global_id": "doi:10.7910/DVN/ODNDQQ",
+                "description": "These data sets are processed output from the SINTEX-F GCM that are needed to replicate the plots shown in the article \"Revisiting the tropical Atlantic influence on El Ni\u00f1o-Southern Oscillation.\" by Richter et al., published in the Journal of Climate (JCLI-D-21-0088); https://doi.org/10.1175/JCLI-D-21-0088.1",
+                "published_at": "2021-09-22T13:52:03Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Richter, Ingo, 2021, \"Replication Data for JCLI-D-21-0088\", <a href=\"https://doi.org/10.7910/DVN/ODNDQQ\" target=\"_blank\">https://doi.org/10.7910/DVN/ODNDQQ</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Richter, Ingo, 2021, \"Replication Data for JCLI-D-21-0088\", https://doi.org/10.7910/DVN/ODNDQQ, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/ODNDQQ",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 6,
+                "versionId": 273127,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2021-09-21T08:48:29Z",
+                "updatedAt": "2021-10-06T06:59:34Z",
+                "contacts": [
+                    {
+                        "name": "Richter, Ingo",
+                        "affiliation": "JAMSTEC"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Richter, I., Tokinaga, H., Kosaka, Y., Doi, T., &amp; Kataoka, T. (2021). Revisiting the tropical Atlantic influence on El Ni\u00f1o-Southern Oscillation, Journal of Climate",
+                        "url": "https://doi.org/10.1175/JCLI-D-21-0088.1"
+                    }
+                ],
+                "authors": [
+                    "Richter, Ingo"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Richter, Ingo": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "JAMSTEC": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

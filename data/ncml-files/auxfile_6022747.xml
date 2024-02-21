@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="LONGITUDE_E" length="2880" />
+  <dimension name="LATITUDE_N" length="1345" />
+  <variable name="LONGITUDE_E" shape="LONGITUDE_E" type="float">
+    <attribute name="long_name" value="Longitude" />
+    <attribute name="cartesian_axis" value="X" />
+    <attribute name="units" value="degrees_E" />
+    <attribute name="ipositive" type="int" value="1" />
+  </variable>
+  <variable name="LATITUDE_N" shape="LATITUDE_N" type="float">
+    <attribute name="long_name" value="Latitude" />
+    <attribute name="cartesian_axis" value="Y" />
+    <attribute name="units" value="degrees_N" />
+    <attribute name="ipositive" type="int" value="1" />
+  </variable>
+  <variable name="TOPO" shape="LATITUDE_N LONGITUDE_E" type="float">
+    <attribute name="long_name" value="TOPO" />
+    <attribute name="units" value="meters" />
+    <attribute name="valid_range" type="float" value="0.0 9821.534" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <attribute name="title" value="" />
+  <attribute name="Conventions" value="COARDS" />
+  <attribute name="GFDL_NCIR_VER_NO" value="1.0beta4" />
+  <attribute name="unpacked_missing_value" type="float" value="-1.267651E30" />
+</netcdf>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="n" length="9377544" />
+  <dimension name="n_vis" length="6" />
+  <dimension name="n_ir" length="10" />
+  <dimension name="n_prs" length="5" />
+  <dimension name="n_rh" length="8" />
+  <variable name="granule" shape="n" type="int">
+    <attribute name="long_name" value="CloudSat granule number" />
+    <attribute name="_ChunkSizes" type="uint" value="1041950" />
+  </variable>
+  <variable name="profile" shape="n" type="int">
+    <attribute name="long_name" value="CloudSat profile number" />
+    <attribute name="_ChunkSizes" type="uint" value="1041950" />
+  </variable>
+  <variable name="reflectance" shape="n n_vis" type="float">
+    <attribute name="long_name" value="ABI solar reflectance" />
+    <attribute name="units" value="unitless" />
+    <attribute name="_ChunkSizes" type="uint" value="1172193 1" />
+  </variable>
+  <variable name="tb" shape="n n_ir" type="float">
+    <attribute name="long_name" value="Brightness temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="_ChunkSizes" type="uint" value="937755 1" />
+  </variable>
+  <variable name="rh_gfs" shape="n n_rh" type="float">
+    <attribute name="long_name" value="Relative humidity with respect to liquid water from GFS" />
+    <attribute name="units" value="percent" />
+    <attribute name="pressure_bins" value="0: 150 hPa, 1: 250 hPa, 2: 500 hPa, 3: 650 hPa, 4: 750 hPa, 5: 850 hPa, 6: 950 hPa, 7: 1000 hPa" />
+    <attribute name="_ChunkSizes" type="uint" value="1041950 1" />
+  </variable>
+  <variable name="latitude" shape="n" type="float">
+    <attribute name="long_name" value="Latitude" />
+    <attribute name="units" value="degrees north" />
+    <attribute name="notes" value="resolved to 1/10 degree" />
+    <attribute name="_ChunkSizes" type="uint" value="1041950" />
+  </variable>
+  <variable name="longitude" shape="n" type="float">
+    <attribute name="units" value="degrees east" />
+    <attribute name="long_name" value="Longitude" />
+    <attribute name="_ChunkSizes" type="uint" value="1041950" />
+  </variable>
+  <variable name="solar_zenith_angle" shape="n" type="float">
+    <attribute name="notes" value="resolved to 1/10 degree" />
+    <attribute name="long_name" value="Solar zenith angle" />
+    <attribute name="units" value="degrees" />
+    <attribute name="_ChunkSizes" type="uint" value="1041950" />
+  </variable>
+  <variable name="sensor_zenith_angle" shape="n" type="float">
+    <attribute name="units" value="degrees" />
+    <attribute name="notes" value="resolved to 1/10 degree" />
+    <attribute name="long_name" value="Sensor zenith angle" />
+    <attribute name="_ChunkSizes" type="uint" value="1041950" />
+  </variable>
+  <variable name="ccl_flag" shape="n" type="byte">
+    <attribute name="notes" value="0=clear or no retrieval, 1=L, 2=M, 3=L+M, 4=H, 5=H+L, 6=H+M, 7=H+M+L" />
+    <attribute name="long_name" value="CCL flag" />
+    <attribute name="_ChunkSizes" type="uint" value="3125848" />
+  </variable>
+  <variable name="cloud_type" shape="n" type="byte">
+    <attribute name="notes" value="0=clear, 1=probably clear, 2=fog, 3=water cloud, 4=supercooled water, 5=mixed phase, 6=opaque ice, 7=cirrus, 8=overlapping, 9=overshooting tops, 11=dust, 12=smoke, -128=missing" />
+    <attribute name="missing" type="long" value="-128" />
+    <attribute name="long_name" value="CLAVR-x cloud type" />
+    <attribute name="_ChunkSizes" type="uint" value="3125848" />
+  </variable>
+  <variable name="land_class" shape="n" type="byte">
+    <attribute name="notes" value="0=shallow_ocean, 1=land, 2=coastline, 3=shallow inland water, 4=ephemeral water, 5=deep inland water, 6=moderate ocean, 7=deep ocean, -128=missing" />
+    <attribute name="long_name" value="CLAVR-x land class" />
+    <attribute name="missing" type="long" value="-128" />
+    <attribute name="_ChunkSizes" type="uint" value="3125848" />
+  </variable>
+  <variable name="icef_gfs" shape="n" type="float">
+    <attribute name="long_name" value="Surface ice fraction from GFS" />
+    <attribute name="units" value="unitless" />
+    <attribute name="_ChunkSizes" type="uint" value="1041950" />
+  </variable>
+  <variable name="snowd_gfs" shape="n" type="float">
+    <attribute name="notes" value="-999 indicates missing (not land)" />
+    <attribute name="missing" type="long" value="-999" />
+    <attribute name="long_name" value="Snow depth from GFS" />
+    <attribute name="units" value="cm" />
+    <attribute name="_ChunkSizes" type="uint" value="1041950" />
+  </variable>
+  <variable name="mslp_gfs" shape="n" type="float">
+    <attribute name="long_name" value="Mean sea-level pressure from GFS" />
+    <attribute name="units" value="hPa" />
+    <attribute name="_ChunkSizes" type="uint" value="1041950" />
+  </variable>
+  <variable name="ml_flag" shape="n" type="byte">
+    <attribute name="notes" value="0=not used for ML, 1=used for ML" />
+    <attribute name="long_name" value="Flag indicating whether data point was used for machine learning training/testing in the corresponding publication" />
+    <attribute name="_ChunkSizes" type="uint" value="3125848" />
+  </variable>
+  <variable name="cloud_present_prs" shape="n n_prs" type="byte">
+    <attribute name="pressure_bins" value="0: &gt; 700 hPa, 1: &gt; 631 hPa, 2: 700 to 350 hPa, 3: 631 to 350 hPa, 4: &lt; 350 hPa" />
+    <attribute name="notes" value="0=clear, 1=radar-only cloud, 2=lidar-only cloud, 3=radar+lidar cloud" />
+    <attribute name="long_name" value="Flag indicating whether cloud is present in pressure bin" />
+    <attribute name="_ChunkSizes" type="uint" value="2344386 1" />
+  </variable>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.7.3,hdf5=1.10.4" />
+  <attribute name="contact_name" value="John M. Haynes" />
+  <attribute name="contact_email" value="john.haynes@colostate.edu" />
+  <attribute name="resource_location" value="https://doi.org/10.7910/DVN/LPXYBL" />
+  <attribute name="data_sources" value="See associated resource_location for full data sources and acknowledgements" />
+  <attribute name="version" value="1" />
+</netcdf>

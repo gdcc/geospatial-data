@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="X" length="582" />
+  <dimension name="Y" length="252" />
+  <variable name="X" shape="X" type="double">
+    <attribute name="units" value="degree" />
+    <attribute name="long_name" value="X" />
+  </variable>
+  <variable name="Y" shape="Y" type="double">
+    <attribute name="units" value="degree" />
+    <attribute name="long_name" value="Y" />
+  </variable>
+  <variable name="Total.Vulcan_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Airport_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Cement_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="CMV_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Commercial_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Electricity.production_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Industrial_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Non.Road_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Onroad_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Railroad_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Residential_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Combustion.Stationary_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Petroleum_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Natural.Gas.Production_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Manure.management_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Rice.cultivation_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Field.Burning_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Combustion.Mobile_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Abandoned.coal_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Coal.mining..surface._carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Coal.mining..underground._carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Natural.Gas.Distribution_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Natural.Gas.Processing_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Natural.Gas.Transmission_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Petrochemical.production_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Feroallay.production_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Enteric.fermentation_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Forest.Fires_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Industrial.landfills_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Municipal.landfills_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Wastewater.treatment..domestic._carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Wastewater.treatment..industrial._carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Composting_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <variable name="Total.Methane_carbon_emissions" shape="Y X" type="double">
+    <attribute name="units" value="Metric Tons of Carbon (tC)" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="252 582" />
+  </variable>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.7.4,hdf5=1.10.7," />
+</netcdf>

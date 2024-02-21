@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="48" />
+  <dimension name="lon" length="96" />
+  <dimension name="lev" length="17" />
+  <dimension name="ncl3" length="1" />
+  <dimension name="ncl4" length="1" />
+  <dimension name="ncl5" length="1" />
+  <variable name="PRECT" shape="lat lon" type="float">
+    <attribute name="cell_method" value="time: mean" />
+    <attribute name="long_name" value="Total (convective and large-scale) precipitation rate" />
+    <attribute name="units" value="m/s" />
+    <attribute name="average_op_ncl" value="dim_avg_n over dimension(s): time" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="long_name" value="latitude" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="long_name" value="longitude" />
+  </variable>
+  <variable name="SST" shape="lat lon" type="float">
+    <attribute name="cell_method" value="time: mean" />
+    <attribute name="long_name" value="sea surface temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="average_op_ncl" value="dim_avg_n over dimension(s): time" />
+  </variable>
+  <variable name="ICEFRAC" shape="lat lon" type="float">
+    <attribute name="cell_method" value="time: mean" />
+    <attribute name="long_name" value="Fraction of sfc area covered by sea-ice" />
+    <attribute name="units" value="fraction" />
+    <attribute name="average_op_ncl" value="dim_avg_n over dimension(s): time" />
+  </variable>
+  <variable name="Vbot" shape="lat lon" type="float">
+    <attribute name="units" value="m/s" />
+    <attribute name="long_name" value="Meridional Wind at the bottom model level" />
+    <attribute name="cell_method" value="time: mean" />
+    <attribute name="lev" type="double" value="992.5560999999998" />
+    <attribute name="average_op_ncl" value="dim_avg_n over dimension(s): time" />
+  </variable>
+  <variable name="MPSI" shape="lev lat" type="float">
+    <attribute name="units" value="kg/s" />
+    <attribute name="long_name" value="Mass overturning stream function" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="lev" shape="lev" type="float" />
+  <variable name="itczind1" shape="ncl3" type="float">
+    <attribute name="units" value="degrees" />
+    <attribute name="long_name" value="Precipitation center" />
+  </variable>
+  <variable name="itczind2" shape="ncl4" type="float">
+    <attribute name="units" value="degrees" />
+    <attribute name="long_name" value="The latitude of zero mass overturning stream function at 500 hPa in the low latitudes" />
+  </variable>
+  <variable name="itczind3" shape="ncl5" type="float">
+    <attribute name="units" value="degrees" />
+    <attribute name="long_name" value="Energy flux equator" />
+  </variable>
+  <attribute name="author" value="Yu Gao" />
+  <attribute name="title" value="Variables in CTL experiment" />
+</netcdf>

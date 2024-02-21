@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="weidu" length="384" />
+  <dimension name="jingdu" length="191" />
+  <dimension name="emission" length="0" isUnlimited="true" />
+  <variable name="lat" shape="weidu" type="float" />
+  <variable name="lon" shape="jingdu" type="float" />
+  <variable name="CH4" shape="jingdu weidu" type="float" />
+</netcdf>

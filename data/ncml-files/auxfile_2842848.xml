@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="Longitude_t" length="360" />
+  <dimension name="Longitude_u" length="360" />
+  <dimension name="Latitude_t" length="160" />
+  <dimension name="Latitude_v" length="160" />
+  <dimension name="Depth_u" length="50" />
+  <dimension name="Depth_c" length="50" />
+  <dimension name="Depth_l" length="50" />
+  <dimension name="Depth_w" length="51" />
+  <dimension name="Time" length="12" isUnlimited="true" />
+  <variable name="Longitude_t" shape="Longitude_t" type="float">
+    <attribute name="long_name" value="Longitude on T grid                                                     " />
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="units" value="degree_east     " />
+    <attribute name="point_spacing" value="even" />
+    <attribute name="modulo" value=" " />
+  </variable>
+  <variable name="Longitude_u" shape="Longitude_u" type="float">
+    <attribute name="long_name" value="Longitude on U grid                                                     " />
+    <attribute name="units" value="degree          " />
+    <attribute name="modulo" value="360" />
+  </variable>
+  <variable name="Latitude_t" shape="Latitude_t" type="float">
+    <attribute name="long_name" value="Latitude on T grid                                                      " />
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="units" value="degree_north    " />
+  </variable>
+  <variable name="Latitude_v" shape="Latitude_v" type="float">
+    <attribute name="long_name" value="Latitude on V grid                                                      " />
+    <attribute name="units" value="degree          " />
+  </variable>
+  <variable name="Depth_u" shape="Depth_u" type="float">
+    <attribute name="long_name" value="Depth at top of T box                                                   " />
+    <attribute name="units" value="m               " />
+    <attribute name="positive" value="down" />
+    <attribute name="point_spacing" value="uneven" />
+  </variable>
+  <variable name="Depth_c" shape="Depth_c" type="float">
+    <attribute name="long_name" value="Depth of T grid points                                                  " />
+    <attribute name="standard_name" value="depth" />
+    <attribute name="units" value="m               " />
+    <attribute name="positive" value="down" />
+    <attribute name="point_spacing" value="uneven" />
+    <attribute name="edges" value="Depth_w" />
+  </variable>
+  <variable name="Depth_l" shape="Depth_l" type="float">
+    <attribute name="long_name" value="Depth at bottom of T box                                                " />
+    <attribute name="units" value="m               " />
+    <attribute name="positive" value="down" />
+    <attribute name="point_spacing" value="uneven" />
+  </variable>
+  <variable name="Depth_w" shape="Depth_w" type="float">
+    <attribute name="long_name" value="Depths at edges of T boxes                                              " />
+    <attribute name="units" value="m               " />
+    <attribute name="positive" value="down" />
+    <attribute name="point_spacing" value="uneven" />
+  </variable>
+  <variable name="Time" shape="Time" type="double">
+    <attribute name="long_name" value="Time                                                                    " />
+    <attribute name="standard_name" value="time" />
+    <attribute name="units" value="days since          2005-01-01  00:00:00" />
+    <attribute name="time_origin" value="2005-01-01  00:00:00" />
+  </variable>
+  <variable name="drhodr" shape="Time Depth_l Latitude_t Longitude_t" type="float">
+    <attribute name="long_name" value="Stratification                                                          " />
+    <attribute name="units" value="kg/m^4          " />
+    <attribute name="missing_value" type="float" value="-1.0E23" />
+    <attribute name="_FillValue" type="float" value="-1.0E23" />
+    <attribute name="grid" value="ML" />
+  </variable>
+  <attribute name="Conventions" value="CF-1.0" />
+  <attribute name="title" value="OCCA 1x1 atlas                                              " />
+</netcdf>

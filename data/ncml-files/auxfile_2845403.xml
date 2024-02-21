@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="itxt" length="30" />
+  <dimension name="i1" length="360" />
+  <dimension name="i2" length="720" />
+  <variable name="i1" shape="i1" type="double">
+    <attribute name="long_name" value="array index 1" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="i2" shape="i2" type="double">
+    <attribute name="long_name" value="array index 2" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="basins" shape="i1 i2" type="float">
+    <attribute name="long_name" value="Oceanic Basin Indices used in ECCO v4" />
+    <attribute name="units" value="1" />
+    <attribute name="coordinates" value="lon lat" />
+  </variable>
+  <variable name="lon" shape="i1 i2" type="double">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="standard_name" value="longitude" />
+  </variable>
+  <variable name="lat" shape="i1 i2" type="double">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="standard_name" value="latitude" />
+  </variable>
+  <attribute name="title" value="Oceanic Basin Indices used in ECCO v4 -- ECCO v4 ocean state estimate, release 2 -- 1992-2011" />
+  <attribute name="Format" value="native grid (nctiles w. 52 tiles)" />
+  <attribute name="source" value="ECCO consortium (http://ecco-group.org/)" />
+  <attribute name="institution" value="MIT" />
+  <attribute name="history" value=" files revision history :&#xA;    2016/05/07 : release of remote sensed variables (GF)&#xA;    2015/12/12 : second release of ECCO v4 (GF)&#xA;    2014/02/04 : initial release of ECCO v4 (GF)&#xA; estimate revision history :&#xA;    r4it12   : include geothermal heating, targeted bottom&#xA;      viscosity, and 2000-2011 wind stress adjustments that&#xA;      were omitted in r4it11; adjust global mean precipitation&#xA;      to closely match aviso global mean time series; put&#xA;      adjusted forcing fields on llc90 grid.&#xA;    r4it11   : reduce background vertical viscosity&#xA;    r4it10   : cleanup control vector adjustments&#xA;    r4it9    : optim. global mean sea level alone&#xA;    r4it0-8  : full adjoint iterations, omitting&#xA;      global mean sea level altimetry constraint." />
+  <attribute name="references" value="Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, &#xA; and C. Wunsch, 2015: ECCO version 4: an integrated framework for &#xA; non-linear inverse modeling and global ocean state estimation. &#xA; Geoscientific Model Development, 8, 3071-3104, doi:10.5194/gmd-8-3071-2015 &#xA;Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2016: &#xA; ECCO version 4: Second Release, http://hdl.handle.net/1721.1/102062" />
+  <attribute name="_FillValue" type="double" value="NaN" />
+  <attribute name="missing_value" type="double" value="NaN" />
+  <attribute name="Conventions" value="CF-1.6" />
+  <attribute name="date" value="10-May-2016" />
+</netcdf>

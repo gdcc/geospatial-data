@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/E9TNBZ\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Satellite-derived phytoplankton size structure",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/E9TNBZ",
+                "global_id": "doi:10.7910/DVN/E9TNBZ",
+                "description": "This dataset contains 8-day imagery of chlorophyll-a size distribution (CSD) slope, which is an index of phytoplankton size structure, derived by the CSD model. The CSD slope is calculated from emote sensing reflectance at 8 MODIS bands (412, 443, 469, 488, 531, 547, 555, and 678 nm). A large CSD slope indicates a large proportion of smaller phytoplankton, whereas a small CSD slope suggests that larger phytoplankton dominate. To avoid unrealistic values of the CSD slope, we defined the upper and lower limits of the CSD slope as 3.0 and 0.0, respectively.",
+                "published_at": "2019-09-10T17:50:09Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Waga, Hisatomo, 2019, \"Satellite-derived phytoplankton size structure\", <a href=\"https://doi.org/10.7910/DVN/E9TNBZ\" target=\"_blank\">https://doi.org/10.7910/DVN/E9TNBZ</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Waga, Hisatomo, 2019, \"Satellite-derived phytoplankton size structure\", https://doi.org/10.7910/DVN/E9TNBZ, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/E9TNBZ",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 587,
+                "versionId": 173416,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2019-09-10T17:33:23Z",
+                "updatedAt": "2019-10-21T16:26:40Z",
+                "contacts": [
+                    {
+                        "name": "Waga, Hisatomo",
+                        "affiliation": "Hokkaido University"
+                    },
+                    {
+                        "name": "Hirawake, Toru",
+                        "affiliation": "Hokkaido University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Waga, H., Hirawake, T., Fujiwara, A., Kikuchi, T., Nishino, S., Suzuki, K., et al. (2017). Differences in Rate and Direction of Shifts between Phytoplankton Size Structure and Sea Surface Temperature. Remote Sens. 9, 222."
+                    },
+                    {
+                        "citation": "Waga, H., Hirawake, T., Fujiwara, A., Grebmeier, J. M., and Saitoh, S.-I. (2019). Impact of spatiotemporal variability in phytoplankton size structure on benthic macrofaunal distribution in the Pacific Arctic. Deep- Sea Res. II 162, 114\u2013126.",
+                        "url": "https://www.sciencedirect.com/science/article/pii/S0967064517302229"
+                    }
+                ],
+                "authors": [
+                    "Waga, Hisatomo"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Waga, Hisatomo": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="LON" length="144" />
+  <dimension name="bnds" length="2" />
+  <dimension name="LAT" length="96" />
+  <dimension name="TIME" length="1" isUnlimited="true" />
+  <variable name="LON" shape="LON" type="double">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="modulo" type="double" value="360.0" />
+    <attribute name="point_spacing" value="uneven" />
+    <attribute name="axis" value="X" />
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="bounds" value="LON_bnds" />
+  </variable>
+  <variable name="LON_bnds" shape="LON bnds" type="double" />
+  <variable name="LAT" shape="LAT" type="double">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="point_spacing" value="even" />
+    <attribute name="axis" value="Y" />
+    <attribute name="standard_name" value="latitude" />
+  </variable>
+  <variable name="TIME" shape="TIME" type="double">
+    <attribute name="units" value="days since 2000-01-01 00:00:00" />
+    <attribute name="time_origin" value="01-JAN-2000 00:00:00" />
+    <attribute name="axis" value="T" />
+    <attribute name="standard_name" value="time" />
+  </variable>
+  <variable name="IPCC_REGIONS" shape="TIME LAT LON" type="double">
+    <attribute name="missing_value" type="double" value="-1.0E34" />
+    <attribute name="_FillValue" type="double" value="-1.0E34" />
+    <attribute name="long_name" value="IMAGE24MODIF[D=1,GXYT=EMISS_AWB[D=2]]" />
+  </variable>
+  <attribute name="history" value="FERRET V6.82   10-Jan-17" />
+  <attribute name="Conventions" value="CF-1.0" />
+</netcdf>

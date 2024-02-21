@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="Time" length="1" />
+  <dimension name="bottom_top" length="48" />
+  <dimension name="south_north" length="706" />
+  <dimension name="west_east" length="706" />
+  <variable name="pres_diff_09" shape="Time bottom_top south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XYZ" />
+    <attribute name="description" value="perturbation pressure" />
+    <attribute name="units" value="Pa" />
+    <attribute name="stagger" value="" />
+    <attribute name="coordinates" value="XLONG XLAT XTIME" />
+  </variable>
+  <variable name="pres_diff_11" shape="Time bottom_top south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XYZ" />
+    <attribute name="description" value="perturbation pressure" />
+    <attribute name="units" value="Pa" />
+    <attribute name="stagger" value="" />
+    <attribute name="coordinates" value="XLONG XLAT XTIME" />
+  </variable>
+  <variable name="pres_diff_12" shape="Time bottom_top south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XYZ" />
+    <attribute name="description" value="perturbation pressure" />
+    <attribute name="units" value="Pa" />
+    <attribute name="stagger" value="" />
+    <attribute name="coordinates" value="XLONG XLAT XTIME" />
+  </variable>
+  <variable name="pres_diff_14" shape="Time bottom_top south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XYZ" />
+    <attribute name="description" value="perturbation pressure" />
+    <attribute name="units" value="Pa" />
+    <attribute name="stagger" value="" />
+    <attribute name="coordinates" value="XLONG XLAT XTIME" />
+  </variable>
+</netcdf>

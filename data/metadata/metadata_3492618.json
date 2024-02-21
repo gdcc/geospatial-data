@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/JUQCFG\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Diversity Model Output",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/JUQCFG",
+                "global_id": "doi:10.7910/DVN/JUQCFG",
+                "description": "Model output for Dutkiewicz et al (BGD): nurtient_supply_rates.nc: Nutrient supplies are annual mean for the top 50m and are in units of mmol/m2/s biomass.nc Phytoplankton biomass is annual mean for top 10m and is units of mmolC/m3 Phytoplankton types arranged as follows: 1- 10: pico-phytoplankton, ESD 0.6um 11- 20: pico-phytoplankton, ESD 0.9um 21- 30: pico-phytoplankton, ESD 1.4um 31- 40: pico-phytoplankton, ESD 2.0um 41- 50: coccolithophores, ESD 3.0um 51- 60: coccolithophores, ESD 4.5um 61- 70: coccolithophores, ESD 6.6um 71- 80: coccolithophores, ESD 9.8um 81- 90: coccolithophores, ESD 14um 91- 50: diazotroph, ESD 3.0um 101-110: diazotroph, ESD 4.5um 111-120: diazotroph, ESD 6.6um 121-130: diazotroph, ESD 9.8um 131-140: diazotroph, ESD 14um 141-150: diatom, ESD 3.0um 151-160: diatom, ESD 4.5um 161-170: diatom, ESD 6.6um 171-180: diatom, ESD 9.8um 181-190: diatom, ESD 14um 191-200: diatom, ESD 22um 201-210: diatom, ESD 32um 211-220: diatom, ESD 47um 221-230: diatom, ESD 70um 231-240: diatom, ESD 104um 241-250: diatom, ESD 154um 251-260: mixotroph, ESD 6.6um 261-270: mixotroph, ESD 9.8um 271-280: mixotroph, ESD 14um 281-290: mixotroph, ESD 22um 291-300: mixotroph, ESD 32um 301-310: mixotroph, ESD 47um 311-320: mixotroph, ESD 70um 321-330: mixotroph, ESD 104um 331-340: mixotroph, ESD 154um 341-350: mixotroph, ESD 228um",
+                "published_at": "2019-08-08T00:11:53Z",
+                "publisher": "GUD Diversity Model",
+                "citationHtml": "Dutkiewicz, Stephanie, 2019, \"Diversity Model Output\", <a href=\"https://doi.org/10.7910/DVN/JUQCFG\" target=\"_blank\">https://doi.org/10.7910/DVN/JUQCFG</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "gud-diversity",
+                "name_of_dataverse": "GUD Diversity Model",
+                "citation": "Dutkiewicz, Stephanie, 2019, \"Diversity Model Output\", https://doi.org/10.7910/DVN/JUQCFG, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/JUQCFG",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 2,
+                "versionId": 164724,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2019-08-07T23:58:40Z",
+                "updatedAt": "2019-08-08T00:11:53Z",
+                "contacts": [
+                    {
+                        "name": "Dutkiewicz, Stephanie",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Dutkiewicz, S., P. Cermeno, O. Jahn, M.J. Follows, A. Hickman, D. Taniguichi, B.A. Ward. Dimensions of phytoplankton diversity. In preparation Biogeosciences"
+                    }
+                ],
+                "authors": [
+                    "Dutkiewicz, Stephanie"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Dutkiewicz, Stephanie": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

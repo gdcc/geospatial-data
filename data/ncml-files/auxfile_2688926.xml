@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="x" length="897" />
+  <dimension name="y" length="841" />
+  <dimension name="year" length="26" />
+  <variable name="x" shape="x" type="double" />
+  <variable name="y" shape="y" type="double" />
+  <variable name="year" shape="year" type="double" />
+  <variable name="z0" shape="x y" type="double" />
+  <variable name="geoid" shape="x y" type="double" />
+  <variable name="z" shape="year x y" type="double" />
+  <variable name="sigma" shape="year x y" type="double" />
+</netcdf>

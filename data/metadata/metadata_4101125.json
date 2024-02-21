@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/YSDLWJ\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Lightning Megaflash Data",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/YSDLWJ",
+                "global_id": "doi:10.7910/DVN/YSDLWJ",
+                "description": "Data files containing optical measurements of long horizontal lightning megaflashes used in publication LA-UR-20-25866.",
+                "published_at": "2020-10-04T17:48:35Z",
+                "publisher": "Peterson Public Lightning Data",
+                "citationHtml": "Peterson, Michael, 2020, \"Lightning Megaflash Data\", <a href=\"https://doi.org/10.7910/DVN/YSDLWJ\" target=\"_blank\">https://doi.org/10.7910/DVN/YSDLWJ</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "mpeterson_ltx",
+                "name_of_dataverse": "Peterson Public Lightning Data",
+                "citation": "Peterson, Michael, 2020, \"Lightning Megaflash Data\", https://doi.org/10.7910/DVN/YSDLWJ, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/YSDLWJ",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 2,
+                "versionId": 212329,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2020-09-08T14:24:16Z",
+                "updatedAt": "2020-10-04T17:48:35Z",
+                "contacts": [
+                    {
+                        "name": "Peterson, Michael",
+                        "affiliation": "Los Alamos National Laboratory"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "LA-UR-20-25866"
+                    }
+                ],
+                "authors": [
+                    "Peterson, Michael"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Peterson, Michael": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Los Alamos National Laboratory": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

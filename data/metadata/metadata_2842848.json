@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/RNXA2A\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "OCCA monthly ocean atlas ",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/RNXA2A",
+                "global_id": "doi:10.7910/DVN/RNXA2A",
+                "description": "The 2004-2006 monthly OCCA atlas consists of mapped observations and derived quantities. Together they form a full representation of the ocean state and its seasonal cycle. The mapped observations are primarily altimeter data, satellite SST, and Argo profiles. GCM interpolation is used to synthesize these datasets, and the resulting atlas is a fairly close fit to each one of them. For observed quantities especially, the atlas is a practical means to evaluate free-running GCM simulations and to put field experiments into a broader context. The atlas-derived quantities include the middepth dynamic topography, as well as ocean fluxes of heat and salt\u2013freshwater.",
+                "published_at": "2016-06-23T02:48:00Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Forget, Ga&euml;l, 2016, \"OCCA monthly ocean atlas\", <a href=\"https://doi.org/10.7910/DVN/RNXA2A\" target=\"_blank\">https://doi.org/10.7910/DVN/RNXA2A</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Forget, Ga\u00ebl, 2016, \"OCCA monthly ocean atlas\", https://doi.org/10.7910/DVN/RNXA2A, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/RNXA2A",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 56,
+                "versionId": 84849,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2016-06-22T22:06:21Z",
+                "updatedAt": "2016-06-23T02:48:00Z",
+                "contacts": [
+                    {
+                        "name": "Forget, Ga\u00ebl",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "authors": [
+                    "Forget, Ga\u00ebl"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2016": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Forget, Ga\u00ebl": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

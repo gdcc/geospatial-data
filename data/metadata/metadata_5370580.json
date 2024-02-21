@@ -1,0 +1,89 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/NYFZJJ\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Regional mixed layer depth as a climate diagnostic and emergent constraint",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/NYFZJJ",
+                "global_id": "doi:10.7910/DVN/NYFZJJ",
+                "description": "Replication data for \"Regional mixed layer depth as a climate diagnostic and emergent constraint.\" Abstract: The global ocean modulates Earth\u2019s warming in response to forcing. Most research has nevertheless ignored using ocean processes as a means to improve warming projections in general circulation models (GCMs). We show that regional mixed layer depth (MLD) strongly constrains climate sensitivity through its relation to ocean heat uptake. We correlate the parameters of two-layer energy balance models (EBMs) to average pre-forcing MLD in the north, tropical and south ocean for a 25-member CMIP6 ensemble. Using observations from the Argo float network, we then constrain the 66% range of equilibrium climate sensitivity (ECS) for the ensemble from 4.51 (3.13--5.71)\u00b0C, to 4.66 (3.88--5.43)\u00b0C -- a 40% reduction in the span of the uncertainty range -- and demonstrate significant correlations between MLD and other EBM parameters. This result indicates new explanations of ensemble spread, a new use for Argo measurements, and path to improving GCMs.",
+                "published_at": "2021-11-02T14:44:49Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Hall, Galen; Fox-Kemper, Baylor, 2021, \"Replication Data for: Regional mixed layer depth as a climate diagnostic and emergent constraint\", <a href=\"https://doi.org/10.7910/DVN/NYFZJJ\" target=\"_blank\">https://doi.org/10.7910/DVN/NYFZJJ</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Hall, Galen; Fox-Kemper, Baylor, 2021, \"Replication Data for: Regional mixed layer depth as a climate diagnostic and emergent constraint\", https://doi.org/10.7910/DVN/NYFZJJ, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/NYFZJJ",
+                "subjects": [
+                    "Earth and Environmental Sciences",
+                    "Physics"
+                ],
+                "fileCount": 10,
+                "versionId": 279124,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-11-02T14:43:06Z",
+                "updatedAt": "2022-02-12T01:27:35Z",
+                "contacts": [
+                    {
+                        "name": "Hall, Galen",
+                        "affiliation": "Brown University"
+                    }
+                ],
+                "authors": [
+                    "Hall, Galen",
+                    "Fox-Kemper, Baylor"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        },
+                        {
+                            "Physics": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Fox-Kemper, Baylor": 1
+                        },
+                        {
+                            "Hall, Galen": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Brown University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/8UC8IR\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Changes in relative sea level, geoid height, and bedrock displacement derived from the Release-06 GRACE Level-2 monthly Stokes coefficients",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/8UC8IR",
+                "global_id": "doi:10.7910/DVN/8UC8IR",
+                "description": "This complements our article \u201cSea-level fingerprints emergent from GRACE mission data\u201d submitted to Earth System Science Data (https://doi.org/10.5194/essd-2019-3). Based on CSR, GFZ, and JPL Stokes coefficients, we derive spherical harmonic coefficients and spatial maps for relative sea level, geoid height change, and vertical bedrock motion. We provide monthly solutions with and without Earth\u2019s rotational feedback included, both in the center-of-mass (CM) and center-of-figure (CF) reference frames.",
+                "published_at": "2020-07-26T17:20:18Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Adhikari, Surendra; Ivins, Erik R.; Frederikse, Thomas; Landerer, Felix W.; Caron, Lambert, 2019, \"Changes in relative sea level, geoid height, and bedrock displacement derived from the Release-06 GRACE Level-2 monthly Stokes coefficients\", <a href=\"https://doi.org/10.7910/DVN/8UC8IR\" target=\"_blank\">https://doi.org/10.7910/DVN/8UC8IR</a>, Harvard Dataverse, V3",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Adhikari, Surendra; Ivins, Erik R.; Frederikse, Thomas; Landerer, Felix W.; Caron, Lambert, 2019, \"Changes in relative sea level, geoid height, and bedrock displacement derived from the Release-06 GRACE Level-2 monthly Stokes coefficients\", https://doi.org/10.7910/DVN/8UC8IR, Harvard Dataverse, V3",
+                "storageIdentifier": "s3://10.7910/DVN/8UC8IR",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 16,
+                "versionId": 202413,
+                "versionState": "RELEASED",
+                "majorVersion": 3,
+                "minorVersion": 0,
+                "createdAt": "2019-01-10T19:56:45Z",
+                "updatedAt": "2020-07-26T17:20:18Z",
+                "contacts": [
+                    {
+                        "name": "Adhikari, Surendra",
+                        "affiliation": "JPL, Caltech"
+                    }
+                ],
+                "authors": [
+                    "Adhikari, Surendra",
+                    "Ivins, Erik R.",
+                    "Frederikse, Thomas",
+                    "Landerer, Felix W.",
+                    "Caron, Lambert"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Adhikari, Surendra": 1
+                        },
+                        {
+                            "Caron, Lambert": 1
+                        },
+                        {
+                            "Frederikse, Thomas": 1
+                        },
+                        {
+                            "Ivins, Erik R.": 1
+                        },
+                        {
+                            "Landerer, Felix W.": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "JPL, Caltech": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

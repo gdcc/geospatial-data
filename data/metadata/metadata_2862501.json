@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/SLES9C\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Downscaling Global Emissions and Its Implication Derived from Climate Model Experiments",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/SLES9C",
+                "global_id": "doi:10.7910/DVN/SLES9C",
+                "description": "This dataset is used in the paper \"Downscaling Global Emissions and Its Implication Derived from Climate Model Experiments\"",
+                "published_at": "2018-09-13T10:15:17Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Fujimori, SHinichiro, 2018, \"Downscaling Global Emissions and Its Implication Derived from Climate Model Experiments\", <a href=\"https://doi.org/10.7910/DVN/SLES9C\" target=\"_blank\">https://doi.org/10.7910/DVN/SLES9C</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Fujimori, SHinichiro, 2018, \"Downscaling Global Emissions and Its Implication Derived from Climate Model Experiments\", https://doi.org/10.7910/DVN/SLES9C, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/SLES9C",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 3,
+                "versionId": 86392,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2016-08-03T01:40:09Z",
+                "updatedAt": "2018-09-13T10:15:17Z",
+                "contacts": [
+                    {
+                        "name": "Fujimori, SHinichiro",
+                        "affiliation": "NIES"
+                    }
+                ],
+                "authors": [
+                    "Fujimori, SHinichiro"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2018": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Fujimori, SHinichiro": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "NIES": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

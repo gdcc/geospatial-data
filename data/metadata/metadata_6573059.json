@@ -1,0 +1,107 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/Y4D8PA\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Data and replication code for 'Global and Regional Discrepancies between Early 20th Century Coastal Air and Sea-Surface Temperature Detected by a Coupled Energy-Balance Analysis'",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/Y4D8PA",
+                "global_id": "doi:10.7910/DVN/Y4D8PA",
+                "description": "Data and code to reproduce the conversion of coastal station air temperature into near-coast sea-surface temperatures, as documented in Chan et al. (JClim, 2022). In addition to intermediate and final output of our analysis, we also provide the version of the raw land and ocean temperatures we use, which may be different from what is currently available from the data providers due to random numbers used in data generating algorithms, to guarantee the reproducibility of our results. After downloading the package, please refer to \"Code/Readme.txt\" to get started.",
+                "published_at": "2023-01-07T19:24:05Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Chan, Duo; Gebbie, Geoffrey; Huybers, Peter, 2023, \"Data and replication code for 'Global and Regional Discrepancies between Early 20th Century Coastal Air and Sea-Surface Temperature Detected by a Coupled Energy-Balance Analysis'\", <a href=\"https://doi.org/10.7910/DVN/Y4D8PA\" target=\"_blank\">https://doi.org/10.7910/DVN/Y4D8PA</a>, Harvard Dataverse, V1, UNF:6:WVfFlur3FmW/nESn0UDfpQ== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Chan, Duo; Gebbie, Geoffrey; Huybers, Peter, 2023, \"Data and replication code for 'Global and Regional Discrepancies between Early 20th Century Coastal Air and Sea-Surface Temperature Detected by a Coupled Energy-Balance Analysis'\", https://doi.org/10.7910/DVN/Y4D8PA, Harvard Dataverse, V1, UNF:6:WVfFlur3FmW/nESn0UDfpQ== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/Y4D8PA",
+                "keywords": [
+                    "Earth surface temperature",
+                    "Climate Change",
+                    "Land temperature",
+                    "Sea-surface temperature",
+                    "Bias",
+                    "Correction",
+                    "Quality Control",
+                    "Global warming"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 207,
+                "versionId": 334441,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-10-13T18:27:55Z",
+                "updatedAt": "2023-01-07T19:24:05Z",
+                "contacts": [
+                    {
+                        "name": "Chan, Duo",
+                        "affiliation": "Woods Hole Oceanographic Institution"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Refence: Chan D., Gebbie G., &amp; Huybers P. (2022). Global and Regional Discrepancies between Early 20th Century Coastal Air and Sea- Surface Temperature Detected by a Coupled Energy-Balance Analysis. Journal of Climate (in press)."
+                    }
+                ],
+                "authors": [
+                    "Chan, Duo",
+                    "Gebbie, Geoffrey",
+                    "Huybers, Peter"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2023": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Chan, Duo": 1
+                        },
+                        {
+                            "Gebbie, Geoffrey": 1
+                        },
+                        {
+                            "Huybers, Peter": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        },
+                        {
+                            "Woods Hole Oceanographic Institution": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

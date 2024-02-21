@@ -1,0 +1,89 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/6QKJIY\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Influence of Upper-Troposphere Stratification and Cloud-Radiation Interaction on Convective Overshoots in the Tropical Tropopause Layer",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/6QKJIY",
+                "global_id": "doi:10.7910/DVN/6QKJIY",
+                "description": "Supporting data for Zeyuan Hu, Fay\u00e7al Lamraoui, Zhiming Kuang (2021), JAS: \"Influence of Upper-Troposphere Stratification and Cloud-Radiation Interaction on Convective Overshoots in the Tropical Tropopause Layer\"",
+                "published_at": "2021-10-11T01:47:37Z",
+                "publisher": "TTL-RCE",
+                "citationHtml": "Hu, Zeyuan; Lamraoui, Fay&ccedil;al; Kuang, Zhiming, 2020, \"Replication Data for: Influence of Upper-Troposphere Stratification and Cloud-Radiation Interaction on Convective Overshoots in the Tropical Tropopause Layer\", <a href=\"https://doi.org/10.7910/DVN/6QKJIY\" target=\"_blank\">https://doi.org/10.7910/DVN/6QKJIY</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "ttl-rce",
+                "name_of_dataverse": "TTL-RCE",
+                "citation": "Hu, Zeyuan; Lamraoui, Fay\u00e7al; Kuang, Zhiming, 2020, \"Replication Data for: Influence of Upper-Troposphere Stratification and Cloud-Radiation Interaction on Convective Overshoots in the Tropical Tropopause Layer\", https://doi.org/10.7910/DVN/6QKJIY, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/6QKJIY",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 95,
+                "versionId": 251262,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2020-08-10T20:38:54Z",
+                "updatedAt": "2021-10-11T01:47:37Z",
+                "contacts": [
+                    {
+                        "name": "Hu, Zeyuan",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "authors": [
+                    "Hu, Zeyuan",
+                    "Lamraoui, Fay\u00e7al",
+                    "Kuang, Zhiming"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Hu, Zeyuan": 1
+                        },
+                        {
+                            "Kuang, Zhiming": 1
+                        },
+                        {
+                            "Lamraoui, Fay\u00e7al": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}
