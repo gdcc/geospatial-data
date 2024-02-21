@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="npix_horiz" length="64" />
+  <dimension name="npix_vert" length="64" />
+  <dimension name="nsamples" length="199622" />
+  <variable name="scenes" shape="nsamples npix_horiz npix_vert" type="float">
+    <attribute name="units" value="Normalized dBZ" />
+    <attribute name="_ChunkSizes" type="uint" value="19963 6 6" />
+  </variable>
+  <variable name="tau_c" shape="nsamples npix_horiz" type="float">
+    <attribute name="units" value="Normalized" />
+    <attribute name="_ChunkSizes" type="uint" value="49906 16" />
+  </variable>
+  <variable name="p_top" shape="nsamples npix_horiz" type="float">
+    <attribute name="units" value="Normalized hPa" />
+    <attribute name="_ChunkSizes" type="uint" value="49906 16" />
+  </variable>
+  <variable name="r_e" shape="nsamples npix_horiz" type="float">
+    <attribute name="units" value="Normalized um" />
+    <attribute name="_ChunkSizes" type="uint" value="49906 16" />
+  </variable>
+  <variable name="twp" shape="nsamples npix_horiz" type="float">
+    <attribute name="units" value="Normalized g/m^2" />
+    <attribute name="_ChunkSizes" type="uint" value="49906 16" />
+  </variable>
+  <variable name="modis_mask" shape="nsamples npix_horiz" type="ubyte">
+    <attribute name="units" value="Boolean" />
+    <attribute name="_ChunkSizes" type="uint" value="99811 32" />
+  </variable>
+  <variable name="lat" shape="nsamples npix_horiz" type="float">
+    <attribute name="units" value="deg" />
+    <attribute name="_ChunkSizes" type="uint" value="49906 16" />
+  </variable>
+  <variable name="lon" shape="nsamples npix_horiz" type="float">
+    <attribute name="units" value="deg" />
+    <attribute name="_ChunkSizes" type="uint" value="49906 16" />
+  </variable>
+  <variable name="height" shape="nsamples npix_vert" type="float">
+    <attribute name="units" value="m" />
+    <attribute name="_ChunkSizes" type="uint" value="49906 16" />
+  </variable>
+  <variable name="time" shape="nsamples npix_horiz" type="double">
+    <attribute name="units" value="days since 1970-01-01 00:00" />
+    <attribute name="_ChunkSizes" type="uint" value="39925 11" />
+  </variable>
+</netcdf>

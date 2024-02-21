@@ -1,0 +1,88 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/FMU2TN\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Radiative forcing and health impact of aerosols and ozone in China as the consequence of clean air actions over 2012-2017",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/FMU2TN",
+                "global_id": "doi:10.7910/DVN/FMU2TN",
+                "description": "For more details, please contact dangruijun@mail.iap.ac.cn or hongliao@nuist.edu.cn.",
+                "published_at": "2019-09-27T09:43:46Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Dang, Ruijun; Liao, Hong, 2019, \"Replication Data for: Radiative forcing and health impact of aerosols and ozone in China as the consequence of clean air actions over 2012-2017\", <a href=\"https://doi.org/10.7910/DVN/FMU2TN\" target=\"_blank\">https://doi.org/10.7910/DVN/FMU2TN</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Dang, Ruijun; Liao, Hong, 2019, \"Replication Data for: Radiative forcing and health impact of aerosols and ozone in China as the consequence of clean air actions over 2012-2017\", https://doi.org/10.7910/DVN/FMU2TN, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/FMU2TN",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 9,
+                "versionId": 173499,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2019-09-14T04:26:09Z",
+                "updatedAt": "2019-09-27T09:43:46Z",
+                "contacts": [
+                    {
+                        "name": "Liao, Hong",
+                        "affiliation": "School of Environmental Science and Engineering, Nanjing University of Information Science and Technology, Nanjing, China."
+                    }
+                ],
+                "authors": [
+                    "Dang, Ruijun",
+                    "Liao, Hong"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Dang, Ruijun": 1
+                        },
+                        {
+                            "Liao, Hong": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China.": 1
+                        },
+                        {
+                            "School of Environmental Science and Engineering, Nanjing University of Information Science and Technology, Nanjing, China.": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

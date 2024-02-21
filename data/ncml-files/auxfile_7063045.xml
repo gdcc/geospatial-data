@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lon" length="720" />
+  <dimension name="mon" length="336" />
+  <dimension name="lat" length="360" />
+  <variable name="oceQnet" shape="mon lat lon" type="float">
+    <attribute name="units" value="W/m^2" />
+    <attribute name="long_name" value="net surface heat flux into the ocean (+=down), &gt;0 increases theta" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="units" value="degrees_E" />
+  </variable>
+  <variable name="mon" shape="mon" type="float">
+    <attribute name="units" value="Month Index, from 1 for Jan. 1992" />
+  </variable>
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="units" value="degrees_N" />
+  </variable>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.9.0,hdf5=1.12.1" />
+  <attribute name="title" value="oceQnet in ECCOv4r5" />
+  <attribute name="author" value="Gael Forget" />
+</netcdf>

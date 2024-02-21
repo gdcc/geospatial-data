@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="longitude" length="72" />
+  <dimension name="bnds" length="2" />
+  <dimension name="latitude" length="36" />
+  <dimension name="time" length="2068" />
+  <variable name="longitude" shape="longitude" type="double">
+    <attribute name="axis" value="X" />
+    <attribute name="bounds" value="longitude_bnds" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="long_name" value="longitude" />
+  </variable>
+  <variable name="tos" shape="time latitude longitude" type="float">
+    <attribute name="units" value="K" />
+    <attribute name="cell_methods" value="area: mean (interval: 5.0 degrees_north 5.0 degrees_east) time: mean (interval: 1 month)" />
+    <attribute name="standard_name" value="sea_water_temperature_anomaly" />
+    <attribute name="long_name" value="Sea water temperature anomaly at a depth of 20cm" />
+    <attribute name="_FillValue" type="float" value="-1.0E30" />
+    <attribute name="_ChunkSizes" type="uint" value="1034 18 36" />
+  </variable>
+  <variable name="latitude" shape="latitude" type="double">
+    <attribute name="axis" value="Y" />
+    <attribute name="bounds" value="latitude_bnds" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="long_name" value="latitude" />
+  </variable>
+  <variable name="time" shape="time" type="double">
+    <attribute name="axis" value="T" />
+    <attribute name="bounds" value="time_bnds" />
+    <attribute name="units" value="days since 1850-01-01T00:00:00Z" />
+    <attribute name="standard_name" value="time" />
+    <attribute name="long_name" value="time" />
+    <attribute name="calendar" value="gregorian" />
+  </variable>
+  <variable name="latitude_bnds" shape="latitude bnds" type="double" />
+  <variable name="time_bnds" shape="time bnds" type="double" />
+  <variable name="longitude_bnds" shape="longitude bnds" type="double" />
+  <attribute name="_NCProperties" value="version=1|netcdflibversion=4.6.1|hdf5libversion=1.10.2" />
+  <attribute name="comment" value="" />
+  <attribute name="history" value="Converted to netcdf today" />
+  <attribute name="institution" value="Met Office" />
+  <attribute name="reference" value="Kennedy et al. (2019), https://www.metoffice.gov.uk/hadobs/hadsst4" />
+  <attribute name="source" value="surface observation" />
+  <attribute name="title" value="Ensemble-median sea-surface temperature anomalies from the HadSST.4.0.1.0 data set" />
+  <attribute name="version" value="HadSST.4.0.1.0" />
+  <attribute name="Conventions" value="CF-1.7" />
+</netcdf>

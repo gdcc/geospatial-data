@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/1ZHRSD\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Dynamic Effect of Last Glacial Maximum Ice Sheet Topography on East Asian Summer Monsoon",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/1ZHRSD",
+                "global_id": "doi:10.7910/DVN/1ZHRSD",
+                "description": "Simulations: 100%, 0%, 100L+100E, 0L+0E, 100L+0E, 0L+100E, 100L+100E_AGCM, 0L+0E_AGCM. Ref: Gao Y, Liu Z, Lu Z, 2020, Dynamic Effect of Last Glacial Maximum Ice Sheet Topography on East Asian Summer Monsoon, Journal of Climate. For any question, please contact: yugao@pku.edu.cn",
+                "published_at": "2020-05-09T19:40:33Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Gao, Yu, 2020, \"Replication Data for: Dynamic Effect of Last Glacial Maximum Ice Sheet Topography on East Asian Summer Monsoon\", <a href=\"https://doi.org/10.7910/DVN/1ZHRSD\" target=\"_blank\">https://doi.org/10.7910/DVN/1ZHRSD</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Gao, Yu, 2020, \"Replication Data for: Dynamic Effect of Last Glacial Maximum Ice Sheet Topography on East Asian Summer Monsoon\", https://doi.org/10.7910/DVN/1ZHRSD, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/1ZHRSD",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 11,
+                "versionId": 194589,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2020-05-09T19:39:17Z",
+                "updatedAt": "2020-05-09T19:40:33Z",
+                "contacts": [
+                    {
+                        "name": "Gao, Yu",
+                        "affiliation": "Peking University"
+                    }
+                ],
+                "authors": [
+                    "Gao, Yu"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Gao, Yu": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Peking University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

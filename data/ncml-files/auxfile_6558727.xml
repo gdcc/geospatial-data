@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="month" length="12" />
+  <dimension name="lat" length="60" />
+  <dimension name="o3_lev" length="19" />
+  <variable name="month" shape="month" type="long" />
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+  </variable>
+  <variable name="o3_lev" shape="o3_lev" type="long" />
+  <variable name="Bry" shape="month o3_lev lat" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+  </variable>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.8.1,hdf5=1.12.1" />
+</netcdf>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="LON_RHO152_152" length="1" />
+  <dimension name="LAT_RHO394_394" length="1" />
+  <dimension name="bnds" length="2" />
+  <dimension name="TIME" length="1465" isUnlimited="true" />
+  <dimension name="DEPTH" length="40" />
+  <variable name="LON_RHO152_152" shape="LON_RHO152_152" type="float">
+    <attribute name="long_name" value="Longitude" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="modulo" type="float" value="0.0" />
+    <attribute name="point_spacing" value="even" />
+    <attribute name="axis" value="X" />
+    <attribute name="standard_name" value="longitude" />
+  </variable>
+  <variable name="LAT_RHO394_394" shape="LAT_RHO394_394" type="float">
+    <attribute name="long_name" value="Latitude" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="point_spacing" value="uneven" />
+    <attribute name="axis" value="Y" />
+    <attribute name="bounds" value="LAT_RHO394_394_bnds" />
+    <attribute name="standard_name" value="latitude" />
+  </variable>
+  <variable name="LAT_RHO394_394_bnds" shape="LAT_RHO394_394 bnds" type="float" />
+  <variable name="TIME" shape="TIME" type="double">
+    <attribute name="long_name" value="Time" />
+    <attribute name="units" value="seconds since 1990-01-01 00:00:00" />
+    <attribute name="time_origin" value="01-JAN-1990 00:00:00" />
+    <attribute name="axis" value="T" />
+    <attribute name="bounds" value="TIME_bnds" />
+    <attribute name="standard_name" value="time" />
+  </variable>
+  <variable name="TIME_bnds" shape="TIME bnds" type="double" />
+  <variable name="ZETA" shape="TIME LAT_RHO394_394 LON_RHO152_152" type="float">
+    <attribute name="missing_value" type="float" value="2.0" />
+    <attribute name="_FillValue" type="float" value="2.0" />
+    <attribute name="long_name" value="Sea Level Anomaly" />
+    <attribute name="units" value="meters" />
+    <attribute name="history" value="From ocean_his_8076.out" />
+  </variable>
+  <variable name="UBAR" shape="TIME LAT_RHO394_394 LON_RHO152_152" type="float">
+    <attribute name="missing_value" type="float" value="2.0" />
+    <attribute name="_FillValue" type="float" value="2.0" />
+    <attribute name="long_name" value="Depth averaged U" />
+    <attribute name="units" value="meter per second" />
+    <attribute name="history" value="From ocean_his_8076.out" />
+  </variable>
+  <variable name="VBAR" shape="TIME LAT_RHO394_394 LON_RHO152_152" type="float">
+    <attribute name="missing_value" type="float" value="2.0" />
+    <attribute name="_FillValue" type="float" value="2.0" />
+    <attribute name="long_name" value="Depth averaged V" />
+    <attribute name="units" value="meter per second" />
+    <attribute name="history" value="From ocean_his_8076.out" />
+  </variable>
+  <variable name="DEPTH" shape="DEPTH" type="float">
+    <attribute name="long_name" value="Depth" />
+    <attribute name="units" value="meters" />
+    <attribute name="positive" value="down" />
+    <attribute name="point_spacing" value="uneven" />
+    <attribute name="axis" value="Z" />
+    <attribute name="bounds" value="DEPTH_bnds" />
+    <attribute name="standard_name" value="depth" />
+  </variable>
+  <variable name="DEPTH_bnds" shape="DEPTH bnds" type="float" />
+  <variable name="U" shape="TIME DEPTH LAT_RHO394_394 LON_RHO152_152" type="float">
+    <attribute name="missing_value" type="float" value="2.0" />
+    <attribute name="_FillValue" type="float" value="2.0" />
+    <attribute name="long_name" value="Zonal current spee" />
+    <attribute name="units" value="meter per second" />
+    <attribute name="history" value="From ocean_his_8076.out" />
+  </variable>
+  <variable name="V" shape="TIME DEPTH LAT_RHO394_394 LON_RHO152_152" type="float">
+    <attribute name="missing_value" type="float" value="2.0" />
+    <attribute name="_FillValue" type="float" value="2.0" />
+    <attribute name="long_name" value="Meridional current spee" />
+    <attribute name="units" value="meter per second" />
+    <attribute name="history" value="From ocean_his_8076.out" />
+  </variable>
+  <variable name="SALT" shape="TIME DEPTH LAT_RHO394_394 LON_RHO152_152" type="float">
+    <attribute name="missing_value" type="float" value="2.0" />
+    <attribute name="_FillValue" type="float" value="2.0" />
+    <attribute name="long_name" value="Salinity" />
+    <attribute name="units" value="parts per million" />
+    <attribute name="history" value="From ocean_his_8076.out" />
+  </variable>
+  <variable name="TEMP" shape="TIME DEPTH LAT_RHO394_394 LON_RHO152_152" type="float">
+    <attribute name="missing_value" type="float" value="2.0" />
+    <attribute name="_FillValue" type="float" value="2.0" />
+    <attribute name="long_name" value="Temperature" />
+    <attribute name="units" value="Degree Celsius" />
+    <attribute name="history" value="From ocean_his_8076.out" />
+  </variable>
+  <attribute name="history" value="FERRET V6.93   17-Oct-19" />
+  <attribute name="Conventions" value="CF-1.6" />
+</netcdf>

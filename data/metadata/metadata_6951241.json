@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/O94VWV\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Open Data of Water Supersaturation for Early Mars",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/O94VWV",
+                "global_id": "doi:10.7910/DVN/O94VWV",
+                "description": "Open Data of Water Supersaturation for Early Mars, A.Delavois et al. The repository contains 24 NetCDF files used for figures 3-8 and 2 ASCII files for figures 1 and 2.",
+                "published_at": "2023-03-07T15:33:11Z",
+                "publisher": "Antony Delavois Dataverse",
+                "citationHtml": "Delavois, Antony, 2022, \"Open Data of Water Supersaturation for Early Mars\", <a href=\"https://doi.org/10.7910/DVN/O94VWV\" target=\"_blank\">https://doi.org/10.7910/DVN/O94VWV</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "AD_EMWaterSupersaturation",
+                "name_of_dataverse": "Antony Delavois Dataverse",
+                "citation": "Delavois, Antony, 2022, \"Open Data of Water Supersaturation for Early Mars\", https://doi.org/10.7910/DVN/O94VWV, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/O94VWV",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 24,
+                "versionId": 328280,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2022-06-07T06:46:05Z",
+                "updatedAt": "2023-03-07T15:33:11Z",
+                "contacts": [
+                    {
+                        "name": "Delavois, Antony",
+                        "affiliation": "LMD - IPSL -CNRS"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Water Supersaturation for Early Mars A. Delavois et al. 2022"
+                    }
+                ],
+                "authors": [
+                    "Delavois, Antony"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Delavois, Antony": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "LMD - IPSL -CNRS": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

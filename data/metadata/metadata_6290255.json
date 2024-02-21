@@ -1,0 +1,89 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/HOVAPO\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Dataset and codes used in the paper: \"Impact of vertical mixing parameterizations on internal gravity wave spectra in regional ocean models\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/HOVAPO",
+                "global_id": "doi:10.7910/DVN/HOVAPO",
+                "description": "These MATLAB data files contain all the observations and model output used in the article: \"Impact of vertical mixing parameterizations on internal gravity wave spectra in regional ocean models\" The regional MITgcm ( http://mitgcm.org/) simulation results and the McLane moored profiler (MP) data are stored here. The regional box configuration can be found at https://github.com/MITgcm-contrib/llc_hires/tree/master/llc_4320/regions/Box56. More descriptions of the simulation numerics are in the supplementary information of the paper. The analysis routines for the vertical wavenumber spectra for kinetic energy, shear and strain are also included here. The codes are written in MATLAB language and they work for MATLAB 2022a version. The MP data have been taken from Alford et al 2007 and Savage et al 2017 and uploaded here. The MP data can also be downloaded from https://github.com/annasavage/McLane_profiler_data",
+                "published_at": "2022-05-11T15:12:37Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Thakur, Ritabrata, 2022, \"Dataset and codes used in the paper: &quot;Impact of vertical mixing parameterizations on internal gravity wave spectra in regional ocean models&quot;\", <a href=\"https://doi.org/10.7910/DVN/HOVAPO\" target=\"_blank\">https://doi.org/10.7910/DVN/HOVAPO</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Thakur, Ritabrata, 2022, \"Dataset and codes used in the paper: \"Impact of vertical mixing parameterizations on internal gravity wave spectra in regional ocean models\"\", https://doi.org/10.7910/DVN/HOVAPO, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/HOVAPO",
+                "keywords": [
+                    "Ocean models, Internal gravity waves, vertical wavenumber spectra, MITgcm, KPP mixing parameterization, SWOT"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 39,
+                "versionId": 327138,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-05-11T15:11:24Z",
+                "updatedAt": "2022-05-11T15:12:37Z",
+                "contacts": [
+                    {
+                        "name": "Thakur, Ritabrata",
+                        "affiliation": "University of Michigan"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Impact of vertical mixing parameterizations on internal gravity wave spectra in regional ocean models"
+                    }
+                ],
+                "authors": [
+                    "Thakur, Ritabrata"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Thakur, Ritabrata": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of Michigan": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

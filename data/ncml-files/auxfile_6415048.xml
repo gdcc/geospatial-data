@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="model" length="25" isUnlimited="true" />
+  <dimension name="level" length="6" />
+  <dimension name="index" length="6" />
+  <dimension name="latitude" length="180" />
+  <dimension name="longitude" length="360" />
+  <variable name="change_frq_RX_pct" shape="model level index latitude longitude" type="float">
+    <attribute name="units" value="%" />
+    <attribute name="long_name" value="% change in frequency wrt baseline (1995-2014)" />
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="level" shape="level" type="int">
+    <attribute name="long_name" value="0C, 0.5C, 1C, 2C, 3C, 4C relative to baseline (1995-2014)" />
+  </variable>
+  <variable name="index" shape="index" type="int">
+    <attribute name="long_name" value="90,95,98,99,99.5,99.9 percentile" />
+  </variable>
+  <variable name="latitude" shape="latitude" type="float">
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="axis" value="Y" />
+  </variable>
+  <variable name="longitude" shape="longitude" type="float">
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="axis" value="X" />
+  </variable>
+  <attribute name="history" value="Wed Jun  1 19:29:04 2022: ncecat -u model change_frequency_RX_pct_pr5d_ACCESS-CM2_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_ACCESS-ESM1-5_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_BCC-CSM2-MR_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_CESM2-WACCM_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_CESM2_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_CNRM-CM6-1_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_CNRM-ESM2-1_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_CanESM5_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_EC-Earth3-Veg_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_EC-Earth3_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_FGOALS-g3_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_GFDL-CM4_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_GFDL-ESM4_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_HadGEM3-GC31-LL_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_INM-CM4-8_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_INM-CM5-0_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_IPSL-CM6A-LR_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_MIROC6_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_MPI-ESM1-2-HR_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_MPI-ESM1-2-LR_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_MRI-ESM2-0_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_NESM3_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_NorESM2-LM_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_NorESM2-MM_warming_levels_DJF.nc change_frequency_RX_pct_pr5d_UKESM1-0-LL_warming_levels_DJF.nc multimodel/change_frequency_RX_pct_pr5d_multimodel_warming_levels_DJF.nc" />
+  <attribute name="NCO" value="&quot;4.6.5-alpha03&quot;" />
+  <attribute name="nco_openmp_thread_number" type="int" value="1" />
+</netcdf>

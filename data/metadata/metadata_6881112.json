@@ -1,0 +1,84 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/76UHAK\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Variability Of The Shelf Circulation Around South Georgia, Southern Ocean.",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/76UHAK",
+                "global_id": "doi:10.7910/DVN/76UHAK",
+                "description": "Surface fields to replicate the figures of \"Variability Of The Shelf Circulation Around South Georgia, Southern Ocean\" by V. Combes, R.P. Matano, M.P. Meredith., and E.F. Young, 2023, JGR-Oceans.",
+                "published_at": "2023-01-09T13:17:54Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Combes, Vincent, 2023, \"Replication Data for: Variability Of The Shelf Circulation Around South Georgia, Southern Ocean.\", <a href=\"https://doi.org/10.7910/DVN/76UHAK\" target=\"_blank\">https://doi.org/10.7910/DVN/76UHAK</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Combes, Vincent, 2023, \"Replication Data for: Variability Of The Shelf Circulation Around South Georgia, Southern Ocean.\", https://doi.org/10.7910/DVN/76UHAK, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/76UHAK",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 1,
+                "versionId": 339374,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2023-01-09T13:14:08Z",
+                "updatedAt": "2023-01-09T13:17:54Z",
+                "contacts": [
+                    {
+                        "name": "Combes, Vincent",
+                        "affiliation": "Oregon State University"
+                    }
+                ],
+                "publications": [
+                    {}
+                ],
+                "authors": [
+                    "Combes, Vincent"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2023": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Combes, Vincent": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Oregon State University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

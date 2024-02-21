@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/3H1E4X\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Data from \"The Andes Affect ENSO Statistics\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/3H1E4X",
+                "global_id": "doi:10.7910/DVN/3H1E4X",
+                "description": "Abstract: Current coupled global climate models have biases in their simulations of the tropical Pacific mean state conditions as well as the El Ni\\~no Southern Oscillation (ENSO) phenomenon. Specifically, in the Community Earth System Model (CESM version 1.2.2), the tropical Pacific mean state has overly weak sea surface temperature (SST) gradients in both the zonal and meridional directions, ENSO cycles are too frequent and too regular, and El Ni\\~no and La Ni\\~na events are too symmetrical. In our previous study with a slab ocean model, we showed that a higher elevation of the Andes can improve the tropical Pacific mean state simulation by adjusting the atmospheric circulation and increasing the east-west and north-south SST gradient. Motivated by the link between the mean tropical Pacific climate and ENSO variations shown in previous studies, we explored the influence of the Andes on the simulation of ENSO using the Community Earth System Model (CESM) version 1.2.2 under full atmosphere-ocean coupling. In addition to improving the simulated tropical Pacific mean state by increasing the strength of the surface easterly and cross-equatorial southerly wind, the Higher Andes experiment decreases the ENSO amplitude, increases the phase asymmetry, and makes the ENSO events less regular, resulting in a simulated ENSO that is more consistent with observations. The changes in the mean state and ENSO are connected by mean wind effects on the dynamic feedbacks. Our overall result is that increasing the height of the Andes improves the biases in the mean state and ENSO statistics in the tropical Pacific.",
+                "published_at": "2021-11-05T20:49:21Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Xu, Weixuan, 2021, \"Data from &quot;The Andes Affect ENSO Statistics&quot;\", <a href=\"https://doi.org/10.7910/DVN/3H1E4X\" target=\"_blank\">https://doi.org/10.7910/DVN/3H1E4X</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Xu, Weixuan, 2021, \"Data from \"The Andes Affect ENSO Statistics\"\", https://doi.org/10.7910/DVN/3H1E4X, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/3H1E4X",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 24,
+                "versionId": 279314,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-11-05T20:03:47Z",
+                "updatedAt": "2021-11-05T20:49:21Z",
+                "contacts": [
+                    {
+                        "name": "Xu, Weixuan",
+                        "affiliation": "Brown University"
+                    }
+                ],
+                "authors": [
+                    "Xu, Weixuan"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Xu, Weixuan": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Brown University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

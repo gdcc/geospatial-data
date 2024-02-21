@@ -1,0 +1,87 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/KNRLLV\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "A deep learning method for detecting extreme precipitation events (2022 Princeton AOS workshop)",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/KNRLLV",
+                "global_id": "doi:10.7910/DVN/KNRLLV",
+                "description": "This includes the material used in the tutorial lecture in the 2022 Princeton AOS workshop.",
+                "published_at": "2022-07-20T17:44:54Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Murakami, Hiroyuki, 2022, \"A deep learning method for detecting extreme precipitation events (2022 Princeton AOS workshop)\", <a href=\"https://doi.org/10.7910/DVN/KNRLLV\" target=\"_blank\">https://doi.org/10.7910/DVN/KNRLLV</a>, Harvard Dataverse, V3",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Murakami, Hiroyuki, 2022, \"A deep learning method for detecting extreme precipitation events (2022 Princeton AOS workshop)\", https://doi.org/10.7910/DVN/KNRLLV, Harvard Dataverse, V3",
+                "storageIdentifier": "s3://10.7910/DVN/KNRLLV",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 1114,
+                "versionId": 330134,
+                "versionState": "RELEASED",
+                "majorVersion": 3,
+                "minorVersion": 2,
+                "createdAt": "2022-07-15T17:38:21Z",
+                "updatedAt": "2022-07-20T18:07:42Z",
+                "contacts": [
+                    {
+                        "name": "Murakami, Hiroyuki",
+                        "affiliation": "UCAR/GFDL"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Murakami, H., T. L. Delworth, W. F. Cooke, S. B. Kapnick, and P. -C. Hsu, 2022: Increasing frequency of anomalous precipitation events in Japan detected by a deep learning autoencoder. Earth\u2019s Future, 10, e2021EF002481.",
+                        "url": "http://dx.doi.org/10.1029/2021EF002481"
+                    }
+                ],
+                "authors": [
+                    "Murakami, Hiroyuki"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Murakami, Hiroyuki": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "UCAR/GFDL": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="96" />
+  <dimension name="lon" length="144" />
+  <variable name="area" shape="lat lon" type="float">
+    <attribute name="long_name" value="grid cell areas" />
+    <attribute name="units" value="km^2" />
+    <attribute name="_FillValue" type="float" value="1.0E36" />
+    <attribute name="missing_value" type="float" value="1.0E36" />
+    <attribute name="_ChunkSizes" type="uint" value="96 144" />
+  </variable>
+  <variable name="landfrac" shape="lat lon" type="float">
+    <attribute name="long_name" value="land fraction" />
+    <attribute name="_FillValue" type="float" value="1.0E36" />
+    <attribute name="missing_value" type="float" value="1.0E36" />
+    <attribute name="_ChunkSizes" type="uint" value="96 144" />
+  </variable>
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="long_name" value="coordinate latitude" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="_ChunkSizes" type="uint" value="96" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="long_name" value="coordinate longitude" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="_ChunkSizes" type="uint" value="144" />
+  </variable>
+  <attribute name="title" value="CLM History file information" />
+  <attribute name="comment" value="NOTE: None of the variables are weighted by land fraction!" />
+  <attribute name="Conventions" value="CF-1.0" />
+  <attribute name="history" value="Sun Dec  8 23:05:41 2019: ncks -v area,landfrac /projects/NS2345K/noresm/cases/N20TRAERCNOCBPRP_EXPECT01/lnd/hist/N20TRAERCNOCBPRP_EXPECT01.clm2.h0.2005-12.nc HIST.2deg.landarea.nc&#xA;created on 07/01/14 06:43:05" />
+  <attribute name="source" value="Community Land Model CLM4.0" />
+  <attribute name="hostname" value="hexagon" />
+  <attribute name="username" value="tjiputra" />
+  <attribute name="version" value="cesm1_0_3" />
+  <attribute name="revision_id" value="$Id: histFileMod.F90 28831 2011-06-07 06:14:20Z erik $" />
+  <attribute name="case_title" value="UNSET" />
+  <attribute name="case_id" value="N20TRAERCNOCBPRP_EXPECT01" />
+  <attribute name="Surface_dataset" value="surfdata_1.9x2.5_simyr1850_c091108.nc" />
+  <attribute name="Initial_conditions_dataset" value="N1850BPRPCNOC_f19_g16_spin_02.clm2.r.0501-01-01-00000.nc" />
+  <attribute name="PFT_physiological_constants_dataset" value="pft-physiology.c110425.nc" />
+  <attribute name="RTM_input_dataset" value="rdirc_0.5x0.5_simyr2000_c101124.nc" />
+  <attribute name="Time_constant_3Dvars_filename" value="./N20TRAERCNOCBPRP_EXPECT01.clm2.h0.2005-01.nc" />
+  <attribute name="Time_constant_3Dvars" value="ZSOI:DZSOI:WATSAT:SUCSAT:BSW:HKSAT" />
+  <attribute name="NCO" value="4.6.9" />
+</netcdf>

@@ -1,0 +1,98 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/7P8MZT\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "East Asia Regional Reanalysis 6 hourly data on pressure levels from 2010 to 2019",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/7P8MZT",
+                "global_id": "doi:10.7910/DVN/7P8MZT",
+                "description": "East Asia Regional Reanalysis dataset is developed for the period of 2010-19 by Dr. Eun-Gyeong Yang and Dr. Hyun Mee Kim in Yonsei University in South Korea. Reanalysis dataset is produced every 6 hr (i.e., 00, 06, 12, 18 UTC) for 10-yr-period (2010-19). The netCDF file contains u-component of wind, v-component of wind, temperature, geopotential height, and specific humidity variables of reanalysis on pressure levels (925, 850, 700, 500, 300, 200, 100, 50 hPa).",
+                "published_at": "2021-06-13T03:00:31Z",
+                "publisher": "East Asia Regional Reanalysis Dataverse",
+                "citationHtml": "Yang, Eun-Gyeong; Kim, Hyun Mee, 2021, \"East Asia Regional Reanalysis 6 hourly data on pressure levels from 2010 to 2019\", <a href=\"https://doi.org/10.7910/DVN/7P8MZT\" target=\"_blank\">https://doi.org/10.7910/DVN/7P8MZT</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "earr",
+                "name_of_dataverse": "East Asia Regional Reanalysis Dataverse",
+                "citation": "Yang, Eun-Gyeong; Kim, Hyun Mee, 2021, \"East Asia Regional Reanalysis 6 hourly data on pressure levels from 2010 to 2019\", https://doi.org/10.7910/DVN/7P8MZT, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/7P8MZT",
+                "keywords": [
+                    "East Asia",
+                    "Regional Reanalysis",
+                    "Atmosphere"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences",
+                    "Engineering"
+                ],
+                "fileCount": 14608,
+                "versionId": 238374,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-04-07T05:20:02Z",
+                "updatedAt": "2021-06-13T03:00:31Z",
+                "contacts": [
+                    {
+                        "name": "Yang, Eun-Gyeong",
+                        "affiliation": "Yonsei University"
+                    },
+                    {
+                        "name": "Kim, Hyun Mee",
+                        "affiliation": "Yonsei University"
+                    }
+                ],
+                "authors": [
+                    "Yang, Eun-Gyeong",
+                    "Kim, Hyun Mee"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        },
+                        {
+                            "Engineering": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Kim, Hyun Mee": 1
+                        },
+                        {
+                            "Yang, Eun-Gyeong": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Yonsei University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

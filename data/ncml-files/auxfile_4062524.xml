@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="1793" isUnlimited="true" />
+  <dimension name="latitude" length="180" />
+  <dimension name="longitude" length="360" />
+  <dimension name="nv" length="2" />
+  <variable name="time" shape="time" type="float">
+    <attribute name="units" value="days since 1870-1-1 0:0:0" />
+    <attribute name="calendar" value="gregorian" />
+    <attribute name="long_name" value="Time" />
+    <attribute name="standard_name" value="time" />
+  </variable>
+  <variable name="time_bnds" shape="time nv" type="float" />
+  <variable name="latitude" shape="latitude" type="float">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="long_name" value="Latitude" />
+    <attribute name="standard_name" value="latitude" />
+  </variable>
+  <variable name="longitude" shape="longitude" type="float">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="long_name" value="Longitude" />
+    <attribute name="standard_name" value="longitude" />
+  </variable>
+  <variable name="sst" shape="time latitude longitude" type="float">
+    <attribute name="_FillValue" type="float" value="-1.0E30" />
+    <attribute name="standard_name" value="sea_surface_temperature" />
+    <attribute name="long_name" value="sst" />
+    <attribute name="units" value="C" />
+    <attribute name="cell_methods" value="time: lat: lon: mean" />
+    <attribute name="missing_value" type="float" value="-1.0E30" />
+  </variable>
+  <attribute name="Title" value="Monthly version of HadISST sea surface temperature component" />
+  <attribute name="description" value="HadISST 1.1 monthly average sea surface temperature" />
+  <attribute name="institution" value="Met Office Hadley Centre" />
+  <attribute name="source" value="HadISST" />
+  <attribute name="reference" value="Rayner, N. A., Parker, D. E., Horton, E. B., Folland, C. K., Alexander, L. V., Rowell, D. P., Kent, E. C., Kaplan, A.  Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century J. Geophys. Res.Vol. 108, No. D14, 4407 10.1029/2002JD002670" />
+  <attribute name="Conventions" value="CF-1.0" />
+  <attribute name="history" value="24/7/2019 converted to netcdf from pp format" />
+  <attribute name="supplementary_information" value="Updates and supplementary information will be available from http://www.metoffice.gov.uk/hadobs/hadisst" />
+  <attribute name="comment" value="Data restrictions: for academic research use only. Data are Crown copyright see (http://www.opsi.gov.uk/advice/crown-copyright/copyright-guidance/index.htm)" />
+</netcdf>

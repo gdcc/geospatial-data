@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="11" />
+  <dimension name="lon" length="51" />
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="coordinate_defines" value="center" />
+    <attribute name="axis" value="Y" />
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="actual_range" type="float" value="88.0 -88.0" />
+    <attribute name="long_name" value="Latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="compo_mean_field" shape="lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <attribute name="data_series" value="Poisson, detrended equatorial Pacific SSTA" />
+</netcdf>

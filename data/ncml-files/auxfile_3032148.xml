@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="TSTEP" length="1" />
+  <dimension name="DATE-TIME" length="2" />
+  <dimension name="LAY" length="14" />
+  <dimension name="VAR" length="83" />
+  <dimension name="PERIM" length="524" />
+  <variable name="TFLAG" shape="TSTEP VAR DATE-TIME" type="int">
+    <attribute name="units" value="&lt;YYYYDDD,HHMMSS&gt;" />
+    <attribute name="long_name" value="TFLAG           " />
+    <attribute name="var_desc" value="Timestep-valid flags:  (1) YYYYDDD or (2) HHMMSS                                " />
+  </variable>
+  <variable name="D4" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="D4              " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable D4                                                                     " />
+  </variable>
+  <variable name="D5" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="D5              " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable D5                                                                     " />
+  </variable>
+  <variable name="D6" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="D6              " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable D6                                                                     " />
+  </variable>
+  <variable name="NO2" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="NO2             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable NO2                                                                    " />
+  </variable>
+  <variable name="NO" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="NO              " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable NO                                                                     " />
+  </variable>
+  <variable name="O3" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="O3              " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable O3                                                                     " />
+  </variable>
+  <variable name="NO3" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="NO3             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable NO3                                                                    " />
+  </variable>
+  <variable name="OH" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="OH              " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable OH                                                                     " />
+  </variable>
+  <variable name="HO2" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="HO2             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable HO2                                                                    " />
+  </variable>
+  <variable name="N2O5" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="N2O5            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable N2O5                                                                   " />
+  </variable>
+  <variable name="HNO3" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="HNO3            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable HNO3                                                                   " />
+  </variable>
+  <variable name="HONO" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="HONO            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable HONO                                                                   " />
+  </variable>
+  <variable name="PNA" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="PNA             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable PNA                                                                    " />
+  </variable>
+  <variable name="H2O2" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="H2O2            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable H2O2                                                                   " />
+  </variable>
+  <variable name="CO" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="CO              " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable CO                                                                     " />
+  </variable>
+  <variable name="SO2" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SO2             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SO2                                                                    " />
+  </variable>
+  <variable name="SULF" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SULF            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SULF                                                                   " />
+  </variable>
+  <variable name="PAN" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="PAN             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable PAN                                                                    " />
+  </variable>
+  <variable name="FACD" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="FACD            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable FACD                                                                   " />
+  </variable>
+  <variable name="AACD" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AACD            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable AACD                                                                   " />
+  </variable>
+  <variable name="PACD" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="PACD            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable PACD                                                                   " />
+  </variable>
+  <variable name="MEPX" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="MEPX            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable MEPX                                                                   " />
+  </variable>
+  <variable name="MGLY" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="MGLY            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable MGLY                                                                   " />
+  </variable>
+  <variable name="OPEN" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="OPEN            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable OPEN                                                                   " />
+  </variable>
+  <variable name="CRES" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="CRES            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable CRES                                                                   " />
+  </variable>
+  <variable name="FORM" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="FORM            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable FORM                                                                   " />
+  </variable>
+  <variable name="ALD2" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ALD2            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable ALD2                                                                   " />
+  </variable>
+  <variable name="PAR" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="PAR             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable PAR                                                                    " />
+  </variable>
+  <variable name="OLE" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="OLE             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable OLE                                                                    " />
+  </variable>
+  <variable name="TOL" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="TOL             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable TOL                                                                    " />
+  </variable>
+  <variable name="ISOP" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ISOP            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable ISOP                                                                   " />
+  </variable>
+  <variable name="ETH" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ETH             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable ETH                                                                    " />
+  </variable>
+  <variable name="XYL" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="XYL             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable XYL                                                                    " />
+  </variable>
+  <variable name="ETHA" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ETHA            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable ETHA                                                                   " />
+  </variable>
+  <variable name="IOLE" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="IOLE            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable IOLE                                                                   " />
+  </variable>
+  <variable name="ROOH" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ROOH            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable ROOH                                                                   " />
+  </variable>
+  <variable name="NTR" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="NTR             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable NTR                                                                    " />
+  </variable>
+  <variable name="C2O3" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="C2O3            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable C2O3                                                                   " />
+  </variable>
+  <variable name="PANX" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="PANX            " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable PANX                                                                   " />
+  </variable>
+  <variable name="BENZENE" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="BENZENE         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable BENZENE                                                                " />
+  </variable>
+  <variable name="ASO4J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ASO4J           " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ASO4J                                                                  " />
+  </variable>
+  <variable name="ASO4I" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ASO4I           " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ASO4I                                                                  " />
+  </variable>
+  <variable name="AALKJ" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AALKJ           " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AALKJ                                                                  " />
+  </variable>
+  <variable name="AXYL1J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AXYL1J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AXYL1J                                                                 " />
+  </variable>
+  <variable name="AXYL2J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AXYL2J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AXYL2J                                                                 " />
+  </variable>
+  <variable name="AXYL3J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AXYL3J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AXYL3J                                                                 " />
+  </variable>
+  <variable name="ATOL1J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ATOL1J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ATOL1J                                                                 " />
+  </variable>
+  <variable name="ATOL2J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ATOL2J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ATOL2J                                                                 " />
+  </variable>
+  <variable name="ATOL3J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ATOL3J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ATOL3J                                                                 " />
+  </variable>
+  <variable name="ABNZ1J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ABNZ1J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ABNZ1J                                                                 " />
+  </variable>
+  <variable name="ABNZ2J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ABNZ2J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ABNZ2J                                                                 " />
+  </variable>
+  <variable name="ABNZ3J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ABNZ3J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ABNZ3J                                                                 " />
+  </variable>
+  <variable name="ATRP1J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ATRP1J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ATRP1J                                                                 " />
+  </variable>
+  <variable name="ATRP2J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ATRP2J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ATRP2J                                                                 " />
+  </variable>
+  <variable name="AISO1J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AISO1J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AISO1J                                                                 " />
+  </variable>
+  <variable name="AISO2J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AISO2J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AISO2J                                                                 " />
+  </variable>
+  <variable name="ASQTJ" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ASQTJ           " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ASQTJ                                                                  " />
+  </variable>
+  <variable name="AORGPAJ" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AORGPAJ         " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AORGPAJ                                                                " />
+  </variable>
+  <variable name="AORGPAI" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AORGPAI         " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AORGPAI                                                                " />
+  </variable>
+  <variable name="ACORS" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ACORS           " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ACORS                                                                  " />
+  </variable>
+  <variable name="ASOIL" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="ASOIL           " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable ASOIL                                                                  " />
+  </variable>
+  <variable name="NUMATKN" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="NUMATKN         " />
+    <attribute name="units" value="#/m**3          " />
+    <attribute name="var_desc" value="Variable NUMATKN                                                                " />
+  </variable>
+  <variable name="NUMACC" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="NUMACC          " />
+    <attribute name="units" value="#/m**3          " />
+    <attribute name="var_desc" value="Variable NUMACC                                                                 " />
+  </variable>
+  <variable name="NUMCOR" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="NUMCOR          " />
+    <attribute name="units" value="#/m**3          " />
+    <attribute name="var_desc" value="Variable NUMCOR                                                                 " />
+  </variable>
+  <variable name="SRFATKN" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SRFATKN         " />
+    <attribute name="units" value="m**2/m**3       " />
+    <attribute name="var_desc" value="Variable SRFATKN                                                                " />
+  </variable>
+  <variable name="SRFACC" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SRFACC          " />
+    <attribute name="units" value="m**2/m**3       " />
+    <attribute name="var_desc" value="Variable SRFACC                                                                 " />
+  </variable>
+  <variable name="SRFCOR" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SRFCOR          " />
+    <attribute name="units" value="m**2/m**3       " />
+    <attribute name="var_desc" value="Variable SRFCOR                                                                 " />
+  </variable>
+  <variable name="AISO3J" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AISO3J          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AISO3J                                                                 " />
+  </variable>
+  <variable name="AOLGAJ" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AOLGAJ          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AOLGAJ                                                                 " />
+  </variable>
+  <variable name="AOLGBJ" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="AOLGBJ          " />
+    <attribute name="units" value="micrograms/m**3 " />
+    <attribute name="var_desc" value="Variable AOLGBJ                                                                 " />
+  </variable>
+  <variable name="NH3" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="NH3             " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable NH3                                                                    " />
+  </variable>
+  <variable name="SV_ALK" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_ALK          " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_ALK                                                                 " />
+  </variable>
+  <variable name="SV_XYL1" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_XYL1         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_XYL1                                                                " />
+  </variable>
+  <variable name="SV_XYL2" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_XYL2         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_XYL2                                                                " />
+  </variable>
+  <variable name="SV_TOL1" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_TOL1         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_TOL1                                                                " />
+  </variable>
+  <variable name="SV_TOL2" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_TOL2         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_TOL2                                                                " />
+  </variable>
+  <variable name="SV_BNZ1" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_BNZ1         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_BNZ1                                                                " />
+  </variable>
+  <variable name="SV_BNZ2" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_BNZ2         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_BNZ2                                                                " />
+  </variable>
+  <variable name="SV_TRP1" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_TRP1         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_TRP1                                                                " />
+  </variable>
+  <variable name="SV_TRP2" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_TRP2         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_TRP2                                                                " />
+  </variable>
+  <variable name="SV_ISO1" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_ISO1         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_ISO1                                                                " />
+  </variable>
+  <variable name="SV_ISO2" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_ISO2         " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_ISO2                                                                " />
+  </variable>
+  <variable name="SV_SQT" shape="TSTEP LAY PERIM" type="float">
+    <attribute name="long_name" value="SV_SQT          " />
+    <attribute name="units" value="ppmV            " />
+    <attribute name="var_desc" value="Variable SV_SQT                                                                 " />
+  </variable>
+  <attribute name="IOAPI_VERSION" value="$Id: @(#) ioapi library version 3.0 $                                           " />
+  <attribute name="EXEC_ID" value="????????????????                                                                " />
+  <attribute name="FTYPE" type="int" value="2" />
+  <attribute name="CDATE" type="int" value="2015163" />
+  <attribute name="CTIME" type="int" value="224459" />
+  <attribute name="WDATE" type="int" value="2015163" />
+  <attribute name="WTIME" type="int" value="224459" />
+  <attribute name="SDATE" type="int" value="-635" />
+  <attribute name="STIME" type="int" value="0" />
+  <attribute name="TSTEP" type="int" value="0" />
+  <attribute name="NTHIK" type="int" value="1" />
+  <attribute name="NCOLS" type="int" value="148" />
+  <attribute name="NROWS" type="int" value="112" />
+  <attribute name="NLAYS" type="int" value="14" />
+  <attribute name="NVARS" type="int" value="83" />
+  <attribute name="GDTYP" type="int" value="2" />
+  <attribute name="P_ALP" type="double" value="33.0" />
+  <attribute name="P_BET" type="double" value="45.0" />
+  <attribute name="P_GAM" type="double" value="-97.0" />
+  <attribute name="XCENT" type="double" value="-97.0" />
+  <attribute name="YCENT" type="double" value="40.0" />
+  <attribute name="XORIG" type="double" value="-2736000.0" />
+  <attribute name="YORIG" type="double" value="-2088000.0" />
+  <attribute name="XCELL" type="double" value="36000.0" />
+  <attribute name="YCELL" type="double" value="36000.0" />
+  <attribute name="VGTYP" type="int" value="7" />
+  <attribute name="VGTOP" type="float" value="10000.0" />
+  <attribute name="VGLVLS" type="float" value="1.0 0.995 0.99 0.98 0.96 0.94 0.91 0.86 0.8 0.74 0.65 0.55 0.4 0.2 0.0" />
+  <attribute name="GDNAM" value="CONUS36         " />
+  <attribute name="UPNAM" value="M3MERGE         " />
+  <attribute name="VAR-LIST" value="D4              D5              D6              NO2             NO              O3              NO3             OH              HO2             N2O5            HNO3            HONO            PNA             H2O2            CO              SO2             SULF            PAN             FACD            AACD            PACD            MEPX            MGLY            OPEN            CRES            FORM            ALD2            PAR             OLE             TOL             ISOP            ETH             XYL             ETHA            IOLE            ROOH            NTR             C2O3            PANX            BENZENE         ASO4J           ASO4I           AALKJ           AXYL1J          AXYL2J          AXYL3J          ATOL1J          ATOL2J          ATOL3J          ABNZ1J          ABNZ2J          ABNZ3J          ATRP1J          ATRP2J          AISO1J          AISO2J          ASQTJ           AORGPAJ         AORGPAI         ACORS           ASOIL           NUMATKN         NUMACC          NUMCOR          SRFATKN         SRFACC          SRFCOR          AISO3J          AOLGAJ          AOLGBJ          NH3             SV_ALK          SV_XYL1         SV_XYL2         SV_TOL1         SV_TOL2         SV_BNZ1         SV_BNZ2         SV_TRP1         SV_TRP2         SV_ISO1         SV_ISO2         SV_SQT          " />
+  <attribute name="FILEDESC" value="BCON output file BNDY_CONC_1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    " />
+  <attribute name="HISTORY" value="" />
+</netcdf>

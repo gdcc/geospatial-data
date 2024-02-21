@@ -1,0 +1,99 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/K8SN73\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Methane plume detections in the Permian Basin",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/K8SN73",
+                "global_id": "doi:10.7910/DVN/K8SN73",
+                "description": "Additional data related to the paper \"Satellite-based Survey of Extreme Methane Emissions in the Permian Basin\", Irakulis-Loitxate et al. (2021). The archive provides all methane plumes detected in the Permian Basin during the survey with Gaofen5, ZY1 and PRISMA satellites in NetCDF4-CF format. Additional information about .nc files is provided in the READ_ME file.",
+                "published_at": "2021-05-12T20:40:58Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Irakulis-Loitxate, Itziar; Guanter, Luis, 2021, \"Methane plume detections in the Permian Basin\", <a href=\"https://doi.org/10.7910/DVN/K8SN73\" target=\"_blank\">https://doi.org/10.7910/DVN/K8SN73</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Irakulis-Loitxate, Itziar; Guanter, Luis, 2021, \"Methane plume detections in the Permian Basin\", https://doi.org/10.7910/DVN/K8SN73, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/K8SN73",
+                "keywords": [
+                    "methane",
+                    "emissions",
+                    "Permian Basin"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 37,
+                "versionId": 242514,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-05-12T18:20:22Z",
+                "updatedAt": "2021-05-12T20:40:58Z",
+                "contacts": [
+                    {
+                        "name": "Irakulis-Loitxate, Itziar",
+                        "affiliation": "Research Institute of Water and Environmental Engineering, Universitat Polit\u00e8cnicade Val\u00e8ncia"
+                    },
+                    {
+                        "name": "Guanter, Luis",
+                        "affiliation": "Research Institute of Water and Environmental Engineering, Universitat Polit\u00e8cnicade Val\u00e8ncia"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Itziar Irakulis-Loitxate, Luis Guanter, Yin-Nian Liu, Daniel J. Varon, Joannes D. Maasakkers, Yuzhong Zhang, Apisada Chulakadabba, Steven C. Wofsy, Andrew K. Thorpe, Riley M. Duren, Christian Frankenberg, David Lyon, Benjamin Hmiel, Daniel H. Cusworth, Yongguang Zhang, Karl Segl, Javier Gorro\u00f1o, Elena S\u00e1nchez-Garc\u00eda, Melissa P. Sulprizio, Kaiqin Cao, Haijian Zhu, Jian Liang, Xun Li, Ilse Aben, and Daniel J. Jacob. 2021. \u201cSatellite-Based Survey of Extreme Methane Emissions in the Permian Basin.\u201d Science Advances."
+                    }
+                ],
+                "authors": [
+                    "Irakulis-Loitxate, Itziar",
+                    "Guanter, Luis"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Guanter, Luis": 1
+                        },
+                        {
+                            "Irakulis-Loitxate, Itziar": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Research Institute of Water and Environmental Engineering, Universitat Polit\u00e8cnicade Val\u00e8ncia": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

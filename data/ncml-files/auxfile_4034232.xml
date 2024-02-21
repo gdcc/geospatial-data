@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <group name="main">
+    <variable name="mapdata" shape="954 1299 3" type="double">
+      <attribute name="_ChunkSizes" type="uint" value="60 82 2" />
+    </variable>
+    <variable name="xdata" shape="1299" type="double">
+      <attribute name="pts" type="int" value="1299" />
+    </variable>
+    <variable name="ydata" shape="954" type="double">
+      <attribute name="pts" type="int" value="954" />
+    </variable>
+    <attribute name="origin" value="USDC" />
+    <attribute name="isVert" type="int" value="0" />
+    <attribute name="comments" value="" />
+    <attribute name="energy" type="double" value="11000.0" />
+    <attribute name="channels" type="int" value="1" />
+    <attribute name="labels" value="Co K-conc2-blur" />
+  </group>
+</netcdf>

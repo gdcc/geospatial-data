@@ -1,0 +1,84 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/I14HWA\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Transport of Central American Fire Emissions to the U.S. Gulf Coast: Climatological pathways and impacts on ozone and PM2.5 ",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/I14HWA",
+                "global_id": "doi:10.7910/DVN/I14HWA",
+                "description": "Replication Data for:Transport of Central American Fire Emissions to the U.S. Gulf Coast: Climatological pathways and impacts on ozone and PM2.5 (2018-06-04)",
+                "published_at": "2018-06-04T21:57:51Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Wang, Sing-Chun, 2018, \"Replication Data for: Transport of Central American Fire Emissions to the U.S. Gulf Coast: Climatological pathways and impacts on ozone and PM2.5\", <a href=\"https://doi.org/10.7910/DVN/I14HWA\" target=\"_blank\">https://doi.org/10.7910/DVN/I14HWA</a>, Harvard Dataverse, V1, UNF:6:qv7F7MLqAzmxigUXuC2ZFA== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Wang, Sing-Chun, 2018, \"Replication Data for: Transport of Central American Fire Emissions to the U.S. Gulf Coast: Climatological pathways and impacts on ozone and PM2.5\", https://doi.org/10.7910/DVN/I14HWA, Harvard Dataverse, V1, UNF:6:qv7F7MLqAzmxigUXuC2ZFA== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/I14HWA",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 10,
+                "versionId": 137394,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2018-06-04T21:51:58Z",
+                "updatedAt": "2018-06-04T21:57:51Z",
+                "contacts": [
+                    {
+                        "name": "Wang, Sing-Chun",
+                        "affiliation": "University of Houston"
+                    }
+                ],
+                "publications": [
+                    {}
+                ],
+                "authors": [
+                    "Wang, Sing-Chun"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2018": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Wang, Sing-Chun": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of Houston": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

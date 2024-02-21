@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="latitude" length="179" />
+  <dimension name="year" length="20" />
+  <variable name="EffectiveOHT" shape="year latitude" type="double">
+    <attribute name="long_name" value="effective ocean heat transport (in PW)" />
+    <attribute name="_ChunkSizes" type="uint" value="20 179" />
+  </variable>
+  <variable name="PlainOHT" shape="year latitude" type="double">
+    <attribute name="long_name" value="plain ocean heat transport (in PW)" />
+    <attribute name="_ChunkSizes" type="uint" value="20 179" />
+  </variable>
+  <variable name="EffectiveOHT_P" shape="year latitude" type="double">
+    <attribute name="long_name" value="Pacific, effective ocean heat transport (in PW)" />
+    <attribute name="_ChunkSizes" type="uint" value="20 179" />
+  </variable>
+  <variable name="PlainOHT_P" shape="year latitude" type="double">
+    <attribute name="long_name" value="Pacific, plain ocean heat transport (in PW)" />
+    <attribute name="_ChunkSizes" type="uint" value="20 179" />
+  </variable>
+  <variable name="EffectiveOHT_A" shape="year latitude" type="double">
+    <attribute name="long_name" value="Atlantic, effective ocean heat transport (in PW)" />
+    <attribute name="_ChunkSizes" type="uint" value="20 179" />
+  </variable>
+  <variable name="PlainOHT_A" shape="year latitude" type="double">
+    <attribute name="long_name" value="Atlantic, plain ocean heat transport (in PW)" />
+    <attribute name="_ChunkSizes" type="uint" value="20 179" />
+  </variable>
+  <variable name="EffectiveOHT_I" shape="year latitude" type="double">
+    <attribute name="long_name" value="Indian, effective ocean heat transport (in PW)" />
+    <attribute name="_ChunkSizes" type="uint" value="20 179" />
+  </variable>
+  <variable name="PlainOHT_I" shape="year latitude" type="double">
+    <attribute name="long_name" value="Indian, plain ocean heat transport (in PW)" />
+    <attribute name="_ChunkSizes" type="uint" value="20 179" />
+  </variable>
+  <variable name="latitude" shape="latitude" type="double">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="_ChunkSizes" type="uint" value="179" />
+  </variable>
+  <variable name="year" shape="year" type="double">
+    <attribute name="long_name" value="year" />
+    <attribute name="_ChunkSizes" type="uint" value="20" />
+  </variable>
+  <attribute name="creation_time" value="10-Jul-2019 11:01:44" />
+  <attribute name="author" value="Gael Forget" />
+  <attribute name="content" value="Effective and Plain OHT across latitude lines" />
+  <attribute name="version" type="double" value="1.0" />
+</netcdf>

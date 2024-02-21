@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lon" length="360" />
+  <dimension name="lat" length="180" />
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="long_name" value="lon" />
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="long_name" value="lat" />
+  </variable>
+  <variable name="area" shape="lat lon" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="units" value="m2" />
+    <attribute name="long_name" value="area" />
+  </variable>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.8.1,hdf5=1.12.1" />
+</netcdf>

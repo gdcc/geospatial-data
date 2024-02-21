@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/OOB8NR\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "ECCO version 4 release 2: basin masks",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/OOB8NR",
+                "global_id": "doi:10.7910/DVN/OOB8NR",
+                "description": "See README",
+                "published_at": "2016-08-10T17:55:52Z",
+                "publisher": "ECCO Version 4 Release 2 Dataverse",
+                "citationHtml": "Forget, Ga&euml;l, 2016, \"ECCO version 4 release 2: basin masks\", <a href=\"https://doi.org/10.7910/DVN/OOB8NR\" target=\"_blank\">https://doi.org/10.7910/DVN/OOB8NR</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "ECCOv4r2",
+                "name_of_dataverse": "ECCO Version 4 Release 2 Dataverse",
+                "citation": "Forget, Ga\u00ebl, 2016, \"ECCO version 4 release 2: basin masks\", https://doi.org/10.7910/DVN/OOB8NR, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/OOB8NR",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 15,
+                "versionId": 84978,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2016-06-27T18:59:03Z",
+                "updatedAt": "2016-08-10T17:55:52Z",
+                "contacts": [
+                    {
+                        "name": "Forget, Ga\u00ebl",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "authors": [
+                    "Forget, Ga\u00ebl"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2016": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Forget, Ga\u00ebl": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

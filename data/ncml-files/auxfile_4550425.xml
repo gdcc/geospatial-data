@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="DateStrLen" length="19" />
+  <dimension name="west_east" length="360" />
+  <dimension name="south_north" length="240" />
+  <dimension name="south_north_stag" length="241" />
+  <dimension name="west_east_stag" length="361" />
+  <dimension name="land_cat" length="21" />
+  <dimension name="soil_cat" length="16" />
+  <dimension name="month" length="12" />
+  <dimension name="Time" length="1" isUnlimited="true" />
+  <variable name="Times" shape="Time DateStrLen" type="char">
+    <attribute name="_ChunkSizes" type="uint" value="1 19" />
+  </variable>
+  <variable name="XLAT_M" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="degrees latitude" />
+    <attribute name="description" value="Latitude on mass grid" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="XLONG_M" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="degrees longitude" />
+    <attribute name="description" value="Longitude on mass grid" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="XLAT_V" shape="Time south_north_stag west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="degrees latitude" />
+    <attribute name="description" value="Latitude on V grid" />
+    <attribute name="stagger" value="V" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 121 180" />
+  </variable>
+  <variable name="XLONG_V" shape="Time south_north_stag west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="degrees longitude" />
+    <attribute name="description" value="Longitude on V grid" />
+    <attribute name="stagger" value="V" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 121 180" />
+  </variable>
+  <variable name="XLAT_U" shape="Time south_north west_east_stag" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="degrees latitude" />
+    <attribute name="description" value="Latitude on U grid" />
+    <attribute name="stagger" value="U" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 181" />
+  </variable>
+  <variable name="XLONG_U" shape="Time south_north west_east_stag" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="degrees longitude" />
+    <attribute name="description" value="Longitude on U grid" />
+    <attribute name="stagger" value="U" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 181" />
+  </variable>
+  <variable name="CLAT" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="degrees latitude" />
+    <attribute name="description" value="Computational latitude on mass grid" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="CLONG" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="degrees longitude" />
+    <attribute name="description" value="Computational longitude on mass grid" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="MAPFAC_M" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Mapfactor on mass grid" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="MAPFAC_V" shape="Time south_north_stag west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Mapfactor on V grid" />
+    <attribute name="stagger" value="V" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 121 180" />
+  </variable>
+  <variable name="MAPFAC_U" shape="Time south_north west_east_stag" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Mapfactor on U grid" />
+    <attribute name="stagger" value="U" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 181" />
+  </variable>
+  <variable name="MAPFAC_MX" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Mapfactor (x-dir) on mass grid" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="MAPFAC_VX" shape="Time south_north_stag west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Mapfactor (x-dir) on V grid" />
+    <attribute name="stagger" value="V" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 121 180" />
+  </variable>
+  <variable name="MAPFAC_UX" shape="Time south_north west_east_stag" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Mapfactor (x-dir) on U grid" />
+    <attribute name="stagger" value="U" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 181" />
+  </variable>
+  <variable name="MAPFAC_MY" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Mapfactor (y-dir) on mass grid" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="MAPFAC_VY" shape="Time south_north_stag west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Mapfactor (y-dir) on V grid" />
+    <attribute name="stagger" value="V" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 121 180" />
+  </variable>
+  <variable name="MAPFAC_UY" shape="Time south_north west_east_stag" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Mapfactor (y-dir) on U grid" />
+    <attribute name="stagger" value="U" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 181" />
+  </variable>
+  <variable name="E" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="-" />
+    <attribute name="description" value="Coriolis E parameter" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="F" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="-" />
+    <attribute name="description" value="Coriolis F parameter" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="SINALPHA" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Sine of rotation angle" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="COSALPHA" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Cosine of rotation angle" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="LANDMASK" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Landmask : 1=land, 0=water" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="XLAT_C" shape="Time south_north_stag west_east_stag" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="degrees latitude" />
+    <attribute name="description" value="Latitude at grid cell corners" />
+    <attribute name="stagger" value="CORNER" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 121 181" />
+  </variable>
+  <variable name="XLONG_C" shape="Time south_north_stag west_east_stag" type="float">
+    <attribute name="units" value="degrees longitude" />
+    <attribute name="description" value="Longitude at grid cell corners" />
+    <attribute name="stagger" value="CORNER" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="_ChunkSizes" type="uint" value="1 121 181" />
+  </variable>
+  <variable name="SINALPHA_U" shape="Time south_north west_east_stag" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Sine of rotation angle on U grid" />
+    <attribute name="stagger" value="U" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 181" />
+  </variable>
+  <variable name="COSALPHA_U" shape="Time south_north west_east_stag" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Cosine of rotation angle on U grid" />
+    <attribute name="stagger" value="U" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 181" />
+  </variable>
+  <variable name="SINALPHA_V" shape="Time south_north_stag west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Sine of rotation angle on V grid" />
+    <attribute name="stagger" value="V" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 121 180" />
+  </variable>
+  <variable name="COSALPHA_V" shape="Time south_north_stag west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="none" />
+    <attribute name="description" value="Cosine of rotation angle on V grid" />
+    <attribute name="stagger" value="V" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 121 180" />
+  </variable>
+  <variable name="LANDUSEF" shape="Time land_cat south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XYZ" />
+    <attribute name="units" value="category" />
+    <attribute name="description" value="Noah-modified 21-category IGBP-MODIS landuse" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 21 120 180" />
+  </variable>
+  <variable name="LU_INDEX" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="category" />
+    <attribute name="description" value="Dominant category" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="HGT_M" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="meters MSL" />
+    <attribute name="description" value="GMTED2010 30-arc-second topography height" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="SOILTEMP" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="Kelvin" />
+    <attribute name="description" value="Annual mean deep soil temperature" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="SOILCTOP" shape="Time soil_cat south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XYZ" />
+    <attribute name="units" value="category" />
+    <attribute name="description" value="16-category top-layer soil type" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 16 120 180" />
+  </variable>
+  <variable name="SCT_DOM" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="category" />
+    <attribute name="description" value="Dominant category" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="SOILCBOT" shape="Time soil_cat south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XYZ" />
+    <attribute name="units" value="category" />
+    <attribute name="description" value="16-category bottom-layer soil type" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 16 120 180" />
+  </variable>
+  <variable name="SCB_DOM" shape="Time south_north west_east" type="float">
+    <attribute name="units" value="category" />
+    <attribute name="description" value="Dominant category" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="ALBEDO12M" shape="Time month south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XYZ" />
+    <attribute name="units" value="percent" />
+    <attribute name="description" value="Monthly MODIS surface albedo" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 12 120 180" />
+  </variable>
+  <variable name="GREENFRAC" shape="Time month south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XYZ" />
+    <attribute name="units" value="fraction" />
+    <attribute name="description" value="MODIS FPAR" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 12 120 180" />
+  </variable>
+  <variable name="LAI12M" shape="Time month south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XYZ" />
+    <attribute name="units" value="m^2/m^2" />
+    <attribute name="description" value="MODIS LAI" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 12 120 180" />
+  </variable>
+  <variable name="SNOALB" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="percent" />
+    <attribute name="description" value="MODIS maximum snow albedo" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="CON" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="whoknows" />
+    <attribute name="description" value="something" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="VAR" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="whoknows" />
+    <attribute name="description" value="something" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="OA1" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="whoknows" />
+    <attribute name="description" value="something" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="OA2" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="whoknows" />
+    <attribute name="description" value="something" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="OA3" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="whoknows" />
+    <attribute name="description" value="something" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="OA4" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="whoknows" />
+    <attribute name="description" value="something" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="OL1" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="whoknows" />
+    <attribute name="description" value="something" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="OL2" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="whoknows" />
+    <attribute name="description" value="something" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="OL3" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="whoknows" />
+    <attribute name="description" value="something" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="OL4" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="whoknows" />
+    <attribute name="description" value="something" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="VAR_SSO" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" type="int" value="104" />
+    <attribute name="MemoryOrder" value="XY " />
+    <attribute name="units" value="meters2 MSL" />
+    <attribute name="description" value="Variance of Subgrid Scale Orography" />
+    <attribute name="stagger" value="M" />
+    <attribute name="sr_x" type="int" value="1" />
+    <attribute name="sr_y" type="int" value="1" />
+    <attribute name="_ChunkSizes" type="uint" value="1 120 180" />
+  </variable>
+  <variable name="PR" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" value="104" />
+    <attribute name="MemoryOrder" value="XY" />
+    <attribute name="units" value="mm" />
+    <attribute name="description" value="Rainfall" />
+    <attribute name="_ChunkSizes" type="uint" value="1 240 360" />
+  </variable>
+  <variable name="TAS" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" value="104" />
+    <attribute name="MemoryOrder" value="XY" />
+    <attribute name="units" value="K" />
+    <attribute name="description" value="2M air temperature" />
+    <attribute name="_ChunkSizes" type="uint" value="1 240 360" />
+  </variable>
+  <variable name="PR90" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" value="104" />
+    <attribute name="MemoryOrder" value="XY" />
+    <attribute name="units" value="mm/day" />
+    <attribute name="description" value="90th percentile rainfall" />
+    <attribute name="_ChunkSizes" type="uint" value="1 240 360" />
+  </variable>
+  <variable name="PR99" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" value="104" />
+    <attribute name="MemoryOrder" value="XY" />
+    <attribute name="units" value="mm/day" />
+    <attribute name="description" value="99th percentile rainfall" />
+    <attribute name="_ChunkSizes" type="uint" value="1 240 360" />
+  </variable>
+  <variable name="TAS90" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" value="104" />
+    <attribute name="MemoryOrder" value="XY" />
+    <attribute name="units" value="K" />
+    <attribute name="description" value="90th percentile 2M air temperature" />
+    <attribute name="_ChunkSizes" type="uint" value="1 240 360" />
+  </variable>
+  <variable name="TAS99" shape="Time south_north west_east" type="float">
+    <attribute name="FieldType" value="104" />
+    <attribute name="MemoryOrder" value="XY" />
+    <attribute name="units" value="K" />
+    <attribute name="description" value="99th percentile 2M air temperature" />
+    <attribute name="_ChunkSizes" type="uint" value="1 240 360" />
+  </variable>
+  <variable name="VIMFC" shape="Time south_north west_east" type="float">
+    <attribute name="units" value="mm/day" />
+    <attribute name="description" value="Vertically integrated moisture flux convergence" />
+    <attribute name="FieldType" value="104" />
+    <attribute name="MemoryOrder" value="XY" />
+    <attribute name="_ChunkSizes" type="uint" value="1 240 360" />
+  </variable>
+  <attribute name="SIMULATION_START_DATE" value="0000-00-00_00:00:00" />
+  <attribute name="WEST-EAST_GRID_DIMENSION" type="int" value="361" />
+  <attribute name="SOUTH-NORTH_GRID_DIMENSION" type="int" value="241" />
+  <attribute name="BOTTOM-TOP_GRID_DIMENSION" type="int" value="0" />
+  <attribute name="WEST-EAST_PATCH_START_UNSTAG" type="int" value="1" />
+  <attribute name="WEST-EAST_PATCH_END_UNSTAG" type="int" value="360" />
+  <attribute name="WEST-EAST_PATCH_START_STAG" type="int" value="1" />
+  <attribute name="WEST-EAST_PATCH_END_STAG" type="int" value="361" />
+  <attribute name="SOUTH-NORTH_PATCH_START_UNSTAG" type="int" value="1" />
+  <attribute name="SOUTH-NORTH_PATCH_END_UNSTAG" type="int" value="240" />
+  <attribute name="SOUTH-NORTH_PATCH_START_STAG" type="int" value="1" />
+  <attribute name="SOUTH-NORTH_PATCH_END_STAG" type="int" value="241" />
+  <attribute name="GRIDTYPE" value="C" />
+  <attribute name="DX" type="float" value="2000.0" />
+  <attribute name="DY" type="float" value="2000.0" />
+  <attribute name="DYN_OPT" type="int" value="2" />
+  <attribute name="CEN_LAT" type="float" value="20.729904" />
+  <attribute name="CEN_LON" type="float" value="-157.23123" />
+  <attribute name="TRUELAT1" type="float" value="21.0" />
+  <attribute name="TRUELAT2" type="float" value="21.0" />
+  <attribute name="MOAD_CEN_LAT" type="float" value="20.999992" />
+  <attribute name="STAND_LON" type="float" value="-157.0" />
+  <attribute name="POLE_LAT" type="float" value="90.0" />
+  <attribute name="POLE_LON" type="float" value="0.0" />
+  <attribute name="corner_lats" type="float" value="18.561455 22.867744 22.867744 18.561455 18.561455 22.867744 22.867744 18.561455 18.552322 22.876625 22.876625 18.552322 18.552322 22.876625 22.876625 18.552322" />
+  <attribute name="corner_lons" type="float" value="-160.69003 -160.69003 -153.77243 -153.77243 -160.69968 -160.69968 -153.76279 -153.76279 -160.69003 -160.69003 -153.77243 -153.77243 -160.69968 -160.69968 -153.76279 -153.76279" />
+  <attribute name="MAP_PROJ" type="int" value="3" />
+  <attribute name="MMINLU" value="MODIFIED_IGBP_MODIS_NOAH" />
+  <attribute name="NUM_LAND_CAT" type="int" value="21" />
+  <attribute name="ISWATER" type="int" value="17" />
+  <attribute name="ISLAKE" type="int" value="21" />
+  <attribute name="ISICE" type="int" value="15" />
+  <attribute name="ISURBAN" type="int" value="13" />
+  <attribute name="ISOILWATER" type="int" value="14" />
+  <attribute name="grid_id" type="int" value="2" />
+  <attribute name="parent_id" type="int" value="1" />
+  <attribute name="i_parent_start" type="int" value="97" />
+  <attribute name="j_parent_start" type="int" value="61" />
+  <attribute name="i_parent_end" type="int" value="216" />
+  <attribute name="j_parent_end" type="int" value="140" />
+  <attribute name="parent_grid_ratio" type="int" value="3" />
+  <attribute name="sr_x" type="int" value="1" />
+  <attribute name="sr_y" type="int" value="1" />
+  <attribute name="FLAG_MF_XY" type="int" value="1" />
+  <attribute name="FLAG_LAI12M" type="int" value="1" />
+  <attribute name="FLAG_VAR_SSO" type="int" value="1" />
+  <attribute name="INSTITUTION" value="UNIVERSITY AT ALBANY (SUNY)" />
+  <attribute name="TITLE" value="OUTPUT FROM WRFV4.0 // 1996-2005 // PDO- // MAY-OCT" />
+  <attribute name="NCO" value="4.6.8" />
+  <attribute name="history" value="Wed Dec  9 11:13:09 2020: ncatted -O -a OA1,,d,, WRF1996-2005_dry_PDOneg.nc&#xA;Wed Dec  9 10:50:06 2020: ncatted -O -a HISTORY,global,d,c, WRF1996-2005_dry_PDOneg.nc" />
+</netcdf>

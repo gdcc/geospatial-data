@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/KQC2RU\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "ISNOBAL Inputs from Reynolds Mountain East, Water Year 2008",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/KQC2RU",
+                "global_id": "doi:10.7910/DVN/KQC2RU",
+                "description": "Reynolds Mountain East, Water Year 2008 dataset. NetCDF. Has ISNOBAL input fields.",
+                "published_at": "2015-11-20T21:47:56Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Turner, Matt, 2015, \"ISNOBAL Inputs from Reynolds Mountain East, Water Year 2008\", <a href=\"https://doi.org/10.7910/DVN/KQC2RU\" target=\"_blank\">https://doi.org/10.7910/DVN/KQC2RU</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Turner, Matt, 2015, \"ISNOBAL Inputs from Reynolds Mountain East, Water Year 2008\", https://doi.org/10.7910/DVN/KQC2RU, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/KQC2RU",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 1,
+                "versionId": 78249,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2015-11-20T21:46:36Z",
+                "updatedAt": "2015-11-20T21:47:56Z",
+                "contacts": [
+                    {
+                        "name": "Turner, Matt",
+                        "affiliation": "University of Idaho -- Northwest Knowledge Network"
+                    }
+                ],
+                "authors": [
+                    "Turner, Matt"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2015": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Turner, Matt": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of Idaho -- Northwest Knowledge Network": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

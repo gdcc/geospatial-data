@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/VY5YCW\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Data for 'The Andes and extreme precipitation in South America'",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/VY5YCW",
+                "global_id": "doi:10.7910/DVN/VY5YCW",
+                "description": "Abstract: The La Plata basin, located in southeast South America, has the deepest convection on earth with flash floods and thick convective clouds, often accompanied by hail and lightning in austral spring. Based on previous studies, deep convection is related to the strong low-level jet directed by the Andes. Here we quantify the role of the Andes on intense convection in the La Plata basin using the Community Earth System Model (CESM), focusing on the seasonal cycle. To examine the influence of the Andes on these severe storms, we run two model experiments with and without the Andes. Consistent with high-resolution satellite data, the modeling results show that precipitation is strongest in October, and severe October precipitation does not exist without the Andes. The annual mean precipitation decreases by 35%, extreme precipitation decreases by 49% in the No Andes experiment, and the mean and extreme precipitation occurs in January. We find that vertical wind shear is strongest in October for both runs, with the highest equator-to-pole temperature gradient, creating a favorable environment for atmospheric disturbances. The Andes create the low-level jet with surface southwestward moisture transport, and when the large-scale condition is best for perturbation, severe storms occur in the La Plata basin in spring. Without the southward moisture transport, October precipitation is weak in the run without the Andes. The results imply the importance of the Andes as a barrier to the tropical easterly flow, suggesting that a low-resolution model that underestimates the elevation of the Andes cannot properly simulate the low-level jet, accompanying moisture flux, and precipitation extremes.",
+                "published_at": "2023-02-09T19:13:41Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Xu, Rosa, 2023, \"Data for 'The Andes and extreme precipitation in South America'\", <a href=\"https://doi.org/10.7910/DVN/VY5YCW\" target=\"_blank\">https://doi.org/10.7910/DVN/VY5YCW</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Xu, Rosa, 2023, \"Data for 'The Andes and extreme precipitation in South America'\", https://doi.org/10.7910/DVN/VY5YCW, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/VY5YCW",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 858,
+                "versionId": 340540,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2023-02-09T16:15:12Z",
+                "updatedAt": "2023-02-09T19:13:41Z",
+                "contacts": [
+                    {
+                        "name": "Xu, Rosa",
+                        "affiliation": "Brown University"
+                    }
+                ],
+                "authors": [
+                    "Xu, Rosa"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2023": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Xu, Rosa": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Brown University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

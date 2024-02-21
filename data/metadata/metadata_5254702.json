@@ -1,0 +1,73 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/2HEDZX\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Model data for Multidecadal changes in zonal displacement of tropical Pacific MJO variability modulated by North Atlantic SST",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/2HEDZX",
+                "global_id": "doi:10.7910/DVN/2HEDZX",
+                "description": "This dataset pertains to the outputs of NESM sensitivity experiments as described in paper \"Multidecadal changes in zonal displacement of tropical Pacific MJO variability modulated by North Atlantic SST\".",
+                "published_at": "2021-10-15T10:18:58Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Fu, Zhen, 2021, \"Model data for Multidecadal changes in zonal displacement of tropical Pacific MJO variability modulated by North Atlantic SST\", <a href=\"https://doi.org/10.7910/DVN/2HEDZX\" target=\"_blank\">https://doi.org/10.7910/DVN/2HEDZX</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Fu, Zhen, 2021, \"Model data for Multidecadal changes in zonal displacement of tropical Pacific MJO variability modulated by North Atlantic SST\", https://doi.org/10.7910/DVN/2HEDZX, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/2HEDZX",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 8,
+                "versionId": 276675,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-10-15T10:09:48Z",
+                "updatedAt": "2021-10-15T10:18:58Z",
+                "contacts": [
+                    {
+                        "name": "Fu, Zhen",
+                        "affiliation": ""
+                    }
+                ],
+                "authors": [
+                    "Fu, Zhen"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Fu, Zhen": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

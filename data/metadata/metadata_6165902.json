@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/NZQEGJ\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Simulated monthly 3-D nutrient, Physics (e.g. SST,SSS), Chl",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/NZQEGJ",
+                "global_id": "doi:10.7910/DVN/NZQEGJ",
+                "description": "monthly averages from 10th year of simulation (Dutkiewicz et al, BG, 2015)",
+                "published_at": "2022-04-08T15:29:22Z",
+                "publisher": "MONOD_RADTRANS",
+                "citationHtml": "Dutkiewicz, Stephanie, 2022, \"Simulated monthly 3-D nutrient, Physics (e.g. SST,SSS), Chl\", <a href=\"https://doi.org/10.7910/DVN/NZQEGJ\" target=\"_blank\">https://doi.org/10.7910/DVN/NZQEGJ</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "monod_radtrans",
+                "name_of_dataverse": "MONOD_RADTRANS",
+                "citation": "Dutkiewicz, Stephanie, 2022, \"Simulated monthly 3-D nutrient, Physics (e.g. SST,SSS), Chl\", https://doi.org/10.7910/DVN/NZQEGJ, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/NZQEGJ",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 3,
+                "versionId": 324375,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-04-08T15:28:41Z",
+                "updatedAt": "2022-04-08T15:29:22Z",
+                "contacts": [
+                    {
+                        "name": "Dutkiewicz, Stephanie",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Dutkiewicz, S., A.E. Hickman, O. Jahn, W.W. Gregg, C.B. Mouw, and M.J. Follows, 2015: Capturing optically important constituents and properties in a marine biogeochemical and ecosystem model. Biogeoscience, 12, 4447-4481 doi:10.5194/bg-12-4447-2015"
+                    }
+                ],
+                "authors": [
+                    "Dutkiewicz, Stephanie"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Dutkiewicz, Stephanie": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/CVIS05\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Seasonal WRF Output (PI-CASC)",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/CVIS05",
+                "global_id": "doi:10.7910/DVN/CVIS05",
+                "description": "This dataset provides seasonal means of 7 WRF variables for the Hawaiian Islands region including: rainfall (PR), 2m temperatures (TAS), 90th percentile daily rainfall extremes (PR90), 99th percentile daily rainfall extremes (PR99), 90th percentile daily temperature extremes (TAS90), 99th percentile daily temperature extremes (TAS99), and the vertically integrated moisture flux convergence (VIMFC) The files are organized and labeled by simulation period (present-day:1996-2005 and future: 2026-2035), season (wet or dry), and PDO phase (positive or negative). For a full description of the WRF model and simulations, please refer to related publication.",
+                "published_at": "2021-06-09T13:22:37Z",
+                "publisher": "PI-CASC Dynamical Downscaling Dataverse",
+                "citationHtml": "Fandrich, Katrina, 2021, \"Seasonal WRF Output (PI-CASC)\", <a href=\"https://doi.org/10.7910/DVN/CVIS05\" target=\"_blank\">https://doi.org/10.7910/DVN/CVIS05</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "PICASCdownscaling",
+                "name_of_dataverse": "PI-CASC Dynamical Downscaling Dataverse",
+                "citation": "Fandrich, Katrina, 2021, \"Seasonal WRF Output (PI-CASC)\", https://doi.org/10.7910/DVN/CVIS05, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/CVIS05",
+                "keywords": [
+                    "Dynamical downscaling, regional climate modeling, WRF, PDO, climate variability, climate change"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 8,
+                "versionId": 264895,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 1,
+                "createdAt": "2021-04-13T15:59:31Z",
+                "updatedAt": "2021-08-24T14:48:42Z",
+                "contacts": [
+                    {
+                        "name": "Fandrich, Katrina",
+                        "affiliation": "University At Albany, State University of New York"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Fandrich et al. (in prep)"
+                    }
+                ],
+                "authors": [
+                    "Fandrich, Katrina"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Fandrich, Katrina": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University At Albany, State University of New York": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

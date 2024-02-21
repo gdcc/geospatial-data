@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/5YRVHO\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Darwin3 31+16+3 (Interactions) model output",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/5YRVHO",
+                "global_id": "doi:10.7910/DVN/5YRVHO",
+                "description": "Provided here are the output from the several simulations used in Dutkiewicz et al. (in prep). Each file is for a different experiment. EXP-0 is the default, and the remaining 9 are sensitivity experiment with some parameter choices changes relative to EXP-0. Labels are the same, and descriptions, are provided in Dutkiewicz (in prep). Each file include surface (0-10m) carbon biomass (mg C/m3) for the 50 plankton types, arranged as follows. 1: pico-phytoplankton, ESD 0.6um (analog of Prochlorococcus) 2: pico-phytoplankton, ESD 0.9um 3: pico-phytoplankton, ESD 1.4um 4: pico-phytoplankton, ESD 2.0um 5: coccolithophores, ESD 3.0um 6: coccolithophores, ESD 4.5um 7: coccolithophores, ESD 6.6um 8: coccolithophores, ESD 9.8um 9: coccolithophores, ESD 14um 10: diazotroph, ESD 3.0um 11: diazotroph, ESD 4.5um 12: diazotroph, ESD 6.6um 13: diazotroph, ESD 9.8um 14: diazotroph, ESD 14um (p> 15: diatom, ESD 3.0um 16: diatom, ESD 4.5um 17: diatom, ESD 6.6um 18: diatom, ESD 9.8um 19: diatom, ESD 14um 20: diatom, ESD 22um 21: diatom, ESD 32um 22: diatom, ESD 47um 23: diatom, ESD 70um 24: mixotroph, ESD 6.6um 25: mixotroph, ESD 9.8um 26: mixotroph, ESD 14um 27: mixotroph, ESD 22um 28: mixotroph, ESD 32um 29: mixotroph, ESD 47um 30: mixotroph, ESD 70um 31: mixotroph, ESD 104um 32: zoo, ESD 4.5um 33 zoo, ESD 6.6um 34: zoo, ESD 9.8um 35: zoo, ESD 14um 36: zoo, ESD 22um 37: zoo, ESD 32um 38: zoo, ESD 47um 39: zoo, ESD 70um 40: zoo, ESD 104um 41: zoo, ESD 154um 42: zoo, ESD 228um 43: zoo, ESD 338um 44: zoo, ESD 502um 45: zoo, ESD 744um 46: zoo, ESD 1103um 47: zoo, ESD 1636um 48: het bacteria 0.3um 49: het bacteria 0.6um 50: het bacteria 0.9um Reference: Dutkiewicz et al (in prep). Role of Biotic Interactions in Setting Phytoplankton Community Structure in the North East Pacific Transition Zone",
+                "published_at": "2023-03-28T21:36:17Z",
+                "publisher": "Darwin3 31+16+3 (Interactions)",
+                "citationHtml": "Dutkiewicz, Stephanie, 2023, \"Darwin3 31+16+3 (Interactions) model output\", <a href=\"https://doi.org/10.7910/DVN/5YRVHO\" target=\"_blank\">https://doi.org/10.7910/DVN/5YRVHO</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "interactions",
+                "name_of_dataverse": "Darwin3 31+16+3 (Interactions)",
+                "citation": "Dutkiewicz, Stephanie, 2023, \"Darwin3 31+16+3 (Interactions) model output\", https://doi.org/10.7910/DVN/5YRVHO, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/5YRVHO",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 10,
+                "versionId": 343118,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2023-03-28T21:31:32Z",
+                "updatedAt": "2023-03-28T21:36:17Z",
+                "contacts": [
+                    {
+                        "name": "Dutkiewicz, Stephanie",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "authors": [
+                    "Dutkiewicz, Stephanie"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2023": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Dutkiewicz, Stephanie": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

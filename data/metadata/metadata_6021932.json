@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/PDJ34K\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: \"Patterns and Frequency of Projected Future Tropical Cyclone Genesis are Governed by Dynamic Effects\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/PDJ34K",
+                "global_id": "doi:10.7910/DVN/PDJ34K",
+                "description": "This includes the data to reproduce the figures shown in the manuscript. Also sample codes to compute GPIs (DGPI and ENGPI) are included.",
+                "published_at": "2022-03-29T10:43:16Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Murakami, Hiroyuki, 2022, \"Replication Data for: &quot;Patterns and Frequency of Projected Future Tropical Cyclone Genesis are Governed by Dynamic Effects&quot;\", <a href=\"https://doi.org/10.7910/DVN/PDJ34K\" target=\"_blank\">https://doi.org/10.7910/DVN/PDJ34K</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Murakami, Hiroyuki, 2022, \"Replication Data for: \"Patterns and Frequency of Projected Future Tropical Cyclone Genesis are Governed by Dynamic Effects\"\", https://doi.org/10.7910/DVN/PDJ34K, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/PDJ34K",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 47,
+                "versionId": 316780,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2022-02-18T21:06:31Z",
+                "updatedAt": "2022-04-01T13:54:02Z",
+                "contacts": [
+                    {
+                        "name": "Murakami, Hiroyuki",
+                        "affiliation": "UCAR/GFDL"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Murakami, H. and B. Wang, 2022: Patterns and frequency of projected future tropical cyclone genesis are governed by dynamic effects. Commun. Earth Environ."
+                    }
+                ],
+                "authors": [
+                    "Murakami, Hiroyuki"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Murakami, Hiroyuki": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "UCAR/GFDL": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

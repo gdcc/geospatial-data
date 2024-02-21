@@ -1,0 +1,97 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/OCMT10\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Vulcan Fossil Fuel Carbon Dioxide (FFCO2) and CH4 Emissions Monthly Data Product, 2012, 0.1deg grid, UTC",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/OCMT10",
+                "global_id": "doi:10.7910/DVN/OCMT10",
+                "description": "Here, we combine the Vulcan version 3.0 FFCO2 emissions data product (Gurney et al., 2020) and a gridded inventory of CH4 emissions (Maasakkers et al., 2016). Anthropogenic emission of both fossil fuel CO2 and methane (CH4) are expressed in tC at a fine spatial resolution (0.1o x 0.1o) and temporal (monthly) resolution for 2012.",
+                "published_at": "2021-12-26T21:46:55Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Mitra, Bhaskar; Gurney, Kevin; Roest, Geoffrey, 2021, \"Vulcan Fossil Fuel Carbon Dioxide (FFCO2) and CH4 Emissions Monthly Data Product, 2012, 0.1deg grid, UTC\", <a href=\"https://doi.org/10.7910/DVN/OCMT10\" target=\"_blank\">https://doi.org/10.7910/DVN/OCMT10</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Mitra, Bhaskar; Gurney, Kevin; Roest, Geoffrey, 2021, \"Vulcan Fossil Fuel Carbon Dioxide (FFCO2) and CH4 Emissions Monthly Data Product, 2012, 0.1deg grid, UTC\", https://doi.org/10.7910/DVN/OCMT10, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/OCMT10",
+                "keywords": [
+                    "methane"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 13,
+                "versionId": 290304,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-11-29T18:13:24Z",
+                "updatedAt": "2021-12-26T21:46:55Z",
+                "contacts": [
+                    {
+                        "name": "Mitra, Bhaskar",
+                        "affiliation": "Northern Arizona University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Gurney, K. R., Liang, J., Patarasuk, R., Song, Y., Huang, J., &amp; Roest, G. (2020). The Vulcan Version 3.0 High Resolution Fossil Fuel CO2 Emissions for the United States. Journal of Geophysical Research: Atmospheres, 125, e2020JD032974. https://doi.org/10.1029/2020JD032974 Maasakkers, J. D., D. J. Jacob, M. P. Sulprizio, A. J. Turner, M. Weitz,T. Wirth, C. Hight, M. DeFigueiredo, M. Desai, R. Schmeltz, L. Hockstad, A. A. Bloom, K. W. Bowman, S. Jeong, and M. L. Fischer. 2016. Gridded National Inventory of U.S. Methane Emissions. Environmental Science &amp; Technology 50(23):13123-13133"
+                    }
+                ],
+                "authors": [
+                    "Mitra, Bhaskar",
+                    "Gurney, Kevin",
+                    "Roest, Geoffrey"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Gurney, Kevin": 1
+                        },
+                        {
+                            "Mitra, Bhaskar": 1
+                        },
+                        {
+                            "Roest, Geoffrey": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Northern Arizona University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

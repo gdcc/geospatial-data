@@ -1,0 +1,87 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/LWI2DE\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "ROMS simulations at the ADCP locations in the western BoB: Jithin et al (2019)",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/LWI2DE",
+                "global_id": "doi:10.7910/DVN/LWI2DE",
+                "description": "Model simulations at the ADCP locations on the continental margins of the western Bay of Bengal.",
+                "published_at": "2019-11-19T07:17:56Z",
+                "publisher": "Jithin  Abraham K Dataverse",
+                "citationHtml": "Abraham K, Jithin, 2019, \"ROMS simulations at the ADCP locations in the western BoB: Jithin et al (2019)\", <a href=\"https://doi.org/10.7910/DVN/LWI2DE\" target=\"_blank\">https://doi.org/10.7910/DVN/LWI2DE</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "jithin_et_al_2019",
+                "name_of_dataverse": "Jithin  Abraham K Dataverse",
+                "citation": "Abraham K, Jithin, 2019, \"ROMS simulations at the ADCP locations in the western BoB: Jithin et al (2019)\", https://doi.org/10.7910/DVN/LWI2DE, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/LWI2DE",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 7,
+                "versionId": 177845,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2019-11-19T07:16:22Z",
+                "updatedAt": "2019-11-19T07:17:56Z",
+                "contacts": [
+                    {
+                        "name": "Abraham K, Jithin",
+                        "affiliation": "Indian National Centre for Ocean Information Services, Ministry of Earth Sciences, Hyderabad 500090, India"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Jithin, A.K., Francis, P.A., Unnikrishnan, A.S. and Ramakrishna, S.S.V.S., Modelling of internal tides in the western Bay of Bengal: Characteristics and Energetics. Journal of Geophysical Research: Oceans. https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JC015319.",
+                        "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JC015319"
+                    }
+                ],
+                "authors": [
+                    "Abraham K, Jithin"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Abraham K, Jithin": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Indian National Centre for Ocean Information Services, Ministry of Earth Sciences, Hyderabad 500090, India": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

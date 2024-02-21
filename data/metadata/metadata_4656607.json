@@ -1,0 +1,91 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/M7SGKE\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Spectral calibration data for MethaneAIR",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/M7SGKE",
+                "global_id": "doi:10.7910/DVN/M7SGKE",
+                "description": "This dataset contains the instrument spectral response functions (ISRF) and stray light for the MethaneAIR instrument",
+                "published_at": "2021-05-18T13:52:03Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Sun, Kang, 2021, \"Spectral calibration data for MethaneAIR\", <a href=\"https://doi.org/10.7910/DVN/M7SGKE\" target=\"_blank\">https://doi.org/10.7910/DVN/M7SGKE</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Sun, Kang, 2021, \"Spectral calibration data for MethaneAIR\", https://doi.org/10.7910/DVN/M7SGKE, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/M7SGKE",
+                "subjects": [
+                    "Earth and Environmental Sciences",
+                    "Engineering"
+                ],
+                "fileCount": 4,
+                "versionId": 243010,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-05-18T13:49:53Z",
+                "updatedAt": "2021-05-18T13:52:03Z",
+                "contacts": [
+                    {
+                        "name": "Sun, Kang",
+                        "affiliation": "University at Buffalo"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Staebell, C., Sun, K., Samra, J., Franklin, J., Chan Miller, C., Liu, X., Conway, E., Chance, K., Milligan, S., and Wofsy, S.: Spectral Calibration of the MethaneAIR Instrument, Atmos. Meas. Tech. Discuss. [preprint], https://doi.org/10.5194/amt-2020-513, in review, 2021.",
+                        "url": "https://amt.copernicus.org/preprints/amt-2020-513/"
+                    }
+                ],
+                "authors": [
+                    "Sun, Kang"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        },
+                        {
+                            "Engineering": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Sun, Kang": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University at Buffalo": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

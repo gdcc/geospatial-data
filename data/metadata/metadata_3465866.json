@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/AVVGYX\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Effective Ocean Heat Transport Estimates",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/AVVGYX",
+                "global_id": "doi:10.7910/DVN/AVVGYX",
+                "description": "Estimates presented in the Figures and Tables of Forget, G. and Ferreira, D. (2019) Global ocean heat transport dominated by heat export from the tropical Pacific. Nature Geoscience. ISSN 1752-0894 (In Press)",
+                "published_at": "2019-07-10T15:46:21Z",
+                "publisher": "ECCO Version 4 Release 2 Dataverse",
+                "citationHtml": "Forget, Gael, 2019, \"Effective Ocean Heat Transport Estimates\", <a href=\"https://doi.org/10.7910/DVN/AVVGYX\" target=\"_blank\">https://doi.org/10.7910/DVN/AVVGYX</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "ECCOv4r2",
+                "name_of_dataverse": "ECCO Version 4 Release 2 Dataverse",
+                "citation": "Forget, Gael, 2019, \"Effective Ocean Heat Transport Estimates\", https://doi.org/10.7910/DVN/AVVGYX, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/AVVGYX",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 3,
+                "versionId": 163802,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2019-03-11T13:49:55Z",
+                "updatedAt": "2019-07-10T15:46:21Z",
+                "contacts": [
+                    {
+                        "name": "Forget, Gael",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Forget, G. and Ferreira, D. (2019) Global ocean heat transport dominated by heat export from the tropical Pacific. Nature Geoscience. ISSN 1752-0894 (In Press)"
+                    }
+                ],
+                "authors": [
+                    "Forget, Gael"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2019": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Forget, Gael": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

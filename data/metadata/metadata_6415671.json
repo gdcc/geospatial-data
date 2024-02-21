@@ -1,0 +1,97 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/Q8D85C\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: \"Increase of simultaneous soybean failures due to climate change\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/Q8D85C",
+                "global_id": "doi:10.7910/DVN/Q8D85C",
+                "description": "Input and Output data used in the paper: \"\"Increase of simultaneous soybean failures due to climate change\"\" Upon use of part of this dataset, please cite authors and paper related: Goulart, H. M. D. (2022). Replication Data for: \u201dIncrease of simultaneous soybean failures due to climate change\u201d. Harvard Dataverse. Retrieved from https://doi.org/10.7910/DVN/Q8D85C doi: 10.7910/DVN/Q8D85C",
+                "published_at": "2022-08-12T07:21:52Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Moreno Dumont Goulart, Henrique, 2022, \"Replication Data for: &quot;Increase of simultaneous soybean failures due to climate change&quot;\", <a href=\"https://doi.org/10.7910/DVN/Q8D85C\" target=\"_blank\">https://doi.org/10.7910/DVN/Q8D85C</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Moreno Dumont Goulart, Henrique, 2022, \"Replication Data for: \"Increase of simultaneous soybean failures due to climate change\"\", https://doi.org/10.7910/DVN/Q8D85C, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/Q8D85C",
+                "keywords": [
+                    "soybean yearly yields",
+                    "climate change projections"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences",
+                    "Agricultural Sciences"
+                ],
+                "fileCount": 15,
+                "versionId": 331078,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 1,
+                "createdAt": "2022-08-12T07:20:00Z",
+                "updatedAt": "2022-08-12T08:28:22Z",
+                "contacts": [
+                    {
+                        "name": "Moreno Dumont Goulart, Henrique",
+                        "affiliation": "Deltares"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Manuscript still in preparation. Will update later."
+                    }
+                ],
+                "dataSources": [
+                    "ISIMIP2a Simulation Data from Agricultural Sector, GFZ Data Services A. Arneth,J. Balkovic, P. Ciais, A. de Wit, D. Deryng, J. Elliott, C. Folberth, M. Glotter, T. Iizumi, R. C. Izaurralde, A. D. Jones, N. Khabarov, P. Lawrence, W. Liu, H. Mitter, C. M\u00a8uller, S. Olin, T. A. M. Pugh, A. D. Reddy, G. Sakurai, E. Schmid, X. Wang, X. Wu, H. Yang, and M. B\u00a8uchner, https://doi.org/10.5880/PIK.2017.006 IBGE. (2022). Levantamento sistem\u00b4atico da produ\u00b8c\u02dcao agr\u00b4\u0131cola. Brazilian Institute of Geography and Statistics. Retrieved from https://sidra.ibge.gov.br/tabela/6588 USDA. (2022). National agricultural statistics service. National Agricultural Statistics Service. Retrieved from https://data.nal.usda.gov/dataset/nass-quick-stats MAGYP. (2022). Datos agricultura, ganader\u00b4\u0131a y pesca. The Ministry of Agriculture, Livestock and Fisheries. Retrieved from https://datos.magyp.gob.ar/dataset"
+                ],
+                "authors": [
+                    "Moreno Dumont Goulart, Henrique"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Agricultural Sciences": 1
+                        },
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Moreno Dumont Goulart, Henrique": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Deltares": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

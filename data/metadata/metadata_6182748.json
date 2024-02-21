@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/VXMUQ0\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "2006 locations of ship-track pixels",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/VXMUQ0",
+                "global_id": "doi:10.7910/DVN/VXMUQ0",
+                "description": "Granule names, latitudes and longitudes of ship-track pixels in year 2006, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any.",
+                "published_at": "2022-04-26T18:14:05Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Song, Hua, 2022, \"2006 locations of ship-track pixels\", <a href=\"https://doi.org/10.7910/DVN/VXMUQ0\" target=\"_blank\">https://doi.org/10.7910/DVN/VXMUQ0</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Song, Hua, 2022, \"2006 locations of ship-track pixels\", https://doi.org/10.7910/DVN/VXMUQ0, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/VXMUQ0",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 12,
+                "versionId": 325188,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-04-26T16:28:45Z",
+                "updatedAt": "2022-04-26T18:14:05Z",
+                "contacts": [
+                    {
+                        "name": "Song, Hua",
+                        "affiliation": "Science Systems and Applications Inc"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Granule names, latitudes and longitudes of ship-track pixels in year 2006, date and time of each ship-track pixels can be derived from granule name. ind_i and in_j are the indices of ship-track pixels in the Aqua granule hdf file. Please ignore ship-track pixels over land if any."
+                    }
+                ],
+                "authors": [
+                    "Song, Hua"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Song, Hua": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Science Systems and Applications Inc": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

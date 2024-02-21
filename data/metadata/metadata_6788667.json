@@ -1,0 +1,73 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/MJC7PD\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Comparable data of OMPS and FTIR formaldehyde observations for the validation of OMPS formaldehyde products.",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/MJC7PD",
+                "global_id": "doi:10.7910/DVN/MJC7PD",
+                "description": "The datasets are created to validate OMPS formaldehyde total column products from Suomi NPP and NOAA-20 satellites by comparing ground-based FTIR observations. The datasets are used for \"Validation of OMPS Suomi NPP and OMPS NOAA-20 Formaldehyde Total Columns with NDACC FTIR Observations\" (Kwon et al., submitted to the Earth and Space Science).",
+                "published_at": "2023-04-11T00:45:12Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Kwon, Hyeong-Ahn, 2023, \"Comparable data of OMPS and FTIR formaldehyde observations for the validation of OMPS formaldehyde products.\", <a href=\"https://doi.org/10.7910/DVN/MJC7PD\" target=\"_blank\">https://doi.org/10.7910/DVN/MJC7PD</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Kwon, Hyeong-Ahn, 2023, \"Comparable data of OMPS and FTIR formaldehyde observations for the validation of OMPS formaldehyde products.\", https://doi.org/10.7910/DVN/MJC7PD, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/MJC7PD",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 55,
+                "versionId": 336885,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-12-06T03:49:43Z",
+                "updatedAt": "2023-04-11T00:45:12Z",
+                "contacts": [
+                    {
+                        "name": "Kwon, Hyeong-Ahn",
+                        "affiliation": ""
+                    }
+                ],
+                "authors": [
+                    "Kwon, Hyeong-Ahn"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2023": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Kwon, Hyeong-Ahn": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

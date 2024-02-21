@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/YPXNPG\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Dataset for \"The Effect of Different Implementations of the Weak Temperature Gradient Approximation in Cloud Resolving Models\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/YPXNPG",
+                "global_id": "doi:10.7910/DVN/YPXNPG",
+                "description": "This repository contains the dataset for the GRL submission 2023GL104350, titled \"The Effect of Different Implementations of the Weak Temperature Gradient Approximation in Cloud Resolving Models\". All data in this repository are to be downloaded and extracted into a folder called \"data\" for analysis by the code linked in https://github.com/natgeo-wong/2023GL104350",
+                "published_at": "2023-05-07T05:55:07Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Wong, Nathanael, 2023, \"Dataset for &quot;The Effect of Different Implementations of the Weak Temperature Gradient Approximation in Cloud Resolving Models&quot;\", <a href=\"https://doi.org/10.7910/DVN/YPXNPG\" target=\"_blank\">https://doi.org/10.7910/DVN/YPXNPG</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Wong, Nathanael, 2023, \"Dataset for \"The Effect of Different Implementations of the Weak Temperature Gradient Approximation in Cloud Resolving Models\"\", https://doi.org/10.7910/DVN/YPXNPG, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/YPXNPG",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 274,
+                "versionId": 344706,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2023-05-07T05:20:54Z",
+                "updatedAt": "2023-05-07T05:55:07Z",
+                "contacts": [
+                    {
+                        "name": "Wong, Nathanael",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "authors": [
+                    "Wong, Nathanael"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2023": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Wong, Nathanael": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

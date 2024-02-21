@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="21" />
+  <dimension name="lon" length="144" isUnlimited="true" />
+  <variable name="blocks" shape="lat lon" type="double">
+    <attribute name="_ChunkSizes" type="uint" value="21 1" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="_ChunkSizes" type="uint" value="21" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="_ChunkSizes" type="uint" value="524288" />
+  </variable>
+</netcdf>

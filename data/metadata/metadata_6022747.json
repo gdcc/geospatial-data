@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/A32CT4\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Mid-Archean Idealized Tide Simulations",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/A32CT4",
+                "global_id": "doi:10.7910/DVN/A32CT4",
+                "description": "Dataset that corresponds with the publication \"Investigating the behavior of mid-Archean tides and potential implications for biogeochemical cycling\" (Crawford et al. 2022)",
+                "published_at": "2022-02-19T23:08:43Z",
+                "publisher": "Eliana Crawford Dataverse",
+                "citationHtml": "Crawford, Eliana, 2022, \"Mid-Archean Idealized Tide Simulations\", <a href=\"https://doi.org/10.7910/DVN/A32CT4\" target=\"_blank\">https://doi.org/10.7910/DVN/A32CT4</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "eliana-crawford",
+                "name_of_dataverse": "Eliana Crawford Dataverse",
+                "citation": "Crawford, Eliana, 2022, \"Mid-Archean Idealized Tide Simulations\", https://doi.org/10.7910/DVN/A32CT4, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/A32CT4",
+                "subjects": [
+                    "Earth and Environmental Sciences",
+                    "Physics"
+                ],
+                "fileCount": 158,
+                "versionId": 278288,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-10-28T04:20:02Z",
+                "updatedAt": "2022-02-19T23:08:43Z",
+                "contacts": [
+                    {
+                        "name": "Crawford, Eliana",
+                        "affiliation": "University of Michigan"
+                    }
+                ],
+                "authors": [
+                    "Crawford, Eliana"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        },
+                        {
+                            "Physics": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Crawford, Eliana": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of Michigan": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

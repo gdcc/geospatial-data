@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lon" length="144" />
+  <dimension name="lat" length="73" />
+  <dimension name="time" length="1" isUnlimited="true" />
+  <variable name="land" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Land-sea mask" />
+    <attribute name="units" value=" " />
+    <attribute name="precision" type="short" value="0" />
+    <attribute name="least_significant_digit" type="short" value="0" />
+    <attribute name="GRIB_id" type="short" value="81" />
+    <attribute name="GRIB_name" value="LAND" />
+    <attribute name="var_desc" value="Land-sea mask&#xA;CG" />
+    <attribute name="dataset" value="NMC Reanalysis&#xA;L" />
+    <attribute name="level_desc" value="Surface&#xA;0" />
+    <attribute name="statistic" value="Individual Obs&#xA;I" />
+    <attribute name="parent_stat" value="Other&#xA;-" />
+    <attribute name="missing_value" type="float" value="-9.96921E36" />
+    <attribute name="actual_range" type="float" value="0.0 1.0" />
+    <attribute name="valid_range" type="float" value="0.0 1.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 73 144" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="long_name" value="Longitude" />
+    <attribute name="actual_range" type="float" value="0.0 357.5" />
+  </variable>
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="actual_range" type="float" value="90.0 -90.0" />
+    <attribute name="long_name" value="Latitude" />
+  </variable>
+  <variable name="time" shape="time" type="double">
+    <attribute name="long_name" value="Time" />
+    <attribute name="delta_t" value="0000-00-01 00:00:00" />
+    <attribute name="units" value="hours since 1800-01-01 00:00:0.0" />
+    <attribute name="actual_range" type="double" value="-1.5769752E7 -1.5769752E7" />
+    <attribute name="_ChunkSizes" type="uint" value="1" />
+  </variable>
+  <attribute name="history" value="created 98/01/08 by Hoop (netCDF4.3.1)&#xA;Converted to chunked, deflated non-packed NetCDF4 2014/09" />
+  <attribute name="Conventions" value="COARDS" />
+  <attribute name="title" value="NCEP reanalysis" />
+  <attribute name="description" value="Data is from NMC initialized reanalysis.&#xA;It consists of most variables interpolated to&#xA;pressure surfaces from model (sigma) surfaces." />
+  <attribute name="platform" value="Model" />
+</netcdf>

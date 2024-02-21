@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/R7NRNK\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Data and plotting scripts for the publication: \"Evaluating atmospheric mercury (Hg) uptake by vegetation in a chemistry-transport model\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/R7NRNK",
+                "global_id": "doi:10.7910/DVN/R7NRNK",
+                "description": "Model data and code for the publication: Feinberg et al. (2022): Evaluating atmospheric mercury (Hg) uptake by vegetation in a chemistry-transport model, Environmental Science: Processes & Impacts, https://doi.org/10.1039/D2EM00032F The simulations are (GC_data/): BASE - run0005 OBRIST - run0016 OBRIST_R - run0017 AMAZON_L - run0018 AMAZON_U - run0019 NEWCHEM - run0102 NEWCHEM_D - run0105 savannization of Amazon rainforest w/ South American anthropogenic emissions on - run0020 savannization of Amazon rainforest w/ South American anthropogenic emissions off - run0022 no savannization (normal conditions like run0019) w/ South American anthropogenic emissions off - run0023 The scripts for the Figures are: Figure 1 - map_obs_litter_through_drydep.py Calculation of offline drydep velocities: drydep_GEOSChem_landtype_h_v3.py Figure 2 - compare_drydepvel_offline_obs_v5.py Figure 3 - temp_compare_seasonal_f0_red.py Figure 4 - compare_S_America_Hg0_other.py Figure 5 - left side - drydep_plot_Amazon_v2.py, right side - totaldep_compare_sav.py Figure 6 - budget.pptx SI Figure 8 - Trying different resistances for O3/Hg - compare_O3_Hg_dep.py Observational datasets are located in obs_data/ Miscellaneous intermediate datasets for plotting scripts are located in misc_data/",
+                "published_at": "2022-05-11T15:01:49Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Feinberg, Aryeh, 2022, \"Data and plotting scripts for the publication: &quot;Evaluating atmospheric mercury (Hg) uptake by vegetation in a chemistry-transport model&quot;\", <a href=\"https://doi.org/10.7910/DVN/R7NRNK\" target=\"_blank\">https://doi.org/10.7910/DVN/R7NRNK</a>, Harvard Dataverse, V1, UNF:6:s49R1y/NmQ6O1G5fL1LGlA== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Feinberg, Aryeh, 2022, \"Data and plotting scripts for the publication: \"Evaluating atmospheric mercury (Hg) uptake by vegetation in a chemistry-transport model\"\", https://doi.org/10.7910/DVN/R7NRNK, Harvard Dataverse, V1, UNF:6:s49R1y/NmQ6O1G5fL1LGlA== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/R7NRNK",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 149,
+                "versionId": 327134,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-05-11T13:54:03Z",
+                "updatedAt": "2022-05-11T15:01:49Z",
+                "contacts": [
+                    {
+                        "name": "Feinberg, Aryeh",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Feinberg, A., Dlamini, T., Jiskra, M., Shah, V., Selin, N.E., 2022. Evaluating atmospheric mercury (Hg) uptake by vegetation in a chemistry-transport model. Environ. Sci.: Processes Impacts. https://doi.org/10.1039/D2EM00032F"
+                    }
+                ],
+                "authors": [
+                    "Feinberg, Aryeh"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Feinberg, Aryeh": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

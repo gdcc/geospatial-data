@@ -1,0 +1,104 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/UZC5YL\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Key codes and processed data for \"Constraining extreme precipitation projections using past precipitation variability\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/UZC5YL",
+                "global_id": "doi:10.7910/DVN/UZC5YL",
+                "description": "Key codes and processed data for \"Constraining extreme precipitation projections using past precipitation variability\"",
+                "published_at": "2022-08-12T02:29:47Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Zhang, Wenxia; Kalli Furtado; Tianjun Zhou; Peili Wu; Xiaolong Chen, 2022, \"Key codes and processed data for &quot;Constraining extreme precipitation projections using past precipitation variability&quot;\", <a href=\"https://doi.org/10.7910/DVN/UZC5YL\" target=\"_blank\">https://doi.org/10.7910/DVN/UZC5YL</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Zhang, Wenxia; Kalli Furtado; Tianjun Zhou; Peili Wu; Xiaolong Chen, 2022, \"Key codes and processed data for \"Constraining extreme precipitation projections using past precipitation variability\"\", https://doi.org/10.7910/DVN/UZC5YL, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/UZC5YL",
+                "keywords": [
+                    "extreme precipitation",
+                    "emergent constraint"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 40,
+                "versionId": 331035,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-08-11T06:24:36Z",
+                "updatedAt": "2022-08-12T02:29:47Z",
+                "contacts": [
+                    {
+                        "name": "Zhang, Wenxia",
+                        "affiliation": "Institute of Atmospheric Physics, Chinese Academy of Sciences"
+                    }
+                ],
+                "authors": [
+                    "Zhang, Wenxia",
+                    "Kalli Furtado",
+                    "Tianjun Zhou",
+                    "Peili Wu",
+                    "Xiaolong Chen"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Kalli Furtado": 1
+                        },
+                        {
+                            "Peili Wu": 1
+                        },
+                        {
+                            "Tianjun Zhou": 1
+                        },
+                        {
+                            "Xiaolong Chen": 1
+                        },
+                        {
+                            "Zhang, Wenxia": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Institute of Atmospheric Physics, Chinese Academy of Sciences": 1
+                        },
+                        {
+                            "Met Office": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

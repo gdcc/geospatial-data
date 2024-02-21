@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/SQLX1J\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Earth Energy Imbalance Assessment Workshop (2023)",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/SQLX1J",
+                "global_id": "doi:10.7910/DVN/SQLX1J",
+                "description": "Contents include materials prepared for the 2023 Earth Energy Imbalance Assessment Workshop : 1. temperature averages from ECCOv4r5 for the 0-300m, 0-1000m, and 0-2000m layers on a regular half degree grid (T_from_0_to_300m.nc etc) 2. same as 1 but including regions where sea floor depth is less than layer bottom depth (T_from_0_to_300m_or_less.nc, etc) 3. sea floor depth in ECCOv4r5 4. net heat flux across sea surface, or top of seaice/snow (SIatmQnt.nc) 5. net heat flux across free surface, or bottom of seaice (oceQnet.nc)",
+                "published_at": "2023-04-13T19:37:29Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Forget, Gael, 2023, \"Earth Energy Imbalance Assessment Workshop (2023)\", <a href=\"https://doi.org/10.7910/DVN/SQLX1J\" target=\"_blank\">https://doi.org/10.7910/DVN/SQLX1J</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Forget, Gael, 2023, \"Earth Energy Imbalance Assessment Workshop (2023)\", https://doi.org/10.7910/DVN/SQLX1J, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/SQLX1J",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 9,
+                "versionId": 343827,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2023-04-13T15:26:14Z",
+                "updatedAt": "2023-04-13T19:37:29Z",
+                "contacts": [
+                    {
+                        "name": "Forget, Gael",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "publications": [
+                    {
+                        "url": "https://www.wcrp-esa-eeia-2023.org"
+                    }
+                ],
+                "authors": [
+                    "Forget, Gael"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2023": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Forget, Gael": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

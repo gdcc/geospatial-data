@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="8759" isUnlimited="true" />
+  <dimension name="easting" length="80" />
+  <dimension name="northing" length="88" />
+  <variable name="time" shape="time" type="int">
+    <attribute name="long_name" value="time" />
+    <attribute name="standard_name" value="hours since 2010-10-01" />
+    <attribute name="_ChunkSizes" type="uint" value="1048576" />
+  </variable>
+  <variable name="easting" shape="easting" type="float">
+    <attribute name="long_name" value="x distance on the projection plane from the origin" />
+    <attribute name="standard_name" value="projection_x_coordinate" />
+    <attribute name="units" value="m" />
+  </variable>
+  <variable name="northing" shape="northing" type="float">
+    <attribute name="long_name" value="y distance on the projection plane from the origin" />
+    <attribute name="standard_name" value="projection_y_coordinate" />
+    <attribute name="units" value="m" />
+  </variable>
+  <variable name="lat" shape="northing easting" type="float">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="lon" shape="northing easting" type="float">
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="alt" shape="northing easting" type="float">
+    <attribute name="long_name" value="vertical distance above the surface" />
+    <attribute name="standard_name" value="height" />
+    <attribute name="units" value="m" />
+    <attribute name="positive" value="up" />
+    <attribute name="axis" value="Z" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+  </variable>
+  <variable name="mask" shape="northing easting" type="byte">
+    <attribute name="long_name" value="mask for more efficient computation" />
+    <attribute name="_FillValue" type="byte" value="0" />
+  </variable>
+  <variable name="z" shape="northing easting" type="float">
+    <attribute name="layer_name" value="elevation" />
+    <attribute name="layer_desc" value="meters above sea level" />
+    <attribute name="layer_units" value="m" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+  </variable>
+  <variable name="z_0" shape="northing easting" type="float">
+    <attribute name="layer_name" value="roughness length" />
+    <attribute name="layer_desc" value="per-grid cell parameter expressing the roughness of the surface" />
+    <attribute name="layer_units" value="m" />
+  </variable>
+  <variable name="z_s" shape="northing easting" type="float">
+    <attribute name="layer_name" value="total snowcover depth" />
+    <attribute name="layer_desc" value="initial snowcover depth" />
+    <attribute name="layer_units" value="m" />
+  </variable>
+  <variable name="rho" shape="northing easting" type="float">
+    <attribute name="layer_name" value="average snowcover density" />
+    <attribute name="layer_desc" value="mass per cubic meter of snow" />
+    <attribute name="layer_units" value="kg m-3" />
+  </variable>
+  <variable name="T_s_0" shape="northing easting" type="float">
+    <attribute name="layer_name" value="active snow layer temperature" />
+    <attribute name="layer_desc" value="upper snow layer temperature" />
+    <attribute name="layer_units" value="C" />
+  </variable>
+  <variable name="T_s" shape="northing easting" type="float">
+    <attribute name="layer_name" value="average snowcover temperature" />
+    <attribute name="layer_desc" value="average temperature across both iSNOBAL snow layers" />
+    <attribute name="layer_units" value="C" />
+  </variable>
+  <variable name="h2o_sat" shape="northing easting" type="float">
+    <attribute name="layer_name" value="% of liquid H2O saturation" />
+    <attribute name="layer_desc" value="ratio of water in snowcover to snowcover water-holding potential" />
+    <attribute name="layer_units" value="C" />
+  </variable>
+  <variable name="m_pp" shape="time northing easting" type="float">
+    <attribute name="layer_name" value="total precipitation mass" />
+    <attribute name="standard_name" value="precipitation_amount" />
+    <attribute name="layer_desc" value="mass precipitation flux through a 2D surface on its way to ground" />
+    <attribute name="description" value="mass precipitation flux through a 2D surface on its way to ground" />
+    <attribute name="layer_units" value="kg m-2" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 88 80" />
+  </variable>
+  <variable name="percent_snow" shape="time northing easting" type="float">
+    <attribute name="layer_name" value="percent snow" />
+    <attribute name="layer_desc" value="snow-to-rain mass ratio" />
+    <attribute name="layer_units" value="percent" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 88 80" />
+  </variable>
+  <variable name="rho_snow" shape="time northing easting" type="float">
+    <attribute name="layer_name" value="density of snowfall" />
+    <attribute name="layer_desc" value="density in kg m-3 of whatever snowfall is present" />
+    <attribute name="layer_units" value="kg m-3" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 88 80" />
+  </variable>
+  <variable name="T_pp" shape="time northing easting" type="float">
+    <attribute name="layer_name" value="average precip temperature" />
+    <attribute name="layer_desc" value="from dew point temperature if available, or can be estimated during storm, or minimum daily temperature" />
+    <attribute name="layer_units" value="C" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 88 80" />
+  </variable>
+  <variable name="I_lw" shape="time northing easting" type="float">
+    <attribute name="layer_name" value="incoming thermal (long-wave) radiation" />
+    <attribute name="standard_name" value="downwelling_longwave_flux_in_air" />
+    <attribute name="layer_desc" value="long-wave radiation not necessarily from the sun" />
+    <attribute name="layer_units" value="W m-2" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 88 80" />
+  </variable>
+  <variable name="T_a" shape="time northing easting" type="float">
+    <attribute name="layer_name" value="air temperature" />
+    <attribute name="standard_name" value="air_temperature" />
+    <attribute name="layer_desc" value="air temperature as measured 5m above the ground" />
+    <attribute name="layer_units" value="C" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 88 80" />
+  </variable>
+  <variable name="e_a" shape="time northing easting" type="float">
+    <attribute name="standard_name" value="water_vapor_pressure" />
+    <attribute name="layer_desc" value="equilibrium vapor pressure is an indication of a liquid's evaporation rate" />
+    <attribute name="layer_units" value="Pa" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+    <attribute name="layer_name" value="vapor pressure" />
+    <attribute name="_ChunkSizes" type="uint" value="1 88 80" />
+  </variable>
+  <variable name="u" shape="time northing easting" type="float">
+    <attribute name="layer_name" value="wind speed" />
+    <attribute name="standard_name" value="wind_speed" />
+    <attribute name="layer_desc" value="wind speed as measured 5m above the ground" />
+    <attribute name="layer_units" value="m s-1" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 88 80" />
+  </variable>
+  <variable name="T_g" shape="time northing easting" type="float">
+    <attribute name="layer_name" value="soil temperature at 0.5m depth" />
+    <attribute name="standard_name" value="soil_temperature" />
+    <attribute name="layer_desc" value="soil temperature at a half-meter underground" />
+    <attribute name="layer_units" value="C" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 88 80" />
+  </variable>
+  <variable name="S_n" shape="time northing easting" type="float">
+    <attribute name="layer_name" value="net solar radiation" />
+    <attribute name="standard_name" value="downwelling_shortwave_flux_in_air" />
+    <attribute name="layer_desc" value="radiation coming from the sun. in IPW these bands may be omitted if the sun is down" />
+    <attribute name="layer_units" value="W m-2" />
+    <attribute name="_FillValue" type="float" value="0.0" />
+    <attribute name="_ChunkSizes" type="uint" value="1 88 80" />
+  </variable>
+  <attribute name="output_frequency" type="int" value="1" />
+  <attribute name="bline" type="double" value="4768505.0" />
+  <attribute name="bsamp" type="double" value="519665.0" />
+  <attribute name="dline" type="double" value="-10.0" />
+  <attribute name="dsamp" type="double" value="10.0" />
+  <attribute name="max_z_s_0" type="double" value="0.25" />
+  <attribute name="z_u" type="double" value="5.0" />
+  <attribute name="z_T" type="double" value="5.0" />
+  <attribute name="z_g" type="double" value="0.5" />
+  <attribute name="documentation_link" value="cgiss.boisestate.edu/~hpm/software/IPW/man1/isnobal.html" />
+  <attribute name="description" value="auto-generated NetCDF-4 Dataset that encapsulates full inputs for iSNOBAL model run" />
+  <attribute name="bands_name" value="nsteps" />
+  <attribute name="bands_desc" value="band index represents hours since 2010-10-01T00:00:00" />
+  <attribute name="exclude_layers" value="mask,alt,time,northing,easting,lat,lon,z_0,z_s,rho,T_s_0,T_s,h2o_sat" />
+  <attribute name="data_tstep" type="long" value="60" />
+  <attribute name="nsteps" type="long" value="8759" />
+</netcdf>

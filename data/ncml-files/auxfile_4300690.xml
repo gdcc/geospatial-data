@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="192" />
+  <variable name="AODVISstdn" shape="lat" type="float">
+    <attribute name="_FillValue" type="float" value="1.0E36" />
+    <attribute name="units" value="kg/m2" />
+    <attribute name="average_op_ncl" value="dim_avg_n over dimension(s): lon" />
+    <attribute name="missing_value" type="float" value="1.0E36" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="long_name" value="Stratospheric aerosol optical depth 550 nm, day night" />
+  </variable>
+  <variable name="time" shape="" type="double">
+    <attribute name="long_name" value="time" />
+    <attribute name="units" value="days since 0019-01-01 00:00:00" />
+    <attribute name="calendar" value="noleap" />
+    <attribute name="bounds" value="time_bnds" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="_FillValue" type="double" value="-900.0" />
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <attribute name="creation_date" value="Mon Jun 17 08:00:04 MDT 2019" />
+  <attribute name="history" value="Tue May  5 19:57:01 2020: /opt/local/bin/ncwa -a time -d time,24,119 AODVISstdn_CESM2_Control.001_zm_monthly.nc AODVISstdn_CESM2_Control.001_zm_8yr.nc" />
+  <attribute name="NCO" value="&quot;4.5.4&quot;" />
+  <attribute name="nco_openmp_thread_number" type="int" value="1" />
+</netcdf>

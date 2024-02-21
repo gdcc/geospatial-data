@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="longitude" length="33" />
+  <dimension name="latitude" length="33" />
+  <dimension name="altitude" length="15" />
+  <dimension name="Time" length="2676" isUnlimited="true" />
+  <dimension name="index" length="100" />
+  <dimension name="GCM_layers" length="15" />
+  <variable name="longitude" shape="longitude" type="float">
+    <attribute name="long_name" value="east longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="latitude" shape="latitude" type="float">
+    <attribute name="long_name" value="north latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="altitude" shape="altitude" type="float">
+    <attribute name="long_name" value="Pressure levels" />
+    <attribute name="units" value="Pa" />
+    <attribute name="positive" value="down" />
+  </variable>
+  <variable name="controle" shape="index" type="float">
+    <attribute name="title" value="Control parameters" />
+  </variable>
+  <variable name="aps" shape="GCM_layers" type="float">
+    <attribute name="long_name" value="hybrid pressure at midlayers" />
+  </variable>
+  <variable name="bps" shape="GCM_layers" type="float">
+    <attribute name="long_name" value="hybrid sigma at midlayers" />
+  </variable>
+  <variable name="Time" shape="Time" type="float">
+    <attribute name="long_name" value="Time" />
+    <attribute name="units" value="days since 0000-01-1 00:00:00" />
+  </variable>
+  <variable name="ps" shape="Time latitude longitude" type="float">
+    <attribute name="long_name" value="Surface pressure" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <variable name="zareoid" shape="Time altitude latitude longitude" type="float">
+    <attribute name="long_name" value="altitude above areoid" />
+    <attribute name="units" value="m" />
+    <attribute name="missing_value" type="float" value="-9.99E33" />
+  </variable>
+  <variable name="RH" shape="Time altitude latitude longitude" type="float">
+    <attribute name="long_name" value="relative humidity" />
+    <attribute name="units" value="" />
+    <attribute name="missing_value" type="float" value="-9.99E33" />
+  </variable>
+  <variable name="h2o_ice" shape="Time altitude latitude longitude" type="float">
+    <attribute name="long_name" value="h2o_ice" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="missing_value" type="float" value="-9.99E33" />
+  </variable>
+  <variable name="temp" shape="Time altitude latitude longitude" type="float">
+    <attribute name="long_name" value="temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="missing_value" type="float" value="-9.99E33" />
+  </variable>
+</netcdf>

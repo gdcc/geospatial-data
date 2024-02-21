@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="1800" />
+  <dimension name="lon" length="3600" />
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="long_name" value="Latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="gsd" shape="lat lon" type="float">
+    <attribute name="standard_name" value="gsd" />
+    <attribute name="long_name" value="Geometric Standard Deviation" />
+    <attribute name="units" value="unitless" />
+    <attribute name="_ChunkSizes" type="uint" value="600 1200" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="long_name" value="Longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <attribute name="_NCProperties" value="version=1|netcdflibversion=4.4.1|hdf5libversion=1.8.17" />
+  <attribute name="description" value="Global Oil &amp; Gas Inventory Coal Emissions - IPCC Source Category(s) 1B1 - Error statistics presented as geometric standard deviations for lognormal pdf" />
+  <attribute name="year" value="2016" />
+</netcdf>

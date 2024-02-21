@@ -1,0 +1,125 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/HVGW8L\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Scalable deep learning to identify brick kilns and aid regulatory capacity",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/HVGW8L",
+                "global_id": "doi:10.7910/DVN/HVGW8L",
+                "description": "Data and code to replicate parts of \"Scalable deep learning to identify brick kilns and aid regulatory capacity\". We used DigitalGlobe (now Maxar Technologies) imagery, which is proprietary. However, we are able to share a \"de-geo-identified\" version of the imagery used in our machine learning pipeline. This data is stripped of its geospatial metadata, which means certain steps of our pipeline, such as translating the pixel locations of kilns detected within an image to a latitude and longitude will not be reproducible with this data. We also provide the final output of the machine learning pipeline (the GPS coordinates of all model predicted kilns), so the remainder of the analysis is replicable. The Government of Bangladesh data on brick kilns is proprietary and can be requested directly from the Department of Environment. All other geospatial data used to assess the scale and scope of brick manufacturing (population distributions, forests, schools, health facilities, protected areas, PM2.5, wind, precipitation, temperature, and administrative boundaries) are publicly available and we provide details on how to obtain them.",
+                "published_at": "2021-04-09T21:43:00Z",
+                "publisher": "Replication Data for: Scalable deep learning to identify brick kilns and aid regulatory capacity",
+                "citationHtml": "Lee, Jihyeon; Brooks, Nina; Tajwar, Fahim; Burke, Marshall; Ermon, Stefano; Lobell, David; Biswas, Debashish; Luby, Stephen, 2021, \"Replication Data for: Scalable deep learning to identify brick kilns and aid regulatory capacity\", <a href=\"https://doi.org/10.7910/DVN/HVGW8L\" target=\"_blank\">https://doi.org/10.7910/DVN/HVGW8L</a>, Harvard Dataverse, V2, UNF:6:EyEuhTPLiB1QKc5fxBAF0w== [fileUNF]",
+                "identifier_of_dataverse": "deep_learning_kilns_bangladesh",
+                "name_of_dataverse": "Replication Data for: Scalable deep learning to identify brick kilns and aid regulatory capacity",
+                "citation": "Lee, Jihyeon; Brooks, Nina; Tajwar, Fahim; Burke, Marshall; Ermon, Stefano; Lobell, David; Biswas, Debashish; Luby, Stephen, 2021, \"Replication Data for: Scalable deep learning to identify brick kilns and aid regulatory capacity\", https://doi.org/10.7910/DVN/HVGW8L, Harvard Dataverse, V2, UNF:6:EyEuhTPLiB1QKc5fxBAF0w== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/HVGW8L",
+                "subjects": [
+                    "Earth and Environmental Sciences",
+                    "Computer and Information Science"
+                ],
+                "fileCount": 21,
+                "versionId": 239284,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 1,
+                "createdAt": "2021-04-05T03:16:22Z",
+                "updatedAt": "2021-04-23T00:07:45Z",
+                "contacts": [
+                    {
+                        "name": "Brooks, Nina",
+                        "affiliation": "Stanford University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Lee, Jihyeon, Nina R. Brooks, Fahim Tajwar, Marshall Burke, Stefano Ermon, David B. Lobell, Debashish Biswas, and Stephen P. Luby. \"Scalable deep learning to identify brick kilns and aid regulatory capacity.\" Proceedings of the National Academy of Sciences Apr 2021, 118 (17) e2018863118; DOI: 10.1073/pnas.2018863118",
+                        "url": "https://www.pnas.org/content/118/17/e20188631188"
+                    }
+                ],
+                "authors": [
+                    "Lee, Jihyeon",
+                    "Brooks, Nina",
+                    "Tajwar, Fahim",
+                    "Burke, Marshall",
+                    "Ermon, Stefano",
+                    "Lobell, David",
+                    "Biswas, Debashish",
+                    "Luby, Stephen"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Computer and Information Science": 1
+                        },
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Biswas, Debashish": 1
+                        },
+                        {
+                            "Brooks, Nina": 1
+                        },
+                        {
+                            "Burke, Marshall": 1
+                        },
+                        {
+                            "Ermon, Stefano": 1
+                        },
+                        {
+                            "Lee, Jihyeon": 1
+                        },
+                        {
+                            "Lobell, David": 1
+                        },
+                        {
+                            "Luby, Stephen": 1
+                        },
+                        {
+                            "Tajwar, Fahim": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Stanford University": 1
+                        },
+                        {
+                            "Stanford Universiy": 1
+                        },
+                        {
+                            "icddr,b": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

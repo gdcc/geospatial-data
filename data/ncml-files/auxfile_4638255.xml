@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="1" isUnlimited="true" />
+  <dimension name="bnds" length="2" />
+  <dimension name="lon" length="288" />
+  <dimension name="lat" length="192" />
+  <dimension name="lon_2" length="1" />
+  <dimension name="lev" length="30" />
+  <variable name="time" shape="time" type="double">
+    <attribute name="standard_name" value="time" />
+    <attribute name="long_name" value="time" />
+    <attribute name="bounds" value="time_bnds" />
+    <attribute name="units" value="days since 0001-01-01 00:00:00" />
+    <attribute name="calendar" value="365_day" />
+    <attribute name="axis" value="T" />
+  </variable>
+  <variable name="time_bnds" shape="time bnds" type="double" />
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="axis" value="X" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="axis" value="Y" />
+  </variable>
+  <variable name="lev" shape="lev" type="double">
+    <attribute name="standard_name" value="atmosphere_hybrid_sigma_pressure_coordinate" />
+    <attribute name="axis" value="Z" />
+    <attribute name="positive" value="down" />
+    <attribute name="long_name" value="hybrid sigma pressure coordinate" />
+    <attribute name="units" value="level" />
+    <attribute name="formula_terms" value="ap: ap b: b ps: ps" />
+    <attribute name="bounds" value="lev_bnds" />
+  </variable>
+  <variable name="lev_bnds" shape="lev bnds" type="double">
+    <attribute name="standard_name" value="atmosphere_hybrid_sigma_pressure_coordinate" />
+    <attribute name="units" value="level" />
+    <attribute name="formula_terms" value="ap: ap_bnds b: b_bnds ps: ps" />
+  </variable>
+  <variable name="AEROD_v" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total Aerosol Optical Depth in visible band" />
+    <attribute name="units" value="1" />
+    <attribute name="_FillValue" type="float" value="1.0E36" />
+    <attribute name="missing_value" type="float" value="1.0E36" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="ANRAIN" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Average rain number conc" />
+    <attribute name="units" value="m-3" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="ANSNOW" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Average snow number conc" />
+    <attribute name="units" value="m-3" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="AODDUST1" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Aerosol optical depth 550 nm model 1 from dust" />
+    <attribute name="_FillValue" type="float" value="1.0E36" />
+    <attribute name="missing_value" type="float" value="1.0E36" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="AODDUST3" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Aerosol optical depth 550 nm model 3 from dust" />
+    <attribute name="_FillValue" type="float" value="1.0E36" />
+    <attribute name="missing_value" type="float" value="1.0E36" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="AODVIS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Aerosol optical depth 550 nm" />
+    <attribute name="_FillValue" type="float" value="1.0E36" />
+    <attribute name="missing_value" type="float" value="1.0E36" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="AQRAIN" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Average rain mixing ratio" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="AQSNOW" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Average snow mixing ratio" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="AREI" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Average ice effective radius" />
+    <attribute name="units" value="Micron" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="AREL" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Average droplet effective radius" />
+    <attribute name="units" value="Micron" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="AWNC" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Average cloud water number conc" />
+    <attribute name="units" value="m-3" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="AWNI" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Average cloud ice number conc" />
+    <attribute name="units" value="m-3" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="CCN3" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="CCN concentration at S=0.1%" />
+    <attribute name="units" value="#/cm3" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="CDNUMC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Vertically-integrated droplet concentration" />
+    <attribute name="units" value="1/m2" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="CLDHGH" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Vertically-integrated high cloud" />
+    <attribute name="units" value="fraction" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="CLDICE" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Grid box averaged cloud ice amount" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="CLDLIQ" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Grid box averaged cloud liquid amount" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="CLDLOW" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Vertically-integrated low cloud" />
+    <attribute name="units" value="fraction" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="CLDMED" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Vertically-integrated mid-level cloud" />
+    <attribute name="units" value="fraction" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="CLDTOT" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Vertically-integrated total cloud" />
+    <attribute name="units" value="fraction" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="CLOUD" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Cloud fraction" />
+    <attribute name="units" value="fraction" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="DCQ" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Q tendency due to moist processes" />
+    <attribute name="units" value="kg/kg/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="DTCOND" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="T tendency - moist processes" />
+    <attribute name="units" value="K/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="DTV" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="T vertical diffusion" />
+    <attribute name="units" value="K/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FICE" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Fractional ice content within cloud" />
+    <attribute name="units" value="fraction" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FLDS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Downwelling longwave flux at surface" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FLNS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Net longwave flux at surface" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FLNSC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Clearsky net longwave flux at surface" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FLNT" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Net longwave flux at top of model" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FLNTC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Clearsky net longwave flux at top of model" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FLUT" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Upwelling longwave flux at top of model" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FLUTC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Clearsky upwelling longwave flux at top of model" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FREQI" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Fractional occurrence of ice" />
+    <attribute name="units" value="fraction" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FREQL" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Fractional occurrence of liquid" />
+    <attribute name="units" value="fraction" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FREQR" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Fractional occurrence of rain" />
+    <attribute name="units" value="fraction" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FREQS" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Fractional occurrence of snow" />
+    <attribute name="units" value="fraction" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FSDS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Downwelling solar flux at surface" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FSDSC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Clearsky downwelling solar flux at surface" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FSNS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Net solar flux at surface" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FSNSC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Clearsky net solar flux at surface" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FSNT" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Net solar flux at top of model" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FSNTC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Clearsky net solar flux at top of model" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FSNTOA" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Net solar flux at top of atmosphere" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="FSNTOAC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Clearsky net solar flux at top of atmosphere" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="ICEFRAC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Fraction of sfc area covered by sea-ice" />
+    <attribute name="units" value="fraction" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="ICIMR" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Prognostic in-cloud ice mixing ratio" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="ICWMR" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Prognostic in-cloud water mixing ratio" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="IWC" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Grid box average ice water content" />
+    <attribute name="units" value="kg/m3" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="LANDFRAC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Fraction of sfc area covered by land" />
+    <attribute name="units" value="fraction" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="LHFLX" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface latent heat flux" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="LWCF" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Longwave cloud forcing" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="NUMICE" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Grid box averaged cloud ice number" />
+    <attribute name="units" value="1/kg" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="NUMLIQ" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Grid box averaged cloud liquid number" />
+    <attribute name="units" value="1/kg" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="OCNFRAC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Fraction of sfc area covered by ocean" />
+    <attribute name="units" value="fraction" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="OMEGA" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Vertical velocity (pressure)" />
+    <attribute name="units" value="Pa/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="OMEGAT" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Vertical heat flux" />
+    <attribute name="units" value="K Pa/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="PBLH" shape="time lat lon" type="float">
+    <attribute name="long_name" value="PBL height" />
+    <attribute name="units" value="m" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="PHIS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface geopotential" />
+    <attribute name="units" value="m2/s2" />
+  </variable>
+  <variable name="PRECC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Convective precipitation rate (liq + ice)" />
+    <attribute name="units" value="m/s" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="PRECL" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Large-scale (stable) precipitation rate (liq + ice)" />
+    <attribute name="units" value="m/s" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="PRECSC" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Convective snow rate (water equivalent)" />
+    <attribute name="units" value="m/s" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="PRECSL" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Large-scale (stable) snow rate (water equivalent)" />
+    <attribute name="units" value="m/s" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="PS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface pressure" />
+    <attribute name="units" value="Pa" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="PSL" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Sea level pressure" />
+    <attribute name="units" value="Pa" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="Q" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Specific humidity" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="QFLX" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface water flux" />
+    <attribute name="units" value="kg/m2/s" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="QRL" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Longwave heating rate" />
+    <attribute name="units" value="K/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="QRS" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Solar heating rate" />
+    <attribute name="units" value="K/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="RELHUM" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Relative humidity" />
+    <attribute name="units" value="percent" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="SHFLX" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface sensible heat flux" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="SNOWHICE" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Snow depth over ice" />
+    <attribute name="units" value="m" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="SNOWHLND" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Water equivalent snow depth" />
+    <attribute name="units" value="m" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="SOLIN" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Solar insolation" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="SWCF" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Shortwave cloud forcing" />
+    <attribute name="units" value="W/m2" />
+    <attribute name="Sampling_Sequence" value="rad_lwsw" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="T" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="TAUX" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Zonal surface stress" />
+    <attribute name="units" value="N/m2" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="TAUY" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Meridional surface stress" />
+    <attribute name="units" value="N/m2" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="TGCLDIWP" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total grid-box cloud ice water path" />
+    <attribute name="units" value="kg/m2" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="TGCLDLWP" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total grid-box cloud liquid water path" />
+    <attribute name="units" value="kg/m2" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="TMQ" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Total (vertically integrated) precipitable water" />
+    <attribute name="units" value="kg/m2" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="TREFHT" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Reference height temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="TS" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Surface temperature (radiative)" />
+    <attribute name="units" value="K" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="U" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Zonal wind" />
+    <attribute name="units" value="m/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="U10" shape="time lat lon" type="float">
+    <attribute name="long_name" value="10m wind speed" />
+    <attribute name="units" value="m/s" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="UU" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Zonal velocity squared" />
+    <attribute name="units" value="m2/s2" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="V" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Meridional wind" />
+    <attribute name="units" value="m/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="VD01" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Vertical diffusion of Q" />
+    <attribute name="units" value="kg/kg/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="VQ" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Meridional water transport" />
+    <attribute name="units" value="m/skg/kg" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="VT" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Meridional heat transport" />
+    <attribute name="units" value="K m/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="VU" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Meridional flux of zonal momentum" />
+    <attribute name="units" value="m2/s2" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="VV" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Meridional velocity squared" />
+    <attribute name="units" value="m2/s2" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="WSUB" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Diagnostic sub-grid vertical velocity" />
+    <attribute name="units" value="m/s" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="Z3" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="Geopotential Height (above sea level)" />
+    <attribute name="units" value="m" />
+    <attribute name="mdims" type="int" value="1" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="gw" shape="lon_2 lat" type="double">
+    <attribute name="long_name" value="gauss weights" />
+  </variable>
+  <attribute name="CDI" value="Climate Data Interface version 1.9.5 (http://mpimet.mpg.de/cdi)" />
+  <attribute name="Conventions" value="CF-1.0" />
+  <attribute name="history" value="Mon Mar 30 18:46:42 2020: cdo sellonlatbox,-180,180,-90,90 e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_ANN_climo.nc e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_ANN_climo_shifted.nc&#xA;Mon Sep  9 18:13:50 2019: ncatted -O -a yrs_averaged,global,c,c,20-49 /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_ANN_climo.nc&#xA;Mon Sep  9 18:13:37 2019: ncea -O /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0020_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0021_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0022_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0023_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0024_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0025_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0026_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0027_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0028_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0029_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0030_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0031_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0032_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0033_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0034_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0035_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0036_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0037_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0038_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0039_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0040_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0041_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0042_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0043_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0044_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0045_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0046_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0047_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0048_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0049_ANN.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_ANN_climo.nc&#xA;Mon Sep  9 17:54:13 2019: ncks -C -A -v gw,hyam,hybm,hyai,hybi,P0,lev,ilev,lat,lon,P0 /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/unweighted.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0020_ANN.nc&#xA;Mon Sep  9 17:54:07 2019: ncea -O -y ttl /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.01.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.02.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.03.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.04.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.05.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.06.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.07.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.08.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.09.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.10.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.11.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.12.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5//e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5_e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0020_ANN.nc&#xA;Mon Sep  9 17:53:34 2019: ncflint -O -c -v AODVIS,AODDUST1,AODDUST3,ANRAIN,ANSNOW,AQRAIN,AQSNOW,AREI,AREL,AWNC,AWNI,CCN3,CDNUMC,CLDHGH,CLDICE,CLDLIQ,CLDMED,CLDLOW,CLDTOT,CLOUD,DCQ,DTCOND,DTV,FICE,FLDS,FLNS,FLNSC,FLNT,FLNTC,FLUT,FLUTC,FREQI,FREQL,FREQR,FREQS,FSDS,FSDSC,FSNS,FSNSC,FSNTC,FSNTOA,FSNTOAC,FSNT,ICEFRAC,ICIMR,ICWMR,IWC,LANDFRAC,LHFLX,LWCF,NUMICE,NUMLIQ,OCNFRAC,OMEGA,OMEGAT,P0,PBLH,PRECC,PRECL,PRECSC,PRECSL,PS,PSL,Q,QFLX,QRL,QRS,RELHUM,SHFLX,SNOWHICE,SNOWHLND,SOLIN,SWCF,T,TAUX,TAUY,TGCLDIWP,TGCLDLWP,TMQ,TREFHT,TS,U,UU,V,VD01,VQ,VT,VU,VV,WSUB,Z3,U10,PHIS,AODDUST1,AODDUST3,AEROD_v,Q -w 0.08493150770664215,0.0 /zdata/sahelSST/archive.e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/atm/hist/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0020-01.nc /zdata/sahelSST/archive.e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/atm/hist/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0020-01.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/wgt_month.01.nc" />
+  <attribute name="source" value="CAM" />
+  <attribute name="case" value="e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5" />
+  <attribute name="title" value="UNSET" />
+  <attribute name="logname" value="mariaru" />
+  <attribute name="host" value="eu-c7-066-07" />
+  <attribute name="Version" value="$Name$" />
+  <attribute name="revision_Id" value="$Id$" />
+  <attribute name="initial_file" value="/cluster/work/climate/cesm/inputdata/atm/cam/inic/fv/cami-mam3_0000-01-01_0.9x1.25_L30_c100618.nc" />
+  <attribute name="topography_file" value="/cluster/work/climate/cesm/inputdata/atm/cam/topo/USGS-gtopo30_0.9x1.25_remap_c051027.nc" />
+  <attribute name="NCO" value="netCDF Operators version 4.7.5 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)" />
+  <attribute name="nco_openmp_thread_number" type="int" value="1" />
+  <attribute name="history_of_appended_files" value="Mon Sep  9 17:54:13 2019: Appended file /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/unweighted.nc had following &quot;history&quot; attribute:&#xA;Mon Sep  9 17:53:34 2019: ncks -C -O -v gw,hyam,hybm,hyai,hybi,P0,lev,ilev,lat,lon,P0 /zdata/sahelSST/archive.e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/atm/hist/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5.cam.h0.0020-01.nc /home/divanova/SahelProject/amwg/climo/e.e122.E_1850_CAM5.f09_g16.sahel_1xCO2_cam5/unweighted.nc&#xA;" />
+  <attribute name="yrs_averaged" value="20-49" />
+  <attribute name="CDO" value="Climate Data Operators version 1.9.5 (http://mpimet.mpg.de/cdo)" />
+</netcdf>

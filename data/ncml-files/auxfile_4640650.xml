@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="y" length="178" />
+  <dimension name="x" length="211" />
+  <variable name="mean_radiance" shape="y x" type="float">
+    <attribute name="long_name" value="" />
+    <attribute name="coordinates" value="lat lon" />
+    <attribute name="_ChunkSizes" type="uint" value="178 211" />
+  </variable>
+  <variable name="Delta_XCH4__ppm_" shape="y x" type="float">
+    <attribute name="long_name" value="" />
+    <attribute name="coordinates" value="lat lon" />
+    <attribute name="_ChunkSizes" type="uint" value="178 211" />
+  </variable>
+  <variable name="Filtered_Delta_XCH4__ppm_" shape="y x" type="float">
+    <attribute name="long_name" value="" />
+    <attribute name="coordinates" value="lat lon" />
+    <attribute name="_ChunkSizes" type="uint" value="178 211" />
+  </variable>
+  <variable name="lat" shape="y x" type="double">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="long_name" value="latitude coordinate" />
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="_ChunkSizes" type="uint" value="178 211" />
+  </variable>
+  <variable name="lon" shape="y x" type="double">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="long_name" value="longitude coordinate" />
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="_ChunkSizes" type="uint" value="178 211" />
+  </variable>
+  <attribute name="Conventions" value="CF-1.4" />
+  <attribute name="TileSize" value="178:211" />
+</netcdf>

@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/QZLGPD\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Ice surface elevation and change at Jakobshavn Isbrae, West Greenland, 2008-2014",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/QZLGPD",
+                "global_id": "doi:10.7910/DVN/QZLGPD",
+                "description": "Contains: * initial surface elevation map of Jakobshavn Isbrae in January 2008 * differences every 91 days from the initially recorded elevation map * geoid correction * error fields",
+                "published_at": "2015-06-23T21:45:51Z",
+                "publisher": "Jakobshavn inverse modelling Dataverse",
+                "citationHtml": "Smith, Ben; Shapero, Daniel, 2015, \"Ice surface elevation and change at Jakobshavn Isbrae, West Greenland, 2008-2014\", <a href=\"https://doi.org/10.7910/DVN/QZLGPD\" target=\"_blank\">https://doi.org/10.7910/DVN/QZLGPD</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "jakobshavn-inversions",
+                "name_of_dataverse": "Jakobshavn inverse modelling Dataverse",
+                "citation": "Smith, Ben; Shapero, Daniel, 2015, \"Ice surface elevation and change at Jakobshavn Isbrae, West Greenland, 2008-2014\", https://doi.org/10.7910/DVN/QZLGPD, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/QZLGPD",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 1,
+                "versionId": 74387,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 0,
+                "createdAt": "2015-06-19T18:23:52Z",
+                "updatedAt": "2015-06-23T21:45:51Z",
+                "contacts": [
+                    {
+                        "name": "Shapero, Daniel",
+                        "affiliation": "University of Washington"
+                    }
+                ],
+                "authors": [
+                    "Smith, Ben",
+                    "Shapero, Daniel"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2015": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Shapero, Daniel": 1
+                        },
+                        {
+                            "Smith, Ben": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Polar Science Center, Applied Physics Laboratory, University of Washington": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="5475" isUnlimited="true" />
+  <dimension name="lat" length="162" />
+  <dimension name="lon" length="97" />
+  <dimension name="nbnd" length="2" />
+  <variable name="PRECC" shape="time lat lon" type="float">
+    <attribute name="units" value="m/s" />
+    <attribute name="long_name" value="Convective precipitation rate (liq + ice)" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="PRECL" shape="time lat lon" type="float">
+    <attribute name="units" value="m/s" />
+    <attribute name="long_name" value="Large-scale (stable) precipitation rate (liq + ice)" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="time" shape="time" type="double">
+    <attribute name="long_name" value="time" />
+    <attribute name="units" value="days since 0001-01-01 00:00:00" />
+    <attribute name="calendar" value="noleap" />
+    <attribute name="bounds" value="time_bnds" />
+  </variable>
+  <variable name="time_bnds" shape="time nbnd" type="double">
+    <attribute name="long_name" value="time interval endpoints" />
+  </variable>
+  <attribute name="Conventions" value="CF-1.0" />
+  <attribute name="source" value="CAM" />
+  <attribute name="case" value="def_pampa" />
+  <attribute name="title" value="UNSET" />
+  <attribute name="logname" value="wxu27" />
+  <attribute name="host" value="node1833.oscar.c" />
+  <attribute name="Version" value="$Name$" />
+  <attribute name="revision_Id" value="$Id$" />
+  <attribute name="initial_file" value="/gpfs/data/shared/cesm/input_data/atm/cam/inic/fv/cami_1980-01-01_0.47x0.63_L26_c071226.nc" />
+  <attribute name="topography_file" value="/gpfs/data/shared/cesm/input_data/atm/cam/topo/USGS_gtopo30_0.47x0.63_remap_c061106.nc" />
+  <attribute name="history" value="Wed Feb  8 14:31:08 2023: ncks -d lat,63,224 default_Daily_prec_lon.nc default_Daily_prec_regional.nc&#xA;Wed Feb  8 14:30:36 2023: ncks -d lon,432,528 default_Hourly_prec.nc default_Daily_prec_lon.nc&#xA;Wed Sep 14 14:13:26 2022: ncrcat -v PRECC,PRECL def_pampa.cam.h1.0021-01-01-00000.nc def_pampa.cam.h1.0022-01-01-00000.nc def_pampa.cam.h1.0023-01-01-00000.nc def_pampa.cam.h1.0024-01-01-00000.nc def_pampa.cam.h1.0025-01-01-00000.nc def_pampa.cam.h1.0026-01-01-00000.nc def_pampa.cam.h1.0027-01-01-00000.nc def_pampa.cam.h1.0028-01-01-00000.nc def_pampa.cam.h1.0029-01-01-00000.nc def_pampa.cam.h1.0030-01-01-00000.nc def_pampa.cam.h1.0031-01-01-00000.nc def_pampa.cam.h1.0032-01-01-00000.nc def_pampa.cam.h1.0033-01-01-00000.nc def_pampa.cam.h1.0034-01-01-00000.nc def_pampa.cam.h1.0035-01-01-00000.nc default_Hourly_prec.nc" />
+  <attribute name="NCO" value="netCDF Operators version 4.9.3 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)" />
+</netcdf>

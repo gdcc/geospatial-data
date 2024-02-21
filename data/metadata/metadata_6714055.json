@@ -1,0 +1,86 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/H8UWEX\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Effect of oceanic stochastic forcing on wintertime atmospheric dacadal variability over midlatitude North Pacific",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/H8UWEX",
+                "global_id": "doi:10.7910/DVN/H8UWEX",
+                "description": "Model output data that are used in \"Effect of oceanic stochastic forcing on wintertime atmospheric dacadal variability over midlatitude North Pacific\"",
+                "published_at": "2022-11-20T12:41:44Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Tao, Lingfeng, 2022, \"Replication Data for: Effect of oceanic stochastic forcing on wintertime atmospheric dacadal variability over midlatitude North Pacific\", <a href=\"https://doi.org/10.7910/DVN/H8UWEX\" target=\"_blank\">https://doi.org/10.7910/DVN/H8UWEX</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Tao, Lingfeng, 2022, \"Replication Data for: Effect of oceanic stochastic forcing on wintertime atmospheric dacadal variability over midlatitude North Pacific\", https://doi.org/10.7910/DVN/H8UWEX, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/H8UWEX",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 3024,
+                "versionId": 335814,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-11-19T11:24:16Z",
+                "updatedAt": "2022-11-20T12:41:44Z",
+                "contacts": [
+                    {
+                        "name": "Tao, Lingfeng",
+                        "affiliation": "Nanjing University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Effect of oceanic stochastic forcing on wintertime atmospheric dacadal variability over midlatitude North Pacific"
+                    }
+                ],
+                "authors": [
+                    "Tao, Lingfeng"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Tao, Lingfeng": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Nanjing University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lon" length="231" />
+  <dimension name="lat" length="97" />
+  <dimension name="season" length="4" />
+  <dimension name="boot" length="250" />
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="long_name" value="lon" />
+    <attribute name="axis" value="X" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="long_name" value="lat" />
+    <attribute name="axis" value="Y" />
+  </variable>
+  <variable name="season" shape="season" type="double">
+    <attribute name="units" value="months_after_Jan" />
+    <attribute name="long_name" value="season" />
+    <attribute name="axis" value="T" />
+  </variable>
+  <variable name="boot" shape="boot" type="int">
+    <attribute name="units" value="bootstrap_sample" />
+    <attribute name="long_name" value="boot" />
+    <attribute name="axis" value="Z" />
+  </variable>
+  <variable name="mu0" shape="boot season lat lon" type="float">
+    <attribute name="units" value="mm" />
+    <attribute name="_FillValue" type="float" value="NaN" />
+    <attribute name="long_name" value="center of GEV distribution (ref. year = 1983.5)" />
+  </variable>
+  <variable name="mu1" shape="boot season lat lon" type="float">
+    <attribute name="units" value="mm/decade" />
+    <attribute name="_FillValue" type="float" value="NaN" />
+    <attribute name="long_name" value="time trend in center of GEV distribution" />
+  </variable>
+  <variable name="logsigma" shape="boot season lat lon" type="float">
+    <attribute name="units" value="log mm" />
+    <attribute name="_FillValue" type="float" value="NaN" />
+    <attribute name="long_name" value="log scale of GEV distribution" />
+  </variable>
+  <variable name="xi" shape="boot season lat lon" type="float">
+    <attribute name="units" value="unitless" />
+    <attribute name="_FillValue" type="float" value="NaN" />
+    <attribute name="long_name" value="shape of GEV distribution" />
+  </variable>
+  <attribute name="title" value="Gridded best estimates of the GEV coefficients, with bootstrap standard errors" />
+  <attribute name="institution" value="Lawrence Berkeley National Laboratory" />
+  <attribute name="references" value="[insert arxiv link]" />
+  <attribute name="history" value="M.D. Risser, Tue Jun  5 13:07:17 2018" />
+</netcdf>

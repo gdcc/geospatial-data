@@ -1,0 +1,90 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/PLEYEF\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for \"Geographically-resolved social cost of anthropogenic emissions accounting for both direct and climate-mediated effects\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/PLEYEF",
+                "global_id": "doi:10.7910/DVN/PLEYEF",
+                "description": "Replication Data for \"Geographically-resolved social cost of anthropogenic emissions accounting for both direct and climate-mediated effects.\" Aerosol perturbation simulation output for relevant variables, baseline distributions of crops, population, income. Code to calculate impacts & produce figures/tables.",
+                "published_at": "2022-09-07T23:21:46Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Burney, Jennifer, 2022, \"Replication Data for &quot;Geographically-resolved social cost of anthropogenic emissions accounting for both direct and climate-mediated effects&quot;\", <a href=\"https://doi.org/10.7910/DVN/PLEYEF\" target=\"_blank\">https://doi.org/10.7910/DVN/PLEYEF</a>, Harvard Dataverse, V5, UNF:6:Zgc+3HqKbpA6O8zUuln7lA== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Burney, Jennifer, 2022, \"Replication Data for \"Geographically-resolved social cost of anthropogenic emissions accounting for both direct and climate-mediated effects\"\", https://doi.org/10.7910/DVN/PLEYEF, Harvard Dataverse, V5, UNF:6:Zgc+3HqKbpA6O8zUuln7lA== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/PLEYEF",
+                "subjects": [
+                    "Earth and Environmental Sciences",
+                    "Social Sciences"
+                ],
+                "fileCount": 184,
+                "versionId": 332250,
+                "versionState": "RELEASED",
+                "majorVersion": 5,
+                "minorVersion": 0,
+                "createdAt": "2022-04-26T18:49:36Z",
+                "updatedAt": "2022-09-07T23:21:46Z",
+                "contacts": [
+                    {
+                        "name": "Jennifer Burney",
+                        "affiliation": "UC San Diego"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "\"Geographically-resolved social cost of anthropogenic emissions accounting for both direct and climate-mediated effects\""
+                    }
+                ],
+                "authors": [
+                    "Burney, Jennifer"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        },
+                        {
+                            "Social Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Burney, Jennifer": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "UC San Diego": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/4PQXQF\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Observed Atmospheric Composition Data",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/4PQXQF",
+                "global_id": "doi:10.7910/DVN/4PQXQF",
+                "description": "This dataset is prepared for the ACP paper: Interactive biogenic emissions and drought stress effects on atmospheric composition in NASA GISS ModelE. Please consider citing the dataset if you find it helpful. (2022-09-23)",
+                "published_at": "2022-09-23T19:20:08Z",
+                "publisher": "Elizabeth Klovenski Dataverse",
+                "citationHtml": "Klovenski, Elizabeth, 2022, \"Observed Atmospheric Composition Data\", <a href=\"https://doi.org/10.7910/DVN/4PQXQF\" target=\"_blank\">https://doi.org/10.7910/DVN/4PQXQF</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "observed_atmospheric_compositon_data",
+                "name_of_dataverse": "Elizabeth Klovenski Dataverse",
+                "citation": "Klovenski, Elizabeth, 2022, \"Observed Atmospheric Composition Data\", https://doi.org/10.7910/DVN/4PQXQF, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/4PQXQF",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 4,
+                "versionId": 333591,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-09-23T17:32:40Z",
+                "updatedAt": "2022-09-23T19:20:08Z",
+                "contacts": [
+                    {
+                        "name": "Klovenski, Elizabeth",
+                        "affiliation": "University of Houston"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Klovenski, E. R., Wang, Y., Bauer, S. E., Tsigaridis, K., Faluvegi, G., Aleinov, I., Kiang, N. Y., Guenther, A., Jiang, X., Li, W., and Lin, N.: Interactive Biogenic Emissions and Drought Stress Effects on Atmospheric Composition in NASA GISS ModelE, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2022-292, 2022.",
+                        "url": "https://doi.org/10.5194/egusphere-2022-292"
+                    }
+                ],
+                "authors": [
+                    "Klovenski, Elizabeth"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Klovenski, Elizabeth": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of Houston": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/YM70Y7\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Alaska 2013 Campaign",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/YM70Y7",
+                "global_id": "doi:10.7910/DVN/YM70Y7",
+                "description": "aircraft and tower data from the FOCAL 2013 campaign to North Slope, AK",
+                "published_at": "2018-01-10T16:57:24Z",
+                "publisher": "FOCAL Dataverse",
+                "citationHtml": "Sayres, David; Dobosy, Ron, 2018, \"Alaska 2013 Campaign\", <a href=\"https://doi.org/10.7910/DVN/YM70Y7\" target=\"_blank\">https://doi.org/10.7910/DVN/YM70Y7</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "focal",
+                "name_of_dataverse": "FOCAL Dataverse",
+                "citation": "Sayres, David; Dobosy, Ron, 2018, \"Alaska 2013 Campaign\", https://doi.org/10.7910/DVN/YM70Y7, Harvard Dataverse, V1",
+                "storageIdentifier": "file",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 28,
+                "versionId": 132189,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 1,
+                "createdAt": "2018-01-10T16:55:08Z",
+                "updatedAt": "2018-01-10T18:58:37Z",
+                "contacts": [
+                    {
+                        "name": "Sayres, David",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Sayres, D. S.; Dobosy, R.; Healy, C.; Dumas, E.; Kochendorfer, J.; Munster, J.; Wilkerson, J.; Baker, B. &amp; Anderson, J. G. Arctic regional methane fluxes by ecotope as derived using eddy covariance from a low-flying aircraft Atmospheric Chemistry and Physics, 17, 8619-8633, doi:10.5194/acp-17-8619-2017, 2017."
+                    },
+                    {
+                        "citation": "Dobosy, R.; Sayres, D.; Healy, C.; Dumas, E.; Heuer, M.; Kochendorfer, J.; Baker, B. &amp; Anderson, J. Estimating Random Uncertainty in Airborne Flux Measurements over Alaskan Tundra: Update on the Flux Fragment Method Journal of Atmospheric and Oceanic Technology, 34, 1807-1822, doi:10.1175/JTECH-D-16-0187.1, 2017."
+                    }
+                ],
+                "geographicCoverage": [
+                    {
+                        "country": "United States",
+                        "state": "Alaska,"
+                    }
+                ],
+                "authors": [
+                    "Sayres, David",
+                    "Dobosy, Ron"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2018": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Dobosy, Ron": 1
+                        },
+                        {
+                            "Sayres, David": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        },
+                        {
+                            "NOAA/ATDD": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

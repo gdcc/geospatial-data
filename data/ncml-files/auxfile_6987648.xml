@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="model" length="61" />
+  <dimension name="time" length="171" />
+  <dimension name="model_char" length="18" />
+  <variable name="model" shape="model model_char" type="char">
+    <attribute name="named_coordinate" type="int" value="1" />
+    <attribute name="_FillValue" value="" />
+  </variable>
+  <variable name="time" shape="time" type="int">
+    <attribute name="_FillValue" type="int" value="-2147483647" />
+  </variable>
+  <variable name="tas" shape="model time" type="double">
+    <attribute name="standard_name" value="air_temperature_anomaly" />
+    <attribute name="long_name" value="Near-Surface Air Temperature Anomaly" />
+    <attribute name="units" value="degree_Celsius" />
+    <attribute name="missing_value" type="float" value="1.0E20" />
+  </variable>
+  <attribute name="created_by" value="ESMValTool, fig-3-4" />
+  <attribute name="creation_date" value="Tue Jul 13 16:27:16 CEST 2021" />
+  <attribute name="title" value="Simulated time series of the anomalies in annual and global mean near-surface air temperature (GSAT)" />
+  <attribute name="creator" value="Lisa Bock (lisa.bock@dlr.de)" />
+  <attribute name="activity" value="IPCC AR6" />
+  <attribute name="comments" value="Data is for panel (a) of Figure 3.4 in the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapter 3." />
+  <attribute name="variable_id" value="tas" />
+</netcdf>

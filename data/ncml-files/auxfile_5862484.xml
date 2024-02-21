@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="1" />
+  <dimension name="lat" length="36" />
+  <dimension name="lon" length="72" />
+  <variable name="time" shape="time" type="double">
+    <attribute name="units" value="days since 2001-01-01 00:00:00.0" />
+    <attribute name="calendar" value="gregorian" />
+    <attribute name="cargtesian_axis" value="T" />
+  </variable>
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="units" value="degrees north" />
+    <attribute name="axis" value="Y" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="units" value="degrees east" />
+    <attribute name="axis" value="X" />
+  </variable>
+  <variable name="cmean1" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="-9.99E33" />
+    <attribute name="long_name" value="Mean by model" />
+  </variable>
+  <variable name="cmean2" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="-9.99E33" />
+    <attribute name="long_name" value="Mean by reference" />
+  </variable>
+  <variable name="diff" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="-9.99E33" />
+    <attribute name="long_name" value="diff" />
+  </variable>
+  <variable name="pval" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="-9.99E33" />
+    <attribute name="long_name" value="P-value by bootstrap" />
+  </variable>
+  <variable name="sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="-9.99E33" />
+    <attribute name="long_name" value="significance at 99%" />
+  </variable>
+  <attribute name="description" value="Frequency of Occurence diff model1=BEST2020 (2001-2020), model2=BEST2020 (1980-2000) using boot strap" />
+  <attribute name="history" value="Created Thu Nov  4 10:56:49 2021" />
+  <attribute name="source" value="/home/hnm/tools/Tytrk_flor/Anl/006_eof_tcf/mynetcdf4.pyc" />
+</netcdf>

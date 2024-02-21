@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="polynomial" length="2" />
+  <dimension name="ground_pixel" length="1280" />
+  <dimension name="central_wavelength" length="9" />
+  <dimension name="delta_wavelength" length="1501" />
+  <variable name="isrf" shape="ground_pixel central_wavelength delta_wavelength" type="double">
+    <attribute name="units" value="nm^-1" />
+    <attribute name="long_name" value="ISRF" />
+  </variable>
+  <variable name="pix2nm_polynomial" shape="ground_pixel polynomial" type="double">
+    <attribute name="long_name" value="wavelength calibration coefficients, starting from intercept" />
+  </variable>
+  <variable name="central_wavelength" shape="central_wavelength" type="double">
+    <attribute name="units" value="nm" />
+    <attribute name="long_name" value="wavelength grid where ISRF was measured" />
+  </variable>
+  <variable name="delta_wavelength" shape="delta_wavelength" type="double">
+    <attribute name="units" value="nm" />
+    <attribute name="long_name" value="wavelength grid of ISRF" />
+  </variable>
+  <attribute name="_NCProperties" value="version=1|netcdflibversion=4.6.1|hdf5libversion=1.10.2" />
+</netcdf>

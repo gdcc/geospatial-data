@@ -1,0 +1,92 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/JBDZYQ\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "BTSI Reconstruction of the ACRIM Gap",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/JBDZYQ",
+                "global_id": "doi:10.7910/DVN/JBDZYQ",
+                "description": "This dataset contains model output of TSI as a netCDF file, as well as supporting datasets and Matlab code for the Bayesian TSI (BTSI) reconstruction of solar irradiance during the ACRIM Gap. Code and repository are also available at https://github.com/tamdur/ACRIM-Gap.",
+                "published_at": "2023-03-21T15:45:25Z",
+                "publisher": "Huybers Group",
+                "citationHtml": "Amdur, Ted; Huybers, Peter, 2023, \"BTSI Reconstruction of the ACRIM Gap\", <a href=\"https://doi.org/10.7910/DVN/JBDZYQ\" target=\"_blank\">https://doi.org/10.7910/DVN/JBDZYQ</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "phuybers",
+                "name_of_dataverse": "Huybers Group",
+                "citation": "Amdur, Ted; Huybers, Peter, 2023, \"BTSI Reconstruction of the ACRIM Gap\", https://doi.org/10.7910/DVN/JBDZYQ, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/JBDZYQ",
+                "keywords": [
+                    "Total Solar Irradiance",
+                    "TSI"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 154,
+                "versionId": 342792,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2023-03-21T12:45:43Z",
+                "updatedAt": "2023-03-21T15:45:25Z",
+                "contacts": [
+                    {
+                        "name": "Amdur, Ted",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "publications": [
+                    {}
+                ],
+                "authors": [
+                    "Amdur, Ted",
+                    "Huybers, Peter"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2023": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Amdur, Ted": 1
+                        },
+                        {
+                            "Huybers, Peter": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

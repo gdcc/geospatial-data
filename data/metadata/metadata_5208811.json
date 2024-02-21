@@ -1,0 +1,122 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/HUXAH6\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "A global dataset on subgrid land surface climate (2015\u20132100) from the Community Earth System Model",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/HUXAH6",
+                "global_id": "doi:10.7910/DVN/HUXAH6",
+                "description": "This is a global dataset on subgrid land surface climate variables produced by the Community Earth System Model. The simulation was conducted at a 0.9\u00b0 \u00d7 1.25\u00b0 resolution under the Representative Concentration Pathway (RCP) 8.5 scenario from 2015 to 2100. Data are archived for eight subgrid tiles (urban, rural, tree, grass, shrub, bare soil, crop, and lake) and include variables on the physical state, surface energy fluxes, runoff, and atmospheric forcing conditions. Archival intervals are monthly, daily, and hourly. Meta data on land surface parameters are also available.",
+                "published_at": "2021-09-30T22:37:34Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Zhang, Keer; Lee, Xuhui; Schultz, Natalie M.; Zhao, Lei; He, Chunyang; Huang, Qingxu; Liu, Zhifeng; Chu, Haoran; Zhao, Jiayu, 2021, \"A global dataset on subgrid land surface climate (2015&ndash;2100) from the Community Earth System Model\", <a href=\"https://doi.org/10.7910/DVN/HUXAH6\" target=\"_blank\">https://doi.org/10.7910/DVN/HUXAH6</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Zhang, Keer; Lee, Xuhui; Schultz, Natalie M.; Zhao, Lei; He, Chunyang; Huang, Qingxu; Liu, Zhifeng; Chu, Haoran; Zhao, Jiayu, 2021, \"A global dataset on subgrid land surface climate (2015\u20132100) from the Community Earth System Model\", https://doi.org/10.7910/DVN/HUXAH6, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/HUXAH6",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 3079,
+                "versionId": 273019,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2021-09-20T14:51:44Z",
+                "updatedAt": "2021-09-30T22:37:34Z",
+                "contacts": [
+                    {
+                        "name": "Zhang, Keer",
+                        "affiliation": "Yale University"
+                    }
+                ],
+                "authors": [
+                    "Zhang, Keer",
+                    "Lee, Xuhui",
+                    "Schultz, Natalie M.",
+                    "Zhao, Lei",
+                    "He, Chunyang",
+                    "Huang, Qingxu",
+                    "Liu, Zhifeng",
+                    "Chu, Haoran",
+                    "Zhao, Jiayu"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Chu, Haoran": 1
+                        },
+                        {
+                            "He, Chunyang": 1
+                        },
+                        {
+                            "Huang, Qingxu": 1
+                        },
+                        {
+                            "Lee, Xuhui": 1
+                        },
+                        {
+                            "Liu, Zhifeng": 1
+                        },
+                        {
+                            "Schultz, Natalie M.": 1
+                        },
+                        {
+                            "Zhang, Keer": 1
+                        },
+                        {
+                            "Zhao, Jiayu": 1
+                        },
+                        {
+                            "Zhao, Lei": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Beijing Normal University": 1
+                        },
+                        {
+                            "Nanjing University of Information Science and Technology": 1
+                        },
+                        {
+                            "University of Illinois at Urbana-Champaign": 1
+                        },
+                        {
+                            "Yale University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

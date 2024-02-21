@@ -1,0 +1,88 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/GHNJQA\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Model data for: \"On the chemical effects of wildfire smoke on stratospheric chlorine chemistry and ozone depletion\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/GHNJQA",
+                "global_id": "doi:10.7910/DVN/GHNJQA",
+                "description": "Model output and model code changes used for analysis in \"Modelling the effects of wildfire smoke on stratospheric chlorine chemistry and ozone\" submitted to ...:",
+                "published_at": "2022-08-24T14:05:00Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Stone, Kane; Susan Solomon, 2022, \"Model data for: &quot;On the chemical effects of wildfire smoke on stratospheric chlorine chemistry and ozone depletion&quot;\", <a href=\"https://doi.org/10.7910/DVN/GHNJQA\" target=\"_blank\">https://doi.org/10.7910/DVN/GHNJQA</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Stone, Kane; Susan Solomon, 2022, \"Model data for: \"On the chemical effects of wildfire smoke on stratospheric chlorine chemistry and ozone depletion\"\", https://doi.org/10.7910/DVN/GHNJQA, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/GHNJQA",
+                "keywords": [
+                    "Aerosols, Wildire, Stratospheric chemistry"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 9,
+                "versionId": 331189,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-08-15T18:35:53Z",
+                "updatedAt": "2022-08-24T14:05:00Z",
+                "contacts": [
+                    {
+                        "name": "Stone, Kane",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "authors": [
+                    "Stone, Kane",
+                    "Susan Solomon"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Stone, Kane": 1
+                        },
+                        {
+                            "Susan Solomon": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

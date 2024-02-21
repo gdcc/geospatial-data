@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="newtime" length="100" isUnlimited="true" />
+  <dimension name="theta_sfcs" length="57" />
+  <dimension name="lat" length="192" />
+  <dimension name="lon" length="288" />
+  <variable name="VAvg_HOx" shape="newtime theta_sfcs" type="float">
+    <attribute name="units" value="mol/mol" />
+  </variable>
+  <variable name="VAvg_HOx_NOSPE" shape="newtime theta_sfcs" type="float">
+    <attribute name="units" value="mol/mol" />
+  </variable>
+  <variable name="VAvg_HOx_enh" shape="newtime theta_sfcs" type="float" />
+  <variable name="VAvg_NO" shape="newtime theta_sfcs" type="float">
+    <attribute name="units" value="mol/mol" />
+  </variable>
+  <variable name="VAvg_NO_NOSPE" shape="newtime theta_sfcs" type="float">
+    <attribute name="units" value="mol/mol" />
+  </variable>
+  <variable name="VAvg_NO_enh" shape="newtime theta_sfcs" type="float" />
+  <variable name="VAvg_NOx" shape="newtime theta_sfcs" type="float">
+    <attribute name="units" value="mol/mol" />
+  </variable>
+  <variable name="VAvg_NOx_NOSPE" shape="newtime theta_sfcs" type="float">
+    <attribute name="units" value="mol/mol" />
+  </variable>
+  <variable name="VAvg_NOx_enh" shape="newtime theta_sfcs" type="float" />
+  <variable name="VAvg_NOy" shape="newtime theta_sfcs" type="float">
+    <attribute name="units" value="mol/mol" />
+  </variable>
+  <variable name="VAvg_NOy_NOSPE" shape="newtime theta_sfcs" type="float">
+    <attribute name="units" value="mol/mol" />
+  </variable>
+  <variable name="VAvg_NOy_enh" shape="newtime theta_sfcs" type="float" />
+  <variable name="VAvg_O3" shape="newtime theta_sfcs" type="float">
+    <attribute name="units" value="mol/mol" />
+  </variable>
+  <variable name="VAvg_O3_NOSPE" shape="newtime theta_sfcs" type="float">
+    <attribute name="units" value="mol/mol" />
+  </variable>
+  <variable name="VAvg_O3_enh" shape="newtime theta_sfcs" type="float" />
+  <variable name="date" shape="newtime" type="double" />
+  <variable name="datesec" shape="newtime" type="double" />
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="units" value="deg north" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="units" value="deg east" />
+  </variable>
+  <variable name="newtime" shape="newtime" type="float">
+    <attribute name="units" value=" " />
+  </variable>
+  <variable name="spv" shape="newtime theta_sfcs lat lon" type="float">
+    <attribute name="units" value="s-1" />
+  </variable>
+  <variable name="theta_sfcs" shape="theta_sfcs" type="float">
+    <attribute name="units" value="K" />
+  </variable>
+  <attribute name="NCO" value="netCDF Operators version 4.9.1 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)" />
+</netcdf>

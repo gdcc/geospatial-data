@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="19" />
+  <dimension name="lat" length="160" />
+  <dimension name="lon" length="320" />
+  <variable name="time" shape="time" type="int">
+    <attribute name="units" value="months" />
+    <attribute name="axis" value="T" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="axis" value="X" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="long_name" value="longitude" />
+    <attribute name="standard_name" value="lon" />
+    <attribute name="_FillValue" type="double" value="9.969209968386869E36" />
+  </variable>
+  <variable name="ts_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="ts_anom" />
+  </variable>
+  <variable name="ts_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="ts_anom_sdev" />
+  </variable>
+  <variable name="ts_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="ts_anom_sig" />
+  </variable>
+  <variable name="uas_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="uas_anom" />
+  </variable>
+  <variable name="uas_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="uas_anom_sdev" />
+  </variable>
+  <variable name="uas_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="uas_anom_sig" />
+  </variable>
+  <variable name="vas_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="vas_anom" />
+  </variable>
+  <variable name="vas_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="vas_anom_sdev" />
+  </variable>
+  <variable name="vas_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="vas_anom_sig" />
+  </variable>
+  <variable name="pr_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="pr_anom" />
+  </variable>
+  <variable name="pr_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="pr_anom_sdev" />
+  </variable>
+  <variable name="pr_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="pr_anom_sig" />
+  </variable>
+  <variable name="psl_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="psl_anom" />
+  </variable>
+  <variable name="psl_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="psl_anom_sdev" />
+  </variable>
+  <variable name="psl_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="psl_anom_sig" />
+  </variable>
+  <variable name="hfls_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="hfls_anom" />
+  </variable>
+  <variable name="hfls_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="hfls_anom_sdev" />
+  </variable>
+  <variable name="hfls_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="hfls_anom_sig" />
+  </variable>
+  <variable name="pr" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="pr" />
+  </variable>
+  <variable name="pr_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="pr_sdev" />
+  </variable>
+  <variable name="pr_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="pr_sig" />
+  </variable>
+  <variable name="wsps_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="wsps_anom" />
+  </variable>
+  <variable name="wsps_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="wsps_anom_sdev" />
+  </variable>
+  <variable name="wsps_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="wsps_anom_sig" />
+  </variable>
+  <variable name="zg850_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="zg850_anom" />
+  </variable>
+  <variable name="zg850_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="zg850_anom_sdev" />
+  </variable>
+  <variable name="zg850_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="zg850_anom_sig" />
+  </variable>
+  <variable name="zg200_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="zg200_anom" />
+  </variable>
+  <variable name="zg200_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="zg200_anom_sdev" />
+  </variable>
+  <variable name="zg200_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="zg200_anom_sig" />
+  </variable>
+  <variable name="ua850_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="ua850_anom" />
+  </variable>
+  <variable name="ua850_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="ua850_anom_sdev" />
+  </variable>
+  <variable name="ua850_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="ua850_anom_sig" />
+  </variable>
+  <variable name="ua200_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="ua200_anom" />
+  </variable>
+  <variable name="ua200_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="ua200_anom_sdev" />
+  </variable>
+  <variable name="ua200_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="ua200_anom_sig" />
+  </variable>
+  <variable name="va850_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="va850_anom" />
+  </variable>
+  <variable name="va850_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="va850_anom_sdev" />
+  </variable>
+  <variable name="va850_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="va850_anom_sig" />
+  </variable>
+  <variable name="va200_anom" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="va200_anom" />
+  </variable>
+  <variable name="va200_anom_sdev" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="va200_anom_sdev" />
+  </variable>
+  <variable name="va200_anom_sig" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+    <attribute name="standard_name" value="va200_anom_sig" />
+  </variable>
+  <attribute name="detr" type="int" value="1" />
+  <attribute name="norm" type="int" value="1" />
+  <attribute name="datevec" value="198201" />
+  <attribute name="crit_type" type="int" value="-1" />
+  <attribute name="crit_fac" type="float" value="-0.8" />
+  <attribute name="indx_mth" type="int" value="1 2 3" />
+  <attribute name="indname" value="NTA" />
+  <attribute name="indvar" value="ts_anom" />
+  <attribute name="selmeth" type="int" value="2" />
+  <attribute name="siglev" type="float" value="0.05" />
+  <attribute name="experiment" value="exp000" />
+  <attribute name="model" value="sintexf1" />
+  <attribute name="nrun" type="int" value="9" />
+  <attribute name="runstr" value="ens_bc01" />
+  <attribute name="anchorstr" value="Mar" />
+  <attribute name="anchormth" type="int" value="2" />
+  <attribute name="yrlist" type="int" value="1985 1986 1989 1994 1999 2003 2009 2012 2014" />
+  <attribute name="nevent" type="int" value="81" />
+  <attribute name="nyr" type="int" value="9" />
+</netcdf>

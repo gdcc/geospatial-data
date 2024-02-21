@@ -1,0 +1,103 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/KG1MH6\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Data support for \"Hygroscopic seeding effects of giant aerosol particles simulated by the Lagrangian-particle-based direct numerical simulation\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/KG1MH6",
+                "global_id": "doi:10.7910/DVN/KG1MH6",
+                "description": "This dataset contains the model output from DNS described in the manuscript of \"Hygroscopic seeding effects of giant aerosol particles simulated by the Lagrangian particle-based direct numerical simulation\". There are ten cloud seeding scenarios in total, including one unseeded and nine seeded cases. The seeded cases are referred as rAnB where A stands for seeding particle radius in micron and B stands for seeding particle number concentration in per cubic cm. See manuscript for more detail.",
+                "published_at": "2021-06-02T03:44:46Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "chen, sisi; Lulin Xue; M.K. Yau, 2021, \"Data support for &quot;Hygroscopic seeding effects of giant aerosol particles simulated by the Lagrangian-particle-based direct numerical simulation&quot;\", <a href=\"https://doi.org/10.7910/DVN/KG1MH6\" target=\"_blank\">https://doi.org/10.7910/DVN/KG1MH6</a>, Harvard Dataverse, V2",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "chen, sisi; Lulin Xue; M.K. Yau, 2021, \"Data support for \"Hygroscopic seeding effects of giant aerosol particles simulated by the Lagrangian-particle-based direct numerical simulation\"\", https://doi.org/10.7910/DVN/KG1MH6, Harvard Dataverse, V2",
+                "storageIdentifier": "s3://10.7910/DVN/KG1MH6",
+                "keywords": [
+                    "Clouds, hygroscopic seeding, aerosols, DNS"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 50,
+                "versionId": 247492,
+                "versionState": "RELEASED",
+                "majorVersion": 2,
+                "minorVersion": 1,
+                "createdAt": "2021-05-28T02:55:48Z",
+                "updatedAt": "2022-09-28T22:24:21Z",
+                "contacts": [
+                    {
+                        "name": "chen, sisi",
+                        "affiliation": "NCAR"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "The relevant manuscript was submitted to GRL for review."
+                    }
+                ],
+                "authors": [
+                    "chen, sisi",
+                    "Lulin Xue",
+                    "M.K. Yau"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Lulin Xue": 1
+                        },
+                        {
+                            "M.K. Yau": 1
+                        },
+                        {
+                            "chen, sisi": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "McGill University": 1
+                        },
+                        {
+                            "NCAR": 1
+                        },
+                        {
+                            "NCAR, Hua Xin Chuang Zhi Sci. & Tech. LLC": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

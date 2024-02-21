@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="1" isUnlimited="true" />
+  <dimension name="bnds" length="2" />
+  <dimension name="lon" length="1" />
+  <dimension name="lat" length="64" />
+  <variable name="time" shape="time" type="double">
+    <attribute name="standard_name" value="time" />
+    <attribute name="long_name" value="time" />
+    <attribute name="bounds" value="time_bnds" />
+    <attribute name="units" value="day since 2040-01-01 12:00:00" />
+    <attribute name="calendar" value="gregorian" />
+    <attribute name="axis" value="T" />
+  </variable>
+  <variable name="time_bnds" shape="time bnds" type="double" />
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="axis" value="X" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="axis" value="Y" />
+  </variable>
+  <variable name="aps" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface pressure" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <attribute name="CDI" value="Climate Data Interface version 1.9.4 (http://mpimet.mpg.de/cdi)" />
+  <attribute name="Conventions" value="CF-1.0, + local extensions" />
+  <attribute name="history" value="Mon Feb 24 03:30:55 2020: cdo -f nc -ml2plx,10,20,30,50,100,150,200,300,500,700,1000,1500,2000,3000,5000,7000,8000,9000,10000,11500,13000,15000,17000,20000,25000,30000,40000,50000,70000,85000,100000 -selname,aps,te_m,u_m h2so4_point_10mt_8yrs_zonmean_aero2.nc h2so4_point_10mt_8yrs_zonmean_aero2.nc_levels.nc&#xA;Thu Feb 20 04:35:56 2020: cdo zonmean h2so4_point_10mt_2052-2059.01_aero2.nc h2so4_point_10mt_2052-2059.01_zonmean_aero2.nc&#xA;Wed Feb 19 07:12:40 2020: cdo ensmean h2so4_point_10mt_204701.01_aero2.nc h2so4_point_10mt_204702.01_aero2.nc h2so4_point_10mt_204703.01_aero2.nc h2so4_point_10mt_204704.01_aero2.nc h2so4_point_10mt_204705.01_aero2.nc h2so4_point_10mt_204706.01_aero2.nc h2so4_point_10mt_204707.01_aero2.nc h2so4_point_10mt_204708.01_aero2.nc h2so4_point_10mt_204709.01_aero2.nc h2so4_point_10mt_204710.01_aero2.nc h2so4_point_10mt_204711.01_aero2.nc h2so4_point_10mt_204712.01_aero2.nc h2so4_point_10mt_204801.01_aero2.nc h2so4_point_10mt_204802.01_aero2.nc h2so4_point_10mt_204803.01_aero2.nc h2so4_point_10mt_204804.01_aero2.nc h2so4_point_10mt_204805.01_aero2.nc h2so4_point_10mt_204806.01_aero2.nc h2so4_point_10mt_204807.01_aero2.nc h2so4_point_10mt_204808.01_aero2.nc h2so4_point_10mt_204809.01_aero2.nc h2so4_point_10mt_204810.01_aero2.nc h2so4_point_10mt_204811.01_aero2.nc h2so4_point_10mt_204812.01_aero2.nc h2so4_point_10mt_204901.01_aero2.nc h2so4_point_10mt_204902.01_aero2.nc h2so4_point_10mt_204903.01_aero2.nc h2so4_point_10mt_204904.01_aero2.nc h2so4_point_10mt_204905.01_aero2.nc h2so4_point_10mt_204906.01_aero2.nc h2so4_point_10mt_204907.01_aero2.nc h2so4_point_10mt_204908.01_aero2.nc h2so4_point_10mt_204909.01_aero2.nc h2so4_point_10mt_204910.01_aero2.nc h2so4_point_10mt_204911.01_aero2.nc h2so4_point_10mt_204912.01_aero2.nc h2so4_point_10mt_205001.01_aero2.nc h2so4_point_10mt_205002.01_aero2.nc h2so4_point_10mt_205003.01_aero2.nc h2so4_point_10mt_205004.01_aero2.nc h2so4_point_10mt_205005.01_aero2.nc h2so4_point_10mt_205006.01_aero2.nc h2so4_point_10mt_205007.01_aero2.nc h2so4_point_10mt_205008.01_aero2.nc h2so4_point_10mt_205009.01_aero2.nc h2so4_point_10mt_205010.01_aero2.nc h2so4_point_10mt_205011.01_aero2.nc h2so4_point_10mt_205012.01_aero2.nc h2so4_point_10mt_205101.01_aero2.nc h2so4_point_10mt_205102.01_aero2.nc h2so4_point_10mt_205103.01_aero2.nc h2so4_point_10mt_205104.01_aero2.nc h2so4_point_10mt_205105.01_aero2.nc h2so4_point_10mt_205106.01_aero2.nc h2so4_point_10mt_205107.01_aero2.nc h2so4_point_10mt_205108.01_aero2.nc h2so4_point_10mt_205109.01_aero2.nc h2so4_point_10mt_205110.01_aero2.nc h2so4_point_10mt_205111.01_aero2.nc h2so4_point_10mt_205112.01_aero2.nc h2so4_point_10mt_205201.01_aero2.nc h2so4_point_10mt_205202.01_aero2.nc h2so4_point_10mt_205203.01_aero2.nc h2so4_point_10mt_205204.01_aero2.nc h2so4_point_10mt_205205.01_aero2.nc h2so4_point_10mt_205206.01_aero2.nc h2so4_point_10mt_205207.01_aero2.nc h2so4_point_10mt_205208.01_aero2.nc h2so4_point_10mt_205209.01_aero2.nc h2so4_point_10mt_205210.01_aero2.nc h2so4_point_10mt_205211.01_aero2.nc h2so4_point_10mt_205212.01_aero2.nc h2so4_point_10mt_205301.01_aero2.nc h2so4_point_10mt_205302.01_aero2.nc h2so4_point_10mt_205303.01_aero2.nc h2so4_point_10mt_205304.01_aero2.nc h2so4_point_10mt_205305.01_aero2.nc h2so4_point_10mt_205306.01_aero2.nc h2so4_point_10mt_205307.01_aero2.nc h2so4_point_10mt_205308.01_aero2.nc h2so4_point_10mt_205309.01_aero2.nc h2so4_point_10mt_205310.01_aero2.nc h2so4_point_10mt_205311.01_aero2.nc h2so4_point_10mt_205312.01_aero2.nc h2so4_point_10mt_205401.01_aero2.nc h2so4_point_10mt_205402.01_aero2.nc h2so4_point_10mt_205403.01_aero2.nc h2so4_point_10mt_205404.01_aero2.nc h2so4_point_10mt_205405.01_aero2.nc h2so4_point_10mt_205406.01_aero2.nc h2so4_point_10mt_205407.01_aero2.nc h2so4_point_10mt_205408.01_aero2.nc h2so4_point_10mt_205409.01_aero2.nc h2so4_point_10mt_205410.01_aero2.nc h2so4_point_10mt_205411.01_aero2.nc h2so4_point_10mt_205412.01_aero2.nc ../time/h2so4_point_10mt_2052-2059.01_aero2.nc&#xA;Fri Feb 07 02:31:31 2020: cdo -monavg h2so4_point_10mt_204701.01_aero2.nc ../data/h2so4_point_10mt/h2so4_point_10mt_204701.01_aero2.nc" />
+  <attribute name="source" value="ECHAM5.4" />
+  <attribute name="institution" value="Max-Planck-Institute for Meteorology" />
+  <attribute name="title" value="h2so4_point_10mt" />
+  <attribute name="echam_version" value="5.4.00" />
+  <attribute name="advection" value="Lin &amp; Rood" />
+  <attribute name="physics" value="Modified ECMWF physics" />
+  <attribute name="radiation" value="Modified ECMWF radiation" />
+  <attribute name="date_time" value="20200129 084403" />
+  <attribute name="operating_system" value="Linux 3.10.0-957.12.1.el7.x86_64 on x86_64" />
+  <attribute name="user_name" value="Sandro Vattioni (svattioni)" />
+  <attribute name="host_name" value="holy2b11107" />
+  <attribute name="truncation" type="int" value="42" />
+  <attribute name="frequency" value="mon" />
+  <attribute name="CDO" value="Climate Data Operators version 1.9.4 (http://mpimet.mpg.de/cdo)" />
+</netcdf>

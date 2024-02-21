@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lat" length="192" />
+  <dimension name="lon" length="288" />
+  <dimension name="time" length="12" isUnlimited="true" />
+  <dimension name="nbnd" length="2" />
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="time" shape="time" type="double">
+    <attribute name="long_name" value="time" />
+    <attribute name="units" value="days since 1810-07-01 00:00:00" />
+    <attribute name="calendar" value="noleap" />
+    <attribute name="bounds" value="time_bnds" />
+  </variable>
+  <variable name="time_bnds" shape="time nbnd" type="double">
+    <attribute name="long_name" value="time interval endpoints" />
+  </variable>
+  <variable name="AODSO4" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="1.0E36" />
+    <attribute name="missing_value" type="float" value="1.0E36" />
+    <attribute name="long_name" value="Aerosol optical depth 550 nm from SO4" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <attribute name="Conventions" value="CF-1.0" />
+  <attribute name="source" value="CAM" />
+  <attribute name="case" value="b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01" />
+  <attribute name="title" value="UNSET" />
+  <attribute name="logname" value="bzambri" />
+  <attribute name="host" value="yslogin4" />
+  <attribute name="Version" value="$Name$" />
+  <attribute name="revision_Id" value="$Id$" />
+  <attribute name="initial_file" value="/glade/p/acd/mmills/archive/b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.06.noCLUBB.001/rest/0104-07-01-00000/b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.06.noCLUBB.001.cam.i.0104-07-01-00000.nc" />
+  <attribute name="topography_file" value="/glade/p/cesmdata/cseg/inputdata/atm/cam/topo/fv0.9x1.25-gtopo30-cam_fv_smooth-intermediate_ncube3000-no_anisoSGH.nc" />
+  <attribute name="time_period_freq" value="month_1" />
+  <attribute name="history" value="Wed Nov  8 01:59:04 2017: ncea -v AODSO4 b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.182306-182405.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.02.cam.h0.182306-182405.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.03.cam.h0.182306-182405.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.04.cam.h0.182306-182405.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.05.cam.h0.182306-182405.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.06.cam.h0.182206-182305.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.07.cam.h0.182206-182305.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.08.cam.h0.182206-182305.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.09.cam.h0.182206-182305.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.10.cam.h0.182206-182305.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.11.cam.h0.182306-182405.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.12.cam.h0.182306-182405.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.13.cam.h0.182306-182405.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.14.cam.h0.182306-182405.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.15.cam.h0.182306-182405.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.16.cam.h0.182206-182305.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.17.cam.h0.182206-182305.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.18.cam.h0.182206-182305.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.19.cam.h0.182206-182305.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.20.cam.h0.182206-182305.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.21.cam.h0.183606-183705.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.22.cam.h0.183606-183705.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.23.cam.h0.183606-183705.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.24.cam.h0.183606-183705.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.25.cam.h0.183606-183705.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.26.cam.h0.183606-183705.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.27.cam.h0.183606-183705.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.28.cam.h0.183606-183705.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.29.cam.h0.183606-183705.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.30.cam.h0.183606-183705.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.31.cam.h0.181906-182005.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.32.cam.h0.181906-182005.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.33.cam.h0.181906-182005.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.34.cam.h0.181906-182005.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.35.cam.h0.181906-182005.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.36.cam.h0.181906-182005.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.37.cam.h0.181906-182005.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.38.cam.h0.181906-182005.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.39.cam.h0.181906-182005.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.40.cam.h0.181906-182005.nc /glade/p/work/bzambri/LakiOutput/AODSO4.Laki.avg.nc&#xA;Tue Nov  7 15:51:54 2017: ncrcat b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1823-06.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1823-07.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1823-08.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1823-09.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1823-10.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1823-11.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1823-12.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1824-01.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1824-02.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1824-03.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1824-04.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.1824-05.nc b.e15.B1850C5WCCML40CNR.f09_g16.cam5_4.Laki.01.cam.h0.182306-182405.nc" />
+  <attribute name="NCO" value="4.6.9" />
+  <attribute name="nco_openmp_thread_number" type="int" value="1" />
+</netcdf>

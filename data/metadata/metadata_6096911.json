@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/6V7YHW\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Pyroconvection Analysis",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/6V7YHW",
+                "global_id": "doi:10.7910/DVN/6V7YHW",
+                "description": "Data and code for \"Towards an atmosphere more favourable to firestorm development in Europe\" by Martin Senande-Rivera, Damian Insua-Costa and Gonzalo Miguez-Macho Data formats: netcdf and csv Codes: Python v3.8",
+                "published_at": "2022-08-02T10:41:50Z",
+                "publisher": "M. Senande-Rivera dataverse",
+                "citationHtml": "SENANDE RIVERA, MARTIN, 2022, \"Pyroconvection Analysis\", <a href=\"https://doi.org/10.7910/DVN/6V7YHW\" target=\"_blank\">https://doi.org/10.7910/DVN/6V7YHW</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "msr-usc",
+                "name_of_dataverse": "M. Senande-Rivera dataverse",
+                "citation": "SENANDE RIVERA, MARTIN, 2022, \"Pyroconvection Analysis\", https://doi.org/10.7910/DVN/6V7YHW, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/6V7YHW",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 202,
+                "versionId": 319508,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-03-15T13:35:01Z",
+                "updatedAt": "2022-08-02T10:41:50Z",
+                "contacts": [
+                    {
+                        "name": "SENANDE RIVERA, MARTIN",
+                        "affiliation": "Universidade de Santiago de Compostela"
+                    }
+                ],
+                "authors": [
+                    "SENANDE RIVERA, MARTIN"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "SENANDE RIVERA, MARTIN": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Universidade de Santiago de Compostela": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

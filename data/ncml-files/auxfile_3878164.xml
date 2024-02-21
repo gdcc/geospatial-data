@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="GROUP_LON_x" length="2061987" />
+  <dimension name="GROUP_LAT_x" length="2061987" />
+  <dimension name="GROUP_ENERGY_x" length="2061987" />
+  <dimension name="GROUP_CSPROB_x" length="2061987" />
+  <dimension name="GROUP_NEVENTS_x" length="2061987" />
+  <dimension name="GROUP_DATE_x" length="2061987" />
+  <dimension name="GROUP_TIME_x" length="2061987" />
+  <dimension name="GROUP_FID_x" length="2061987" />
+  <dimension name="SERIES_DURATION_x" length="2061987" />
+  <dimension name="FLASH_EXTENT_x" length="2061987" />
+  <dimension name="FLASH_DURATION_x" length="2061987" />
+  <dimension name="GRID_FEMAX_ENERGY_x" length="1800" />
+  <dimension name="GRID_FEMAX_ENERGY_y" length="1800" />
+  <dimension name="GRID_FEMEAN_ENERGY_x" length="1800" />
+  <dimension name="GRID_FEMEAN_ENERGY_y" length="1800" />
+  <dimension name="GRID_FEMIN_ENERGY_x" length="1800" />
+  <dimension name="GRID_FEMIN_ENERGY_y" length="1800" />
+  <dimension name="GRID_FEMIN_ENERGY_z" length="24" />
+  <dimension name="GRID_FMAX_ENERGY_x" length="1800" />
+  <dimension name="GRID_FMAX_ENERGY_y" length="1800" />
+  <dimension name="GRID_FMAX_ENERGY_z" length="24" />
+  <dimension name="GRID_FMEAN_ENERGY_x" length="1800" />
+  <dimension name="GRID_FMEAN_ENERGY_y" length="1800" />
+  <dimension name="GRID_FMIN_ENERGY_x" length="1800" />
+  <dimension name="GRID_FMIN_ENERGY_y" length="1800" />
+  <dimension name="GRID_FCOUNT_x" length="1800" />
+  <dimension name="GRID_FCOUNT_y" length="1800" />
+  <dimension name="GRID_FCOUNT_z" length="24" />
+  <dimension name="GRID_FED_x" length="1800" />
+  <dimension name="GRID_FED_y" length="1800" />
+  <dimension name="GRID_100X_x" length="1800" />
+  <dimension name="GRID_100X_y" length="1800" />
+  <dimension name="GRID_250X_x" length="1800" />
+  <dimension name="GRID_250X_y" length="1800" />
+  <dimension name="GRID_500X_x" length="1800" />
+  <dimension name="GRID_500X_y" length="1800" />
+  <dimension name="GRID_1000X_x" length="1800" />
+  <dimension name="GRID_1000X_y" length="1800" />
+  <dimension name="GRID_CS_100X_x" length="1800" />
+  <dimension name="GRID_CS_100X_y" length="1800" />
+  <dimension name="GRID_CS_250X_x" length="1800" />
+  <dimension name="GRID_CS_250X_y" length="1800" />
+  <dimension name="GRID_CS_500X_x" length="1800" />
+  <dimension name="GRID_CS_500X_y" length="1800" />
+  <dimension name="GRID_CS_1000X_x" length="1800" />
+  <dimension name="GRID_CS_1000X_y" length="1800" />
+  <variable name="GROUP_LON" shape="GROUP_LON_x" type="float" />
+  <variable name="GROUP_LAT" shape="GROUP_LAT_x" type="float" />
+  <variable name="GROUP_ENERGY" shape="GROUP_ENERGY_x" type="float" />
+  <variable name="GROUP_CSPROB" shape="GROUP_CSPROB_x" type="float" />
+  <variable name="GROUP_NEVENTS" shape="GROUP_NEVENTS_x" type="int" />
+  <variable name="GROUP_DATE" shape="GROUP_DATE_x" type="int" />
+  <variable name="GROUP_TIME" shape="GROUP_TIME_x" type="float" />
+  <variable name="GROUP_FID" shape="GROUP_FID_x" type="int" />
+  <variable name="SERIES_DURATION" shape="SERIES_DURATION_x" type="float" />
+  <variable name="FLASH_EXTENT" shape="FLASH_EXTENT_x" type="float" />
+  <variable name="FLASH_DURATION" shape="FLASH_DURATION_x" type="float" />
+  <variable name="GRID_FEMAX_ENERGY" shape="GRID_FEMAX_ENERGY_y GRID_FEMAX_ENERGY_x" type="float" />
+  <variable name="GRID_FEMEAN_ENERGY" shape="GRID_FEMEAN_ENERGY_y GRID_FEMEAN_ENERGY_x" type="float" />
+  <variable name="GRID_FEMIN_ENERGY" shape="GRID_FEMIN_ENERGY_z GRID_FEMIN_ENERGY_y GRID_FEMIN_ENERGY_x" type="float" />
+  <variable name="GRID_FMAX_ENERGY" shape="GRID_FMAX_ENERGY_z GRID_FMAX_ENERGY_y GRID_FMAX_ENERGY_x" type="float" />
+  <variable name="GRID_FMEAN_ENERGY" shape="GRID_FMEAN_ENERGY_y GRID_FMEAN_ENERGY_x" type="float" />
+  <variable name="GRID_FMIN_ENERGY" shape="GRID_FMIN_ENERGY_y GRID_FMIN_ENERGY_x" type="float" />
+  <variable name="GRID_FCOUNT" shape="GRID_FCOUNT_z GRID_FCOUNT_y GRID_FCOUNT_x" type="int" />
+  <variable name="GRID_FED" shape="GRID_FED_y GRID_FED_x" type="int" />
+  <variable name="GRID_100X" shape="GRID_100X_y GRID_100X_x" type="int" />
+  <variable name="GRID_250X" shape="GRID_250X_y GRID_250X_x" type="int" />
+  <variable name="GRID_500X" shape="GRID_500X_y GRID_500X_x" type="int" />
+  <variable name="GRID_1000X" shape="GRID_1000X_y GRID_1000X_x" type="int" />
+  <variable name="GRID_CS_100X" shape="GRID_CS_100X_y GRID_CS_100X_x" type="float" />
+  <variable name="GRID_CS_250X" shape="GRID_CS_250X_y GRID_CS_250X_x" type="float" />
+  <variable name="GRID_CS_500X" shape="GRID_CS_500X_y GRID_CS_500X_x" type="float" />
+  <variable name="GRID_CS_1000X" shape="GRID_CS_1000X_y GRID_CS_1000X_x" type="float" />
+</netcdf>

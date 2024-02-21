@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lon" length="54" />
+  <dimension name="lat" length="33" />
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="long_name" value="longitude coordinate" />
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="long_name" value="latitude coordinate" />
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="mean_area" shape="lat lon" type="float">
+    <attribute name="long_name" value="mean_area" />
+    <attribute name="esri_pe_string" value="GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]]" />
+    <attribute name="coordinates" value="lon lat" />
+    <attribute name="units" value="Degree" />
+    <attribute name="missing_value" type="float" value="-3.4028235E38" />
+  </variable>
+  <attribute name="Conventions" value="CF-1.0" />
+  <attribute name="Source_Software" value="Esri ArcGIS" />
+</netcdf>

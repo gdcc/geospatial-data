@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/BUAIEV\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Clustering Surface Ozone Diurnal Cycles to Understand the Impact of Circulation Patterns in Houston, TX",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/BUAIEV",
+                "global_id": "doi:10.7910/DVN/BUAIEV",
+                "description": "Replication Data for: Clustering Surface Ozone Diurnal Cycles to Understand the Impact of Circulation Patterns in Houston, TX",
+                "published_at": "2022-02-17T18:42:18Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Bernier, Claudia, 2022, \"Replication Data for: Clustering Surface Ozone Diurnal Cycles to Understand the Impact of Circulation Patterns in Houston, TX\", <a href=\"https://doi.org/10.7910/DVN/BUAIEV\" target=\"_blank\">https://doi.org/10.7910/DVN/BUAIEV</a>, Harvard Dataverse, V1, UNF:6:onQnw28VASfunRsdPQucdg== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Bernier, Claudia, 2022, \"Replication Data for: Clustering Surface Ozone Diurnal Cycles to Understand the Impact of Circulation Patterns in Houston, TX\", https://doi.org/10.7910/DVN/BUAIEV, Harvard Dataverse, V1, UNF:6:onQnw28VASfunRsdPQucdg== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/BUAIEV",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 8,
+                "versionId": 150756,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2019-03-01T21:53:14Z",
+                "updatedAt": "2022-02-17T18:42:18Z",
+                "contacts": [
+                    {
+                        "name": "Bernier, Claudia",
+                        "affiliation": "University of Houston"
+                    }
+                ],
+                "authors": [
+                    "Bernier, Claudia"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Bernier, Claudia": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of Houston": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

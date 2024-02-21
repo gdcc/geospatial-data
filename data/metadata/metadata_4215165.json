@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/JWL4PK\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Indianapolis EM27/SUN Observations and Footprints for May 2016",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/JWL4PK",
+                "global_id": "doi:10.7910/DVN/JWL4PK",
+                "description": "EM27/SUN observations from the field campaigned performed by Harvard University in May of 2016. Lagrangian Footprints for all observations, calculated using the STILT model, are also included.",
+                "published_at": "2020-12-11T17:10:31Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Jones, Taylor, 2020, \"Indianapolis EM27/SUN Observations and Footprints for May 2016\", <a href=\"https://doi.org/10.7910/DVN/JWL4PK\" target=\"_blank\">https://doi.org/10.7910/DVN/JWL4PK</a>, Harvard Dataverse, V1, UNF:6:fjIJcZnrMdYn1n88IIhXMg== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Jones, Taylor, 2020, \"Indianapolis EM27/SUN Observations and Footprints for May 2016\", https://doi.org/10.7910/DVN/JWL4PK, Harvard Dataverse, V1, UNF:6:fjIJcZnrMdYn1n88IIhXMg== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/JWL4PK",
+                "keywords": [
+                    "Methane",
+                    "Total Column"
+                ],
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 173,
+                "versionId": 221340,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2020-12-11T17:07:13Z",
+                "updatedAt": "2020-12-11T20:38:43Z",
+                "contacts": [
+                    {
+                        "name": "Jones, Taylor",
+                        "affiliation": "Boston University"
+                    }
+                ],
+                "authors": [
+                    "Jones, Taylor"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Jones, Taylor": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Boston University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

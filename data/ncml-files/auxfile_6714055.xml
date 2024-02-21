@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="31" isUnlimited="true" />
+  <dimension name="lev" length="20" />
+  <dimension name="lat" length="90" />
+  <dimension name="lon" length="144" />
+  <variable name="time" shape="time" type="double">
+    <attribute name="long_name" value="time" />
+    <attribute name="units" value="days since 1947-09-01 00:00:00" />
+    <attribute name="cartesian_axis" value="T" />
+    <attribute name="calendar_type" value="JULIAN" />
+    <attribute name="calendar" value="JULIAN" />
+    <attribute name="bounds" value="time_bounds" />
+  </variable>
+  <variable name="lev" shape="lev" type="float">
+    <attribute name="positive" value="down" />
+    <attribute name="cartesian_axis" value="Z" />
+    <attribute name="units" value="hPa" />
+    <attribute name="long_name" value="ref full pressure level" />
+  </variable>
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="edges" value="latb" />
+    <attribute name="cartesian_axis" value="Y" />
+    <attribute name="units" value="degrees_N" />
+    <attribute name="long_name" value="latitude" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="edges" value="lonb" />
+    <attribute name="cartesian_axis" value="X" />
+    <attribute name="units" value="degrees_E" />
+    <attribute name="long_name" value="longitude" />
+  </variable>
+  <variable name="temp" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="temperature" />
+    <attribute name="units" value="deg_K" />
+    <attribute name="packing" type="int" value="4" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="_FillValue_original" type="short" value="-32768" />
+    <attribute name="_FillValue" type="float" value="-32768.0" />
+    <attribute name="missing_value_original" type="short" value="-32768" />
+    <attribute name="valid_range" type="float" value="100.0 350.0" />
+    <attribute name="missing_value" type="float" value="-32768.0" />
+  </variable>
+  <variable name="geoph" shape="time lev lat lon" type="float">
+    <attribute name="units" value="gpm" />
+    <attribute name="long_name" value="geopotential height" />
+    <attribute name="_FillValue" type="float" value="-1.0E10" />
+  </variable>
+  <variable name="uwnd" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="zonal wind" />
+    <attribute name="units" value="m/sec" />
+    <attribute name="packing" type="int" value="4" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="_FillValue_original" type="short" value="-32768" />
+    <attribute name="_FillValue" type="float" value="-32768.0" />
+    <attribute name="missing_value_original" type="short" value="-32768" />
+    <attribute name="valid_range" type="float" value="-330.0 350.0" />
+    <attribute name="missing_value" type="float" value="-32768.0" />
+  </variable>
+  <variable name="vwnd" shape="time lev lat lon" type="float">
+    <attribute name="long_name" value="meridional wind" />
+    <attribute name="units" value="m/sec" />
+    <attribute name="packing" type="int" value="4" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="_FillValue_original" type="short" value="-32768" />
+    <attribute name="_FillValue" type="float" value="-32768.0" />
+    <attribute name="missing_value_original" type="short" value="-32768" />
+    <attribute name="valid_range" type="float" value="-330.0 350.0" />
+    <attribute name="missing_value" type="float" value="-32768.0" />
+  </variable>
+  <variable name="omega" shape="time lev lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="-1.0E10" />
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="missing_value" type="float" value="-1.0E10" />
+    <attribute name="units" value="pa/sec" />
+    <attribute name="long_name" value="omega" />
+  </variable>
+  <variable name="sphum" shape="time lev lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="-1.0E10" />
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="missing_value" type="float" value="-1.0E10" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="long_name" value="specific humidity" />
+  </variable>
+  <variable name="taux" shape="time lat lon" type="float">
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="units" value="pa" />
+    <attribute name="long_name" value="zonal wind stress" />
+  </variable>
+  <variable name="tauy" shape="time lat lon" type="float">
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="units" value="pa" />
+    <attribute name="long_name" value="meridional wind stress" />
+  </variable>
+  <variable name="evap" shape="time lat lon" type="float">
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="units" value="kg/m2/s" />
+    <attribute name="long_name" value="evaporation rate" />
+  </variable>
+  <variable name="lwflx" shape="time lat lon" type="float">
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="units" value="w/m2" />
+    <attribute name="long_name" value="net (down-up) longwave flux" />
+  </variable>
+  <variable name="shflx" shape="time lat lon" type="float">
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="units" value="w/m2" />
+    <attribute name="long_name" value="sensible heat flux" />
+  </variable>
+  <variable name="ts" shape="time lat lon" type="float">
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="valid_range" type="float" value="100.0 400.0" />
+    <attribute name="units" value="deg_k" />
+    <attribute name="long_name" value="surface temperature" />
+  </variable>
+  <variable name="olr" shape="time lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="-999.0" />
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="missing_value" type="float" value="-999.0" />
+    <attribute name="units" value="watts/m2" />
+    <attribute name="long_name" value="outgoing longwave radiation" />
+  </variable>
+  <variable name="precc" shape="time lat lon" type="float">
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="units" value="kg/m2/s" />
+    <attribute name="long_name" value="Precipitation rate from donner_deep plus RAS" />
+  </variable>
+  <variable name="precl" shape="time lat lon" type="float">
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="units" value="kg/m2/s" />
+    <attribute name="long_name" value="Precipitation rate from strat cloud" />
+  </variable>
+  <variable name="precip" shape="time lat lon" type="float">
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="units" value="kg/m2/s" />
+    <attribute name="long_name" value="Total precipitation rate" />
+  </variable>
+  <variable name="ps" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface pressure" />
+    <attribute name="units" value="Pa" />
+    <attribute name="missing_value" type="float" value="-1.0E10" />
+    <attribute name="cell_methods" value="time: mean" />
+    <attribute name="time_avg_info" value="average_T1,average_T2,average_DT" />
+    <attribute name="_FillValue" type="float" value="-1.0E10" />
+  </variable>
+  <variable name="phis" shape="lat lon" type="float">
+    <attribute name="long_name" value="surface geopotential height" />
+    <attribute name="units" value="m^2/s^2" />
+  </variable>
+  <attribute name="creation_date" value="Mon Apr 10 11:23:20 CST 2017" />
+  <attribute name="Conventions" value="None" />
+  <attribute name="source_file" value="yyyymmdd.atmos_month.nc" />
+  <attribute name="title" value="GFDL AM2 p-sigma coordinate to pressure coordinate" />
+</netcdf>

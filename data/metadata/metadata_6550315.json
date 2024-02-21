@@ -1,0 +1,104 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/KVCK1Q\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Darwin3 31+16+3 (Archibald): simulation output",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/KVCK1Q",
+                "global_id": "doi:10.7910/DVN/KVCK1Q",
+                "description": "Provided here are the output from the several simulations used in Archibald et al. Files labelled *base* are for simulations with Q10 of all biological rates of 1.88; and files labeled \"diffQ\" were simulations with Q10 of grazing of 2.7 (all other rates had Q01 of 1.88). Files labelled with *plus1C*, *plus3C*, and *plus5C* are for simulations where all growth rates were for 1, 3, or 5degC warmer than the default simulation. Files for the default simulations do not have a \"plus\" designation. For each simulation we provide two files: 1) depth integrated primary production, and depth integrated carbon biomass for all 50 plankton types (files labelled \"*_PP_biomass_dephtint.nc\") 2) surface PO4, total P in living plankton, and total detrital matter (includes POP and DOP) (files labelled \"*_Pbudget_surf.nc\") Carbon biomass of each of the 50 plankton types arranged as follows: 1: pico-phytoplankton, ESD 0.6um (analog of Prochlorococcus) 2: pico-phytoplankton, ESD 0.9um 3: pico-phytoplankton, ESD 1.4um 4: pico-phytoplankton, ESD 2.0um 5: coccolithophores, ESD 3.0um 6: coccolithophores, ESD 4.5um 7: coccolithophores, ESD 6.6um 8: coccolithophores, ESD 9.8um 9: coccolithophores, ESD 14um 10: diazotroph, ESD 3.0um 11: diazotroph, ESD 4.5um 12: diazotroph, ESD 6.6um 13: diazotroph, ESD 9.8um 14: diazotroph, ESD 14um (p> 15: diatom, ESD 3.0um 16: diatom, ESD 4.5um 17: diatom, ESD 6.6um 18: diatom, ESD 9.8um 19: diatom, ESD 14um 20: diatom, ESD 22um 21: diatom, ESD 32um 22: diatom, ESD 47um 23: diatom, ESD 70um 24: mixotroph, ESD 6.6um 25: mixotroph, ESD 9.8um 26: mixotroph, ESD 14um 27: mixotroph, ESD 22um 28: mixotroph, ESD 32um 29: mixotroph, ESD 47um 30: mixotroph, ESD 70um 31: mixotroph, ESD 104um 32: zoo, ESD 4.5um 33 zoo, ESD 6.6um 34: zoo, ESD 9.8um 35: zoo, ESD 14um 36: zoo, ESD 22um 37: zoo, ESD 32um 38: zoo, ESD 47um 39: zoo, ESD 70um 40: zoo, ESD 104um 41: zoo, ESD 154um 42: zoo, ESD 228um 43: zoo, ESD 338um 44: zoo, ESD 502um 45: zoo, ESD 744um 46: zoo, ESD 1103um 47: zoo, ESD 1636um 48: het bacteria 0.3um 49: het bacteria 0.6um 50: het bacteria 0.9um Reference: Archibald, K., S. Dutkiewicz, C. Laufkotter, and H. Mueller. Thermal responses in global marine planktonic food webs mediated through temperature effects on metabolism. In revision for Journal Geophysical Research-Oceans .",
+                "published_at": "2022-09-29T19:25:30Z",
+                "publisher": "Darwin3 31+16+3 (Archibald)",
+                "citationHtml": "Dutkiewicz, Stephanie; Archibald, Kevin; Moeller, Holly V.; Laufkotter, Charlotte, 2022, \"Darwin3 31+16+3 (Archibald): simulation output\", <a href=\"https://doi.org/10.7910/DVN/KVCK1Q\" target=\"_blank\">https://doi.org/10.7910/DVN/KVCK1Q</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "darwin3_31_16_3_archibald",
+                "name_of_dataverse": "Darwin3 31+16+3 (Archibald)",
+                "citation": "Dutkiewicz, Stephanie; Archibald, Kevin; Moeller, Holly V.; Laufkotter, Charlotte, 2022, \"Darwin3 31+16+3 (Archibald): simulation output\", https://doi.org/10.7910/DVN/KVCK1Q, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/KVCK1Q",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 16,
+                "versionId": 333830,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-09-29T01:19:52Z",
+                "updatedAt": "2022-09-29T19:25:30Z",
+                "contacts": [
+                    {
+                        "name": "Dutkiewicz, Stephanie",
+                        "affiliation": "Massachusetts Institute of Technology"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Archibald, K., S. Dutkiewicz, C. Laufkotter, and H. Moeller. Thermal responses in global marine planktonic food webs mediated through temperature effects on metabolism. In revision for Journal Geophysical Research-Oceans ."
+                    }
+                ],
+                "authors": [
+                    "Dutkiewicz, Stephanie",
+                    "Archibald, Kevin",
+                    "Moeller, Holly V.",
+                    "Laufkotter, Charlotte"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Archibald, Kevin": 1
+                        },
+                        {
+                            "Dutkiewicz, Stephanie": 1
+                        },
+                        {
+                            "Laufkotter, Charlotte": 1
+                        },
+                        {
+                            "Moeller, Holly V.": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Massachusetts Institute of Technology": 1
+                        },
+                        {
+                            "UCSB": 1
+                        },
+                        {
+                            "University of Bern": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

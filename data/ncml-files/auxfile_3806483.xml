@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lon" length="32" />
+  <dimension name="lat" length="37" />
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="long_name" value="longitude" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="long_name" value="latitude" />
+  </variable>
+  <variable name="area" shape="lat lon" type="float">
+    <attribute name="units" value="m2" />
+    <attribute name="long_name" value="area of grid cells" />
+  </variable>
+  <variable name="emisch4_og" shape="lat lon" type="float">
+    <attribute name="units" value="kg m-2 s-1" />
+    <attribute name="long_name" value="oil/gas-related CH4 emissions" />
+    <attribute name="description" value="oil/gas-related CH4 emissions derived from extrapolation of Maasakkers et al.(2016)" />
+  </variable>
+  <variable name="emisch4_anth" shape="lat lon" type="float">
+    <attribute name="units" value="kg m-2 s-1" />
+    <attribute name="long_name" value="anthropogenic CH4 emissions" />
+    <attribute name="description" value="sum of all anthropogenic CH4 emissions including oil/gas-related emissions; Non-oil/gas emissions are taken from Maasakkers et al.(2016)" />
+  </variable>
+  <attribute name="title" value="Gridded Emission Inventory for the Permian Basin Based on Bottom-up Information" />
+  <attribute name="description" value="Gridded Bottom-up Emission Inventory for the Permian Basin (27-36N, 108-98W) on GEOS-Chem 0.25 x 0.3125 grid. 1. We start from gridded EPA methane emission inventory (Maasakkers et al., ES&amp;T 2016), which is for year 2012; 2. We extrapolate oil/gas production emissions to 2018 using 2018 Drillinginfo data (well count, well completion, and production) to reflect changes in oil/gas emission activities; 3. We further scale subsectorial production emissions using the ratio between GHGI (2019) and GHGI (2016) for 2013 emissions to account for changes in national average emission factor." />
+  <attribute name="reference" value="Yuzhong Zhang, Ritesh Gautam, Sudhanshu Pandey, Mark Omara, Joannes D. Maasakkers, Pankaj Sadavarte, David Lyon, Hannah Nesser, Melissa P. Sulprizio, Daniel J. Varon, Ruixiong Zhang, Sander Houweling, Daniel Zavala-Araiza, Ramon A. Alvarez, Alba Lorente, Steven P. Hamburg, Ilse Aben, Daniel J. Jacob. Quantifying methane emissions from the largest oil-producing basin in the United States from space, Science Advances, 6, eaaz5120, 2020" />
+  <attribute name="DOI" value="10.7910/DVN/NWQGHU" />
+  <attribute name="author" value="Yuzhong Zhang" />
+  <attribute name="contact" value="zhangyuzhong@westlake.edu.cn" />
+  <attribute name="version" value="1.1" />
+  <attribute name="creation_date" value="2020-04-16" />
+</netcdf>

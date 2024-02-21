@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/OKWGQW\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: Can Linear Programming Methods Help Mitigate the Regional Climate Risks of Solar Radiation Management?",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/OKWGQW",
+                "global_id": "doi:10.7910/DVN/OKWGQW",
+                "description": "Files containing daily temperature and precipitation data from 30-year climate runs in CESM for replication of the work contained in this paper. Data are provided for the 1850 pre-industrial, overconstrained optimization, and S3L1 global optimization model runs. Datasets are organized in time-merged .nc files for reference height temperature (TREFHT), large-scale precipitation (PRECL), and convective precipitation (PRECC).",
+                "published_at": "2022-06-19T20:01:43Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Stephen, Kevin, 2022, \"Replication Data for: Can Linear Programming Methods Help Mitigate the Regional Climate Risks of Solar Radiation Management?\", <a href=\"https://doi.org/10.7910/DVN/OKWGQW\" target=\"_blank\">https://doi.org/10.7910/DVN/OKWGQW</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Stephen, Kevin, 2022, \"Replication Data for: Can Linear Programming Methods Help Mitigate the Regional Climate Risks of Solar Radiation Management?\", https://doi.org/10.7910/DVN/OKWGQW, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/OKWGQW",
+                "subjects": [
+                    "Earth and Environmental Sciences",
+                    "Mathematical Sciences"
+                ],
+                "fileCount": 12,
+                "versionId": 328853,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-06-19T19:41:31Z",
+                "updatedAt": "2022-06-20T20:08:02Z",
+                "contacts": [
+                    {
+                        "name": "Stephen, Kevin",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "authors": [
+                    "Stephen, Kevin"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        },
+                        {
+                            "Mathematical Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Stephen, Kevin": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

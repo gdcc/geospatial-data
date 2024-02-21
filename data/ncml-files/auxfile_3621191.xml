@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="longitude" length="720" />
+  <dimension name="latitude" length="361" />
+  <dimension name="time" length="120" isUnlimited="true" />
+  <variable name="longitude" shape="longitude" type="float">
+    <attribute name="units" value="degrees_east" />
+    <attribute name="long_name" value="longitude" />
+  </variable>
+  <variable name="latitude" shape="latitude" type="float">
+    <attribute name="units" value="degrees_north" />
+    <attribute name="long_name" value="latitude" />
+  </variable>
+  <variable name="time" shape="time" type="int">
+    <attribute name="units" value="hours since 1900-01-01 00:00:0.0" />
+    <attribute name="long_name" value="time" />
+    <attribute name="calendar" value="gregorian" />
+  </variable>
+  <variable name="z" shape="time latitude longitude" type="short">
+    <attribute name="scale_factor" type="double" value="0.15832332326842966" />
+    <attribute name="add_offset" type="double" value="11227.602478963367" />
+    <attribute name="_FillValue" type="short" value="-32767" />
+    <attribute name="missing_value" type="short" value="-32767" />
+    <attribute name="units" value="m**2 s**-2" />
+    <attribute name="long_name" value="Geopotential" />
+    <attribute name="standard_name" value="geopotential" />
+  </variable>
+  <variable name="u" shape="time latitude longitude" type="short">
+    <attribute name="scale_factor" type="double" value="0.001574222348795168" />
+    <attribute name="add_offset" type="double" value="-0.26622900570564756" />
+    <attribute name="_FillValue" type="short" value="-32767" />
+    <attribute name="missing_value" type="short" value="-32767" />
+    <attribute name="units" value="m s**-1" />
+    <attribute name="long_name" value="U component of wind" />
+    <attribute name="standard_name" value="eastward_wind" />
+  </variable>
+  <variable name="v" shape="time latitude longitude" type="short">
+    <attribute name="scale_factor" type="double" value="0.0013352254210038978" />
+    <attribute name="add_offset" type="double" value="-1.5038795878081581" />
+    <attribute name="_FillValue" type="short" value="-32767" />
+    <attribute name="missing_value" type="short" value="-32767" />
+    <attribute name="units" value="m s**-1" />
+    <attribute name="long_name" value="V component of wind" />
+    <attribute name="standard_name" value="northward_wind" />
+  </variable>
+  <attribute name="Conventions" value="CF-1.6" />
+  <attribute name="history" value="2017-12-04 21:12:43 GMT by grib_to_netcdf-2.5.0: grib_to_netcdf /data/data02/scratch/_mars-atls09-a82bacafb5c306db76464bc7e824bb75-GrkpZ7.grib -o /data/data04/scratch/_grib2netcdf-atls09-a562cefde8a29a7288fa0b8b7f9413f7-8l6LKg.nc -utime" />
+</netcdf>

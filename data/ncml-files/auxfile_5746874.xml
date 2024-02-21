@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="LON_x" length="4004" />
+  <dimension name="LON_y" length="1891" />
+  <dimension name="LAT_x" length="4004" />
+  <dimension name="LAT_y" length="1891" />
+  <dimension name="FLASH_EXTENT_DENSITY_DE_CORRECTED_x" length="4004" />
+  <dimension name="FLASH_EXTENT_DENSITY_DE_CORRECTED_y" length="1891" />
+  <dimension name="TOTAL_DUTY_x" length="4004" />
+  <dimension name="TOTAL_DUTY_y" length="1891" />
+  <dimension name="TOTAL_VIEWTIME_x" length="4004" />
+  <dimension name="TOTAL_VIEWTIME_y" length="1891" />
+  <variable name="LON" shape="LON_y LON_x" type="float" />
+  <variable name="LAT" shape="LAT_y LAT_x" type="float" />
+  <variable name="FLASH_EXTENT_DENSITY_DE_CORRECTED" shape="FLASH_EXTENT_DENSITY_DE_CORRECTED_y FLASH_EXTENT_DENSITY_DE_CORRECTED_x" type="double" />
+  <variable name="TOTAL_DUTY" shape="TOTAL_DUTY_y TOTAL_DUTY_x" type="double" />
+  <variable name="TOTAL_VIEWTIME" shape="TOTAL_VIEWTIME_y TOTAL_VIEWTIME_x" type="double" />
+</netcdf>

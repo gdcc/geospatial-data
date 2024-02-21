@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="time" length="120" isUnlimited="true" />
+  <dimension name="lat" length="96" />
+  <dimension name="lon" length="144" />
+  <dimension name="nbnd" length="2" />
+  <variable name="time" shape="time" type="double">
+    <attribute name="long_name" value="time" />
+    <attribute name="units" value="days since 0001-01-01 00:00:00" />
+    <attribute name="calendar" value="noleap" />
+    <attribute name="bounds" value="time_bnds" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="time_bnds" shape="time nbnd" type="double">
+    <attribute name="long_name" value="time interval endpoints" />
+  </variable>
+  <variable name="PRECC" shape="time lat lon" type="float">
+    <attribute name="units" value="m/s" />
+    <attribute name="long_name" value="Convective precipitation rate (liq + ice)" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <variable name="PRECL" shape="time lat lon" type="float">
+    <attribute name="units" value="m/s" />
+    <attribute name="long_name" value="Large-scale (stable) precipitation rate (liq + ice)" />
+    <attribute name="cell_methods" value="time: mean" />
+  </variable>
+  <attribute name="Conventions" value="CF-1.0" />
+  <attribute name="source" value="CAM" />
+  <attribute name="case" value="367_andes" />
+  <attribute name="title" value="UNSET" />
+  <attribute name="logname" value="wxu27" />
+  <attribute name="host" value="node1803.oscar.c" />
+  <attribute name="Version" value="$Name$" />
+  <attribute name="revision_Id" value="$Id$" />
+  <attribute name="initial_file" value="/gpfs/data/shared/cesm/input_data/atm/cam/inic/fv/cami_0000-01-01_1.9x2.5_L26_c070408.nc" />
+  <attribute name="topography_file" value="/users/wxu27/cesm/inputdata/USGS-gtopo30_1.9x2.5_remap_c050602_andesactual.nc" />
+  <attribute name="history" value="Fri Sep  3 12:30:21 2021: ncrcat -v PRECC,PRECL 367_andes.cam.h0.0021-01.nc 367_andes.cam.h0.0021-02.nc 367_andes.cam.h0.0021-03.nc 367_andes.cam.h0.0021-04.nc 367_andes.cam.h0.0021-05.nc 367_andes.cam.h0.0021-06.nc 367_andes.cam.h0.0021-07.nc 367_andes.cam.h0.0021-08.nc 367_andes.cam.h0.0021-09.nc 367_andes.cam.h0.0021-10.nc 367_andes.cam.h0.0021-11.nc 367_andes.cam.h0.0021-12.nc 367_andes.cam.h0.0022-01.nc 367_andes.cam.h0.0022-02.nc 367_andes.cam.h0.0022-03.nc 367_andes.cam.h0.0022-04.nc 367_andes.cam.h0.0022-05.nc 367_andes.cam.h0.0022-06.nc 367_andes.cam.h0.0022-07.nc 367_andes.cam.h0.0022-08.nc 367_andes.cam.h0.0022-09.nc 367_andes.cam.h0.0022-10.nc 367_andes.cam.h0.0022-11.nc 367_andes.cam.h0.0022-12.nc 367_andes.cam.h0.0023-01.nc 367_andes.cam.h0.0023-02.nc 367_andes.cam.h0.0023-03.nc 367_andes.cam.h0.0023-04.nc 367_andes.cam.h0.0023-05.nc 367_andes.cam.h0.0023-06.nc 367_andes.cam.h0.0023-07.nc 367_andes.cam.h0.0023-08.nc 367_andes.cam.h0.0023-09.nc 367_andes.cam.h0.0023-10.nc 367_andes.cam.h0.0023-11.nc 367_andes.cam.h0.0023-12.nc 367_andes.cam.h0.0024-01.nc 367_andes.cam.h0.0024-02.nc 367_andes.cam.h0.0024-03.nc 367_andes.cam.h0.0024-04.nc 367_andes.cam.h0.0024-05.nc 367_andes.cam.h0.0024-06.nc 367_andes.cam.h0.0024-07.nc 367_andes.cam.h0.0024-08.nc 367_andes.cam.h0.0024-09.nc 367_andes.cam.h0.0024-10.nc 367_andes.cam.h0.0024-11.nc 367_andes.cam.h0.0024-12.nc 367_andes.cam.h0.0025-01.nc 367_andes.cam.h0.0025-02.nc 367_andes.cam.h0.0025-03.nc 367_andes.cam.h0.0025-04.nc 367_andes.cam.h0.0025-05.nc 367_andes.cam.h0.0025-06.nc 367_andes.cam.h0.0025-07.nc 367_andes.cam.h0.0025-08.nc 367_andes.cam.h0.0025-09.nc 367_andes.cam.h0.0025-10.nc 367_andes.cam.h0.0025-11.nc 367_andes.cam.h0.0025-12.nc 367_andes.cam.h0.0026-01.nc 367_andes.cam.h0.0026-02.nc 367_andes.cam.h0.0026-03.nc 367_andes.cam.h0.0026-04.nc 367_andes.cam.h0.0026-05.nc 367_andes.cam.h0.0026-06.nc 367_andes.cam.h0.0026-07.nc 367_andes.cam.h0.0026-08.nc 367_andes.cam.h0.0026-09.nc 367_andes.cam.h0.0026-10.nc 367_andes.cam.h0.0026-11.nc 367_andes.cam.h0.0026-12.nc 367_andes.cam.h0.0027-01.nc 367_andes.cam.h0.0027-02.nc 367_andes.cam.h0.0027-03.nc 367_andes.cam.h0.0027-04.nc 367_andes.cam.h0.0027-05.nc 367_andes.cam.h0.0027-06.nc 367_andes.cam.h0.0027-07.nc 367_andes.cam.h0.0027-08.nc 367_andes.cam.h0.0027-09.nc 367_andes.cam.h0.0027-10.nc 367_andes.cam.h0.0027-11.nc 367_andes.cam.h0.0027-12.nc 367_andes.cam.h0.0028-01.nc 367_andes.cam.h0.0028-02.nc 367_andes.cam.h0.0028-03.nc 367_andes.cam.h0.0028-04.nc 367_andes.cam.h0.0028-05.nc 367_andes.cam.h0.0028-06.nc 367_andes.cam.h0.0028-07.nc 367_andes.cam.h0.0028-08.nc 367_andes.cam.h0.0028-09.nc 367_andes.cam.h0.0028-10.nc 367_andes.cam.h0.0028-11.nc 367_andes.cam.h0.0028-12.nc 367_andes.cam.h0.0029-01.nc 367_andes.cam.h0.0029-02.nc 367_andes.cam.h0.0029-03.nc 367_andes.cam.h0.0029-04.nc 367_andes.cam.h0.0029-05.nc 367_andes.cam.h0.0029-06.nc 367_andes.cam.h0.0029-07.nc 367_andes.cam.h0.0029-08.nc 367_andes.cam.h0.0029-09.nc 367_andes.cam.h0.0029-10.nc 367_andes.cam.h0.0029-11.nc 367_andes.cam.h0.0029-12.nc 367_andes.cam.h0.0030-01.nc 367_andes.cam.h0.0030-02.nc 367_andes.cam.h0.0030-03.nc 367_andes.cam.h0.0030-04.nc 367_andes.cam.h0.0030-05.nc 367_andes.cam.h0.0030-06.nc 367_andes.cam.h0.0030-07.nc 367_andes.cam.h0.0030-08.nc 367_andes.cam.h0.0030-09.nc 367_andes.cam.h0.0030-10.nc 367_andes.cam.h0.0030-11.nc 367_andes.cam.h0.0030-12.nc andes_367_prec.nc" />
+  <attribute name="NCO" value="netCDF Operators version 4.9.3 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)" />
+</netcdf>

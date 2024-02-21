@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="month" length="12" />
+  <dimension name="lat" length="133" />
+  <dimension name="lon" length="145" />
+  <dimension name="ncl3" length="12" />
+  <dimension name="ncl4" length="133" />
+  <dimension name="ncl5" length="145" />
+  <variable name="o3" shape="month lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="unit" value="Degrees" />
+    <attribute name="long_name" value="Latitude" />
+    <attribute name="units" value="degrees_north" />
+  </variable>
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="unit" value="Degrees" />
+    <attribute name="long_name" value="Longitude" />
+    <attribute name="units" value="degrees_east" />
+  </variable>
+  <variable name="pm" shape="month lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="su" shape="month lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="ni" shape="month lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="am" shape="month lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="bc" shape="month lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="oa" shape="month lat lon" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <variable name="al" shape="ncl3 ncl4 ncl5" type="float">
+    <attribute name="_FillValue" type="float" value="9.96921E36" />
+  </variable>
+  <attribute name="title" value="Monthly SW+LW at tropopause All-sky for preindustry time" />
+</netcdf>

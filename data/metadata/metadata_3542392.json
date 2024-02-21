@@ -1,0 +1,89 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/NM1W48\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Data in the \"Position, magnitude, and size of Warm Pool El Ni\u00f1o: Variability, seasonal predictability, and climate impacts\"",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/NM1W48",
+                "global_id": "doi:10.7910/DVN/NM1W48",
+                "description": "Data that are generated in \"Position, magnitude, and size of Warm Pool El Ni\u00f1o: Variability, seasonal predictability, and climate impacts\".",
+                "published_at": "2021-05-19T05:58:56Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Cheung, Paxson, 2021, \"Data in the &quot;Position, magnitude, and size of Warm Pool El Ni&ntilde;o: Variability, seasonal predictability, and climate impacts&quot;\", <a href=\"https://doi.org/10.7910/DVN/NM1W48\" target=\"_blank\">https://doi.org/10.7910/DVN/NM1W48</a>, Harvard Dataverse, V1",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Cheung, Paxson, 2021, \"Data in the \"Position, magnitude, and size of Warm Pool El Ni\u00f1o: Variability, seasonal predictability, and climate impacts\"\", https://doi.org/10.7910/DVN/NM1W48, Harvard Dataverse, V1",
+                "storageIdentifier": "s3://10.7910/DVN/NM1W48",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 251,
+                "versionId": 172410,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2019-08-19T03:56:45Z",
+                "updatedAt": "2021-06-24T05:50:36Z",
+                "contacts": [
+                    {
+                        "name": "Cheung, Paxson",
+                        "affiliation": "City University of Hong Kong"
+                    }
+                ],
+                "publications": [
+                    {
+                        "citation": "Position, magnitude, and size of Warm Pool El Ni\u00f1o: Variability, seasonal predictability, and climate impacts"
+                    }
+                ],
+                "producers": [
+                    "Paxson Cheung"
+                ],
+                "authors": [
+                    "Cheung, Paxson"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2021": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Cheung, Paxson": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "City University of Hong Kong": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

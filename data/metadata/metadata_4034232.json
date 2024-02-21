@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/AIYHIA\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Replication Data for: \"Spectroscopic Insights into Ferromanganese Crust Formation and Diagenesis\" by K.M. Sutherland, S.D. Wankel, J.R. Hein, and C.M. Hansel",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/AIYHIA",
+                "global_id": "doi:10.7910/DVN/AIYHIA",
+                "description": "Replication Data for: \"Spectroscopic Insights into Ferromanganese Crust Formation and Diagenesis\" by K.M. Sutherland, S.D. Wankel, J.R. Hein, and C.M. Hansel. See README file",
+                "published_at": "2020-08-25T17:46:20Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Sutherland, Kevin, 2020, \"Replication Data for: &quot;Spectroscopic Insights into Ferromanganese Crust Formation and Diagenesis&quot; by K.M. Sutherland, S.D. Wankel, J.R. Hein, and C.M. Hansel\", <a href=\"https://doi.org/10.7910/DVN/AIYHIA\" target=\"_blank\">https://doi.org/10.7910/DVN/AIYHIA</a>, Harvard Dataverse, V1, UNF:6:JC1uiCUqaFz2nZShlFqunw== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Sutherland, Kevin, 2020, \"Replication Data for: \"Spectroscopic Insights into Ferromanganese Crust Formation and Diagenesis\" by K.M. Sutherland, S.D. Wankel, J.R. Hein, and C.M. Hansel\", https://doi.org/10.7910/DVN/AIYHIA, Harvard Dataverse, V1, UNF:6:JC1uiCUqaFz2nZShlFqunw== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/AIYHIA",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 92,
+                "versionId": 204291,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2020-08-25T15:12:58Z",
+                "updatedAt": "2020-08-25T17:46:20Z",
+                "contacts": [
+                    {
+                        "name": "Sutherland, Kevin",
+                        "affiliation": "Harvard University"
+                    }
+                ],
+                "authors": [
+                    "Sutherland, Kevin"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2020": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Sutherland, Kevin": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "Harvard University": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}

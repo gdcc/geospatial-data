@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lon" length="144" />
+  <dimension name="lat" length="72" />
+  <dimension name="time" length="456" isUnlimited="true" />
+  <variable name="lon" shape="lon" type="float">
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="axis" value="X" />
+  </variable>
+  <variable name="lat" shape="lat" type="float">
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="axis" value="Y" />
+  </variable>
+  <variable name="time" shape="time" type="double">
+    <attribute name="standard_name" value="time" />
+    <attribute name="units" value="hours since 1980-1-1 00:00:00" />
+    <attribute name="calendar" value="standard" />
+    <attribute name="axis" value="T" />
+  </variable>
+  <variable name="avor850a" shape="time lat lon" type="float">
+    <attribute name="long_name" value="Absolute vorticity at 850 hPa" />
+    <attribute name="_FillValue" type="float" value="-9.99E33" />
+    <attribute name="missing_value" type="float" value="-9.99E33" />
+    <attribute name="units" value="s-1" />
+  </variable>
+  <attribute name="CDI" value="Climate Data Interface version 1.8.0rc5 (http://mpimet.mpg.de/cdi)" />
+  <attribute name="Conventions" value="CF-1.6" />
+  <attribute name="history" value="Fri Oct 09 10:09:01 2020: cdo -selname,avor850a avor850a_orig.nc avor850a.nc&#xA;Fri Oct 09 10:04:37 2020: cdo -f nc import_binary /home/Hiroyuki.Murakami/tools/GPI_newform_v201707/Data/MERGE_JNEMC_2.5deg/avor850a.ctl avor850a_orig.nc" />
+  <attribute name="CDO" value="Climate Data Operators version 1.8.0rc5 (http://mpimet.mpg.de/cdo)" />
+</netcdf>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="x" length="2" />
+  <dimension name="y" length="2" />
+  <dimension name="z" length="109" />
+  <dimension name="time" length="1765" isUnlimited="true" />
+  <variable name="U" shape="time z y x" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="1 109 2 2" />
+  </variable>
+  <variable name="V" shape="time z y x" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="1 109 2 2" />
+  </variable>
+  <variable name="W" shape="time z y x" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="1 109 2 2" />
+  </variable>
+  <variable name="T" shape="time z y x" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="1 109 2 2" />
+  </variable>
+  <variable name="S" shape="time z y x" type="double">
+    <attribute name="_FillValue" type="double" value="NaN" />
+    <attribute name="_ChunkSizes" type="uint" value="1 109 2 2" />
+  </variable>
+  <attribute name="_NCProperties" value="version=2,netcdf=4.6.3,hdf5=1.8.21" />
+</netcdf>

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="file:">
+  <dimension name="lon" length="96" />
+  <dimension name="lat" length="48" />
+  <dimension name="nc2" length="2" />
+  <dimension name="nsp" length="528" />
+  <dimension name="mlev" length="39" />
+  <dimension name="nhym" length="39" />
+  <dimension name="nhyi" length="40" />
+  <dimension name="belowsurface" length="5" />
+  <dimension name="time" length="1" isUnlimited="true" />
+  <dimension name="nb2" length="2" />
+  <variable name="lon" shape="lon" type="double">
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="axis" value="X" />
+  </variable>
+  <variable name="lat" shape="lat" type="double">
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="axis" value="Y" />
+  </variable>
+  <variable name="mlev" shape="mlev" type="double">
+    <attribute name="standard_name" value="hybrid_sigma_pressure" />
+    <attribute name="long_name" value="hybrid level at layer midpoints" />
+    <attribute name="units" value="level" />
+    <attribute name="positive" value="down" />
+    <attribute name="formula" value="hyam hybm (mlev=hyam+hybm*aps)" />
+    <attribute name="formula_terms" value="ap: hyam b: hybm ps: aps" />
+  </variable>
+  <variable name="hyai" shape="nhyi" type="double">
+    <attribute name="long_name" value="hybrid A coefficient at layer interfaces" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <variable name="hybi" shape="nhyi" type="double">
+    <attribute name="long_name" value="hybrid B coefficient at layer interfaces" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="hyam" shape="nhym" type="double">
+    <attribute name="long_name" value="hybrid A coefficient at layer midpoints" />
+    <attribute name="units" value="Pa" />
+  </variable>
+  <variable name="hybm" shape="nhym" type="double">
+    <attribute name="long_name" value="hybrid B coefficient at layer midpoints" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="belowsurface" shape="belowsurface" type="float">
+    <attribute name="long_name" value="levels below the surface" />
+    <attribute name="units" value="cm" />
+    <attribute name="positive" value="down" />
+    <attribute name="axis" value="Z" />
+  </variable>
+  <variable name="time" shape="time" type="double">
+    <attribute name="standard_name" value="time" />
+    <attribute name="long_name" value="time" />
+    <attribute name="bounds" value="time_bnds" />
+    <attribute name="units" value="days since 1985-01-01 00:00:00" />
+    <attribute name="calendar" value="standard" />
+  </variable>
+  <variable name="time_bnds" shape="time nb2" type="double" />
+  <variable name="aps" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface pressure" />
+    <attribute name="units" value="Pa" />
+    <attribute name="code" type="int" value="134" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="st" shape="time mlev nsp nc2" type="float">
+    <attribute name="long_name" value="temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="code" type="int" value="130" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="spectral" />
+    <attribute name="axis" value="TZ--" />
+    <attribute name="truncation" type="int" value="31" />
+  </variable>
+  <variable name="svo" shape="time mlev nsp nc2" type="float">
+    <attribute name="long_name" value="vorticity" />
+    <attribute name="units" value="1/s" />
+    <attribute name="code" type="int" value="138" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="spectral" />
+    <attribute name="axis" value="TZ--" />
+    <attribute name="truncation" type="int" value="31" />
+  </variable>
+  <variable name="lsp" shape="time nsp nc2" type="float">
+    <attribute name="long_name" value="log surface pressure" />
+    <attribute name="code" type="int" value="152" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="spectral" />
+    <attribute name="axis" value="T--" />
+    <attribute name="truncation" type="int" value="31" />
+  </variable>
+  <variable name="sd" shape="time mlev nsp nc2" type="float">
+    <attribute name="long_name" value="divergence" />
+    <attribute name="units" value="1/s" />
+    <attribute name="code" type="int" value="155" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="spectral" />
+    <attribute name="axis" value="TZ--" />
+    <attribute name="truncation" type="int" value="31" />
+  </variable>
+  <variable name="q" shape="time mlev lat lon" type="float">
+    <attribute name="long_name" value="specific humidity" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="code" type="int" value="133" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="xl" shape="time mlev lat lon" type="float">
+    <attribute name="long_name" value="cloud water" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="code" type="int" value="153" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="xi" shape="time mlev lat lon" type="float">
+    <attribute name="long_name" value="cloud ice" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="code" type="int" value="154" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="swnirac" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net surface NIR flux acc." />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="79" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="swdifnirac" shape="time lat lon" type="float">
+    <attribute name="long_name" value="fraction of diffuse NIR acc." />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="80" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="swvisac" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net surface visible flux acc." />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="81" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="swdifvisac" shape="time lat lon" type="float">
+    <attribute name="long_name" value="fraction of diffuse visibleacc." />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="82" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="ocu" shape="time lat lon" type="float">
+    <attribute name="long_name" value="ocean eastw. velocity" />
+    <attribute name="units" value="m/s" />
+    <attribute name="code" type="int" value="83" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="ocv" shape="time lat lon" type="float">
+    <attribute name="long_name" value="ocean northw. velocity" />
+    <attribute name="units" value="m/s" />
+    <attribute name="code" type="int" value="84" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="tradl" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net LW radiation 200mb" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="85" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="sradl" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net SW radiation 200mb" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="86" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="trafl" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net LW radiation 200mb (clear sky)" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="87" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="srafl" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net SW radiation 200mb (clear sky)" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="88" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="trfliac" shape="time lat lon" type="float">
+    <attribute name="long_name" value="LW flux over ice" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="91" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="trflwac" shape="time lat lon" type="float">
+    <attribute name="long_name" value="LW flux over water" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="92" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="trfllac" shape="time lat lon" type="float">
+    <attribute name="long_name" value="LW flux over land" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="93" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="sofliac" shape="time lat lon" type="float">
+    <attribute name="long_name" value="SW flux over ice" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="94" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="soflwac" shape="time lat lon" type="float">
+    <attribute name="long_name" value="SW flux over water" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="95" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="sofllac" shape="time lat lon" type="float">
+    <attribute name="long_name" value="SW flux over land" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="96" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="tsi" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface temperature of ice" />
+    <attribute name="units" value="K" />
+    <attribute name="code" type="int" value="102" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="tsw" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface temperature of water" />
+    <attribute name="units" value="K" />
+    <attribute name="code" type="int" value="103" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="geosp" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface geopotential (orography)" />
+    <attribute name="units" value="m**2/s**2" />
+    <attribute name="code" type="int" value="129" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="tslm1" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface temperature of land" />
+    <attribute name="units" value="K" />
+    <attribute name="code" type="int" value="139" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="ws" shape="time lat lon" type="float">
+    <attribute name="long_name" value="soil wetness" />
+    <attribute name="units" value="m" />
+    <attribute name="code" type="int" value="140" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="aprl" shape="time lat lon" type="float">
+    <attribute name="long_name" value="large scale precipitation" />
+    <attribute name="units" value="kg/m**2s" />
+    <attribute name="code" type="int" value="142" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="aprc" shape="time lat lon" type="float">
+    <attribute name="long_name" value="convective  precipitation" />
+    <attribute name="units" value="kg/m**2s" />
+    <attribute name="code" type="int" value="143" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="aprs" shape="time lat lon" type="float">
+    <attribute name="long_name" value="snow fall" />
+    <attribute name="units" value="kg/m**2s" />
+    <attribute name="code" type="int" value="144" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="vdis" shape="time lat lon" type="float">
+    <attribute name="long_name" value="boundary layer dissipation" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="145" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="ahfs" shape="time lat lon" type="float">
+    <attribute name="long_name" value="sensible heat flux" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="146" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="ahfl" shape="time lat lon" type="float">
+    <attribute name="long_name" value="latent heat flux" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="147" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="aclcov" shape="time lat lon" type="float">
+    <attribute name="long_name" value="total cloud cover" />
+    <attribute name="code" type="int" value="164" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="temp2" shape="time lat lon" type="float">
+    <attribute name="long_name" value="2m temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="code" type="int" value="167" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="tsurf" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface temperature" />
+    <attribute name="units" value="K" />
+    <attribute name="code" type="int" value="169" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="albedo" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface albedo" />
+    <attribute name="code" type="int" value="175" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="srads" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net surface solar radiation" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="176" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="trads" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net surface thermal radiation" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="177" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="srad0" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net top solar radiation" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="178" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="trad0" shape="time lat lon" type="float">
+    <attribute name="long_name" value="top thermal radiation (OLR)" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="179" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="evap" shape="time lat lon" type="float">
+    <attribute name="long_name" value="evaporation" />
+    <attribute name="units" value="kg/m**2s" />
+    <attribute name="code" type="int" value="182" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="srad0d" shape="time lat lon" type="float">
+    <attribute name="long_name" value="top incoming solar radiation" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="184" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="srafs" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net surf. solar radiation   (clear sky)" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="185" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="trafs" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net surf. thermal radiation (clear sky)" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="186" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="sraf0" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net top solar radiation     (clear sky)" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="187" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="traf0" shape="time lat lon" type="float">
+    <attribute name="long_name" value="net top thermal radiation   (clear sky)" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="188" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="srad0u" shape="time lat lon" type="float">
+    <attribute name="long_name" value="top solar radiation upward" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="203" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="sradsu" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface solar radiation upward" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="204" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="tradsu" shape="time lat lon" type="float">
+    <attribute name="long_name" value="surface thermal radiation upward" />
+    <attribute name="units" value="W/m**2" />
+    <attribute name="code" type="int" value="205" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="tsoil" shape="time belowsurface lat lon" type="float">
+    <attribute name="long_name" value="deep soil temperatures" />
+    <attribute name="units" value="K" />
+    <attribute name="code" type="int" value="207" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="seaice" shape="time lat lon" type="float">
+    <attribute name="long_name" value="ice cover (fraction of 1-SLM)" />
+    <attribute name="code" type="int" value="210" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="aclcac" shape="time mlev lat lon" type="float">
+    <attribute name="long_name" value="cloud cover" />
+    <attribute name="code" type="int" value="223" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="qvi" shape="time lat lon" type="float">
+    <attribute name="long_name" value="vertically integrated water vapor" />
+    <attribute name="units" value="kg/m**2" />
+    <attribute name="code" type="int" value="230" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="xlvi" shape="time lat lon" type="float">
+    <attribute name="long_name" value="vertically integrated cloud water" />
+    <attribute name="units" value="kg/m**2" />
+    <attribute name="code" type="int" value="231" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="abso4" shape="time lat lon" type="float">
+    <attribute name="long_name" value="antropogenic sulfur burden" />
+    <attribute name="units" value="kg/m**2" />
+    <attribute name="code" type="int" value="235" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="ao3" shape="time mlev lat lon" type="float">
+    <attribute name="long_name" value="ipcc ozone" />
+    <attribute name="units" value="kg/kg" />
+    <attribute name="code" type="int" value="236" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <variable name="tropo" shape="time lat lon" type="float">
+    <attribute name="long_name" value="WMO defined tropopause height" />
+    <attribute name="units" value="Pa" />
+    <attribute name="code" type="int" value="237" />
+    <attribute name="table" type="int" value="128" />
+    <attribute name="grid_type" value="gaussian" />
+  </variable>
+  <attribute name="CDI" value="Climate Data Interface version 1.6.7 (https://code.zmaw.de/projects/cdi)" />
+  <attribute name="Conventions" value="CF-1.0, + local extensions" />
+  <attribute name="history" value="Fri Apr 05 11:09:27 2019: cdo ensmean Geo-baseGeo-base_204001.01.nc_monavg.nc Geo-baseGeo-base_204002.01.nc_monavg.nc Geo-baseGeo-base_204003.01.nc_monavg.nc Geo-baseGeo-base_204004.01.nc_monavg.nc Geo-baseGeo-base_204005.01.nc_monavg.nc Geo-baseGeo-base_204006.01.nc_monavg.nc Geo-baseGeo-base_204007.01.nc_monavg.nc Geo-baseGeo-base_204008.01.nc_monavg.nc Geo-baseGeo-base_204009.01.nc_monavg.nc Geo-baseGeo-base_204010.01.nc_monavg.nc Geo-baseGeo-base_204011.01.nc_monavg.nc Geo-baseGeo-base_204012.01.nc_monavg.nc Geo-baseGeo-base_204101.01.nc_monavg.nc Geo-baseGeo-base_204102.01.nc_monavg.nc Geo-baseGeo-base_204103.01.nc_monavg.nc Geo-baseGeo-base_204104.01.nc_monavg.nc Geo-baseGeo-base_204105.01.nc_monavg.nc Geo-baseGeo-base_204106.01.nc_monavg.nc Geo-baseGeo-base_204107.01.nc_monavg.nc Geo-baseGeo-base_204108.01.nc_monavg.nc Geo-baseGeo-base_204109.01.nc_monavg.nc Geo-baseGeo-base_204110.01.nc_monavg.nc Geo-baseGeo-base_204111.01.nc_monavg.nc Geo-baseGeo-base_204112.01.nc_monavg.nc Geo-baseGeo-base_204201.01.nc_monavg.nc&#xA;Thu Jan 04 11:01:24 2018: cdo -monavg Geo-baseGeo-base_204912.01.nc Geo-baseGeo-base_204912.01.nc_monavg.nc" />
+  <attribute name="source" value="ECHAM5.4" />
+  <attribute name="institution" value="Max-Planck-Institute for Meteorology" />
+  <attribute name="title" value="Geo-base" />
+  <attribute name="echam_version" value="5.4.00" />
+  <attribute name="advection" value="Lin &amp; Rood" />
+  <attribute name="physics" value="Modified ECMWF physics" />
+  <attribute name="radiation" value="Modified ECMWF radiation" />
+  <attribute name="date_time" value="20171223 100403" />
+  <attribute name="operating_system" value="Linux 2.6.32-642.6.2.el6.x86_64 on x86_64" />
+  <attribute name="user_name" value="Debra Weisenstein (dkweis)" />
+  <attribute name="host_name" value="holy7c03202" />
+  <attribute name="truncation" type="int" value="31" />
+  <attribute name="CDO" value="Climate Data Operators version 1.6.7 (https://code.zmaw.de/projects/cdo)" />
+</netcdf>

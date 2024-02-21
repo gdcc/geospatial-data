@@ -1,0 +1,81 @@
+{
+    "status": "OK",
+    "data": {
+        "q": "\"$doi:10.7910/DVN/JQPLPD\"",
+        "total_count": 1,
+        "start": 0,
+        "spelling_alternatives": {},
+        "items": [
+            {
+                "name": "Data for USGS Award G20A_00049 - Evaluating outer-rise earthquake hazards from the Puerto Rico Trench by calibrating inundation models with geologic evidence",
+                "type": "dataset",
+                "url": "https://doi.org/10.7910/DVN/JQPLPD",
+                "global_id": "doi:10.7910/DVN/JQPLPD",
+                "description": "The project data for USGS Award No. G20AP00049 \u201cEvaluating outer-rise earthquake hazards from the Puerto Rico Trench by calibrating inundation models with geologic evidence\u201d is composed of four components: deposits, DEMs, model grids, and model results. 1. The \u201cDeposits\u201d folder includes csv files for 10 types of deposits disclosed on Anegada in csv format, with their details provided by the metadata in the same folder. 2. The \u201cDEMs\u201d folder consists of four subfolders. The details of these DEMs are provided in Table S1 in the report. \u2022 NCEI_1arcsec_MHW: original dataset at the grid resolution of 1 arc sec in ascii format derived from the National Center for Environmental Information (NCEI) for U.S. Virgin Islands \u2022 BVI topo/bathy: British Virgin Islands bathymetry and topography obtained from the BVI Department of Disaster Management \u2022 Lidar_survey: The USGS Lidar-derived seamless (Bare Earth and submerged) point cloud for coastal topography \u2013 Anegada, British Virgin Islands, 2014, doi.org/10.5066/F7GM85F3 (https://data.usgs.gov/datacatalog/data/USGS:093b07ed-88ac-4bbe-9aec-cc98de4170c1). A metadata file for this dataset is provided in the same folder. \u2022 PR_Trench_150m: Bathymetric Terrain Model of the Puerto Rico Trench and Northeastern Caribbean Region Compiled by the U.S. Geological Survey From Multibeam Bathymetric Data Collected Between 2002 and 2013 (PRBATHOFR150, Esri Binary Grid, UTM19, WGS 84). Available at https://data.usgs.gov/datacatalog/data/USGS:85398e9e-5e1e-4c5d-b835-5c4cf11e21bc 3. The \u201cModel_grids\u201d folder includes model grids for Tsunami (subfolder \u201cTsunami\u201d) and Hurricane (subfolder \u201cHurricane\u201d) modeling developed through the present study. All grid files are formatted in netcdf format. The subfolder \u201cTsunami\u201d has the model grids for Anegada, San Juan, and St Thomas Folder \u201cAnegada\u201d: \u2022 Propagation grid: atlantic_2min_GEBCO.nc. This grid is specifically used for computing the transatlantic tsunami propagation due to the 1755 Lisbon M9.0 scenario. o West_Boundaing_Coordinates: -79.0 o East_Bounding_Coordinates: 19.0 o North_Bounding_Coordinates: 71.0 o South_Bounding_Coordinates: -19.0 o Grid spatial resolution: 2 arc min o Data source: GEneral Bathymetric Chart of the Oceans (GEBCO) https://www.gebco.net/ \u2022 Propagation grid: PR_30sec.nc. This grid is specifically used for computing the transatlantic tsunami propagation from the earthquake scenarios in the Puerto Rico Trench. o West_Boundaing_Coordinates: -69.0 o East_Bounding_Coordinates: -60.0 o North_Bounding_Coordinates: 21.0 o South_Bounding_Coordinates: 16.5 o Grid spatial resolution: 30 arc sec \u2022 MOST A grid: anegada_6sec.nc. This grid is used in the A level of MOST o West_Boundaing_Coordinates: -65.15 o East_Bounding_Coordinates: -64.2 o North_Bounding_Coordinates: 18.9 o South_Bounding_Coordinates: 18.2 o Grid spatial resolution: 6 arc sec \u2022 MOST B grid: anegada_1sec.nc. This grid is used in the B level of MOST o West_Boundaing_Coordinates: -64.44 o East_Bounding_Coordinates: -64.24 o North_Bounding_Coordinates: 18.85 o South_Bounding_Coordinates: 18.65 o Grid spatial resolution: 1 arc sec \u2022 MOST C grid: anegada_10m.nc. This grid is the C grid of MOST o West_Boundaing_Coordinates: -64.43 o East_Bounding_Coordinates: -64.25 o North_Bounding_Coordinates: 18.77 o South_Bounding_Coordinates: 18.68 o Grid spatial resolution: 1/3 arc sec Folder \u201cSanJuan\u201d: \u2022 MOST A grid: rim_gridA_20sec.nc. This grid is used in the A level of MOST o West_Boundaing_Coordinates: -69.9 o East_Bounding_Coordinates: -60.50401401 o North_Bounding_Coordinates: 18.95 o South_Bounding_Coordinates: 16.0555556 o Grid spatial resolution: 20 arc sec \u2022 MOST B grid: rim_gridB_6sec.nc. This grid is used in the B level of MOST o West_Boundaing_Coordinates: -67.4 o East_Bounding_Coordinates: -65.2 o North_Bounding_Coordinates: 18.6 o South_Bounding_Coordinates: 17.8 o Grid spatial resolution: 1 arc sec \u2022 MOST C grid: anegada_10m.nc. This grid is the C grid of MOST o West_Boundaing_Coordinates: -66.188889 o East_Bounding_Coordinates: -65.975 o North_Bounding_Coordinates: 18.5 o South_Bounding_Coordinates: 18.375 o Grid spatial resolution: 1/3 arc sec Folder \u201cStThomas\u201d: \u2022 MOST A grid: East_Caribbean_21p333sec.nc. This grid is used in the A level of MOST o West_Boundaing_Coordinates: -67.565601784215005 o East_Bounding_Coordinates: -61.473750102935014 o North_Bounding_Coordinates: 19.032638864735 o South_Bounding_Coordinates: 16.620787080415 o Grid spatial resolution: 21.333 arc sec \u2022 MOST B grid: USVI_North2p667sec.nc. This grid is used in the B level of MOST o West_Boundaing_Coordinates: -65.144490740894980 o East_Bounding_Coordinates: -64.517083351055021 o North_Bounding_Coordinates: 18.537453693415 o South_Bounding_Coordinates: 18.194490740055 o Grid spatial resolution: 2.667 arc sec \u2022 MOST C grid: anegada_10m.nc. This grid is the C grid of MOST o West_Boundaing_Coordinates: -65.068518520800012 o East_Bounding_Coordinates: -64.810185194700011 o North_Bounding_Coordinates: 18.38740740132 o South_Bounding_Coordinates: 18.28824073743 o Grid spatial resolution: 1/3 arc sec The subfolder \u201cHurricane\u201d has the model grids for NEOWAVE_Surge, SWAN, and BOSZ, which are different models used to compute regional and local wave conditions and inundation impact. Folder \u201cNEOWAVE_Surge\u201d: Level-1 grid: depth_grid_1.dat. This file is a matrix of water depth data o West_Boundaing_Coordinates: -68.0 o East_Bounding_Coordinates: -54 o North_Bounding_Coordinates: 21.0 o South_Bounding_Coordinates: 15.0 o Grid spatial resolution: 1 arc min Folder \u201cSWAN\u201d: \u2022 Level-1 grid: depth_grid_1.dat. This file is a matrix of water depth data o West_Boundaing_Coordinates: -68.0 o East_Bounding_Coordinates: -54 o North_Bounding_Coordinates: 21.0 o South_Bounding_Coordinates: 15.0 o Grid spatial resolution: 1 arc min \u2022 Level-2 grid: depth_grid_2.dat. This file is a matrix of water depth data o West_Boundaing_Coordinates: -64.6 o East_Bounding_Coordinates: -64.2 o North_Bounding_Coordinates: 21.0 o South_Bounding_Coordinates: 20.75 o Grid spatial resolution: 6 arc sec Folder \u201cBOSZ\u201d: \u2022 Deepbay_10m.mat. This is a grid file specifically required by BOSZ model, based on Cartesian grid and saved in Matlab .mat format. This file is used for all hypothetical hurricane track scenarios. o Grid spatial resolution: 10 m \u2022 Deepbay_5m.mat. This is a grid file specifically required by BOSZ model, based on Cartesian grid and saved in Matlab .mat format. This file is used for 2017 Irma hurricane model validation. o Grid spatial resolution: 5 m 4. The \u201cModel_results\u201d folder includes the computational model results for Tsunami (subfolder \u201ctsunami_modeling\u201d) and Hurricane (subfolder \u201churricane_modeling\u201d) modeling developed through the present study. All grid files are formatted in netcdf format. \u2022 The subfolder \u201ctsunami_modeling\u201d includes model results in netcdf format with all variables and attributes explained in each netcdf file. The first two parts of the file name correspond to the source scenarios given in Table 2 of the report. \u2022 The subfolder \u201churricane modeling\u201d includes the modeled hurricane track data and the inundation results for 2017 Irma (subfolder \u201cIrma\u201d) and the hypothetical hurricane scenarios. Folder \u201cIrma\u201d: \u2022 Irma_track.inp: track information of the Hurricane Irma o The waypoint time stamp (YYMMDDHHMM) o Latitude: Latidude of the hurricane center. A positive latitude indicates north, and a negative latitude indicates south. o Longitude: Longitude of the hurricane center. A positive longitude indicates west, and a negative latitude indicates east. o Wind speed: The maximum sustained wind speed in knots o Air pressure: The pressure at the hurricane center in hPa o Radius of sustained wind speed in (km) o The shape parameter in the modified Rankine wind model. \u2022 Subfolder \u201cgauge_data\u201d: text data files of tidal observations at Croix, Culebra, San Juan, and St. John during the 2017 Irma hurricane \u2022 Subfolder \u201cbuoy_data\u201d: text data files of wave conditions recorded on buoys 41040, 41043, 41044, 42060, and 9765115. \u2022 Subfolder \u201cBOSZ_model_results\u201d: inundation modeling data for 2017 Hurricane Irma computed from BOSZ o BOTC.bosz: matrix of bathymetry/topography data o X.mat: matrix of longitude data o Y.mat: matrix with latitude data o Hstmp.mat: max significant wave height at every computational grid o MaxRtmp.mat: matrix of maximum free surface elevation during model run o MaxUVtemp.mat: matrix for maximum flow speed from the resultant velocity o STPtemp.mat: matrix for wave setup (mean water level over the entire domain) o SWN_20170906162000.spect: the spectrum output from SWAN computation at the time of 16:20:00 09/06, 2019 when the storm surge level reaches the highest throughout the computation. Folder \u201chypotherical_hurricane_tracks\u201d: \u2022 Subfolder \u201cTrack_data\u201d: information for each hypothetical hurricane track including: o The waypoint time stamp (YYMMDDHHMM) o Latitude: Latidude of the hurricane center. A positive latitude indicates north, and a negative latitude indicates south. o Longitude: Longitude of the hurricane center. A positive longitude indicates west, and a negative latitude indicates east. o Wind speed: The maximum sustained wind speed in knots o Air pressure: The pressure at the hurricane center in hPa o Radius of sustained wind speed in (km) o The shape parameter in the modified Rankine wind model. \u2022 Subfolder: \u201cBOSZ_model_results_track4\u201d: inundation modeling data for the hypothetical hurricane track #4 computed from BOSZ o BOTC.bosz: matrix of bathymetry/topography data o X.mat: matrix of longitude data o Y.mat: matrix with latitude data o Hstmp.mat: max significant wave height at every computational grid o MaxRtmp.mat: matrix of maximum free surface elevation during model run o MaxUVtemp.mat: matrix for maximum flow speed from the resultant velocity o STPtemp.mat: matrix for wave setup (mean water level over the entire domain) o SWN_20170906162000.spect: the spectrum output from SWAN computation at the time of 16:20:00 09/06, 2019 when the storm surge level reaches the highest throughout the computation.",
+                "published_at": "2022-09-28T06:13:53Z",
+                "publisher": "Harvard Dataverse",
+                "citationHtml": "Wei, Yong, 2022, \"Data for USGS Award G20A_00049 - Evaluating outer-rise earthquake hazards from the Puerto Rico Trench by calibrating inundation models with geologic evidence\", <a href=\"https://doi.org/10.7910/DVN/JQPLPD\" target=\"_blank\">https://doi.org/10.7910/DVN/JQPLPD</a>, Harvard Dataverse, V1, UNF:6:tWwNOZRiuboIAdiFfJH+bA== [fileUNF]",
+                "identifier_of_dataverse": "harvard",
+                "name_of_dataverse": "Harvard Dataverse",
+                "citation": "Wei, Yong, 2022, \"Data for USGS Award G20A_00049 - Evaluating outer-rise earthquake hazards from the Puerto Rico Trench by calibrating inundation models with geologic evidence\", https://doi.org/10.7910/DVN/JQPLPD, Harvard Dataverse, V1, UNF:6:tWwNOZRiuboIAdiFfJH+bA== [fileUNF]",
+                "storageIdentifier": "s3://10.7910/DVN/JQPLPD",
+                "subjects": [
+                    "Earth and Environmental Sciences"
+                ],
+                "fileCount": 117,
+                "versionId": 333752,
+                "versionState": "RELEASED",
+                "majorVersion": 1,
+                "minorVersion": 0,
+                "createdAt": "2022-09-28T06:09:07Z",
+                "updatedAt": "2022-09-28T06:13:53Z",
+                "contacts": [
+                    {
+                        "name": "Wei, Yong",
+                        "affiliation": "University of Washington"
+                    }
+                ],
+                "authors": [
+                    "Wei, Yong"
+                ]
+            }
+        ],
+        "facets": [
+            {
+                "publicationDate": {
+                    "friendly": "Publication Year",
+                    "labels": [
+                        {
+                            "2022": 1
+                        }
+                    ]
+                },
+                "subject_ss": {
+                    "friendly": "Subject",
+                    "labels": [
+                        {
+                            "Earth and Environmental Sciences": 1
+                        }
+                    ]
+                },
+                "authorName_ss": {
+                    "friendly": "Author Name",
+                    "labels": [
+                        {
+                            "Wei, Yong": 1
+                        }
+                    ]
+                },
+                "authorAffiliation_ss": {
+                    "friendly": "Author Affiliation",
+                    "labels": [
+                        {
+                            "University of Washington": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "count_in_response": 1
+    }
+}
